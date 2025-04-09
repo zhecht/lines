@@ -290,6 +290,7 @@ def writeCirca(date):
 			player = parsePlayer(player.lower().split(" (")[0])
 
 			ou.save("out2.png", "PNG")
+			print(pytesseract.image_to_string(ou).split("\n"))
 			exit()
 
 	with open("static/mlb/circa-props.json", "w") as fh:
