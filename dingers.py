@@ -928,7 +928,9 @@ def writePinnacle(date, debug=False):
 			if "home runs" in game:
 				continue
 
-			team = convertFDTeam(game)
+			a,h = map(str, game.split(" @ "))
+			team = f"{convertMLBTeam(a)} @ {convertMLBTeam(h)}"
+			#team = convertFDTeam(game)
 			if team in seenGames:
 				#continue
 				pass
@@ -1508,6 +1510,7 @@ if __name__ == '__main__':
 	parser.add_argument("--dk", action="store_true")
 	parser.add_argument("--br", action="store_true")
 	parser.add_argument("--fd", action="store_true")
+	parser.add_argument("--pn", action="store_true")
 	parser.add_argument("--mgm", action="store_true")
 	parser.add_argument("--kambi", action="store_true")
 	parser.add_argument("--feed", action="store_true")
@@ -1570,6 +1573,8 @@ if __name__ == '__main__':
 		uc.loop().run_until_complete(writeCZ(date, args.token))
 	if args.kambi:
 		writeKambi(date)
+	if args.pn:
+		writePinnacle(date)
 	if args.circa:
 		writeCirca(date)
 	if args.merge_circa:
@@ -1590,10 +1595,9 @@ if __name__ == '__main__':
 			writeEV(date, args.dinger)
 			printEV()
 			#for book in ["weather", "lineups", "cz", "dk", "bet365", "fd", "espn", "mgm"]:
-			for book in ["weather", "lineups", "cz", "bet365", "espn", "mgm"]:
+			for book in ["weather", "lineups", "cz", "bet365", "espn", "mgm", "pn"]:
 			#for book in ["espn", "mgm"]:
 				subprocess.Popen(["python", "dingers.py", f"--{book}", "-d", date])
-			subprocess.Popen(["python", "controllers/mlb.py", f"--pn", "-d", date])
 
 			if not args.loop:
 				break
