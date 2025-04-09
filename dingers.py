@@ -282,10 +282,8 @@ def writeCirca(date):
 				u = ous[1].replace("EVEN", "+100")
 
 				print(o,u)
-				if len(o) == 4 and o.startswith("4"):
+				if len(o) == 4 and o[0] in ["4", "7"]:
 					o = "-"+o[1:]
-				if len(u) == 4 and u.startswith("7"):
-					u = "-"+u[1:]
 
 				if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
 					u = f"-{u}"
