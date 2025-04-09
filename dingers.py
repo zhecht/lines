@@ -281,7 +281,7 @@ def writeCirca(date):
 					boxL = 1328
 
 				for i in range(10):
-					print(boxL, boxT, boxL+boxW, boxT+boxH)
+					#print(boxL, boxT, boxL+boxW, boxT+boxH)
 					box = img.crop((boxL,boxT,boxL+boxW,boxT+boxH))
 					box.save(f"out-{i}.png", "PNG")
 					w,h = box.size
@@ -291,7 +291,9 @@ def writeCirca(date):
 
 					player_img = box.crop((0,0,w,40)) # l,t,r,b
 					player = pytesseract.image_to_string(player_img).split("\n")[0]
-					line = str(float(pytesseract.image_to_string(x).split("\n")[0][0]) + 0.5)
+					line = pytesseract.image_to_string(x).split("\n")
+					print(line)
+					line = str(float(line[0][0]) + 0.5)
 					team = convertMLBTeam(player.split(")")[0].split("(")[-1])
 					if team == "art":
 						team = "ari"
@@ -303,7 +305,7 @@ def writeCirca(date):
 					player = parsePlayer(player.lower().split(" (")[0])
 					ous = pytesseract.image_to_string(ou).split("\n")
 
-					print(player, ous)
+					#print(player, ous)
 					o = ous[0].replace("EVEN", "+100")
 					u = ous[1].replace("EVEN", "+100")
 
