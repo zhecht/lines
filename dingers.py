@@ -1276,7 +1276,7 @@ def writeEV(date, dinger, silent=False):
 				sharpUnder = [convertImpOdds(int(pn.split("/")[1])), convertImpOdds(int(circa.split("/")[1]))]
 				sharpUnder = float(sum(sharpUnder) / len(sharpUnder))
 				sharpUnder = convertAmericanFromImplied(sharpUnder)
-				devig(evData, player, data[game][player]["pn"], highest, book="vs-pn")
+				devig(evData, player, f"{sharpOver}/{sharpUnder}", highest, book="vs-sharp")
 			if "365" in books:
 				devig(evData, player, data[game][player]["365"], highest, book="vs-365")
 
