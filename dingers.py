@@ -274,7 +274,7 @@ def writeCirca(date):
 			box = img.crop((l,t,r,t+boxH))
 			w,h = box.size
 			x = box.crop((w-110,40,w-60,h))
-			ou = box.crop((w-60,40,w,h))
+			ous = box.crop((w-60,40,w,h))
 			o = ous[0]
 			u = ous[1]
 
