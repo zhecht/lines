@@ -1394,7 +1394,7 @@ def writeEV(date, dinger, silent=False):
 				devig(evData, player, ou, o, book="espn-50")
 
 				if "circa" in books:
-					devig(evData, player, data[game][player]["circa"], o, book="espn-20-vs-circa")
+					devig(evData, player, data[game][player]["circa"], o, book="espn-50-vs-circa")
 
 			if "mgm" in books:
 				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm")
