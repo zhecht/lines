@@ -134,6 +134,10 @@ def writeCircaMain(date):
 		top = 480
 		#w,h = img.size
 		# l,t,r,b
+
+		if pageIdx == 1:
+			continue
+
 		playersImg = img.crop((330,top,530,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text if x]
@@ -141,11 +145,6 @@ def writeCircaMain(date):
 		mlImg = img.crop((715,top,820,bottom))
 		ml_text = pytesseract.image_to_string(mlImg).split("\n")
 		ml_text = [x for x in ml_text if x]
-
-		total_img = img.crop((820,top,890,bottom))
-		total_text = pytesseract.image_to_string(total_img).split("\n")
-		total_text = [x for x in total_text if x]
-		print(total_text)
 
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
@@ -175,49 +174,6 @@ def writeCircaMain(date):
 			data[game]["f5_ml"] = f"{f5_ml_text[i]}/{f5_ml_text[i+1]}"
 			line = "0.5" if f5_ml_text[i].startswith("+") else "-0.5"
 			data[game]["f5_spread"][line] = f"""{f5_sp_text[i].split(" ")[-1]}/{f5_sp_text[i+1].split(" ")[-1]}"""
-
-		with open("out", "w") as fh:
-			json.dump(data, fh, indent=4)
-		exit()
-
-		players = []
-		for player in text:
-			if "(" not in player:
-				continue
-			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
-			if team == "art":
-				team = "ari"
-			elif team == "nyn":
-				team = "nym"
-			elif team == "nil":
-				team = "mil"
-			game = teamGame.get(team, "")
-			player = parsePlayer(player.lower().split(" (")[0])
-			players.append((player, game))
-
-		# strikeouts
-		#i = img.crop((770,1230,1035,1320))
-		#print(pytesseract.image_to_string(i).split("\n"))
-
-		oversImg = img.crop((540,top,600,bottom))
-		undersImg = img.crop((685,top,760,bottom))
-		oversArr = pytesseract.image_to_string(oversImg).split("\n")
-		undersArr = pytesseract.image_to_string(undersImg).split("\n")
-		overs = []
-		for over in oversArr:
-			o = re.search(r"\d{3,4}", over)
-			if not o:
-				continue
-			overs.append(over)
-		unders = []
-		for under in undersArr:
-			o = re.search(r"\d{3,4}", under)
-			if not o:
-				continue
-			unders.append(under)
-		
-		for p,o,u in zip(players, overs, unders):
-			data[p[-1]][p[0]]["circa"] = f"{o}/{u}"
 
 	with open("static/mlb/circa-main.json", "w") as fh:
 		json.dump(data, fh, indent=4)
