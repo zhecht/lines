@@ -130,13 +130,37 @@ def writeCircaMain(date):
 	for page in pages:
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
-		exit()
-		bottom = 2200
-		top = 400
+		bottom = 1930
+		top = 480
 		#w,h = img.size
 		# l,t,r,b
-		playersImg = img.crop((0,top,400,bottom))
+		playersImg = img.crop((330,top,530,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
+		text = [x for x in text if x]
+
+		mlImg = img.crop((715,top,820,bottom))
+		#mlImg.save("out.png", "PNG")
+		ml_text = pytesseract.image_to_string(mlImg).split("\n")
+		ml_text = [x for x in ml_text if x]
+
+		spread_ou_img = img.crop((970,top,1130,bottom))
+		#mlImg.save("out.png", "PNG")
+		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
+		spread_ou_text = [x for x in spread_ou_text if x]
+		print(spread_ou_text)
+
+		games = []
+		for i in range(0, len(text), 2):
+			try:
+				game = f"{convertMGMTeam(text[i])} @ {convertMGMTeam(text[i+1])}"
+			except:
+				break
+			ou = ml_text[i]+"/"+ml_text[i+1]
+			data[game]["ml"] = ou
+
+		with open("out", "w") as fh:
+			json.dump(data, fh, indent=4)
+		exit()
 
 		players = []
 		for player in text:

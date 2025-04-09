@@ -239,7 +239,8 @@ def convertMLBTeam(team):
 	return t
 
 def convertMGMTeam(team):
-	if team == "diamondbacks":
+	team = team.lower()
+	if team == "diamondbacks" or "backs" in team:
 		return "ari"
 	elif team == "braves":
 		return "atl"
