@@ -278,22 +278,14 @@ def writeCirca(date):
 					boxL = 1050
 				elif c == 2:
 					boxL = 1328
-					
+
 				for i in range(10):
 					box = img.crop((boxL,boxT,boxL+boxW,boxT+boxH))
 					box.save(f"out-{i}.png", "PNG")
 					w,h = box.size
 					x = box.crop((w-110,40,w-60,h))
 					ou = box.crop((w-60,40,w,h))
-					ous = pytesseract.image_to_string(ou).split("\n")
-					o = ous[0].replace("EVEN", "+100")
-					u = ous[1].replace("EVEN", "+100")
-
-					if len(o) == 4 and o[0] in ["4", "7"]:
-						o = "-"+o[1:]
-
-					if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
-						u = f"-{u}"
+					
 
 					player_img = box.crop((0,0,w,40)) # l,t,r,b
 					player = pytesseract.image_to_string(player_img).split("\n")[0]
@@ -307,6 +299,17 @@ def writeCirca(date):
 						team = "mil"
 					game = teamGame.get(team, "")
 					player = parsePlayer(player.lower().split(" (")[0])
+					ous = pytesseract.image_to_string(ou).split("\n")
+
+					print(player, ous)
+					o = ous[0].replace("EVEN", "+100")
+					u = ous[1].replace("EVEN", "+100")
+
+					if len(o) == 4 and o[0] in ["4", "7"]:
+						o = "-"+o[1:]
+
+					if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
+						u = f"-{u}"
 
 					data[game]["k"][player][line] = f"{o}/{u}"
 					boxT += h+2
