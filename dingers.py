@@ -263,11 +263,11 @@ def writeCirca(date):
 		for p,o,u in zip(players, overs, unders):
 			data[p[-1]][p[0]]["circa"] = f"{o}/{u}"
 
-	with open("static/dingers/circa.json", "w") as fh:
+	with open("static/mlb/circa-props.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
 def mergeCirca():
-	with open("static/dingers/circa.json") as fh:
+	with open("static/mlb/circa-prop.json") as fh:
 		circa = json.load(fh)
 	with open("static/mlb/circa-main.json") as fh:
 		circaMain = json.load(fh)
