@@ -1601,9 +1601,10 @@ if __name__ == '__main__':
 			# every 10m
 			time.sleep(60 * 5)
 			print(datetime.now())
-			writeEV(date, args.dinger)
-			printEV()
+			
 			if args.commit:
+				writeEV(date, args.dinger)
+				printEV()
 				commitChanges()
 
 		"""
