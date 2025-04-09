@@ -29,7 +29,7 @@ def getSuffix(num):
 
 # Write open/closing line values
 def writeHistorical(date, book, gameStarted=None):
-	book = book.replace("365", "b365")
+	bookFile = book.replace("365", "b365")
 	if not gameStarted:
 		schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/mlb/schedule.json"
 		response = requests.get(schedule_url)
@@ -43,10 +43,10 @@ def writeHistorical(date, book, gameStarted=None):
 				dt = int(dt.strftime("%H%M"))
 				gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 	hist = {}
-	with open(f"static/dingers/{book}.json") as fh:
+	with open(f"static/dingers/{bookFile}.json") as fh:
 		lines = json.load(fh)
-	if os.path.exists(f"static/dingers/{book}_historical.json"):
-		with open(f"static/dingers/{book}_historical.json") as fh:
+	if os.path.exists(f"static/dingers/{bookFile}_historical.json"):
+		with open(f"static/dingers/{bookFile}_historical.json") as fh:
 			hist = json.load(fh)
 	hist.setdefault(date, {})
 	for game in lines:
@@ -58,7 +58,7 @@ def writeHistorical(date, book, gameStarted=None):
 			hist[date][game][player]["close"] = lines[game][player][book]
 			if "open" not in hist[date][game][player]:
 				hist[date][game][player]["open"] = lines[game][player][book]
-	with open(f"static/dingers/{book}_historical.json", "w") as fh:
+	with open(f"static/dingers/{bookFile}_historical.json", "w") as fh:
 		json.dump(hist, fh)
 
 async def writeCZToken():
