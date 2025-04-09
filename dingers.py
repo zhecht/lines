@@ -139,14 +139,16 @@ def writeCircaMain(date):
 		text = [x for x in text if x]
 
 		mlImg = img.crop((715,top,820,bottom))
-		#mlImg.save("out.png", "PNG")
 		ml_text = pytesseract.image_to_string(mlImg).split("\n")
 		ml_text = [x for x in ml_text if x]
 
 		spread_ou_img = img.crop((970,top,1130,bottom))
-		#mlImg.save("out.png", "PNG")
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
 		spread_ou_text = [x.replace("4 ", ".5 ").replace("%", ".5").replace("+", "") for x in spread_ou_text if x]
+
+		f5_ml_img = img.crop((1215,top,1310,bottom))
+		f5_ml_text = pytesseract.image_to_string(f5_ml_img).split("\n")
+		f5_ml_text = [x for x in f5_ml_text if x]
 
 		games = []
 		for i in range(0, len(text), 2):
@@ -160,6 +162,7 @@ def writeCircaMain(date):
 			line = spread_ou_text[i].split(" ")[0]
 			ou = spread_ou_text[i].split(" ")[-1]+"/"+spread_ou_text[i+1].split(" ")[-1]
 			data[game]["spread"][line] = ou.replace("EVEN", "+100")
+			data[game]["f5_ml"] = f"{f5_ml_text[i]}/{f5_ml_text[i+1]}".replace("EVEN", "+100")
 
 		with open("out", "w") as fh:
 			json.dump(data, fh, indent=4)
