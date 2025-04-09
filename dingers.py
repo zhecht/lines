@@ -314,7 +314,7 @@ def writeCirca(date):
 					if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
 						u = f"-{u}"
 
-					data[game]["k"][player][line] = f"{o}/{u}".replace("\u201c", "-")
+					data[game]["k"][player][line] = f"{o}/{u}".replace("\u201c", "-").replace(",", "")
 					boxT += h+2
 
 	with open("static/mlb/circa-props.json", "w") as fh:
