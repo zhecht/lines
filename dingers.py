@@ -1264,6 +1264,8 @@ def writeEV(date, dinger, silent=False):
 				devig(evData, player, ou, fd, book="fd-50")
 			if "circa" in books:
 				devig(evData, player, data[game][player]["circa"], highest, book="vs-circa")
+			if "pn" in books:
+				devig(evData, player, data[game][player]["pn"], highest, book="vs-pn")
 			if "365" in books:
 				devig(evData, player, data[game][player]["365"], highest, book="vs-365")
 
