@@ -55,9 +55,9 @@ def writeHistorical(date, book, gameStarted=None):
 		for player in lines[game]:
 			hist[date].setdefault(game, {})
 			hist[date][game].setdefault(player, {})
-			hist[date][game][player]["close"] = lines[game][player]["fd"]
+			hist[date][game][player]["close"] = lines[game][player][book]
 			if "open" not in hist[date][game][player]:
-				hist[date][game][player]["open"] = lines[game][player]["fd"]
+				hist[date][game][player]["open"] = lines[game][player][book]
 	with open(f"static/dingers/{book}_historical.json", "w") as fh:
 		json.dump(hist, fh)
 
