@@ -1710,6 +1710,7 @@ if __name__ == '__main__':
 	if args.circa:
 		writeCirca(date)
 		writeCircaMain(date)
+		mergeCirca()
 	if args.merge_circa:
 		mergeCirca()
 
