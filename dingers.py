@@ -1588,8 +1588,10 @@ if __name__ == '__main__':
 			date = str(datetime.now())[:10]
 
 		while True:
-			writeEV(date, args.dinger)
-			printEV()
+			if args.ev:
+				writeEV(date, args.dinger)
+			if args.print:
+				printEV()
 			#for book in ["weather", "lineups", "cz", "dk", "bet365", "fd", "espn", "mgm"]:
 			for book in ["weather", "lineups", "cz", "bet365", "espn", "mgm", "pn"]:
 			#for book in ["espn", "mgm"]:
@@ -1601,10 +1603,12 @@ if __name__ == '__main__':
 			# every 10m
 			time.sleep(60 * 5)
 			print(datetime.now())
-			
-			if args.commit:
+			if args.ev:
 				writeEV(date, args.dinger)
+			if args.print:
 				printEV()
+				
+			if args.commit:
 				commitChanges()
 
 		"""
