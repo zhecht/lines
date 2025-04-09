@@ -1266,6 +1266,17 @@ def writeEV(date, dinger, silent=False):
 				devig(evData, player, data[game][player]["circa"], highest, book="vs-circa")
 			if "pn" in books:
 				devig(evData, player, data[game][player]["pn"], highest, book="vs-pn")
+			if "pn" in books and "circa" in books:
+				pn = data[game][player]["pn"]
+				circa = data[game][player]["circa"]
+				sharpOver = [convertImpOdds(int(pn.split("/")[0])), convertImpOdds(int(circa.split("/")[0]))]
+				sharpOver = float(sum(sharpOver) / len(sharpOver))
+				sharpOver = convertAmericanFromImplied(sharpOver)
+
+				sharpUnder = [convertImpOdds(int(pn.split("/")[1])), convertImpOdds(int(circa.split("/")[1]))]
+				sharpUnder = float(sum(sharpUnder) / len(sharpUnder))
+				sharpUnder = convertAmericanFromImplied(sharpUnder)
+				devig(evData, player, data[game][player]["pn"], highest, book="vs-pn")
 			if "365" in books:
 				devig(evData, player, data[game][player]["365"], highest, book="vs-365")
 
