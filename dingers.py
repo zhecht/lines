@@ -564,9 +564,8 @@ def runFD():
 async def writeFDFromBuilder(date, loop):
 	book = "fd"
 
-	schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/mlb/schedule.json"
-	response = requests.get(schedule_url)
-	schedule = response.json()
+	with open(f"static/mlb/schedule.json") as fh:
+		schedule = json.load(fh)
 
 	if date not in schedule:
 		print("Date not in schedule")
@@ -1072,35 +1071,32 @@ def writeEV(date, dinger, silent=False):
 		else:
 			updated[book] = ""
 
-	with open("updated.json") as fh:
-		u = json.load(fh)
-	u["dingers"] = updated
 	with open("updated.json", "w") as fh:
-		json.dump(u, fh, indent=4)
+		json.dump(updated, fh, indent=4)
 
-	with open(f"dailyev/odds.json", "w") as fh:
+	with open(f"static/dingers/odds.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
-	with open(f"baseballreference/bvp.json") as fh:
+	with open(f"static/baseballreference/bvp.json") as fh:
 		bvpData = json.load(fh)
 
-	with open(f"baseballreference/ph.json") as fh:
+	with open(f"static/baseballreference/ph.json") as fh:
 		ph = json.load(fh)
 
-	with open(f"baseballreference/roster.json") as fh:
+	with open(f"static/baseballreference/roster.json") as fh:
 		roster = json.load(fh)
 
-	with open(f"baseballreference/leftOrRight.json") as fh:
+	with open(f"static/baseballreference/leftOrRight.json") as fh:
 		leftOrRight = json.load(fh)
 
-	with open(f"dailyev/weather.json") as fh:
+	with open(f"static/mlb/schedule.json") as fh:
+		schedule = json.load(fh)
+
+	with open(f"static/mlb/weather.json") as fh:
 		weather = json.load(fh)
 
-	with open(f"mlb/lineups.json") as fh:
+	with open(f"static/dingers/lineups.json") as fh:
 		lineups = json.load(fh)
-
-	with open(f"mlb/schedule.json") as fh:
-		schedule = json.load(fh)
 
 	gameTimes = {}
 	gameStarted = {}
@@ -1268,14 +1264,14 @@ def writeEV(date, dinger, silent=False):
 			evData[player]["start"] = gameStart
 			evData[player]["bookOdds"] = {b: o for b, o in zip(books, oddsArr)}
 
-	with open("dailyev/ev.json", "w") as fh:
+	with open("static/dingers/ev.json", "w") as fh:
 		json.dump(evData, fh, indent=4)
 
-	with open("dailyev/evArr.json", "w") as fh:
+	with open("static/dingers/evArr.json", "w") as fh:
 		json.dump([value for key, value in evData.items()], fh, indent=4)
 
 def printEV():
-	with open(f"dailyev/ev.json") as fh:
+	with open(f"static/dingers/ev.json") as fh:
 		evData = json.load(fh)
 
 	l = ["EV (AVG)", "EV (365)", "Game", "Player", "IN", "FD", "AVG", "bet365", "DK", "MGM", "CZ", "Kambi"]
@@ -1289,7 +1285,7 @@ def printEV():
 				l.append("")
 		output += "\t".join([str(x) for x in l]) + "\n"
 
-	with open("dailyev/ev.csv", "w") as fh:
+	with open("static/dingers/ev.csv", "w") as fh:
 		fh.write(output)
 
 sharedData = {}
@@ -1329,14 +1325,14 @@ async def writeWeather(date):
 				weather[game]["transform"] = [x.get("style").split("; ")[-1] for x in row.select(".gametime-hour img:nth-of-type(1)")][1]
 
 
-	with open("dailyev/weather.json", "w") as fh:
+	with open("static/mlb/weather.json", "w") as fh:
 		json.dump(weather, fh, indent=4)
 
 def writeLineups(date):
 	if not date:
 		date = str(datetime.now())[:10]
 
-	with open(f"baseballreference/leftOrRight.json") as fh:
+	with open(f"static/baseballreference/leftOrRight.json") as fh:
 		leftOrRight = json.load(fh)
 
 	url = f"https://www.mlb.com/starting-lineups/{date}"
@@ -1379,10 +1375,10 @@ def writeLineups(date):
 	#		if row[0] not in data[row[-1]]:
 	#			print(row[0], "SITTING!!")
 
-	with open(f"mlb/lineups.json", "w") as fh:
+	with open(f"static/mlb/lineups.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
-	with open(f"baseballreference/leftOrRight.json", "w") as fh:
+	with open(f"static/baseballreference/leftOrRight.json", "w") as fh:
 		json.dump(leftOrRight, fh, indent=4)
 
 async def writeOne(book):
@@ -1534,7 +1530,7 @@ if __name__ == '__main__':
 			path = f"static/dingers/{book}.json"
 			with open(path, "w") as fh:
 				json.dump({}, fh)
-		with open("dailyev/odds.json", "w") as fh:
+		with open("static/dingers/odds.json", "w") as fh:
 			json.dump({}, fh)
 
 	games = {}
