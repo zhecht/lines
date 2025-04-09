@@ -182,7 +182,7 @@ def writeCirca(date):
 def mergeCirca():
 	with open("static/dingers/circa.json") as fh:
 		circa = json.load(fh)
-	with open("mlb/circa-main.json") as fh:
+	with open("static/mlb/circa-main.json") as fh:
 		circaMain = json.load(fh)
 
 
@@ -192,7 +192,7 @@ def mergeCirca():
 			circaMain[game].setdefault("hr", {})
 			circaMain[game]["hr"][player] = circa[game][player]["circa"]
 
-	with open("mlb/circa.json", "w") as fh:
+	with open("static/mlb/circa.json", "w") as fh:
 		json.dump(circaMain, fh, indent=4)
 
 async def getESPNLinks(date):
