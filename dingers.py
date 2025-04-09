@@ -126,7 +126,7 @@ def writeCircaMain(date):
 	data = nested_dict()
 
 	pages = [pages[0]]
-	
+
 	for page in pages:
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
@@ -1694,7 +1694,8 @@ if __name__ == '__main__':
 	if args.pn:
 		writePinnacle(date)
 	if args.circa:
-		writeCirca(date)
+		#writeCirca(date)
+		writeCircaMain(date)
 	if args.merge_circa:
 		mergeCirca()
 
