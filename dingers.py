@@ -327,12 +327,11 @@ def mergeCirca():
 		circaMain = json.load(fh)
 
 	for game in circa:
-		if "hr" not in circa[game]:
-			continue
-		for player in circa[game]["hr"]:
-			circaMain.setdefault(game, {})
-			circaMain[game].setdefault("hr", {})
-			circaMain[game]["hr"][player] = circa[game]["hr"][player]
+		for prop in circa[game]:
+			for player in circa[game][prop]:
+				circaMain.setdefault(game, {})
+				circaMain[game].setdefault(prop, {})
+				circaMain[game][prop][player] = circa[game][prop][player]
 
 	with open("static/mlb/circa.json", "w") as fh:
 		json.dump(circaMain, fh, indent=4)
