@@ -216,7 +216,7 @@ def writeCirca(date):
 
 	pages = [pages[0]]
 
-	for page in pages:
+	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
 		bottom = 2200
@@ -264,6 +264,16 @@ def writeCirca(date):
 		
 		for p,o,u in zip(players, overs, unders):
 			data[p[-1]][p[0]]["circa"] = f"{o}/{u}"
+
+
+		# strikeouts
+		if pageIdx == 0:
+			boxH = 99
+			l,r,t = 767,1032,1310
+
+			box = img.crop((l,t,r,t+boxH))
+			box.save("out2.png", "PNG")
+			exit()
 
 	with open("static/mlb/circa-props.json", "w") as fh:
 		json.dump(data, fh, indent=4)
