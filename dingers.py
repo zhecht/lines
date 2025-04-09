@@ -146,8 +146,8 @@ def writeCircaMain(date):
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		#mlImg.save("out.png", "PNG")
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
-		spread_ou_text = [x for x in spread_ou_text if x]
-		print(spread_ou_text)
+		spread_ou_text = [x.replace("%", ".5").replace("+", "") for x in spread_ou_text if x]
+
 
 		games = []
 		for i in range(0, len(text), 2):
@@ -156,7 +156,7 @@ def writeCircaMain(date):
 			except:
 				break
 			ou = ml_text[i]+"/"+ml_text[i+1]
-			data[game]["ml"] = ou
+			data[game]["ml"] = ou.replace("EVEN", "+100")
 
 		with open("out", "w") as fh:
 			json.dump(data, fh, indent=4)
