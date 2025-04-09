@@ -1432,7 +1432,7 @@ def writeEV(date, dinger, silent=False):
 			except:
 				pinchHit = ""
 			
-			evData[player]["id"] = f"{game}-{player}-{ou}"
+			evData[player]["id"] = f"{game}-{player}"
 			evData[player]["player"] = player
 			evData[player]["pitcher"] = "" if not pitcher else f"{pitcher} ({pitcherLR})"
 			evData[player]["game"] = game
