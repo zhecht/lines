@@ -273,7 +273,7 @@ def writeCirca(date):
 			boxT = t
 			for i in range(10):
 				box = img.crop((l,boxT,r,boxT+boxH))
-				box.save("out.png", "PNG")
+				box.save(f"out-{i}.png", "PNG")
 				w,h = box.size
 				x = box.crop((w-110,40,w-60,h))
 				ou = box.crop((w-60,40,w,h))
