@@ -3,6 +3,7 @@ import json
 import math
 import os
 import random
+import requests
 import queue
 import re
 import time
@@ -15,7 +16,7 @@ import pytesseract
 from PIL import Image
 
 from bs4 import BeautifulSoup as BS
-from controllers.shared import *
+from shared import *
 from datetime import datetime, timedelta
 
 q = queue.Queue()
@@ -175,11 +176,11 @@ def writeCirca(date):
 		for p,o,u in zip(players, overs, unders):
 			data[p[-1]][p[0]]["circa"] = f"{o}/{u}"
 
-	with open("dingers/circa.json", "w") as fh:
+	with open("static/dingers/circa.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
 def mergeCirca():
-	with open("dingers/circa.json") as fh:
+	with open("static/dingers/circa.json") as fh:
 		circa = json.load(fh)
 	with open("mlb/circa-main.json") as fh:
 		circaMain = json.load(fh)
@@ -321,9 +322,9 @@ async def write365(loop):
 			else:
 				data[game][player][book] += "/"+odds
 
-		with open("dingers/updated_b365", "w") as fh:
+		with open("static/dingers/updated_b365", "w") as fh:
 			fh.write(str(datetime.now()))
-		with open("dingers/b365.json", "w") as fh:
+		with open("static/dingers/b365.json", "w") as fh:
 			json.dump(data, fh, indent=4)
 
 		if not loop:
@@ -363,9 +364,9 @@ async def writeDK(loop):
 				data[game][player][book] = ou
 
 
-		with open("dingers/updated_dk", "w") as fh:
+		with open("static/dingers/updated_dk", "w") as fh:
 			fh.write(str(datetime.now()))
-		with open("dingers/dk.json", "w") as fh:
+		with open("static/dingers/dk.json", "w") as fh:
 			json.dump(data, fh, indent=4)
 
 		if not loop:
@@ -493,7 +494,7 @@ async def writeMGM():
 	browser.stop()
 
 def updateData(book, data):
-	file = f"dingers/{book}.json"
+	file = f"static/dingers/{book}.json"
 	with locks[book]:
 		d = {}
 		if os.path.exists(file):
@@ -562,8 +563,10 @@ def runFD():
 
 async def writeFDFromBuilder(date, loop):
 	book = "fd"
-	with open("mlb/schedule.json") as fh:
-		schedule = json.load(fh)
+
+	schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/mlb/schedule.json"
+	response = requests.get(schedule_url)
+	schedule = response.json()
 
 	if date not in schedule:
 		print("Date not in schedule")
@@ -649,17 +652,11 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
 			continue
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
-		
 
-	with open("dingers/updated_fd", "w") as fh:
+	with open("static/dingers/updated_fd", "w") as fh:
 		fh.write(str(datetime.now()))
-	with open("dingers/fd.json", "w") as fh:
+	with open("static/dingers/fd.json", "w") as fh:
 		json.dump(dingerData, fh, indent=4)
-	with open("mlb/fanduel.json") as fh:
-		d = json.load(fh)
-	merge_dicts(d, data, forceReplace=True)
-	with open("mlb/fanduel.json", "w") as fh:
-		json.dump(d, fh, indent=4)
 
 async def writeFD():
 	book = "fd"
@@ -765,7 +762,7 @@ async def writeCZ(date, token=None):
 				player = parsePlayer(selection["name"].replace("|", ""))
 				res[game][player][book] = ou
 
-	with open("dingers/updated_cz", "w") as fh:
+	with open("static/dingers/updated_cz", "w") as fh:
 		fh.write(str(datetime.now()))
 	updateData(book, res)
 
@@ -947,7 +944,7 @@ def writePinnacle(date, debug=False):
 	for gameId in retry:
 		parsePinnacle(res, games, gameId, retry, debug)
 
-	with open("dingers/updated_pn", "w") as fh:
+	with open("static/dingers/updated_pn", "w") as fh:
 		fh.write(str(datetime.now()))
 
 	data = nested_dict()
@@ -956,7 +953,7 @@ def writePinnacle(date, debug=False):
 			for player in res[game]["hr"]:
 				data[game][player]["pn"] = res[game]["hr"][player]["0.5"]
 
-	with open("dingers/pn.json", "w") as fh:
+	with open("static/dingers/pn.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
 def writeKambi(date):
@@ -1059,13 +1056,13 @@ def writeEV(date, dinger, silent=False):
 	data = {}
 	updated = {}
 	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "circa"]:
-		path = f"dingers/{book}.json"
+		path = f"static/dingers/{book}.json"
 		if os.path.exists(path):
 			with open(path) as fh:
 				d = json.load(fh)
 			merge_dicts(data, d)
 
-		upd = f"dingers/updated_{book}"
+		upd = f"static/dingers/updated_{book}"
 		if os.path.exists(upd):
 			with open(upd) as fh:
 				j = fh.read()
@@ -1408,17 +1405,19 @@ async def writeOne(book):
 	if True:
 		with locks[book]:
 			old = {}
-			if os.path.exists(f"dingers/{book}.json"):
-				with open(f"dingers/{book}.json") as fh:
+			if os.path.exists(f"static/dingers/{book}.json"):
+				with open(f"static/dingers/{book}.json") as fh:
 					old = json.load(fh)
 			old.update(data)
-			with open(f"dingers/{book}.json", "w") as fh:
+			with open(f"static/dingers/{book}.json", "w") as fh:
 				json.dump(old, fh, indent=4)
 
 def runThreads(book, games, totThreads):
 	threads = []
-	with open("baseballreference/roster.json") as fh:
-		roster = json.load(fh)
+	schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/baseballreference/roster.json"
+	response = requests.get(schedule_url)
+	roster = response.json()
+
 	for _ in range(totThreads):
 		if book == "mgm":
 			thread = threading.Thread(target=runMGM, args=())
@@ -1435,7 +1434,7 @@ def runThreads(book, games, totThreads):
 
 	q.join()
 
-	with open(f"dingers/updated_{book}", "w") as fh:
+	with open(f"static/dingers/updated_{book}", "w") as fh:
 		fh.write(str(datetime.now()))
 
 	for _ in range(totThreads):
@@ -1529,7 +1528,7 @@ if __name__ == '__main__':
 
 	if args.clear:
 		for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "circa"]:
-			path = f"dingers/{book}.json"
+			path = f"static/dingers/{book}.json"
 			with open(path, "w") as fh:
 				json.dump({}, fh)
 		with open("dailyev/odds.json", "w") as fh:
@@ -1643,33 +1642,3 @@ if __name__ == '__main__':
 
 	if args.commit:
 		commitChanges()
-
-	if False:
-		data = []
-		plays = [("aaron judge", 230), ("eugenio suarez", 470), ("shohei ohtani", 285), ("francisco lindor", 440), ("brandon nimmo", 630), ("mark vientos", 450), ("juan soto", 350), ("pete alonso", 350), ("byron buxton", 470), ("corbin carroll", 540)]
-		with open("dailyev/ev.json") as fh:
-			ev = json.load(fh)
-		for player, odds in plays:
-			evData = {}
-			if player in ev:
-				devig(evData, player, ev[player]["ou"], odds)
-				betEV = evData[player]["ev"]
-				if "circa" in ev[player]["bookOdds"]:
-					evData = {}
-					devig(evData, player, ev[player]["bookOdds"]["circa"], odds)
-					circaEV = evData[player]["ev"]
-			else:
-				betEV = circaEV = ""
-			data.append({
-				"book": "fd",
-				"sport": "mlb",
-				"player": player,
-				"prop": "hr",
-				"odds": odds,
-				"ev": ev.get(player, {}),
-				"betEV": betEV,
-				"circaEV": circaEV,
-			})
-
-		with open("plays.json", "w") as fh:
-			json.dump(data, fh, indent=4)

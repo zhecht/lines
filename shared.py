@@ -3,6 +3,7 @@ import nodriver as uc
 import unicodedata
 import git
 import json
+import requests
 import os
 from datetime import datetime
 
@@ -30,8 +31,9 @@ def getSuffix(num):
 def writeHistorical(date, book, gameStarted=None):
 	book = book.replace("365", "b365")
 	if not gameStarted:
-		with open("static/mlb/schedule.json") as fh:
-			schedule = json.load(fh)
+		schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/mlb/schedule.json"
+		response = requests.get(schedule_url)
+		schedule = response.json()
 		gameStarted = {}
 		for gameData in schedule[date]:
 			if gameData["start"] == "LIVE":
