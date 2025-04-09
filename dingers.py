@@ -274,6 +274,7 @@ def writeCirca(date):
 			box = img.crop((l,t,r,t+boxH))
 			w,h = box.size
 			x = box.crop((w-110,40,w-60,h))
+			ou = box.crop((w-60,40,w,h))
 
 			player_img = box.crop((0,0,w,40)) # l,t,r,b
 			player = pytesseract.image_to_string(player_img).split("\n")[0]
@@ -288,9 +289,7 @@ def writeCirca(date):
 			game = teamGame.get(team, "")
 			player = parsePlayer(player.lower().split(" (")[0])
 
-			print(game, player, line)
-
-			print()
+			ou.save("out2.png", "PNG")
 			exit()
 
 	with open("static/mlb/circa-props.json", "w") as fh:
