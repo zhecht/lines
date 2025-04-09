@@ -270,32 +270,34 @@ def writeCirca(date):
 		if pageIdx == 0:
 			boxH = 99
 			l,r,t = 770,1032,1313
+			boxT = t
+			for i in range(10):
+				box = img.crop((l,boxT,r,boxT+boxH))
+				w,h = box.size
+				x = box.crop((w-110,40,w-60,h))
+				ou = box.crop((w-60,40,w,h))
+				ous = pytesseract.image_to_string(ou).split("\n")
+				o = ous[0]
+				u = ous[1]
 
-			box = img.crop((l,t,r,t+boxH))
-			w,h = box.size
-			x = box.crop((w-110,40,w-60,h))
-			ou = box.crop((w-60,40,w,h))
-			ous = pytesseract.image_to_string(ou).split("\n")
-			o = ous[0]
-			u = ous[1]
+				if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
+					u = f"-{u}"
 
-			if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
-				u = f"-{u}"
+				player_img = box.crop((0,0,w,40)) # l,t,r,b
+				player = pytesseract.image_to_string(player_img).split("\n")[0]
+				line = str(float(pytesseract.image_to_string(x).split("\n")[0][0]) + 0.5)
+				team = convertMLBTeam(player.split(")")[0].split("(")[-1])
+				if team == "art":
+					team = "ari"
+				elif team == "nyn":
+					team = "nym"
+				elif team == "nil":
+					team = "mil"
+				game = teamGame.get(team, "")
+				player = parsePlayer(player.lower().split(" (")[0])
 
-			player_img = box.crop((0,0,w,40)) # l,t,r,b
-			player = pytesseract.image_to_string(player_img).split("\n")[0]
-			line = str(float(pytesseract.image_to_string(x).split("\n")[0][0]) + 0.5)
-			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
-			if team == "art":
-				team = "ari"
-			elif team == "nyn":
-				team = "nym"
-			elif team == "nil":
-				team = "mil"
-			game = teamGame.get(team, "")
-			player = parsePlayer(player.lower().split(" (")[0])
-
-			data[game]["k"][player][line] = f"{o}/{u}"
+				data[game]["k"][player][line] = f"{o}/{u}"
+				boxT += h
 
 	with open("static/mlb/circa-props.json", "w") as fh:
 		json.dump(data, fh, indent=4)
