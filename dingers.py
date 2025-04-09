@@ -1389,6 +1389,9 @@ def writeEV(date, dinger, silent=False):
 				pass
 			if "espn" in books:
 				devig(evData, player, ou, int(data[game][player]["espn"].split("/")[0]), book="espn")
+				o = int(data[game][player]["espn"].split("/")[0])
+				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.50)
+				devig(evData, player, ou, o, book="espn-50")
 
 			if "mgm" in books:
 				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm")
