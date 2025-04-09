@@ -1095,7 +1095,7 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/mlb/weather.json") as fh:
 		weather = json.load(fh)
 
-	with open(f"static/dingers/lineups.json") as fh:
+	with open(f"static/mlb/lineups.json") as fh:
 		lineups = json.load(fh)
 
 	gameTimes = {}
