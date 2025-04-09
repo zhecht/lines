@@ -142,6 +142,11 @@ def writeCircaMain(date):
 		ml_text = pytesseract.image_to_string(mlImg).split("\n")
 		ml_text = [x for x in ml_text if x]
 
+		total_img = img.crop((820,top,890,bottom))
+		total_text = pytesseract.image_to_string(total_img).split("\n")
+		total_text = [x for x in total_text if x]
+		print(total_img)
+
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
 		spread_ou_text = [x.replace("4 ", ".5 ").replace("%", ".5").replace("+", "") for x in spread_ou_text if x]
