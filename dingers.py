@@ -196,7 +196,10 @@ def mergeCirca():
 		json.dump(circaMain, fh, indent=4)
 
 async def getESPNLinks(date):
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	url = "https://espnbet.com/sport/baseball/organization/united-states/competition/mlb"
 	page = await browser.get(url)
 	await page.wait_for(selector="article")
@@ -226,7 +229,10 @@ def runESPN(rosters):
 
 async def writeESPN(rosters):
 	book = "espn"
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	writeHistorical(str(datetime.now())[:10], book)
 	while True:
 		data = nested_dict()
@@ -281,7 +287,10 @@ async def write365(loop):
 
 	writeHistorical(str(datetime.now())[:10], book)
 
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	url = "https://www.oh.bet365.com/?_h=uvJ7Snn5ImZN352O9l7rPQ%3D%3D&btsffd=1#/AC/B16/C20525425/D43/E160301/F43/N2/"
 	page = await browser.get(url)
 
@@ -334,7 +343,10 @@ async def write365(loop):
 	
 async def writeDK(loop):
 	book = "dk"
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	url = "https://sportsbook.draftkings.com/leagues/baseball/mlb?category=batter-props&subcategory=home-runs"
 	page = await browser.get(url)
 
@@ -378,7 +390,10 @@ async def writeDK(loop):
 	browser.stop()
 
 async def getMGMLinks(date):
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	url = "https://sports.mi.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
 	page = await browser.get(url)
 	await page.wait_for(selector="ms-prematch-timer")
@@ -415,7 +430,10 @@ def runMGM():
 
 async def writeMGM():
 	book = "mgm"
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	writeHistorical(date, book)
 	while True:
 		data = nested_dict()
@@ -506,7 +524,10 @@ def updateData(book, data):
 
 async def writeBR(date):
 	url = "https://mi.betrivers.com/?page=sportsbook&group=1000093616&type=playerprops"
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	page = await browser.get(url)
 
 	res = {}
@@ -537,7 +558,10 @@ async def writeBR(date):
 	return res
 
 async def getFDLinks(date):
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	url = "https://mi.sportsbook.fanduel.com/navigation/mlb"
 	page = await browser.get(url)
 	await page.wait_for(selector="span[role=link]")
@@ -578,7 +602,10 @@ async def writeFDFromBuilder(date, loop):
 			teamMap[t] = game
 
 	url = "https://sportsbook.fanduel.com/navigation/mlb?tab=parlay-builder"
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	page = await browser.get(url)
 	try:
 		await page.wait_for(selector="div[role=button][aria-selected=true]")
@@ -659,7 +686,10 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
 
 async def writeFD():
 	book = "fd"
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 
 	while True:
 		data = nested_dict()
@@ -1293,7 +1323,10 @@ def runThread(book):
 	uc.loop().run_until_complete(writeOne(book))
 
 async def writeWeather(date):
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	url = f"https://swishanalytics.com/mlb/weather?date={date}"
 	page = await browser.get(url)
 
@@ -1386,7 +1419,10 @@ async def writeOne(book):
 	#	data = json.load(fh)
 	data = nested_dict()
 
-	browser = await uc.start(no_sandbox=True)
+	try:
+		browser = await uc.start(no_sandbox=True)
+	except:
+		return
 	if book == "fd":
 		await writeFD(data, browser)
 	elif book == "dk":
@@ -1607,7 +1643,7 @@ if __name__ == '__main__':
 				writeEV(date, args.dinger)
 			if args.print:
 				printEV()
-				
+
 			if args.commit:
 				commitChanges()
 
