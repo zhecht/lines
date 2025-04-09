@@ -331,7 +331,7 @@ def mergeCirca():
 		for player in circa[game]:
 			circaMain.setdefault(game, {})
 			circaMain[game].setdefault("hr", {})
-			circaMain[game]["hr"][player] = circa[game][player]["circa"]
+			circaMain[game]["hr"][player] = circa[game]["hr"][player]
 
 	with open("static/mlb/circa.json", "w") as fh:
 		json.dump(circaMain, fh, indent=4)
