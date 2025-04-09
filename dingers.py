@@ -263,7 +263,7 @@ def writeCirca(date):
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
-			data[p[-1]][p[0]]["hr"] = f"{o}/{u}"
+			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
 		# strikeouts
