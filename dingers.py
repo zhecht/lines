@@ -148,8 +148,14 @@ def writeCircaMain(date):
 
 		f5_ml_img = img.crop((1215,top,1310,bottom))
 		f5_ml_text = pytesseract.image_to_string(f5_ml_img).split("\n")
-		f5_ml_text = [x for x in f5_ml_text if x]
+		f5_ml_text = [x.replace("EVEN", "+100") for x in f5_ml_text if x]
 
+		#f5_sp_ou_img = img.crop((1470,top,1550,bottom))
+		f5_sp_ou_img = img.crop((1415,top,1550,bottom))
+		f5_sp_ou_text = pytesseract.image_to_string(f5_sp_ou_img).split("\n")
+		f5_sp_ou_text = [x.replace("EVEN", "+100") for x in f5_sp_ou_text if x]
+		print(f5_sp_ou_text)
+		
 		games = []
 		for i in range(0, len(text), 2):
 			try:
@@ -162,7 +168,7 @@ def writeCircaMain(date):
 			line = spread_ou_text[i].split(" ")[0]
 			ou = spread_ou_text[i].split(" ")[-1]+"/"+spread_ou_text[i+1].split(" ")[-1]
 			data[game]["spread"][line] = ou.replace("EVEN", "+100")
-			data[game]["f5_ml"] = f"{f5_ml_text[i]}/{f5_ml_text[i+1]}".replace("EVEN", "+100")
+			data[game]["f5_ml"] = f"{f5_ml_text[i]}/{f5_ml_text[i+1]}"
 
 		with open("out", "w") as fh:
 			json.dump(data, fh, indent=4)
