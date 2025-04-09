@@ -146,7 +146,7 @@ def writeCircaMain(date):
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		#mlImg.save("out.png", "PNG")
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
-		spread_ou_text = [x.replace("%", ".5").replace("+", "") for x in spread_ou_text if x]
+		spread_ou_text = [x.replace("4 ", ".5 ").replace("%", ".5").replace("+", "") for x in spread_ou_text if x]
 
 		games = []
 		for i in range(0, len(text), 2):
