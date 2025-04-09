@@ -280,6 +280,10 @@ def writeCirca(date):
 				ous = pytesseract.image_to_string(ou).split("\n")
 				o = ous[0].replace("EVEN", "+100")
 				u = ous[1].replace("EVEN", "+100")
+				if len(o) == 4 and o.startswith("4"):
+					o = "-"+o[1:]
+				if len(u) == 4 and u.startswith("7"):
+					u = "-"+u[1:]
 
 				if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
 					u = f"-{u}"
