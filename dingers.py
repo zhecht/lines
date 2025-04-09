@@ -269,7 +269,7 @@ def writeCirca(date):
 		# strikeouts
 		if pageIdx == 0:
 			boxH = 99
-			l,r,t = 767,1032,1310
+			l,r,t = 770,1032,1313
 
 			box = img.crop((l,t,r,t+boxH))
 			box.save("out2.png", "PNG")
