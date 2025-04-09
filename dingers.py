@@ -267,7 +267,7 @@ def writeCirca(date):
 		json.dump(data, fh, indent=4)
 
 def mergeCirca():
-	with open("static/mlb/circa-prop.json") as fh:
+	with open("static/mlb/circa-props.json") as fh:
 		circa = json.load(fh)
 	with open("static/mlb/circa-main.json") as fh:
 		circaMain = json.load(fh)
