@@ -132,10 +132,16 @@ def writeCircaMain(date):
 		img = Image.open("out.png")
 		bottom = 1930
 		top = 480
+		if pageIdx == 1:
+			top = 500
 		#w,h = img.size
 		# l,t,r,b
 
 		if pageIdx == 1:
+			teams_img = img.crop((270,top,500,bottom))
+			text = pytesseract.image_to_string(teams_img).split("\n")
+			text = [x for x in text if x]
+			print(text)
 			continue
 
 		playersImg = img.crop((330,top,530,bottom))
