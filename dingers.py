@@ -141,7 +141,17 @@ def writeCircaMain(date):
 			teams_img = img.crop((270,top,500,bottom))
 			text = pytesseract.image_to_string(teams_img).split("\n")
 			text = [x for x in text if x]
-			print(text)
+
+			rfi_img = img.crop((1480,top,1580,bottom))
+			rfi_text = pytesseract.image_to_string(rfi_img).split("\n")
+			rfi_text = [x.replace("EVEN", "+100") for x in rfi_text if x]
+
+			for i in range(0, len(text), 2):
+				try:
+					game = f"{convertMGMTeam(text[i])} @ {convertMGMTeam(text[i+1])}"
+				except:
+					break
+				data[game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}"
 			continue
 
 		playersImg = img.crop((330,top,530,bottom))
