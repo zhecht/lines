@@ -278,7 +278,17 @@ def writeCirca(date):
 			player_img = box.crop((0,0,w,40)) # l,t,r,b
 			player = pytesseract.image_to_string(player_img).split("\n")[0]
 			line = str(float(pytesseract.image_to_string(x).split("\n")[0][0]) + 0.5)
-			print(player, line)
+			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
+			if team == "art":
+				team = "ari"
+			elif team == "nyn":
+				team = "nym"
+			elif team == "nil":
+				team = "mil"
+			game = teamGame.get(team, "")
+			player = parsePlayer(player.lower().split(" (")[0])
+
+			print(game, player, line)
 
 			print()
 			exit()
