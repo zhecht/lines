@@ -214,6 +214,8 @@ def writeCirca(date):
 	pages = convert_from_path(f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf")
 	data = nested_dict()
 
+	pages = [pages[0]]
+
 	for page in pages:
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
