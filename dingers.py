@@ -275,6 +275,7 @@ def writeCirca(date):
 			w,h = box.size
 			x = box.crop((w-110,40,w-60,h))
 			x.save("out2.png", "PNG")
+			print(pytesseract.image_to_string(x).split("\n"))
 			exit()
 
 	with open("static/mlb/circa-props.json", "w") as fh:
