@@ -153,9 +153,8 @@ def writeCircaMain(date):
 		#f5_sp_ou_img = img.crop((1470,top,1550,bottom))
 		f5_sp_ou_img = img.crop((1415,top,1550,bottom))
 		f5_sp_ou_text = pytesseract.image_to_string(f5_sp_ou_img).split("\n")
-		f5_sp_ou_text = [x.replace("EVEN", "+100") for x in f5_sp_ou_text if x]
-		print(f5_sp_ou_text)
-		
+		f5_sp_ou_text = [x.replace("EVEN", "+100").replace("“", "-") for x in f5_sp_ou_text if x]
+
 		games = []
 		for i in range(0, len(text), 2):
 			try:
@@ -169,6 +168,8 @@ def writeCircaMain(date):
 			ou = spread_ou_text[i].split(" ")[-1]+"/"+spread_ou_text[i+1].split(" ")[-1]
 			data[game]["spread"][line] = ou.replace("EVEN", "+100")
 			data[game]["f5_ml"] = f"{f5_ml_text[i]}/{f5_ml_text[i+1]}"
+			line = "0.5" if f5_ml_text[i].startswith("+") else "-0.5"
+			data[game]["f5_spread"][line] = f"""{f5_sp_ou_text[i].split(" ")[-1]}/{f5_sp_ou_text[i+1].split(" ")[-1]}"""
 
 		with open("out", "w") as fh:
 			json.dump(data, fh, indent=4)
