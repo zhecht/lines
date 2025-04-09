@@ -274,6 +274,7 @@ def writeCirca(date):
 			boxT = t
 			boxL = l
 			for c in range(3):
+				boxT = t
 				if c == 1:
 					boxL = 1050
 				elif c == 2:
