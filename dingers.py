@@ -127,7 +127,7 @@ def writeCircaMain(date):
 
 	pages = [pages[0]]
 
-	for page in pages:
+	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
 		bottom = 1930
