@@ -125,7 +125,7 @@ def writeCircaMain(date):
 	pages = convert_from_path(f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf")
 	data = nested_dict()
 
-	pages = [pages[0]]
+	#pages = [pages[0]]
 
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
