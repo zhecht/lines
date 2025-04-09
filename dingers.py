@@ -1708,7 +1708,7 @@ if __name__ == '__main__':
 	if args.pn:
 		writePinnacle(date)
 	if args.circa:
-		#writeCirca(date)
+		writeCirca(date)
 		writeCircaMain(date)
 	if args.merge_circa:
 		mergeCirca()
