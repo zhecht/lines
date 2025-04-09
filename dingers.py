@@ -107,6 +107,79 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 		evData[player][f"implied"] = implied
 		evData[player][f"ev"] = ev
 
+def writeCircaMain(date):
+	if not date:
+		date = str(datetime.now())[:10]
+	with open("static/mlb/schedule.json") as fh:
+		schedule = json.load(fh)
+
+	games = [x["game"] for x in schedule[date]]
+	teamGame = {}
+	for game in games:
+		a,h = map(str, game.split(" @ "))
+		teamGame[a] = game
+		teamGame[h] = game
+
+	dt = datetime.now().strftime("%Y-%-m-%-d")
+	file = f"MLB - {dt}.pdf"
+	pages = convert_from_path(f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf")
+	data = nested_dict()
+
+	pages = [pages[0]]
+	
+	for page in pages:
+		page.save("out.png", "PNG")
+		img = Image.open("out.png")
+		exit()
+		bottom = 2200
+		top = 400
+		#w,h = img.size
+		# l,t,r,b
+		playersImg = img.crop((0,top,400,bottom))
+		text = pytesseract.image_to_string(playersImg).split("\n")
+
+		players = []
+		for player in text:
+			if "(" not in player:
+				continue
+			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
+			if team == "art":
+				team = "ari"
+			elif team == "nyn":
+				team = "nym"
+			elif team == "nil":
+				team = "mil"
+			game = teamGame.get(team, "")
+			player = parsePlayer(player.lower().split(" (")[0])
+			players.append((player, game))
+
+		# strikeouts
+		#i = img.crop((770,1230,1035,1320))
+		#print(pytesseract.image_to_string(i).split("\n"))
+
+		oversImg = img.crop((540,top,600,bottom))
+		undersImg = img.crop((685,top,760,bottom))
+		oversArr = pytesseract.image_to_string(oversImg).split("\n")
+		undersArr = pytesseract.image_to_string(undersImg).split("\n")
+		overs = []
+		for over in oversArr:
+			o = re.search(r"\d{3,4}", over)
+			if not o:
+				continue
+			overs.append(over)
+		unders = []
+		for under in undersArr:
+			o = re.search(r"\d{3,4}", under)
+			if not o:
+				continue
+			unders.append(under)
+		
+		for p,o,u in zip(players, overs, unders):
+			data[p[-1]][p[0]]["circa"] = f"{o}/{u}"
+
+	with open("static/mlb/circa-main.json", "w") as fh:
+		json.dump(data, fh, indent=4)
+
 def writeCirca(date):
 	if not date:
 		date = str(datetime.now())[:10]
