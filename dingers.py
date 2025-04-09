@@ -1657,6 +1657,7 @@ if __name__ == '__main__':
 	parser.add_argument("--clear", action="store_true")
 	parser.add_argument("--stats", action="store_true")
 	parser.add_argument("--circa", action="store_true")
+	parser.add_argument("--circa-props", action="store_true")
 	parser.add_argument("--merge-circa", action="store_true")
 
 	args = parser.parse_args()
@@ -1707,6 +1708,8 @@ if __name__ == '__main__':
 		writeKambi(date)
 	if args.pn:
 		writePinnacle(date)
+	if args.circa_props:
+		writeCirca(date)
 	if args.circa:
 		writeCirca(date)
 		writeCircaMain(date)
