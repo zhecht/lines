@@ -110,7 +110,7 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 def writeCirca(date):
 	if not date:
 		date = str(datetime.now())[:10]
-	with open("mlb/schedule.json") as fh:
+	with open("static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
 	writeHistorical(date, book="circa")
