@@ -145,7 +145,7 @@ def writeCircaMain(date):
 		total_img = img.crop((820,top,890,bottom))
 		total_text = pytesseract.image_to_string(total_img).split("\n")
 		total_text = [x for x in total_text if x]
-		print(total_img)
+		print(total_text)
 
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
