@@ -298,7 +298,7 @@ def writeCirca(date):
 				player = parsePlayer(player.lower().split(" (")[0])
 
 				data[game]["k"][player][line] = f"{o}/{u}"
-				boxT += h
+				boxT += h+5
 
 	with open("static/mlb/circa-props.json", "w") as fh:
 		json.dump(data, fh, indent=4)
