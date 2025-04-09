@@ -272,7 +272,9 @@ def writeCirca(date):
 			l,r,t = 770,1032,1313
 
 			box = img.crop((l,t,r,t+boxH))
-			box.save("out2.png", "PNG")
+			w,h = box.size
+			x = box.crop((w-110,40,w-60,h))
+			x.save("out2.png", "PNG")
 			exit()
 
 	with open("static/mlb/circa-props.json", "w") as fh:
