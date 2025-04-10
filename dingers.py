@@ -1847,8 +1847,8 @@ if __name__ == '__main__':
 					os.system("rm /mnt/c/Users/zhech/Documents/lines/.git/index.lock")
 				pass
 
-			time.sleep(5)
-			#time.sleep(60 * 10)
+			#time.sleep(5)
+			time.sleep(60 * 10)
 
 	if args.ev:
 		writeEV(date, args.dinger)
