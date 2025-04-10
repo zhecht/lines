@@ -435,7 +435,10 @@ async def write365(loop):
 	url = "https://www.oh.bet365.com/?_h=uvJ7Snn5ImZN352O9l7rPQ%3D%3D&btsffd=1#/AC/B16/C20525425/D43/E160301/F43/N2/"
 	page = await browser.get(url)
 
-	await page.wait_for(selector=".srb-MarketSelectionButton-selected")	
+	try:
+		await page.wait_for(selector=".srb-MarketSelectionButton-selected")	
+	except:
+		return
 	reject = await page.query_selector(".ccm-CookieConsentPopup_Reject")
 	if reject:
 		await reject.mouse_click()
@@ -800,7 +803,6 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
 			continue
 		player = parsePlayer(label.split(", ")[1])
 		odds = label.split(" ")[-1]
-
 		try:
 			team = btn.parent.parent.parent.find_all("img")[1]
 
@@ -815,7 +817,7 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
 			continue
 
 		currGame = game
-		if gameStarted[game]:
+		if date == str(datetime.now())[:10] and gameStarted[game]:
 			continue
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds

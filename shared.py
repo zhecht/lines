@@ -30,6 +30,9 @@ def getSuffix(num):
 # Write open/closing line values
 def writeHistorical(date, book, gameStarted=None):
 	bookFile = book.replace("365", "b365")
+
+	if str(datetime.now())[:10] != date:
+		return
 	if not gameStarted:
 		schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/mlb/schedule.json"
 		response = requests.get(schedule_url)
