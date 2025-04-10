@@ -266,9 +266,12 @@ def writeCirca(date):
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
-		# strikeouts
 		if pageIdx == 0:
+
 			boxH = 99
+			l,r,t = 770,1032,373
+
+			# strikeouts
 			l,r,t = 770,1032,1313
 			boxW = r-l
 			boxT = t
