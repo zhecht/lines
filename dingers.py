@@ -1232,7 +1232,7 @@ def writeEV(date, dinger, silent=False):
 
 	data = {}
 	updated = {}
-	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "circa"]:
+	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn"]:
 		path = f"static/dingers/{book}.json"
 		if os.path.exists(path):
 			with open(path) as fh:
@@ -1246,6 +1246,15 @@ def writeEV(date, dinger, silent=False):
 			updated[book] = j
 		else:
 			updated[book] = ""
+
+	with open("static/mlb/circa.json") as fh:
+		circaLines = json.load(fh)
+
+	for game in circaLines:
+		for player in circaLines[game]["hr"]:
+			data.setdefault(game, {})
+			data[game].setdefault(player, {})
+			data[game][player]["circa"] = circaLines[game]["hr"][player]
 
 	with open("updated.json", "w") as fh:
 		json.dump(updated, fh, indent=4)
