@@ -531,8 +531,8 @@ async def writeDK(loop):
 		if not loop:
 			break
 
-		time.sleep(5)
-		#time.sleep(60 * 10)
+		#time.sleep(5)
+		time.sleep(60 * 10)
 
 	browser.stop()
 
@@ -786,8 +786,8 @@ async def writeFDFromBuilder(date, loop):
 		if not loop:
 			break
 		
-		time.sleep(5)
-		#time.sleep(60 * 10)
+		#time.sleep(5)
+		time.sleep(60 * 10)
 
 	browser.stop()
 
