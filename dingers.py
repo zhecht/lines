@@ -1840,7 +1840,12 @@ if __name__ == '__main__':
 				writeEV(date, args.dinger, silent=True)
 			if args.print:
 				printEV()
-			commitChanges()
+			try:
+				commitChanges()
+			except:
+				if os.path.exists("/mnt/c/Users/zhech/Documents/lines/.git/index.lock"):
+					os.system("rm /mnt/c/Users/zhech/Documents/lines/.git/index.lock")
+				pass
 
 			time.sleep(5)
 			#time.sleep(60 * 10)
