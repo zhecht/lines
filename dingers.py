@@ -121,17 +121,19 @@ def writeCircaMain(date):
 		teamGame[h] = game
 
 	dt = datetime.now().strftime("%Y-%-m-%-d")
-	file = f"MLB - {dt}.pdf"
-	pages = convert_from_path(f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf")
+	file = f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf"
+	if not os.path.exists("/mnt/c/Users"):
+		file = f"/Users/zackhecht/Downloads/MLB - {dt}.pdf"
+	pages = convert_from_path(file)
 	data = nested_dict()
 
-	#pages = [pages[0]]
+	pages = [pages[0]]
 
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
 		bottom = 1930
-		top = 480
+		top = 500
 		if pageIdx == 1:
 			top = 500
 		#w,h = img.size
@@ -154,26 +156,64 @@ def writeCircaMain(date):
 				data[game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}"
 			continue
 
-		playersImg = img.crop((330,top,530,bottom))
+		playersImg = img.crop((300,top,530,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
-		text = [x for x in text if x]
+		text = [x for x in text]
+		#playersImg.save("out.png", "PNG")
 
 		mlImg = img.crop((715,top,820,bottom))
 		ml_text = pytesseract.image_to_string(mlImg).split("\n")
-		ml_text = [x for x in ml_text if x]
+		ml_text = [x for x in ml_text]
+		mls = []
+		for r in ml_text:
+			if not r:
+				mls.append("")
+			mls.append(r)
+		#mlImg.save("out.png", "PNG")
+
+		add = 0
+		totals = []
+		for i in range(len(mls) // 2):
+			total_img = img.crop((820,top+add,970,top+100+add))
+			#total_img.save("out-total.png", "PNG")
+			total_text = pytesseract.image_to_string(total_img).split("\n")
+			add += 100
+			if not total_text[0]:
+				totals.extend([None, None])
+			else:
+				line = str(float(total_text[1].split(" ")[0].replace("h", ".5").replace("%", ".5")))
+				ou = total_text[0]+"/"+total_text[1].split(" ")[-1]
+				totals.append((line,ou.replace("EVEN", "+100")))
+				totals.append((line,ou.replace("EVEN", "+100")))
 
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
-		spread_ou_text = [x.replace("4 ", ".5 ").replace("%", ".5").replace("+", "") for x in spread_ou_text if x]
+		spread_ou_text = [x.replace("4 ", ".5 ").replace("%", ".5").replace("+", "") for x in spread_ou_text]
+		spreads = []
+		for r in spread_ou_text:
+			if not r:
+				spreads.append("")
+			spreads.append(r)
 
 		f5_ml_img = img.crop((1215,top,1310,bottom))
 		f5_ml_text = pytesseract.image_to_string(f5_ml_img).split("\n")
-		f5_ml_text = [x.replace("EVEN", "+100") for x in f5_ml_text if x]
+		f5_ml_text = [x.replace("EVEN", "+100") for x in f5_ml_text]
+		f5_ml = []
+		for r in f5_ml_text:
+			if not r:
+				f5_ml.append("")
+			f5_ml.append(r)
 
 		#f5_sp_img = img.crop((1470,top,1550,bottom))
-		f5_sp_img = img.crop((1415,top,1550,bottom))
+		f5_sp_img = img.crop((1450,top,1580,bottom))
 		f5_sp_text = pytesseract.image_to_string(f5_sp_img).split("\n")
-		f5_sp_text = [x.replace("EVEN", "+100").replace("“", "-") for x in f5_sp_text if x]
+		f5_sp_text = [x.replace("EVEN", "+100").replace("“", "-") for x in f5_sp_text]
+		f5_sp = []
+		for r in f5_sp_text:
+			if not r:
+				f5_sp.append("")
+			f5_sp.append(r)
+		f5_sp_img.save("out-f5sp.png", "PNG")
 
 		games = []
 		for i in range(0, len(text), 2):
@@ -181,15 +221,24 @@ def writeCircaMain(date):
 				game = f"{convertMGMTeam(text[i])} @ {convertMGMTeam(text[i+1])}"
 			except:
 				break
-			ou = ml_text[i]+"/"+ml_text[i+1]
-			data[game]["ml"] = ou.replace("EVEN", "+100")
+			if mls[i]:
+				ou = mls[i]+"/"+mls[i+1]
+				data[game]["ml"] = ou.replace("EVEN", "+100")
 
-			line = spread_ou_text[i].split(" ")[0]
-			ou = spread_ou_text[i].split(" ")[-1]+"/"+spread_ou_text[i+1].split(" ")[-1]
-			data[game]["spread"][line] = ou.replace("EVEN", "+100")
-			data[game]["f5_ml"] = f"{f5_ml_text[i]}/{f5_ml_text[i+1]}"
-			line = "0.5" if f5_ml_text[i].startswith("+") else "-0.5"
-			data[game]["f5_spread"][line] = f"""{f5_sp_text[i].split(" ")[-1]}/{f5_sp_text[i+1].split(" ")[-1]}"""
+			if totals[i]:
+				data[game]["total"][totals[i][0]] = totals[i][1]
+
+			if spreads[i]:
+				line = spreads[i].split(" ")[0]
+				ou = spreads[i].split(" ")[-1]+"/"+spreads[i+1].split(" ")[-1]
+				data[game]["spread"][line] = ou.replace("EVEN", "+100")
+			if f5_ml[i]:
+				data[game]["f5_ml"] = f"{f5_ml[i]}/{f5_ml[i+1]}".replace("EVEN", "+100")
+
+			if f5_sp[i]:
+				line = "0.5" if f5_sp[i].startswith("+") else "-0.5"
+				ou = f"""{f5_sp[i].split(" ")[-1]}/{f5_sp[i+1].split(" ")[-1]}"""
+				data[game]["f5_spread"][line] = ou.replace("EVEN", "+100")
 
 	with open("static/mlb/circa-main.json", "w") as fh:
 		json.dump(data, fh, indent=4)
@@ -214,7 +263,7 @@ def writeCirca(date):
 	pages = convert_from_path(f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf")
 	data = nested_dict()
 
-	pages = [pages[0]]
+	#pages = [pages[0]]
 
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
@@ -1737,6 +1786,7 @@ if __name__ == '__main__':
 	parser.add_argument("--stats", action="store_true")
 	parser.add_argument("--circa", action="store_true")
 	parser.add_argument("--circa-props", action="store_true")
+	parser.add_argument("--circa-main", action="store_true")
 	parser.add_argument("--merge-circa", action="store_true")
 
 	args = parser.parse_args()
@@ -1789,6 +1839,8 @@ if __name__ == '__main__':
 		writePinnacle(date)
 	if args.circa_props:
 		writeCirca(date)
+	if args.circa_main:
+		writeCircaMain(date)
 	if args.circa:
 		writeCirca(date)
 		writeCircaMain(date)
