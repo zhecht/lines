@@ -548,13 +548,12 @@ async def writeDK(loop):
 		return
 	url = "https://sportsbook.draftkings.com/leagues/baseball/mlb?category=batter-props&subcategory=home-runs"
 	page = await browser.get(url)
-
+	#time.sleep(5)
 	try:
 		await page.wait_for(selector=".sportsbook-event-accordion__wrapper")
 	except:
 		print("element not found")
 		return
-
 
 	while True:
 		data = nested_dict()
