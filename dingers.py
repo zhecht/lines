@@ -132,8 +132,7 @@ def writeCircaMain(date):
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
-		bottom = 1930
-		top = 500
+		bottom, top = 1930, 480
 		if pageIdx == 1:
 			top = 500
 		#w,h = img.size
@@ -156,10 +155,11 @@ def writeCircaMain(date):
 				data[game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}"
 			continue
 
-		playersImg = img.crop((300,top,530,bottom))
+		playersImg = img.crop((320,top,530,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text]
-		#playersImg.save("out.png", "PNG")
+		playersImg.save("out-player.png", "PNG")
+		print(text)
 
 		mlImg = img.crop((715,top,820,bottom))
 		ml_text = pytesseract.image_to_string(mlImg).split("\n")
@@ -169,19 +169,20 @@ def writeCircaMain(date):
 			if not r:
 				mls.append("")
 			mls.append(r)
-		#mlImg.save("out.png", "PNG")
+		#mlImg.save("out-ml.png", "PNG")
 
 		add = 0
 		totals = []
 		for i in range(len(mls) // 2):
-			total_img = img.crop((820,top+add,970,top+100+add))
-			#total_img.save("out-total.png", "PNG")
+			total_img = img.crop((820,top+add+5,970,top+97+add-5))
+			#total_img.save(f"out-total-{i}.png", "PNG")
 			total_text = pytesseract.image_to_string(total_img).split("\n")
-			add += 100
-			if not total_text[0]:
+			add += 97
+			if not total_text[0] or not total_text[1]:
 				totals.extend([None, None])
 			else:
-				line = str(float(total_text[1].split(" ")[0].replace("h", ".5").replace("%", ".5")))
+				#print(i, total_text[1])
+				line = str(float(total_text[1].split(" ")[0].replace("W,", "9.5").replace("Th", "7.5").replace("h", ".5").replace("%", ".5")))
 				ou = total_text[0]+"/"+total_text[1].split(" ")[-1]
 				totals.append((line,ou.replace("EVEN", "+100")))
 				totals.append((line,ou.replace("EVEN", "+100")))
@@ -259,8 +260,10 @@ def writeCirca(date):
 		teamGame[h] = game
 
 	dt = datetime.now().strftime("%Y-%-m-%-d")
-	file = f"MLB Props - {dt}.pdf"
-	pages = convert_from_path(f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf")
+	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
+	if os.path.exists(f"/Users/zackhecht"):
+		file = f"/Users/zackhecht/Downloads/MLB Props - {dt}.pdf"
+	pages = convert_from_path(file)
 	data = nested_dict()
 
 	#pages = [pages[0]]
@@ -315,7 +318,7 @@ def writeCirca(date):
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
-		if pageIdx == 0:
+		if False and pageIdx == 0:
 
 			boxH = 99
 			l,r,t = 770,1032,373

@@ -202,6 +202,8 @@ def parsePlayer(player):
 		return "brandon nimmo"
 	elif player == "c encarnacion strand":
 		return "christian encarnacion strand"
+	elif player == "max nuncy":
+		return "max muncy"
 
 	return player
 
