@@ -1769,6 +1769,7 @@ if __name__ == '__main__':
 	parser.add_argument("--update", "-u", action="store_true")
 	parser.add_argument("--bvp", action="store_true")
 	parser.add_argument("--bet365", action="store_true")
+	parser.add_argument("--b365", action="store_true")
 	parser.add_argument("--espn", action="store_true")
 	parser.add_argument("--cz", action="store_true")
 	parser.add_argument("--dk", action="store_true")
@@ -1828,7 +1829,7 @@ if __name__ == '__main__':
 		uc.loop().run_until_complete(writeDK(args.loop))
 	elif args.br:
 		uc.loop().run_until_complete(writeBR(date))
-	elif args.bet365:
+	elif args.bet365 or args.b365:
 		uc.loop().run_until_complete(write365(args.loop))
 	elif args.espn:
 		games = uc.loop().run_until_complete(getESPNLinks(date))
