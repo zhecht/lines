@@ -1418,7 +1418,7 @@ def writeEV(date, dinger, silent=False):
 				odds = data[game][player][book]
 				oddsArr.append(odds)
 				over = odds.split("/")[0]
-				print(book, over)
+				#print(book, over)
 				highest = max(highest, int(over))
 				if highest == int(over):
 					evBook = book
