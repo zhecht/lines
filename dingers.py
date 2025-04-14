@@ -336,6 +336,7 @@ def writeCirca(date):
 					continue
 				for row in range(7):
 					box = img.crop((l,t,r,t+boxH))
+					box.save(f"out-{row}.png", "PNG")
 					w,h = box.size
 
 					i = box.crop((0,0,w,25))
@@ -344,7 +345,6 @@ def writeCirca(date):
 					game = teamGame.get(team, "")
 
 					i = box.crop((70,30,207,h))
-					i.save(f"out-{row}.png", "PNG")
 					line = pytesseract.image_to_string(i).split("\n")
 					line = [x for x in line if x.replace("\x0c", "")]
 					line = line[-1].replace("%", ".5").replace("h", ".5")
