@@ -224,6 +224,8 @@ def convertMLBTeam(team):
 		if "yankees" in team:
 			return "nyy"
 		return "nym"
+	elif t == "pht":
+		return "phi"
 	elif t == "ath" or t == "the":
 		return "ath"
 	elif t == "was":
