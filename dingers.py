@@ -1938,7 +1938,6 @@ if __name__ == '__main__':
 	if args.commit:
 		commitChanges()
 
-
 	if False:
 		data = nested_dict()
 		with open("static/mlb/circa-props") as fh:
