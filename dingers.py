@@ -338,13 +338,16 @@ def writeCirca(date):
 					box = img.crop((l,t,r,t+boxH))
 					w,h = box.size
 
+					if row < 2:
+						continue
+
 					i = box.crop((0,0,w,25))
 					team = pytesseract.image_to_string(i).split("\n")
 					team = convertMGMTeam(team[0])
 					game = teamGame.get(team, "")
 
 					i = box.crop((70,30,207,h))
-					#i.save("out-1.png", "PNG")
+					i.save("out-1.png", "PNG")
 					line = pytesseract.image_to_string(i).split("\n")
 					line = [x for x in line if x.replace("\x0c", "")]
 					line = line[-1].replace("%", ".5")
