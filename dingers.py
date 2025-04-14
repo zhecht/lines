@@ -338,9 +338,6 @@ def writeCirca(date):
 					box = img.crop((l,t,r,t+boxH))
 					w,h = box.size
 
-					if row >= 2:
-						continue
-
 					i = box.crop((0,0,w,25))
 					team = pytesseract.image_to_string(i).split("\n")
 					team = convertMGMTeam(team[0])
