@@ -331,8 +331,11 @@ def writeCirca(date):
 			boxH = 76
 			l,r = 770,1034
 			for c in range(3):
+				l = 770
 				t = 375
-				if c != 0:
+				if c == 1:
+					l = 1050
+				if c == 2:
 					continue
 				for row in range(7):
 					boxH = 76 if row == 0 else 70
