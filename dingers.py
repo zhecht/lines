@@ -329,7 +329,7 @@ def writeCirca(date):
 		if True and pageIdx == 0:
 
 			boxH = 76
-			l,r,t = 767,1034,375
+			l,r,t = 768,1034,375
 			for c in range(3):
 				for row in range(7):
 					box = img.crop((l,t,r,t+boxH))
