@@ -371,7 +371,7 @@ def writeCirca(date):
 						u = "-"+u[1:]
 
 					p = "away_total" if game.startswith(team) else "home_total"
-					data[game][p][line] = f"{o}/{u}".replace("EVEN", "+100")
+					data[game][p][line] = f"{o}/{u}".replace("EVEN", "+100").replace("~", "-")
 
 					t += h+3
 			continue
