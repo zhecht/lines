@@ -259,6 +259,8 @@ def writeCirca(date):
 		teamGame[a] = game
 		teamGame[h] = game
 
+	print(teamGame)
+
 	dt = datetime.now().strftime("%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
 	if os.path.exists(f"/Users/zackhecht"):
@@ -277,8 +279,6 @@ def writeCirca(date):
 		# l,t,r,b
 		playersImg = img.crop((0,top,400,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
-
-		print(text)
 
 		players = []
 		for player in text:
