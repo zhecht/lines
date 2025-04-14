@@ -220,6 +220,8 @@ def convertMLBTeam(team):
 		return "lad"
 	elif t == "los":
 		return "laa"
+	elif t == "nin":
+		return "min"
 	elif t == "new":
 		if "yankees" in team:
 			return "nyy"
