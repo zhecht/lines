@@ -335,6 +335,7 @@ def writeCirca(date):
 				t = 375
 				if c == 1:
 					l = 1050
+					
 				if c == 2:
 					continue
 				for row in range(7):
