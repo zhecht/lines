@@ -249,6 +249,12 @@ def writeCirca(date):
 		date = str(datetime.now())[:10]
 	with open("static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
+	with open("static/baseballreference/roster.json") as fh:
+		roster = json.load(fh)
+	playerRoster = {}
+	for team in roster:
+		for player in roster[team]:
+			playerRoster[player] = team
 
 	writeHistorical(date, book="circa")
 
@@ -291,8 +297,11 @@ def writeCirca(date):
 				team = "nym"
 			elif team == "nil":
 				team = "mil"
-			game = teamGame.get(team, "")
+
 			player = parsePlayer(player.lower().split(" (")[0])
+			if not team:
+				team = playerRoster.get(player, "")
+			game = teamGame.get(team, "")
 			players.append((player, game))
 
 		# strikeouts
