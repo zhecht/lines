@@ -329,8 +329,9 @@ def writeCirca(date):
 		if True and pageIdx == 0:
 
 			boxH = 76
-			l,r,t = 770,1034,375
+			l,r = 770,1034
 			for c in range(3):
+				t = 375
 				for row in range(7):
 					box = img.crop((l,t,r,t+boxH))
 					w,h = box.size
@@ -356,6 +357,8 @@ def writeCirca(date):
 
 					p = "away_total" if game.startswith(team) else "home_total"
 					data[game][p][line] = f"{o}/{u}"
+
+					t += 3
 			continue
 			# strikeouts
 			l,r,t = 770,1032,1313
