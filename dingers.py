@@ -332,6 +332,8 @@ def writeCirca(date):
 			l,r = 770,1034
 			for c in range(3):
 				t = 375
+				if c != 0:
+					continue
 				for row in range(7):
 					box = img.crop((l,t,r,t+boxH))
 					w,h = box.size
