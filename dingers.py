@@ -343,9 +343,8 @@ def writeCirca(date):
 					i = box.crop((70,30,207,h))
 					i.save("out-1.png", "PNG")
 					line = pytesseract.image_to_string(i).split("\n")
-					print(line)
-					exit()
-					line = [x for x in line if x][0]
+					line = [x for x in line if x.replace("\x0c", "")][-1]
+					line = line[-1].replace("%", ".5")
 
 					i = box.crop((207,30,w,h))
 					odds = pytesseract.image_to_string(i).split("\n")
