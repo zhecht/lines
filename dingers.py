@@ -357,6 +357,9 @@ def writeCirca(date):
 
 					i = box.crop((207,30,w,h))
 					odds = pytesseract.image_to_string(i).split("\n")
+
+					if len(odds) < 2:
+						continue
 					o,u = odds[0],odds[1]
 					if len(o) == 4 and o[0] in ["4", "7"]:
 						o = "-"+o[1:]
