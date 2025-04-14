@@ -1312,8 +1312,10 @@ def writeEV(date, dinger, silent=False):
 		for player in circaLines[game]["hr"]:
 			data.setdefault(game, {})
 			data[game].setdefault(player, {})
-			print(game, player)
 			data[game][player]["circa"] = circaLines[game]["hr"][player]
+
+	with open("out", "w") as fh:
+		json.dump(data, fh, indent=4)
 
 	with open("updated.json", "w") as fh:
 		json.dump(updated, fh, indent=4)
