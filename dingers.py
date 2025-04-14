@@ -342,6 +342,8 @@ def writeCirca(date):
 
 					i = box.crop((170,30,207,h))
 					line = pytesseract.image_to_string(i).split("\n")
+					line.save("out-1.png", "PNG")
+					exit()
 					print(line)
 					line = [x for x in line if x][0]
 
