@@ -1309,7 +1309,6 @@ def writeEV(date, dinger, silent=False):
 		circaLines = json.load(fh)
 
 	for game in circaLines:
-		print(game)
 		for player in circaLines[game]["hr"]:
 			data.setdefault(game, {})
 			data[game].setdefault(player, {})
