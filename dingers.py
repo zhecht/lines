@@ -360,7 +360,7 @@ def writeCirca(date):
 					p = "away_total" if game.startswith(team) else "home_total"
 					data[game][p][line] = f"{o}/{u}"
 
-					t += boxH+1
+					t += h+1
 			continue
 			# strikeouts
 			l,r,t = 770,1032,1313
