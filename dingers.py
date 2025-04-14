@@ -429,7 +429,6 @@ async def writeESPN(rosters):
 		browser = await uc.start(no_sandbox=True)
 	except:
 		return
-	writeHistorical(str(datetime.now())[:10], book)
 	while True:
 		data = nested_dict()
 		(game, url) = q.get()
@@ -632,7 +631,6 @@ async def writeMGM():
 		browser = await uc.start(no_sandbox=True)
 	except:
 		return
-	writeHistorical(date, book)
 	while True:
 		data = nested_dict()
 
@@ -1678,11 +1676,13 @@ async def writeOne(book):
 			with open(f"static/dingers/{book}.json", "w") as fh:
 				json.dump(old, fh, indent=4)
 
-def runThreads(book, games, totThreads):
+def runThreads(book, date, games, totThreads):
 	threads = []
 	schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/baseballreference/roster.json"
 	response = requests.get(schedule_url)
 	roster = response.json()
+
+	writeHistorical(date, book)
 
 	for _ in range(totThreads):
 		if book == "mgm":
@@ -1824,7 +1824,7 @@ if __name__ == '__main__':
 	elif args.mgm:
 		games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
-		runThreads("mgm", games, min(args.threads, len(games)))
+		runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
 		uc.loop().run_until_complete(writeDK(args.loop))
 	elif args.br:
@@ -1834,7 +1834,7 @@ if __name__ == '__main__':
 	elif args.espn:
 		games = uc.loop().run_until_complete(getESPNLinks(date))
 		#games['mil @ nyy'] = 'https://espnbet.com/sport/baseball/organization/united-states/competition/mlb/event/b353fbf4-02ef-409b-8327-58fb3b0b1fa9/section/player_props'
-		runThreads("espn", games, min(args.threads, len(games)))
+		runThreads("espn", date, games, min(args.threads, len(games)))
 	
 	if args.cz:
 		uc.loop().run_until_complete(writeCZ(date, args.token))
