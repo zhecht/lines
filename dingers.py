@@ -278,6 +278,8 @@ def writeCirca(date):
 		playersImg = img.crop((0,top,400,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 
+		print(text)
+
 		players = []
 		for player in text:
 			if "(" not in player:
