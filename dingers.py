@@ -297,9 +297,7 @@ def writeCirca(date):
 				team = "mil"
 
 			player = parsePlayer(player.lower().split(" (")[0])
-			if not team:
-				print(player, playerRoster.get(player))
-				team = playerRoster.get(player, "")
+			print(player, team)
 			game = teamGame.get(team, "")
 			players.append((player, game))
 
