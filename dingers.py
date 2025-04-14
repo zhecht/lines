@@ -339,6 +339,9 @@ def writeCirca(date):
 					team = pytesseract.image_to_string(i).split("\n")
 					team = convertMGMTeam(team[0])
 
+					i = box.crop((170,30,w,h))
+					odds = pytesseract.image_to_string(i).split("\n")
+					print(odds)
 			continue
 			# strikeouts
 			l,r,t = 770,1032,1313
