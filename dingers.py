@@ -337,7 +337,7 @@ def writeCirca(date):
 
 					i = box.crop((0,0,w,25))
 					team = pytesseract.image_to_string(i).split("\n")
-					team = convertMLBTeam(team[0])
+					team = convertMGMTeam(team[0])
 					print(team)
 					#box.save(f"out-0.png", "PNG")
 
