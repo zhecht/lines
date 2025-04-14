@@ -352,8 +352,9 @@ def writeCirca(date):
 					i = box.crop((70,30,207,h))
 					line = pytesseract.image_to_string(i).split("\n")
 					line = [x for x in line if x.replace("\x0c", "")]
-					print(team, line)
+
 					if not line:
+						t += h+3
 						continue
 					line = line[-1].replace("%", ".5").replace("h", ".5")
 
@@ -361,6 +362,7 @@ def writeCirca(date):
 					odds = pytesseract.image_to_string(i).split("\n")
 
 					if len(odds) < 2:
+						t += h+3
 						continue
 					o,u = odds[0],odds[1]
 					if len(o) == 4 and o[0] in ["4", "7"]:
