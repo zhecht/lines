@@ -326,11 +326,16 @@ def writeCirca(date):
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
-		if False and pageIdx == 0:
+		if True and pageIdx == 0:
 
-			boxH = 99
-			l,r,t = 770,1032,373
+			boxH = 76
+			l,r,t = 767,1034,375
+			for c in range(3):
+				for r in range(7):
+					box = img.crop((l,t,r,t+boxH))
+					box.save(f"out-0.png", "PNG")
 
+			continue
 			# strikeouts
 			l,r,t = 770,1032,1313
 			boxW = r-l
