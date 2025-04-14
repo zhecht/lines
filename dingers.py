@@ -334,8 +334,9 @@ def writeCirca(date):
 				l = 770
 				t = 375
 				if c == 1:
-					l = 1050
-					r = 1310
+					l,r = 1050,1310
+				elif c == 2:
+					l,r = 1330,1590
 
 				if c == 2:
 					continue
