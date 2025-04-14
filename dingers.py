@@ -328,14 +328,15 @@ def writeCirca(date):
 
 		if True and pageIdx == 0:
 
-			boxH = 76
+			boxW,boxH = 264,76
 			l,r = 770,1034
 			for c in range(3):
 				l = 770
 				t = 375
 				if c == 1:
 					l = 1050
-					
+					r = 1310
+
 				if c == 2:
 					continue
 				for row in range(7):
