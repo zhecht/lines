@@ -333,7 +333,13 @@ def writeCirca(date):
 			for c in range(3):
 				for row in range(7):
 					box = img.crop((l,t,r,t+boxH))
-					box.save(f"out-0.png", "PNG")
+					w,h = box.size
+
+					i = box.crop((0,25,w,h))
+					team = pytesseract.image_to_string(i).split("\n")
+					team = convertMLBTeam(team)
+					print(team)
+					#box.save(f"out-0.png", "PNG")
 
 			continue
 			# strikeouts
