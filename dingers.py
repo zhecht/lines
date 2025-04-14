@@ -338,11 +338,23 @@ def writeCirca(date):
 					i = box.crop((0,0,w,25))
 					team = pytesseract.image_to_string(i).split("\n")
 					team = convertMGMTeam(team[0])
+					game = teamGame.get(team, "")
 
 					#170
+					i = box.crop((170,30,207,h))
+					line = pytesseract.image_to_string(i).split("\n")[0]
+					print(line)
+
 					i = box.crop((207,30,w,h))
 					odds = pytesseract.image_to_string(i).split("\n")
-					print(odds)
+					o,u = odds[0],odds[1]
+					if len(o) == 4 and o[0] in ["4", "7"]:
+						o = "-"+o[1:]
+					if len(u) == 4 and u[0] in ["4", "7"]:
+						u = "-"+u[1:]
+
+					p = "away_total" if game.startswith(team) else "home_total"
+					data[game][p][line] = f"{o}/{u}"
 			continue
 			# strikeouts
 			l,r,t = 770,1032,1313
