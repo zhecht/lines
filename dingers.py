@@ -1860,9 +1860,6 @@ if __name__ == '__main__':
 		writeLineups(date)
 
 	if args.update:
-		date = args.date
-		if not date:
-			date = str(datetime.now())[:10]
 
 		while True:
 			if args.ev:
