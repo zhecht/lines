@@ -444,7 +444,6 @@ def mergeCirca():
 	with open("static/mlb/circa.json", "w") as fh:
 		json.dump(circaMain, fh, indent=4)
 
-	data = nested_dict()
 	with open("static/mlb/circa-props") as fh:
 		lines = fh.read().split("\n")
 	if lines[0] == date:
