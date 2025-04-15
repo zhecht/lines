@@ -299,7 +299,7 @@ def writeCirca(date):
 		#print(pytesseract.image_to_string(i).split("\n"))
 
 		oversImg = img.crop((540,top,600,bottom))
-		undersImg = img.crop((670,top,760,bottom))
+		undersImg = img.crop((650,top,760,bottom))
 		oversArr = pytesseract.image_to_string(oversImg).split("\n")
 		undersArr = pytesseract.image_to_string(undersImg).split("\n")
 		overs = []
