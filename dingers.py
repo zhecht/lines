@@ -451,6 +451,7 @@ def mergeCirca():
 			if prop == "hr":
 				circaMain[game][prop][player] = cols[-1]
 			else:
+				circaMain[game][prop].setdefault(player, {})
 				circaMain[game][prop][player][cols[3]] = cols[-1]
 
 	with open("static/mlb/circa.json", "w") as fh:
