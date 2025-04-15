@@ -1202,7 +1202,6 @@ def writePinnacle(date, debug=False):
 	games = {}
 	seenGames = {}
 	for row in data:
-		print(row)
 		if type(row) is str:
 			continue
 		if str(datetime.strptime(row["startTime"], "%Y-%m-%dT%H:%M:%SZ") - timedelta(hours=4))[:10] != date:
