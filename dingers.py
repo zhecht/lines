@@ -1939,8 +1939,10 @@ if __name__ == '__main__':
 		writeCirca(date)
 		writeCircaMain(date)
 		mergeCirca()
+		exit()
 	if args.merge_circa:
 		mergeCirca()
+		exit()
 
 	if args.weather:
 		uc.loop().run_until_complete(writeWeather(date))
