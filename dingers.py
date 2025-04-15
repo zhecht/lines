@@ -2009,7 +2009,11 @@ if __name__ == '__main__':
 		if lines[0] == date:
 			for row in lines[1:]:
 				cols = row.split(",")
-				data[cols[0]][cols[1]][cols[2]][cols[3]] = cols[-1]
+				game, prop, player = cols[0], cols[1], cols[2]
+				if prop == "hr":
+					data[game][prop][player] = cols[-1]
+				else:
+					data[game][prop][player][cols[3]] = cols[-1]
 			
 			with open("static/mlb/circa.json", "w") as fh:
 				json.dump(data, fh, indent=4)
