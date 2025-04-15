@@ -178,7 +178,7 @@ def writeCircaMain(date):
 			#total_img.save(f"out-total-{i}.png", "PNG")
 			total_text = [x for x in pytesseract.image_to_string(total_img).split("\n") if x.replace("\x0c", "")]
 			add += 97
-			if not total_text[0] or not total_text[1]:
+			if not total_text or not total_text[0] or not total_text[1]:
 				totals.extend([None, None])
 			else:
 				#print(i, total_text[1])
