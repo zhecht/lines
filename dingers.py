@@ -1907,7 +1907,7 @@ if __name__ == '__main__':
 	if args.kambi:
 		writeKambi(date)
 	if args.pn:
-		#writePinnacle(date)
+		writePinnacle(date)
 		pass
 	if args.circa_props:
 		writeCirca(date)
