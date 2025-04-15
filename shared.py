@@ -212,6 +212,8 @@ def convertMLBTeam(team):
 	t = team.replace(" ", "")[:3]
 	if "cubs" in team:
 		return "chc"
+	elif t == "art":
+		return "ari"
 	elif t == "chi":
 		return "chw"
 	elif t in ["kan", "kcr"]:
