@@ -2000,16 +2000,17 @@ if __name__ == '__main__':
 	if args.commit:
 		commitChanges()
 
-	if False:
+	if True:
 		data = nested_dict()
 		with open("static/mlb/circa-props") as fh:
 			lines = fh.read().split("\n")
-		for row in lines:
-			cols = row.split(",")
-			data[cols[0]][cols[1]][cols[2]] = cols[-1]
-		
-		with open("static/mlb/circa.json", "w") as fh:
-			json.dump(data, fh, indent=4)
+		if lines[0] == date:
+			for row in lines[1:]:
+				cols = row.split(",")
+				data[cols[0]][cols[1]][cols[2]] = cols[-1]
+			
+			with open("static/mlb/circa.json", "w") as fh:
+				json.dump(data, fh, indent=4)
 
 
 
