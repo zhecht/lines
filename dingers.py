@@ -289,13 +289,6 @@ def writeCirca(date):
 			if "(" not in player:
 				continue
 			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
-			if team == "art":
-				team = "ari"
-			elif team == "nyn":
-				team = "nym"
-			elif team == "nil":
-				team = "mil"
-
 			player = parsePlayer(player.lower().split(" (")[0])
 			#print(player, team)
 			game = teamGame.get(team, "")
@@ -323,6 +316,7 @@ def writeCirca(date):
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
+			print(p[0], o, u)
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
