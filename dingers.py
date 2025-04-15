@@ -318,8 +318,6 @@ def writeCirca(date):
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
-			if "kwan" in p[0]:
-				print(p[0], o, u)
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
