@@ -1061,6 +1061,8 @@ def parsePinnacle(res, games, gameId, retry, debug):
 
 	relatedData = {}
 	for row in related:
+		if type(row) is str:
+			continue
 		if row.get("periods") and row["periods"][0]["status"] == "closed":
 			continue
 		if "special" in row:
@@ -1108,6 +1110,8 @@ def parsePinnacle(res, games, gameId, retry, debug):
 	res[game] = {}
 
 	for row in data:
+		if type(row) is str:
+			continue
 		prop = row["type"]
 		keys = row["key"].split(";")
 
