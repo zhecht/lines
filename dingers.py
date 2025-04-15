@@ -181,9 +181,9 @@ def writeCircaMain(date):
 			if not total_text or not total_text[0] or not total_text[1]:
 				totals.extend([None, None])
 			else:
-				print(i, total_text)
-				line = str(float(total_text[1].split(" ")[0].replace("W,", "9.5").replace("Th", "7.5").replace("h", ".5").replace("%", ".5")))
-				ou = total_text[0]+"/"+total_text[1].split(" ")[-1]
+				line_text = total_text[0] if " " in total_text[0] else total_text[1]
+				line = str(float(line.split(" ")[0].replace("W,", "9.5").replace("Th", "7.5").replace("h", ".5").replace("%", ".5")))
+				ou = total_text[0].split(" ")[-1]+"/"+total_text[1].split(" ")[-1]
 				totals.append((line,ou.replace("EVEN", "+100")))
 				totals.append((line,ou.replace("EVEN", "+100")))
 
