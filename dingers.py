@@ -127,7 +127,7 @@ def writeCircaMain(date):
 	pages = convert_from_path(file)
 	data = nested_dict()
 
-	pages = [pages[0]]
+	#pages = [pages[0]]
 
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
