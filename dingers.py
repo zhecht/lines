@@ -173,10 +173,13 @@ def writeCircaMain(date):
 
 		add = 0
 		totals = []
+		f5_totals = []
 		for i in range(len(mls) // 2):
 			total_img = img.crop((820,top+add+5,970,top+97+add-5))
+			f5_total_img = img.crop((1310,top+add+5,1420,top+97+add-5))
 			#total_img.save(f"out-total-{i}.png", "PNG")
 			total_text = [x for x in pytesseract.image_to_string(total_img).split("\n") if x.replace("\x0c", "")]
+			f5_total_text = [x for x in pytesseract.image_to_string(f5_total_img).split("\n") if x.replace("\x0c", "")]
 			add += 97
 			if not total_text or not total_text[0] or not total_text[1]:
 				totals.extend([None, None])
@@ -186,6 +189,15 @@ def writeCircaMain(date):
 				ou = total_text[0].split(" ")[-1]+"/"+total_text[1].split(" ")[-1]
 				totals.append((line,ou.replace("EVEN", "+100")))
 				totals.append((line,ou.replace("EVEN", "+100")))
+
+			if not f5_total_text or not f5_total_text[0] or not f5_total_text[1]:
+				f5_totals.extend([None, None])
+			else:
+				line_text = f5_total_text[0] if " " in f5_total_text[0] else f5_total_text[1]
+				line = str(float(line_text.split(" ")[0].replace("W,", "9.5").replace("Th", "7.5").replace("h", ".5").replace("%", ".5")))
+				ou = f5_total_text[0].split(" ")[-1]+"/"+f5_total_text[1].split(" ")[-1]
+				f5_totals.append((line,ou.replace("EVEN", "+100")))
+				f5_totals.append((line,ou.replace("EVEN", "+100")))
 
 		spread_ou_img = img.crop((970,top,1130,bottom))
 		spread_ou_text = pytesseract.image_to_string(spread_ou_img).split("\n")
