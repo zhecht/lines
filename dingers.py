@@ -1859,6 +1859,8 @@ if __name__ == '__main__':
 				json.dump({}, fh)
 		with open("static/dingers/odds.json", "w") as fh:
 			json.dump({}, fh)
+		with open("static/mlb/circa.json", "w") as fh:
+			json.dump({}, fh)
 
 	games = {}
 	date = args.date
