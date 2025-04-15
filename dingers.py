@@ -241,6 +241,9 @@ def writeCircaMain(date):
 			if totals[i]:
 				data[game]["total"][totals[i][0]] = totals[i][1]
 
+			if f5_totals[i]:
+				data[game]["f5_total"][f5_totals[i][0]] = f5_totals[i][1]
+
 			if spreads[i]:
 				line = spreads[i].split(" ")[0]
 				ou = spreads[i].split(" ")[-1]+"/"+spreads[i+1].split(" ")[-1]
