@@ -1362,6 +1362,8 @@ def writeEV(date, dinger, silent=False):
 		circaLines = json.load(fh)
 
 	for game in circaLines:
+		if "hr" not in circaLines[game]:
+			continue
 		for player in circaLines[game]["hr"]:
 			data.setdefault(game, {})
 			data[game].setdefault(player, {})
@@ -2007,7 +2009,7 @@ if __name__ == '__main__':
 		if lines[0] == date:
 			for row in lines[1:]:
 				cols = row.split(",")
-				data[cols[0]][cols[1]][cols[2]] = cols[-1]
+				data[cols[0]][cols[1]][cols[2]][cols[3]] = cols[-1]
 			
 			with open("static/mlb/circa.json", "w") as fh:
 				json.dump(data, fh, indent=4)
