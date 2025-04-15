@@ -441,9 +441,6 @@ def mergeCirca():
 				circaMain[game].setdefault(prop, {})
 				circaMain[game][prop][player] = circa[game][prop][player]
 
-	with open("static/mlb/circa.json", "w") as fh:
-		json.dump(circaMain, fh, indent=4)
-
 	with open("static/mlb/circa-props") as fh:
 		lines = fh.read().split("\n")
 	if lines[0] == date:
@@ -451,12 +448,13 @@ def mergeCirca():
 			cols = row.split(",")
 			game, prop, player = cols[0], cols[1], cols[2]
 			if prop == "hr":
-				data[game][prop][player] = cols[-1]
+				circaMain[game][prop][player] = cols[-1]
 			else:
-				data[game][prop][player][cols[3]] = cols[-1]
+				circaMain[game][prop][player][cols[3]] = cols[-1]
+
+	with open("static/mlb/circa.json", "w") as fh:
+		json.dump(circaMain, fh, indent=4)
 		
-		with open("static/mlb/circa.json", "w") as fh:
-			json.dump(data, fh, indent=4)
 
 async def getESPNLinks(date):
 	try:
