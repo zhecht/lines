@@ -326,7 +326,7 @@ def writeCirca(date):
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
 
 
-		if True and pageIdx == 0:
+		if False and pageIdx == 0:
 
 			boxW,boxH = 264,76
 			l,r = 770,1034
