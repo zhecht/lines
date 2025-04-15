@@ -182,7 +182,7 @@ def writeCircaMain(date):
 				totals.extend([None, None])
 			else:
 				line_text = total_text[0] if " " in total_text[0] else total_text[1]
-				line = str(float(line.split(" ")[0].replace("W,", "9.5").replace("Th", "7.5").replace("h", ".5").replace("%", ".5")))
+				line = str(float(line_text.split(" ")[0].replace("W,", "9.5").replace("Th", "7.5").replace("h", ".5").replace("%", ".5")))
 				ou = total_text[0].split(" ")[-1]+"/"+total_text[1].split(" ")[-1]
 				totals.append((line,ou.replace("EVEN", "+100")))
 				totals.append((line,ou.replace("EVEN", "+100")))
