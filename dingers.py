@@ -1197,6 +1197,8 @@ def writePinnacle(date, debug=False):
 	with open(outfile) as fh:
 		data = json.load(fh)
 
+	writeHistorical(date, "pn")
+
 	games = {}
 	seenGames = {}
 	for row in data:
