@@ -313,8 +313,8 @@ def writeCirca(date):
 			o = re.search(r"\d{3,4}", under)
 			if not o:
 				continue
-			elif len(o) == 4 and "-" not in o:
-				o = "-"+o
+			elif len(under) == 4 and "-" not in under:
+				under = "-"+under
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
