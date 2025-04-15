@@ -313,7 +313,7 @@ def writeCirca(date):
 			o = re.search(r"\d{3,4}", under)
 			if not o:
 				continue
-			elif len(under) == 4 and "-" not in under:
+			elif "-" not in under:
 				under = "-"+under
 			unders.append(under)
 		
