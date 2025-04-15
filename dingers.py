@@ -447,6 +447,7 @@ def mergeCirca():
 		for row in lines[1:]:
 			cols = row.split(",")
 			game, prop, player = cols[0], cols[1], cols[2]
+			circaMain[game].setdefault(prop, {})
 			if prop == "hr":
 				circaMain[game][prop][player] = cols[-1]
 			else:
