@@ -19,6 +19,11 @@ from bs4 import BeautifulSoup as BS
 from shared import *
 from datetime import datetime, timedelta
 
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 q = queue.Queue()
 locks = {}
 for book in ["fd", "dk", "cz", "espn", "mgm", "kambi", "b365"]:
@@ -952,7 +957,36 @@ async def getFDLinks(date):
 def runFD():
 	uc.loop().run_until_complete(writeFD())
 
-async def writeFDFromBuilder(date, loop, night):
+def writeFDFromBuilder(date, loop, night):
+	book = "fd"
+	url = "https://sportsbook.fanduel.com/navigation/mlb?tab=parlay-builder"
+
+	driver = webdriver.Firefox()
+	driver.get(url)
+
+	WebDriverWait(driver, 10).until(
+		lambda d: d.find_element(By.CSS_SELECTOR, "div[role=button][aria-selected=true]").is_displayed()
+	)
+
+	el = driver.find_element(By.CSS_SELECTOR, "div[role=button][aria-selected=true]")
+	arrow = el.find_element(By.CSS_SELECTOR, "div[data-testid=ArrowAction]")
+	arrow.click()
+
+	time.sleep(20)
+	driver.quit()
+	exit()
+
+	tab = await page.query_selector("div[role=button][aria-selected=true]")
+	if tab.text == "Parlay Builder":
+		arrow = await page.query_selector("div[data-testid=ArrowAction]")
+		await arrow.click()
+		await page.wait_for(selector="div[aria-label='Show more']")
+		mores = await page.query_selector_all("div[aria-label='Show more']")
+		for more in mores:
+			await more.click()
+		time.sleep(1)
+
+async def writeFDFromBuilder2(date, loop, night):
 	book = "fd"
 
 	with open(f"static/mlb/schedule.json") as fh:
@@ -2022,7 +2056,10 @@ if __name__ == '__main__':
 		#games = uc.loop().run_until_complete(getFDLinks(date))
 		#games["mil @ nyy"] = "https://mi.sportsbook.fanduel.com/baseball/mlb/milwaukee-brewers-@-new-york-yankees-34146634?tab=batter-props"
 		#runThreads("fd", games, min(args.threads, len(games)))
-		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night))
+		
+
+		#uc.loop().run_until_complete(writeFDFromBuilder2(date, args.loop, args.night))
+		writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
 		games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
