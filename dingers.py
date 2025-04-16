@@ -112,6 +112,8 @@ def writeCircaHistory(date):
 	file = f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf"
 	if not os.path.exists("/mnt/c/Users"):
 		file = f"/Users/zackhecht/Downloads/MLB - {dt}.pdf"
+	pages = convert_from_path(file)
+	data = nested_dict()
 
 def writeCircaMain(date):
 	with open("static/mlb/schedule.json") as fh:
