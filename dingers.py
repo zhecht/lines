@@ -109,9 +109,9 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 
 def writeCircaHistory(date):
 	dt = datetime.now().strftime("%Y-%-m-%-d")
-	file = f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf"
+	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
 	if not os.path.exists("/mnt/c/Users"):
-		file = f"/Users/zackhecht/Downloads/MLB - {dt}.pdf"
+		file = f"/Users/zackhecht/Downloads/MLB Props - {dt}.pdf"
 	pages = convert_from_path(file)
 	data = nested_dict()
 
