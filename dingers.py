@@ -126,12 +126,17 @@ def writeCircaHistory(date):
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text if x.replace("\x0c", "")]
 		playersImg.save("out-player.png", "PNG")
+
+		over_img = img.crop((540,top,600,bottom))
+		over_text = pytesseract.image_to_string(over_img).split("\n")
+		print(over_text)
 		
 		for row in text:
 			player = parsePlayer(row.split(" (")[0])
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
 
-			print(player, team)
+			#data[player]
+
 
 def writeCircaMain(date):
 	with open("static/mlb/schedule.json") as fh:
