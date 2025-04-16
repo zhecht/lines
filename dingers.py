@@ -141,6 +141,8 @@ def writeCircaHistory(date):
 
 			data[player] = over_text[i]+"/"+under_text[i]
 
+	print(data)
+
 
 def writeCircaMain(date):
 	with open("static/mlb/schedule.json") as fh:
