@@ -124,7 +124,7 @@ def writeCircaHistory(date):
 
 		playersImg = img.crop((105,top,420,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
-		text = [x for x in text if x.replace("\x0c", "")]
+		text = [x for x in text if x.replace("\x0c", "").strip()]
 		playersImg.save("out-player.png", "PNG")
 
 		over_img = img.crop((530,top,600,bottom))
@@ -139,8 +139,6 @@ def writeCircaHistory(date):
 			player = parsePlayer(row.split(" (")[0])
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
 
-			if not player:
-				continue
 			data[player] = over_text[i]+"/"+under_text[i]
 
 	print(data)
