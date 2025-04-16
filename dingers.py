@@ -127,15 +127,19 @@ def writeCircaHistory(date):
 		text = [x for x in text if x.replace("\x0c", "")]
 		playersImg.save("out-player.png", "PNG")
 
-		over_img = img.crop((540,top,600,bottom))
+		over_img = img.crop((530,top,600,bottom))
 		over_text = pytesseract.image_to_string(over_img).split("\n")
-		print(over_text)
+		over_text = [x for x in over_text if over_text.strip()]
+
+		under_img = img.crop((685,top,750,bottom))
+		under_text = pytesseract.image_to_string(under_img).split("\n")
+		under_text = [x for x in under_text if under_text.strip()]
 		
-		for row in text:
+		for i, row in enumerate(text):
 			player = parsePlayer(row.split(" (")[0])
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
 
-			#data[player]
+			data[player] = over_text[i]+"/"+under_text[i]
 
 
 def writeCircaMain(date):
