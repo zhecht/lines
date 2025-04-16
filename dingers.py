@@ -142,11 +142,11 @@ def writeCircaHistory(date):
 			player = parsePlayer(row.split(" (")[0])
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
 
-			data[player] = over_text[i]+"/"+under_text[i]
+			data[player] = {"open": over_text[i]+"/"+under_text[i], "close": over_text[i]+"/"+under_text[i]}
 
 	with open("static/dingers/circa_historical.json") as fh:
 		hist = json.load(fh)
-	hist[date] = date
+	hist[date] = data
 	with open("static/dingers/circa_historical.json", "w") as fh:
 		json.dump(hist, fh, indent=4)
 
