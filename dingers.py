@@ -144,7 +144,11 @@ def writeCircaHistory(date):
 
 			data[player] = over_text[i]+"/"+under_text[i]
 
-	print(data)
+	with open("static/dingers/circa_historical.json") as fh:
+		hist = json.load(fh)
+	hist[date] = date
+	with open("static/dingers/circa_historical.json", "w") as fh:
+		json.dump(hist, fh, indent=4)
 
 
 def writeCircaMain(date):
