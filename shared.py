@@ -214,6 +214,8 @@ def convertMLBTeam(team):
 		return "chc"
 	elif t == "art":
 		return "ari"
+	elif t == "cii":
+		return "cin"
 	elif t == "chi":
 		return "chw"
 	elif t in ["kan", "kcr"]:
