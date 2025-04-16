@@ -1416,10 +1416,6 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/baseballreference/bvp.json") as fh:
 		bvpData = json.load(fh)
 
-	url = "https://api.github.com/repos/zhecht/playerprops/contents/static/baseballreference/bvp.json"
-	response = requests.get(url, headers={"Accept": "application/vnd.github.v3.raw"})
-	bvpData = response.json()
-
 	with open(f"static/baseballreference/ph.json") as fh:
 		ph = json.load(fh)
 
