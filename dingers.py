@@ -2053,8 +2053,8 @@ if __name__ == '__main__':
 		#runThreads("fd", games, min(args.threads, len(games)))
 		
 
-		#uc.loop().run_until_complete(writeFDFromBuilder2(date, args.loop, args.night))
-		writeFDFromBuilder(date, args.loop, args.night)
+		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night))
+		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
 		games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
