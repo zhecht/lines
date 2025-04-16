@@ -616,7 +616,7 @@ async def write365(loop):
 
 	browser.stop()
 	
-async def writeDK(loop, night):
+async def writeDK(date, loop, night):
 	book = "dk"
 	try:
 		browser = await uc.start(no_sandbox=True)
@@ -654,6 +654,8 @@ async def writeDK(loop, night):
 			fh.write(str(datetime.now()))
 		with open("static/dingers/dk.json", "w") as fh:
 			json.dump(data, fh, indent=4)
+
+		writeHistorical(date, book)
 
 		if not loop:
 			break
@@ -1939,7 +1941,7 @@ if __name__ == '__main__':
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
-		uc.loop().run_until_complete(writeDK(args.loop, args.night))
+		uc.loop().run_until_complete(writeDK(date, args.loop, args.night))
 	elif args.br:
 		uc.loop().run_until_complete(writeBR(date))
 	elif args.bet365 or args.b365:
