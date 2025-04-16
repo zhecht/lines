@@ -291,10 +291,10 @@ def writeCircaMain(date):
 				ou = mls[i]+"/"+mls[i+1]
 				data[game]["ml"] = ou.replace("EVEN", "+100")
 
-			if totals[i]:
+			if totals and totals[i]:
 				data[game]["total"][totals[i][0]] = totals[i][1]
 
-			if f5_totals[i]:
+			if f5_totals and f5_totals[i]:
 				data[game]["f5_total"][f5_totals[i][0]] = f5_totals[i][1]
 
 			if spreads[i]:
