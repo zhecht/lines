@@ -858,7 +858,7 @@ async def getFDLinks(date):
 def runFD():
 	uc.loop().run_until_complete(writeFD())
 
-async def writeFDFromBuilder(date, loop):
+async def writeFDFromBuilder(date, loop, night):
 	book = "fd"
 
 	with open(f"static/mlb/schedule.json") as fh:
@@ -913,8 +913,10 @@ async def writeFDFromBuilder(date, loop):
 		if not loop:
 			break
 		
-		time.sleep(10)
-		#time.sleep(60 * 10)
+		if args.night:
+			time.sleep(60 * 10)
+		else:
+			time.sleep(10)
 
 	browser.stop()
 
@@ -1921,13 +1923,13 @@ if __name__ == '__main__':
 		#games = uc.loop().run_until_complete(getFDLinks(date))
 		#games["mil @ nyy"] = "https://mi.sportsbook.fanduel.com/baseball/mlb/milwaukee-brewers-@-new-york-yankees-34146634?tab=batter-props"
 		#runThreads("fd", games, min(args.threads, len(games)))
-		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop))
+		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night))
 	elif args.mgm:
 		games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
-		uc.loop().run_until_complete(writeDK(args.loop))
+		uc.loop().run_until_complete(writeDK(args.loop, args.night))
 	elif args.br:
 		uc.loop().run_until_complete(writeBR(date))
 	elif args.bet365 or args.b365:
