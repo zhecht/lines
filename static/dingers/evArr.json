@@ -2,7 +2,7 @@
     "updated": {
         "fd": "2025-04-16 02:18:52.377133",
         "espn": "2025-04-16 02:13:08.808757",
-        "dk": "2025-04-16 02:18:41.095708",
+        "dk": "2025-04-16 02:18:55.109085",
         "cz": "2025-04-16 02:12:49.718109",
         "b365": "2025-04-16 00:37:44.170193",
         "mgm": "2025-04-16 02:13:06.656603",
@@ -1452,15 +1452,21 @@
             }
         },
         {
-            "fairVal": 1262,
-            "implied": 7.34,
-            "ev": -42.7,
-            "fd_ev": -42.7,
-            "fd_fairVal": 1262,
-            "fd_implied": 7.34,
-            "fd-50_ev": -17.8,
-            "fd-50_fairVal": 1262,
-            "fd-50_implied": 7.34,
+            "fairVal": 1379,
+            "implied": 6.76,
+            "ev": -42.5,
+            "dk-sweat_ev": 27.5,
+            "dk-sweat_fairVal": 0.06763307145971001,
+            "dk-sweat_implied": 6.76,
+            "dk_ev": -42.5,
+            "dk_fairVal": 1379,
+            "dk_implied": 6.76,
+            "fd_ev": -47.2,
+            "fd_fairVal": 1379,
+            "fd_implied": 6.76,
+            "fd-50_ev": -24.3,
+            "fd-50_fairVal": 1379,
+            "fd-50_implied": 6.76,
             "id": "hou @ stl-isaac paredes",
             "player": "isaac paredes",
             "pitcher": "steven matz (R)",
@@ -1478,9 +1484,9 @@
                 "wind dir": "SSE",
                 "transform": "transform: rotate(-67.500deg);"
             },
-            "book": "fd",
-            "line": 680,
-            "ou": "680",
+            "book": "dk",
+            "line": 750,
+            "ou": "713",
             "prop": "hr",
             "bvp": "",
             "lastHR": "",
@@ -1488,7 +1494,8 @@
             "order": "-",
             "start": 1315,
             "bookOdds": {
-                "fd": "+680"
+                "fd": "+680",
+                "dk": "+750"
             }
         },
         {
@@ -3252,15 +3259,21 @@
             }
         },
         {
-            "fairVal": 3992,
-            "implied": 2.44,
-            "ev": -71.6,
-            "fd_ev": -71.6,
-            "fd_fairVal": 3992,
-            "fd_implied": 2.44,
-            "fd-50_ev": -58.7,
-            "fd-50_fairVal": 3992,
-            "fd-50_implied": 2.44,
+            "fairVal": 48940,
+            "implied": 0.2,
+            "ev": -96.3,
+            "dk-sweat_ev": -26.3,
+            "dk-sweat_fairVal": 0.0020391495379702127,
+            "dk-sweat_implied": 0.2,
+            "dk_ev": -96.3,
+            "dk_fairVal": 48940,
+            "dk_implied": 0.2,
+            "fd_ev": -97.6,
+            "fd_fairVal": 48940,
+            "fd_implied": 0.2,
+            "fd-50_ev": -96.6,
+            "fd-50_fairVal": 48940,
+            "fd-50_implied": 0.2,
             "id": "cle @ bal-steven kwan",
             "player": "steven kwan",
             "pitcher": "dean kremer (R)",
@@ -3278,9 +3291,9 @@
                 "wind dir": "WNW",
                 "transform": "transform: rotate(96.500deg);"
             },
-            "book": "fd",
-            "line": 1060,
-            "ou": "1060",
+            "book": "dk",
+            "line": 1700,
+            "ou": "1311",
             "prop": "hr",
             "bvp": "",
             "lastHR": "",
@@ -3288,7 +3301,8 @@
             "order": "-",
             "start": 1835,
             "bookOdds": {
-                "fd": "+1060"
+                "fd": "+1060",
+                "dk": "+1700"
             }
         },
         {
@@ -6324,6 +6338,46 @@
             "start": 2210,
             "bookOdds": {
                 "fd": "+470"
+            }
+        },
+        {
+            "fairVal": 1164,
+            "implied": 7.91,
+            "ev": -40.7,
+            "dk-sweat_ev": 29.3,
+            "dk-sweat_fairVal": 0.07912002878806747,
+            "dk-sweat_implied": 7.91,
+            "dk_ev": -40.7,
+            "dk_fairVal": 1164,
+            "dk_implied": 7.91,
+            "id": "wsh @ pit-oneil cruz",
+            "player": "oneil cruz",
+            "pitcher": "mitchell parker (R)",
+            "game": "wsh @ pit",
+            "team": "pit",
+            "weather": {
+                "wind": "11.6 mph",
+                "time": "6:40PM",
+                "stadium": "PNC Park",
+                "conditions": "Clear",
+                "temp": "48",
+                "feels like": "38",
+                "precip %": "0%",
+                "wind speed": "9.3 mph",
+                "wind dir": "WNW",
+                "transform": "transform: rotate(17.500deg);"
+            },
+            "book": "dk",
+            "line": 650,
+            "ou": "650",
+            "prop": "hr",
+            "bvp": "",
+            "lastHR": "",
+            "ph": "9 PH / 146 G",
+            "order": "-",
+            "start": 1840,
+            "bookOdds": {
+                "dk": "+650"
             }
         }
     ]
