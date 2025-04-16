@@ -120,11 +120,9 @@ def writeCircaHistory(date):
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
-		bottom, top = 1930, 480
-		if pageIdx == 1:
-			top = 500
+		bottom, top = 2230, 405
 
-		playersImg = img.crop((320,top,530,bottom))
+		playersImg = img.crop((105,top,420,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text]
 		playersImg.save("out-player.png", "PNG")
