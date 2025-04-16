@@ -1892,6 +1892,7 @@ if __name__ == '__main__':
 	parser.add_argument("--clear", action="store_true")
 	parser.add_argument("--stats", action="store_true")
 	parser.add_argument("--night", action="store_true")
+	parser.add_argument("--history", action="store_true")
 	parser.add_argument("--circa", action="store_true")
 	parser.add_argument("--circa-props", action="store_true")
 	parser.add_argument("--circa-main", action="store_true")
