@@ -957,7 +957,7 @@ async def getFDLinks(date):
 def runFD():
 	uc.loop().run_until_complete(writeFD())
 
-def writeFDFromBuilder(date, loop, night):
+def writeFanduelSel(date, loop, night):
 	book = "fd"
 	url = "https://sportsbook.fanduel.com/navigation/mlb?tab=parlay-builder"
 
@@ -981,7 +981,7 @@ def writeFDFromBuilder(date, loop, night):
 	driver.quit()
 	exit()
 
-async def writeFDFromBuilder2(date, loop, night):
+async def writeFDFromBuilder(date, loop, night):
 	book = "fd"
 
 	with open(f"static/mlb/schedule.json") as fh:
