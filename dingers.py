@@ -117,7 +117,9 @@ def writeCircaHistory(date):
 		a,h = map(str, game.split(" @ "))
 		teamGame[a] = game
 		teamGame[h] = game
-		
+
+	print(teamGame)
+
 	dt = datetime.strftime(datetime.strptime(date, "%Y-%m-%d"), "%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
 	if not os.path.exists("/mnt/c/Users"):
