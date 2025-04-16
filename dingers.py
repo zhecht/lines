@@ -844,6 +844,7 @@ def writeHistory():
 	bookData = nested_dict()
 	for date, games in oddsHist.items():
 		for game in games:
+			print(game)
 			a,h = map(str, game.split(" @ "))
 			for player, books in oddsHist[date][game].items():
 				team = ""
