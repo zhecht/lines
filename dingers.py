@@ -357,7 +357,7 @@ def writeCirca(date):
 				continue
 			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
 			player = parsePlayer(player.lower().split(" (")[0])
-			print(player, team)
+			#print(player, team)
 			game = teamGame.get(team, "")
 			players.append((player, game))
 
@@ -385,7 +385,7 @@ def writeCirca(date):
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
-			data[p[-1]]["hr"][p[0]] = f"{o}/{u}"
+			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "")
 
 
 		if False and pageIdx == 0:
