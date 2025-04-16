@@ -972,7 +972,12 @@ def writeFDFromBuilder(date, loop, night):
 	arrow = driver.find_element(By.CSS_SELECTOR, "div[data-testid=ArrowAction]")
 	arrow.click()
 
-	time.sleep(20)
+	mores = driver.find_elements("div[aria-label='Show More']")
+	for more in mores:
+		more.click()
+
+	time.sleep(5)
+
 	driver.quit()
 	exit()
 
