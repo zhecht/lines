@@ -843,16 +843,17 @@ def writeHistory():
 
 	bookData = nested_dict()
 	for date, games in oddsHist.items():
-		a,h = map(str, game.split(" @ "))
-		for player, books in oddsHist[date][game].items():
-			team = ""
-			if player in roster[a]:
-				team = a
-			elif player in roster[h]:
-				team = h
+		for game in games:
+			a,h = map(str, game.split(" @ "))
+			for player, books in oddsHist[date][game].items():
+				team = ""
+				if player in roster[a]:
+					team = a
+				elif player in roster[h]:
+					team = h
 
-			for book, odds in books.items():
-				bookData[player][book][date] = odds
+				for book, odds in books.items():
+					bookData[player][book][date] = odds
 
 	for book in ["b365", "circa", "cz", "dk", "espn", "fd", "mgm", "pn"]:
 		with open(f"static/dingers/{book}_historical.json") as fh:
