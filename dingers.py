@@ -115,12 +115,15 @@ def writeCircaHistory(date):
 	pages = convert_from_path(file)
 	data = nested_dict()
 
-	pages = [pages[1]]
+	#pages = [pages[1]]
 
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
 		bottom, top = 2240, 405
+
+		if pageIdx == 1:
+			bottom = 1540
 
 		playersImg = img.crop((105,top,420,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
