@@ -124,7 +124,7 @@ def writeCircaHistory(date):
 
 		playersImg = img.crop((105,top,420,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
-		text = [x for x in text if x.replace("\x0c")]
+		text = [x for x in text if x.replace("\x0c", "")]
 		playersImg.save("out-player.png", "PNG")
 		
 		for row in text:
