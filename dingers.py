@@ -1887,6 +1887,7 @@ if __name__ == '__main__':
 	parser.add_argument("--scrape", action="store_true")
 	parser.add_argument("--clear", action="store_true")
 	parser.add_argument("--stats", action="store_true")
+	parser.add_argument("--night", action="store_true")
 	parser.add_argument("--circa", action="store_true")
 	parser.add_argument("--circa-props", action="store_true")
 	parser.add_argument("--circa-main", action="store_true")
@@ -1977,8 +1978,11 @@ if __name__ == '__main__':
 			if not args.loop:
 				break
 
-			# every 10m
-			time.sleep(60 * 5)
+			# every 5m
+			if args.night:
+				time.sleep(60 * 30)
+			else:
+				time.sleep(60 * 5)
 			print(datetime.now())
 			if args.ev:
 				writeEV(date, args.dinger)
@@ -2013,8 +2017,10 @@ if __name__ == '__main__':
 					os.system("rm /mnt/c/Users/zhech/Documents/lines/.git/index.lock")
 				pass
 
-			time.sleep(5)
-			#time.sleep(60 * 10)
+			if args.night:
+				time.sleep(60 * 10)
+			else:
+				time.sleep(5)
 
 	if args.ev:
 		writeEV(date, args.dinger)
