@@ -139,6 +139,7 @@ def writeCircaHistory(date):
 			player = parsePlayer(row.split(" (")[0])
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
 
+			print(player, over_text[i], under_text[i])
 			data[player] = over_text[i]+"/"+under_text[i]
 
 	print(data)
