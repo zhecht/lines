@@ -1003,7 +1003,7 @@ async def writeFDFromBuilder(date, loop, night):
 	except:
 		return
 	page = await browser.get(url)
-	time.sleep(120.5)
+	time.sleep(0.5)
 	try:
 		await page.wait_for(selector="div[role=button][aria-selected=true]")
 	except:
