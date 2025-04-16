@@ -129,11 +129,11 @@ def writeCircaHistory(date):
 
 		over_img = img.crop((530,top,600,bottom))
 		over_text = pytesseract.image_to_string(over_img).split("\n")
-		over_text = [x for x in over_text if over_text.strip()]
+		over_text = [x for x in over_text if x.strip()]
 
 		under_img = img.crop((685,top,750,bottom))
 		under_text = pytesseract.image_to_string(under_img).split("\n")
-		under_text = [x for x in under_text if under_text.strip()]
+		under_text = [x for x in under_text if x.strip()]
 		
 		for i, row in enumerate(text):
 			player = parsePlayer(row.split(" (")[0])
