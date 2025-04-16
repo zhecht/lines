@@ -385,7 +385,7 @@ def writeCirca(date):
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
-			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "")
+			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "").replace(".", "")
 
 
 		if False and pageIdx == 0:
