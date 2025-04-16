@@ -616,7 +616,7 @@ async def write365(loop):
 
 	browser.stop()
 	
-async def writeDK(loop):
+async def writeDK(loop, night):
 	book = "dk"
 	try:
 		browser = await uc.start(no_sandbox=True)
@@ -658,8 +658,10 @@ async def writeDK(loop):
 		if not loop:
 			break
 
-		time.sleep(10)
-		#time.sleep(60 * 10)
+		if night:
+			time.sleep(60 * 10)
+		else:
+			time.sleep(10)
 
 	browser.stop()
 
@@ -913,7 +915,7 @@ async def writeFDFromBuilder(date, loop, night):
 		if not loop:
 			break
 		
-		if args.night:
+		if night:
 			time.sleep(60 * 10)
 		else:
 			time.sleep(10)
