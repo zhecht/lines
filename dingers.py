@@ -867,7 +867,6 @@ def writeHistory():
 		json.dump(bookData, fh, indent=4)
 
 
-
 async def getFDLinks(date):
 	try:
 		browser = await uc.start(no_sandbox=True)
