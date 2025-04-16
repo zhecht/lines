@@ -108,6 +108,16 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 		evData[player][f"ev"] = ev
 
 def writeCircaHistory(date):
+	with open("static/mlb/schedule.json") as fh:
+		schedule = json.load(fh)
+
+	games = [x["game"] for x in schedule[date]]
+	teamGame = {}
+	for game in games:
+		a,h = map(str, game.split(" @ "))
+		teamGame[a] = game
+		teamGame[h] = game
+		
 	dt = datetime.strftime(datetime.strptime(date, "%Y-%m-%d"), "%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
 	if not os.path.exists("/mnt/c/Users"):
@@ -141,8 +151,8 @@ def writeCircaHistory(date):
 		for i, row in enumerate(text):
 			player = parsePlayer(row.split(" (")[0])
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
-
-			data[player] = {"open": over_text[i]+"/"+under_text[i], "close": over_text[i]+"/"+under_text[i]}
+			game = teamGame.get(team, "")
+			data[game][player] = {"open": over_text[i]+"/"+under_text[i], "close": over_text[i]+"/"+under_text[i]}
 
 	with open("static/dingers/circa_historical.json") as fh:
 		hist = json.load(fh)
