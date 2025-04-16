@@ -107,9 +107,13 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 		evData[player][f"implied"] = implied
 		evData[player][f"ev"] = ev
 
+def writeCircaHistory(date):
+	dt = datetime.now().strftime("%Y-%-m-%-d")
+	file = f"/mnt/c/Users/zhech/Downloads/MLB - {dt}.pdf"
+	if not os.path.exists("/mnt/c/Users"):
+		file = f"/Users/zackhecht/Downloads/MLB - {dt}.pdf"
+
 def writeCircaMain(date):
-	if not date:
-		date = str(datetime.now())[:10]
 	with open("static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
@@ -1934,6 +1938,7 @@ if __name__ == '__main__':
 	parser.add_argument("--history", action="store_true")
 	parser.add_argument("--circa", action="store_true")
 	parser.add_argument("--circa-props", action="store_true")
+	parser.add_argument("--circa-history", action="store_true")
 	parser.add_argument("--circa-main", action="store_true")
 	parser.add_argument("--merge-circa", action="store_true")
 
@@ -1991,6 +1996,9 @@ if __name__ == '__main__':
 	if args.pn:
 		writePinnacle(date)
 		pass
+
+	if args.circa_history:
+		writeCircaHistory(date)
 	if args.circa_props:
 		writeCirca(date)
 	if args.circa_main:
