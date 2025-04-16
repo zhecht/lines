@@ -108,6 +108,8 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 		evData[player][f"ev"] = ev
 
 def writeCircaHistory(date):
+	print(date)
+	exit()
 	dt = datetime.now().strftime("%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
 	if not os.path.exists("/mnt/c/Users"):
