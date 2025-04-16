@@ -832,6 +832,10 @@ async def writeBR(date):
 	browser.stop()
 	return res
 
+def writeHistory():
+	for book in ["b365", "circa", "cz", "dk", "espn", "fd", "mgm", "pn"]:
+		pass
+
 async def getFDLinks(date):
 	try:
 		browser = await uc.start(no_sandbox=True)
@@ -1919,6 +1923,9 @@ if __name__ == '__main__':
 
 	if args.bvp:
 		uc.loop().run_until_complete(writeBVP(date))
+
+	if args.history:
+		writeHistory()
 
 	if args.feed:
 		uc.loop().run_until_complete(writeFeed(args.date, args.loop))
