@@ -1,6 +1,6 @@
 
 import requests
-
+import json
 
 if __name__ == "__main__":
 	base = "https://api.github.com/repos/zhecht/playerprops/contents/static"
