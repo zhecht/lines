@@ -852,11 +852,19 @@ def writeHistory():
 				team = h
 
 			for book, odds in books.items():
-				bookData[player][date][book] = odds
+				bookData[player][book][date] = odds
 
 	for book in ["b365", "circa", "cz", "dk", "espn", "fd", "mgm", "pn"]:
 		with open(f"static/dingers/{book}_historical.json") as fh:
 			hist = json.load(fh)
+
+		for date, games in hist.items():
+			a,h = map(str, game.split(" @ "))
+			for player in hist[date][game]:
+				bookData[player][book][date] = hist[date][game][player]["close"]
+
+	with open("static/dingers/history.json", "w") as fh:
+		json.dump(bookData, fh, indent=4)
 
 
 
