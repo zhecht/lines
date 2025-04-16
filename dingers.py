@@ -115,6 +115,21 @@ def writeCircaHistory(date):
 	pages = convert_from_path(file)
 	data = nested_dict()
 
+	pages = [pages[0]]
+
+	for pageIdx, page in enumerate(pages):
+		page.save("out.png", "PNG")
+		img = Image.open("out.png")
+		bottom, top = 1930, 480
+		if pageIdx == 1:
+			top = 500
+
+		playersImg = img.crop((320,top,530,bottom))
+		text = pytesseract.image_to_string(playersImg).split("\n")
+		text = [x for x in text]
+		playersImg.save("out-player.png", "PNG")
+		print(text)
+
 def writeCircaMain(date):
 	with open("static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
