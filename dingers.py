@@ -976,16 +976,6 @@ def writeFDFromBuilder(date, loop, night):
 	driver.quit()
 	exit()
 
-	tab = await page.query_selector("div[role=button][aria-selected=true]")
-	if tab.text == "Parlay Builder":
-		arrow = await page.query_selector("div[data-testid=ArrowAction]")
-		await arrow.click()
-		await page.wait_for(selector="div[aria-label='Show more']")
-		mores = await page.query_selector_all("div[aria-label='Show more']")
-		for more in mores:
-			await more.click()
-		time.sleep(1)
-
 async def writeFDFromBuilder2(date, loop, night):
 	book = "fd"
 
