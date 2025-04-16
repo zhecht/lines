@@ -969,7 +969,7 @@ def writeFDFromBuilder(date, loop, night):
 	)
 
 	el = driver.find_element(By.CSS_SELECTOR, "div[role=button][aria-selected=true]")
-	arrow = el.find_element(By.CSS_SELECTOR, "div[data-testid=ArrowAction]")
+	arrow = driver.find_element(By.CSS_SELECTOR, "div[data-testid=ArrowAction]")
 	arrow.click()
 
 	time.sleep(20)
