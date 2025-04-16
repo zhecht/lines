@@ -835,8 +835,34 @@ async def writeBR(date):
 	return res
 
 def writeHistory():
+	with open("static/baseballreference/roster.json") as fh:
+		roster = json.load(fh)
+
+	with open("static/dingers/odds_historical.json") as fh:
+		oddsHist = json.load(fh)
+
+	print(oddsHist.items())
+	return
+
+	bookData = nested_dict()
+	for date in oddsHist:
+		for game in oddsHist[date]:
+			a,h = map(str, game.split(" @ "))
+			for player in oddsHist[date][game]:
+				team = ""
+				if player in roster[a]:
+					team = a
+				elif player in roster[h]:
+					team = h
+
+				for book in oddsHist[date][game][player]:
+					bookData[player][date][book] = oddsHist[date][game][player][book]
+
 	for book in ["b365", "circa", "cz", "dk", "espn", "fd", "mgm", "pn"]:
-		pass
+		with open(f"static/dingers/{book}_historical.json") as fh:
+			hist = json.load(fh)
+
+
 
 async def getFDLinks(date):
 	try:
