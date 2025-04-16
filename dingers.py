@@ -1404,6 +1404,7 @@ def writeEV(date, dinger, silent=False):
 
 	with open(f"static/dingers/odds_historical.json") as fh:
 		data_hist = json.load(fh)
+	data_hist.setdefault(date, {})
 	data_hist[date].update(data)
 	with open(f"static/dingers/odds_historical.json", "w") as fh:
 		json.dump(data_hist, fh, indent=4)
