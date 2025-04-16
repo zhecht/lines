@@ -307,7 +307,7 @@ def writeCircaMain(date):
 			if f5_sp[i]:
 				line = "0.5" if f5_sp[i].startswith("+") else "-0.5"
 				ou = f"""{f5_sp[i].split(" ")[-1]}/{f5_sp[i+1].split(" ")[-1]}"""
-				data[game]["f5_spread"][line] = ou.replace("4-", "-").replace("EVEN", "+100")
+				#data[game]["f5_spread"][line] = ou.replace("4-", "-").replace("EVEN", "+100")
 
 	with open("static/mlb/circa-main.json", "w") as fh:
 		json.dump(data, fh, indent=4)
