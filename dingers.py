@@ -964,8 +964,7 @@ def writeHistory():
 
 		for date, games in hist.items():
 			for game in games:
-				print(game)
-				a,h = map(str, game.split(" @ "))
+				#a,h = map(str, game.split(" @ "))
 				for player in hist[date][game]:
 					bookData[player][book][date] = hist[date][game][player]["close"]
 
