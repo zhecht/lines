@@ -1567,6 +1567,12 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/baseballreference/advanced.json") as fh:
 		advanced = json.load(fh)
 
+	with open(f"static/baseballreference/rankings.json") as fh:
+		rankings = json.load(fh)
+
+	with open(f"static/baseballreference/parkFactors.json") as fh:
+		parkFactors = json.load(fh)
+
 	with open(f"static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
@@ -1600,6 +1606,10 @@ def writeEV(date, dinger, silent=False):
 		awayStats = {}
 		homeStats = {}
 
+		stadiumRank = oppRank = oppRankClass = ""
+		if home in parkFactors:
+			stadiumRank = parkFactors[home]["hrRank"]
+
 		if date == str(datetime.now())[:10] and gameStarted[game]:
 			continue
 			pass
@@ -1624,6 +1634,12 @@ def writeEV(date, dinger, silent=False):
 			else:
 				continue
 
+			oppRankings = rankings[opp].get(f"opp_hr")
+			if oppRankings:
+				oppRank = oppRankings["rankSuffix"]
+				oppRankClass = oppRankings["rankClass"]
+
+			savantData = expected[team].get(player, {})
 			bvp = pitcher = ""
 			try:
 				pitcher = lineups[opp]["pitcher"]
@@ -1633,6 +1649,8 @@ def writeEV(date, dinger, silent=False):
 					bvp = f"{bvpStats['h']}-{bvpStats['ab']}, {bvpStats['hr']} HR"
 			except:
 				pass
+
+			pitcherData = advanced.get(pitcher, {})
 
 			try:
 				order = lineups[team]["batters"].index(player)+1
@@ -1764,6 +1782,11 @@ def writeEV(date, dinger, silent=False):
 			evData[player]["order"] = order
 			evData[player]["start"] = gameStart
 			evData[player]["bookOdds"] = {b: o for b, o in zip(books, oddsArr)}
+			evData[player]["stadiumRank"] = stadiumRank
+			evData[player]["oppRank"] = oppRank
+			evData[player]["oppRankClass"] = oppRankClass
+			evData[player]["pitcherData"] = pitcherData
+			evData[player]["savant"] = savantData
 
 	with open("static/dingers/ev.json", "w") as fh:
 		json.dump(evData, fh, indent=4)

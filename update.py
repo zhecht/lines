@@ -11,7 +11,7 @@ if __name__ == "__main__":
 	with open(f"static/mlb/schedule.json", "w") as fh:
 		json.dump(schedule, fh, indent=4)
 
-	for key in ["bvp", "leftOrRight", "ph", "roster", "expected", "advanced"]:
+	for key in ["bvp", "leftOrRight", "ph", "roster", "expected", "advanced", "rankings", "parkFactors"]:
 		url = f"{base}/baseballreference/{key}.json"
 		response = requests.get(url, headers={"Accept": "application/vnd.github.v3.raw"})
 		j = response.json()
