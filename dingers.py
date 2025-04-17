@@ -694,7 +694,8 @@ def writeDKSel(date, loop, night):
 		away,home = game[0], game[-1]
 		game = f"{convertMLBTeam(away)} @ {convertMLBTeam(home)}"
 		odds = gameDiv.find_elements(By.CSS_SELECTOR, "button[data-testid='sb-selection-picker__selection-0']")
-		print(game, odds)
+		for odd in odds:
+			print(odd.text)
 
 	driver.quit()
 
