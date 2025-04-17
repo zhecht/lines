@@ -191,7 +191,7 @@ def writeCircaMain(date):
 		img = Image.open("out.png")
 		bottom, top = 1930, 480
 		if pageIdx == 1:
-			top = 500
+			bottom, top = 1550, 500
 		#w,h = img.size
 		# l,t,r,b
 
