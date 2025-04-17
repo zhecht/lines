@@ -296,7 +296,7 @@ def writeCircaMain(date):
 				break
 			if mls[i]:
 				ou = mls[i]+"/"+mls[i+1]
-				data[game]["ml"] = ou.replace("EVEN", "+100")
+				data[game]["ml"] = ou.replace("EVEN", "+100").replace("/7", "/-")
 
 			if totals and totals[i]:
 				data[game]["total"][totals[i][0]] = totals[i][1]
@@ -393,7 +393,9 @@ def writeCirca(date):
 			unders.append(under)
 		
 		for p,o,u in zip(players, overs, unders):
-			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "").replace(".", "")
+			if len(u) == 4 and u.startswith("7"):
+				u = "-"+u[1:]
+			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
 
 
 		if False and pageIdx == 0:
