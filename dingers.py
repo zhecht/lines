@@ -276,7 +276,7 @@ def writeCircaMain(date):
 			f5_ml.append(r)
 
 		#f5_sp_img = img.crop((1470,top,1550,bottom))
-		f5_sp_img = img.crop((1450,top,1580,bottom))
+		f5_sp_img = img.crop((1440,top,1580,bottom))
 		f5_sp_text = pytesseract.image_to_string(f5_sp_img).split("\n")
 		f5_sp_text = [x.replace("EVEN", "+100").replace("“", "-") for x in f5_sp_text]
 		f5_sp = []
