@@ -687,12 +687,12 @@ def writeDKSel(date, loop, night):
 
 	games = driver.find_elements(By.CSS_SELECTOR, ".sportsbook-event-accordion__wrapper")
 	for gameDiv in games:
-		game = gameDiv.find_element(".sportsbook-event-accordion__title").text
+		game = gameDiv.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__title").text
 		if " @ " not in game and " at " not in game:
 			continue
 		away, home = map(str, game.replace(" at ", " @ ").split(" @ "))
 		game = f"{convertMLBTeam(away)} @ {convertMLBTeam(home)}"
-		odds = gameDiv.find_elements("button[data-testid='sb-selection-picker__selection-0']")
+		odds = gameDiv.find_elements(By.CSS_SELECTOR, "button[data-testid='sb-selection-picker__selection-0']")
 		print(game, odds)
 		
 	driver.quit()
