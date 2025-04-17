@@ -693,10 +693,12 @@ def writeDKSel(date, loop, night):
 			continue
 		away,home = game[0], game[-1]
 		game = f"{convertMLBTeam(away)} @ {convertMLBTeam(home)}"
+
+		players = gameDiv.find_elements(By.CSS_SELECTOR, ".side-rail-name")
 		odds = gameDiv.find_elements(By.CSS_SELECTOR, "button[data-testid='sb-selection-picker__selection-0']")
-		for odd in odds:
+		for player, odd in zip(players, odds):
 			o = odd.text.split("\n")[-1]
-			print(game, o)
+			print(player.split("\n"), game, o)
 
 	driver.quit()
 
