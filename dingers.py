@@ -673,7 +673,30 @@ async def write365(loop):
 			break
 
 	browser.stop()
-	
+
+def writeDKSel(date, loop, night):
+	book = "dk"
+	url = "https://sportsbook.draftkings.com/leagues/baseball/mlb?category=batter-props&subcategory=home-runs"
+
+	driver = webdriver.Firefox()
+	driver.get(url)
+
+	WebDriverWait(driver, 10).until(
+		lambda d: d.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__wrapper").is_displayed()
+	)
+
+	games = driver.find_elements(By.CSS_SELECTOR, ".sportsbook-event-accordion__wrapper")
+	for gameDiv in games:
+		game = gameDiv.find_element(".sportsbook-event-accordion__title").text
+		if " @ " not in game and " at " not in game:
+			continue
+		away, home = map(str, game.replace(" at ", " @ ").split(" @ "))
+		game = f"{convertMLBTeam(away)} @ {convertMLBTeam(home)}"
+		odds = gameDiv.find_elements("button[data-testid='sb-selection-picker__selection-0']")
+		print(game, odds)
+		
+	driver.quit()
+
 async def writeDK(date, loop, night):
 	book = "dk"
 	try:
@@ -956,30 +979,6 @@ async def getFDLinks(date):
 
 def runFD():
 	uc.loop().run_until_complete(writeFD())
-
-def writeFanduelSel(date, loop, night):
-	book = "fd"
-	url = "https://sportsbook.fanduel.com/navigation/mlb?tab=parlay-builder"
-
-	driver = webdriver.Firefox()
-	driver.get(url)
-
-	WebDriverWait(driver, 10).until(
-		lambda d: d.find_element(By.CSS_SELECTOR, "div[role=button][aria-selected=true]").is_displayed()
-	)
-
-	el = driver.find_element(By.CSS_SELECTOR, "div[role=button][aria-selected=true]")
-	arrow = driver.find_element(By.CSS_SELECTOR, "div[data-testid=ArrowAction]")
-	arrow.click()
-
-	mores = driver.find_elements(By.CSS_SELECTOR, "div[aria-label='Show More']")
-	for more in mores:
-		more.click()
-
-	time.sleep(5)
-
-	driver.quit()
-	exit()
 
 async def writeFDFromBuilder(date, loop, night):
 	book = "fd"
@@ -2060,7 +2059,8 @@ if __name__ == '__main__':
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
-		uc.loop().run_until_complete(writeDK(date, args.loop, args.night))
+		#uc.loop().run_until_complete(writeDK(date, args.loop, args.night))
+		writeDKSel(date, args.loop, args.night)
 	elif args.br:
 		uc.loop().run_until_complete(writeBR(date))
 	elif args.bet365 or args.b365:
