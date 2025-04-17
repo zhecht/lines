@@ -31,9 +31,8 @@ def getSuffix(num):
 def writeHistorical(date, book, gameStarted=None):
 	bookFile = book.replace("365", "b365")
 
-	if str(datetime.now())[:10] != date:
-		return
-	if not gameStarted:
+	today = str(datetime.now())[:10] == date
+	if today and not gameStarted:
 		schedule_url = "https://raw.githubusercontent.com/zhecht/playerprops/main/static/mlb/schedule.json"
 		response = requests.get(schedule_url)
 		schedule = response.json()
@@ -53,7 +52,7 @@ def writeHistorical(date, book, gameStarted=None):
 			hist = json.load(fh)
 	hist.setdefault(date, {})
 	for game in lines:
-		if gameStarted.get(game, True):
+		if today and gameStarted.get(game, True):
 			continue
 		for player in lines[game]:
 			hist[date].setdefault(game, {})

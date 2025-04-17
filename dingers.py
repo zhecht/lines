@@ -676,6 +676,7 @@ async def write365(loop):
 
 def writeDKSel(date, loop, night):
 	book = "dk"
+	data = nested_dict()
 	url = "https://sportsbook.draftkings.com/leagues/baseball/mlb?category=batter-props&subcategory=home-runs"
 
 	driver = webdriver.Firefox()
@@ -688,7 +689,11 @@ def writeDKSel(date, loop, night):
 	games = driver.find_elements(By.CSS_SELECTOR, ".sportsbook-event-accordion__wrapper")
 	for gameDiv in games:
 		game = gameDiv.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__title").text.split("\n")
-		
+
+		dt = gameDiv.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__date")
+
+		if str(datetime.now())[:10] == date and "Tomorrow" in dt.text:
+			continue
 		if "@" not in game[1] and "at" not in game[1]:
 			continue
 		away,home = game[0], game[-1]
@@ -698,9 +703,15 @@ def writeDKSel(date, loop, night):
 		odds = gameDiv.find_elements(By.CSS_SELECTOR, "button[data-testid='sb-selection-picker__selection-0']")
 		for player, odd in zip(players, odds):
 			o = odd.text.split("\n")[-1]
-			print(player.split("\n"), game, o)
+			player = parsePlayer(player.text.split(" (")[0])
+			data[game][player][book] = o
 
 	driver.quit()
+	with open("static/dingers/updated_dk", "w") as fh:
+		fh.write(str(datetime.now()))
+	with open("static/dingers/dk.json", "w") as fh:
+		json.dump(data, fh, indent=4)
+	writeHistorical(date, book)
 
 async def writeDK(date, loop, night):
 	book = "dk"
@@ -1076,7 +1087,7 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
 			continue
 
 		currGame = game
-		if date == str(datetime.now())[:10] and gameStarted[game]:
+		if date == str(datetime.now())[:10] and game and gameStarted[game]:
 			continue
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
