@@ -327,9 +327,13 @@ def writeCirca(date):
 	with open("static/baseballreference/roster.json") as fh:
 		roster = json.load(fh)
 	playerRoster = {}
+	inits = nested_dict()
 	for team in roster:
 		for player in roster[team]:
 			playerRoster[player] = team
+			first = player.split(" ")[0][0]
+			last = player.split(" ")[-1]
+			inits[team][f"{first} {last}"] = player
 
 	writeHistorical(date, book="circa")
 
@@ -398,58 +402,62 @@ def writeCirca(date):
 			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
 
 
-		if False and pageIdx == 0:
+		if True and pageIdx == 0:
 
-			boxW,boxH = 264,76
+			boxW,boxH = 264,80
 			l,r = 770,1034
-			for c in range(3):
-				l = 770
-				t = 375
-				if c == 1:
-					l,r = 1050,1310
-				elif c == 2:
-					l,r = 1330,1590
 
-				for row in range(7):
-					boxH = 76 if row == 0 else 70
-					box = img.crop((l,t,r,t+boxH))
-					box.save(f"out-{row}.png", "PNG")
-					w,h = box.size
+			# Team Totals
+			if False:
+				for c in range(3):
+					l = 770
+					t = 375
+					if c == 1:
+						l,r = 1050,1310
+					elif c == 2:
+						l,r = 1330,1590
 
-					i = box.crop((0,0,w,25))
-					team = pytesseract.image_to_string(i).split("\n")
-					team = convertMGMTeam(team[0])
-					game = teamGame.get(team, "")
+					for row in range(7):
+						boxH = 76 if row == 0 else 70
+						box = img.crop((l,t,r,t+boxH))
+						box.save(f"out-{row}.png", "PNG")
+						w,h = box.size
 
-					i = box.crop((70,25,207,h))
-					#i.save(f"out-{row}.png", "PNG")
-					line = pytesseract.image_to_string(i).split("\n")
-					line = [x for x in line if x.replace("\x0c", "")]
-					print(team, line)
-					if not line:
+						i = box.crop((0,0,w,25))
+						team = pytesseract.image_to_string(i).split("\n")
+						team = convertMGMTeam(team[0])
+						game = teamGame.get(team, "")
+
+						i = box.crop((70,25,207,h))
+						#i.save(f"out-{row}.png", "PNG")
+						line = pytesseract.image_to_string(i).split("\n")
+						line = [x for x in line if x.replace("\x0c", "")]
+						print(team, line)
+						if not line:
+							t += h+3
+							continue
+						line = line[-1].replace("%", ".5").replace("h", ".5")
+
+						i = box.crop((207,30,w,h))
+						odds = pytesseract.image_to_string(i).split("\n")
+
+						if len(odds) < 2:
+							t += h+3
+							continue
+						o,u = odds[0],odds[1]
+						if len(o) == 4 and o[0] in ["4", "7"]:
+							o = "-"+o[1:]
+						if len(u) == 4 and u[0] in ["4", "7"]:
+							u = "-"+u[1:]
+
+						p = "away_total" if game.startswith(team) else "home_total"
+						data[game][p][line] = f"{o}/{u}".replace("EVEN", "+100").replace("~", "-").replace(",", "")
+
 						t += h+3
-						continue
-					line = line[-1].replace("%", ".5").replace("h", ".5")
-
-					i = box.crop((207,30,w,h))
-					odds = pytesseract.image_to_string(i).split("\n")
-
-					if len(odds) < 2:
-						t += h+3
-						continue
-					o,u = odds[0],odds[1]
-					if len(o) == 4 and o[0] in ["4", "7"]:
-						o = "-"+o[1:]
-					if len(u) == 4 and u[0] in ["4", "7"]:
-						u = "-"+u[1:]
-
-					p = "away_total" if game.startswith(team) else "home_total"
-					data[game][p][line] = f"{o}/{u}".replace("EVEN", "+100").replace("~", "-").replace(",", "")
-
-					t += h+3
-			continue
+			
 			# strikeouts
-			l,r,t = 770,1032,1313
+			pitcherRows = 7
+			l,r,t = 770,1035,985
 			boxW = r-l
 			boxT = t
 			boxL = l
@@ -460,7 +468,7 @@ def writeCirca(date):
 				elif c == 2:
 					boxL = 1328
 
-				for i in range(10):
+				for i in range(pitcherRows):
 					#print(boxL, boxT, boxL+boxW, boxT+boxH)
 					box = img.crop((boxL,boxT,boxL+boxW,boxT+boxH))
 					box.save(f"out-{i}.png", "PNG")
@@ -470,32 +478,39 @@ def writeCirca(date):
 					
 
 					player_img = box.crop((0,0,w,40)) # l,t,r,b
-					player = pytesseract.image_to_string(player_img).split("\n")[0]
+					player_img.save(f"out-player-{i}.png", "PNG")
+					player = pytesseract.image_to_string(player_img).split("\n")
+					player = [x for x in player if x.replace("\x0c", "")]
+					if not player:
+						continue
+					player = player[0]
+
+					x.save(f"out-line-{i}.png", "PNG")
 					line = pytesseract.image_to_string(x).split("\n")
+					#print(player, line)
 					line = str(float(line[0][0].replace("T", "7")) + 0.5)
 					team = convertMLBTeam(player.split(")")[0].split("(")[-1])
-					if team == "art":
-						team = "ari"
-					elif team == "nyn":
-						team = "nym"
-					elif team == "nil":
-						team = "mil"
 					game = teamGame.get(team, "")
 					player = parsePlayer(player.lower().split(" (")[0])
 					ous = pytesseract.image_to_string(ou).split("\n")
 
-					#print(player, ous)
+					if player in inits[team]:
+						player = inits[team][player]
+
+					print(player, team, line, ous)
 					o = ous[0].replace("EVEN", "+100")
 					u = ous[1].replace("EVEN", "+100")
 
 					if len(o) == 4 and o[0] in ["4", "7"]:
 						o = "-"+o[1:]
+					if len(u) == 4 and u[0] in ["4", "7"]:
+						u = "-"+u[1:]
 
 					if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
 						u = f"-{u}"
 
-					data[game]["k"][player][line] = f"{o}/{u}".replace("\u201c", "-").replace(",", "")
-					boxT += h+2
+					data[game]["k"][player][line] = f"{o}/{u}".replace("\u201c", "-").replace(",", "").replace("“", "-")
+					boxT += h+3
 
 	with open("static/mlb/circa-props.json", "w") as fh:
 		json.dump(data, fh, indent=4)
