@@ -687,7 +687,7 @@ def writeDKSel(date, loop, night):
 
 	games = driver.find_elements(By.CSS_SELECTOR, ".sportsbook-event-accordion__wrapper")
 	for gameDiv in games:
-		game = gameDiv.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__title").text
+		game = gameDiv.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__title").text.split("\n")
 		print(game)
 		if " @ " not in game and " at " not in game:
 			continue
