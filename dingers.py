@@ -1561,6 +1561,12 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/baseballreference/leftOrRight.json") as fh:
 		leftOrRight = json.load(fh)
 
+	with open(f"static/baseballreference/expected.json") as fh:
+		expected = json.load(fh)
+
+	with open(f"static/baseballreference/advanced.json") as fh:
+		advanced = json.load(fh)
+
 	with open(f"static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
