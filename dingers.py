@@ -1623,7 +1623,8 @@ def writeEV(date, dinger, silent=False):
 				pitcher = lineups[opp]["pitcher"]
 				pitcherLR = leftOrRight[opp].get(pitcher, "")
 				bvpStats = bvpData[team][player+' v '+pitcher]
-				bvp = f"{bvpStats['h']}-{bvpStats['ab']}, {bvpStats['hr']} HR"
+				if bvpStats["ab"]:
+					bvp = f"{bvpStats['h']}-{bvpStats['ab']}, {bvpStats['hr']} HR"
 			except:
 				pass
 
