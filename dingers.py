@@ -1073,7 +1073,7 @@ async def writeFDFromBuilder(date, loop, night, skip):
 			break
 		
 		if night:
-			time.sleep(60 * 10)
+			time.sleep(60 * 30)
 		else:
 			time.sleep(10)
 
