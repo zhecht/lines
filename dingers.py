@@ -1015,7 +1015,7 @@ async def getFDLinks(date):
 def runFD():
 	uc.loop().run_until_complete(writeFD())
 
-async def writeFDFromBuilder(date, loop, night):
+async def writeFDFromBuilder(date, loop, night, skip):
 	book = "fd"
 
 	with open(f"static/mlb/schedule.json") as fh:
@@ -1066,7 +1066,7 @@ async def writeFDFromBuilder(date, loop, night):
 			gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 
 		writeHistorical(date, book, gameStarted)
-		writeFDFromBuilderHTML(html, teamMap, date, gameStarted)
+		writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip)
 		if not loop:
 			break
 		
@@ -1077,7 +1077,7 @@ async def writeFDFromBuilder(date, loop, night):
 
 	browser.stop()
 
-def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
+def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 	soup = BS(html, "html.parser")
 	btns = soup.select("div[role=button]")
 
@@ -1107,6 +1107,8 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted):
 
 		currGame = game
 		if date == str(datetime.now())[:10] and game and gameStarted[game]:
+			continue
+		if skip and currGame == skip:
 			continue
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
@@ -2052,6 +2054,7 @@ if __name__ == '__main__':
 	parser.add_argument("--commit", action="store_true")
 	parser.add_argument("--tmrw", action="store_true")
 	parser.add_argument("--date", "-d")
+	parser.add_argument("--skip")
 	parser.add_argument("--print", "-p", action="store_true")
 	parser.add_argument("--update", "-u", action="store_true")
 	parser.add_argument("--bvp", action="store_true")
@@ -2117,7 +2120,7 @@ if __name__ == '__main__':
 		#runThreads("fd", games, min(args.threads, len(games)))
 		
 
-		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night))
+		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night, args.skip))
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
 		games = uc.loop().run_until_complete(getMGMLinks(date))
