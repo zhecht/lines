@@ -2186,7 +2186,7 @@ if __name__ == '__main__':
 
 			# every 5m
 			if args.night:
-				time.sleep(60 * 30)
+				time.sleep(60 * 60)
 			else:
 				time.sleep(60 * 5)
 			print(datetime.now())
