@@ -713,6 +713,8 @@ def writeDKSel(date, loop, night):
 
 		if str(datetime.now())[:10] == date and "Tomorrow" in dt.text:
 			continue
+		elif str(datetime.now())[:10] != date and "Tomorrow" not in dt.text:
+			continue
 		if "@" not in game[1] and "at" not in game[1]:
 			continue
 		away,home = game[0], game[-1]
