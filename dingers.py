@@ -459,7 +459,7 @@ def writeCirca(date):
 			l,r,t = 770,1035,985
 			# custom
 			pitcherRows = 10
-			t = 1320
+			t = 1325
 			boxW = r-l
 			boxT = t
 			boxL = l
