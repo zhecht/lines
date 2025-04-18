@@ -711,6 +711,7 @@ def writeDKSel(date, loop, night):
 
 		dt = gameDiv.find_element(By.CSS_SELECTOR, ".sportsbook-event-accordion__date")
 
+		print(dt.text)
 		if str(datetime.now())[:10] == date and "Tomorrow" in dt.text:
 			continue
 		elif str(datetime.now())[:10] != date and "Tomorrow" not in dt.text:
