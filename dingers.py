@@ -193,6 +193,7 @@ def writeCircaMain(date):
 		#bottom, top = 1550, 500
 		if pageIdx:
 			bottom, top = 1550, 500
+			bottom,top = 2015,490
 		#w,h = img.size
 		# l,t,r,b
 
