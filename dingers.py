@@ -220,7 +220,8 @@ def writeCircaMain(date):
 		playersImg.save("out-player.png", "PNG")
 		print(text)
 
-		mlImg = img.crop((715,top,820,bottom))
+		#mlImg = img.crop((715,top,820,bottom))
+		mlImg = img.crop((720,top,815,bottom))
 		ml_text = pytesseract.image_to_string(mlImg).split("\n")
 		ml_text = [x for x in ml_text]
 		mls = []
