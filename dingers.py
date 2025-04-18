@@ -458,7 +458,7 @@ def writeCirca(date):
 			# strikeouts
 			l,r,t = 770,1035,985
 			# custom
-			boxH = 80
+			boxH = 85
 			pitcherRows = 10
 			t = 1325
 			boxW = r-l
