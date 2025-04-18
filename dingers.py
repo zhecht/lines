@@ -456,6 +456,7 @@ def writeCirca(date):
 						t += h+3
 			
 			# strikeouts
+			continue
 			l,r,t = 770,1035,985
 			# custom
 			boxH = 85
