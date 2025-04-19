@@ -1859,7 +1859,7 @@ async def writeWeather(date):
 		return
 	url = f"https://swishanalytics.com/mlb/weather?date={date}"
 	page = await browser.get(url)
-	time.sleep(1)
+	#time.sleep(1)
 	await page.wait_for(selector=".weather-overview-table")
 	html = await page.get_content()
 	soup = BS(html, "html.parser")
