@@ -1850,6 +1850,8 @@ sharedData = {}
 def runThread(book):
 	uc.loop().run_until_complete(writeOne(book))
 
+#async def writeWeatherSel()
+
 async def writeWeather(date):
 	try:
 		browser = await uc.start(no_sandbox=True)
@@ -1857,7 +1859,7 @@ async def writeWeather(date):
 		return
 	url = f"https://swishanalytics.com/mlb/weather?date={date}"
 	page = await browser.get(url)
-
+	time.sleep(1)
 	await page.wait_for(selector=".weather-overview-table")
 	html = await page.get_content()
 	soup = BS(html, "html.parser")
@@ -1871,8 +1873,8 @@ async def writeWeather(date):
 		weather[game]["wind"] = wind.replace("\u00a0", " ").replace("  ", " ").strip()
 
 		extra = soup.find("div", id=f"{gameId}Row")
-		time, stadium = map(str, soup.find("div", id=f"{gameId}Row").select(".desktop-hide")[0].text.split(" | "))
-		weather[game]["time"] = time
+		t, stadium = map(str, soup.find("div", id=f"{gameId}Row").select(".desktop-hide")[0].text.split(" | "))
+		weather[game]["time"] = t
 		weather[game]["stadium"] = stadium
 		for row in extra.find("tbody").find_all("tr"):
 			hdr = row.find("td").text.lower()
