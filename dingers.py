@@ -904,9 +904,12 @@ def writeMGMSel(game, url):
 			show = panel.find_element(By.CSS_SELECTOR, ".show-more-less-button")
 			show.click()
 
-			WebDriverWait(driver, 10).until(
-				lambda driver: show.text != "Show More"
-			)
+			try:
+				WebDriverWait(driver, 3).until(
+					lambda driver: show.text != "Show More"
+				)
+			except:
+				show.click()
 
 			rows = panel.text.split("\n")
 			underIdx = rows.index("Under")
