@@ -359,19 +359,22 @@ def writeCirca(date):
 	for pageIdx, page in enumerate(pages):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
-		bottom = 2200
-		top = 400
+		bottom, top = 2200, 400
+		bottom, top = 2250, 335
+
 		#w,h = img.size
 		# l,t,r,b
-		playersImg = img.crop((0,top,400,bottom))
+		#playersImg = img.crop((0,top,400,bottom))
+		playersImg = img.crop((270,top,510,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
+		#print(text)
 
 		players = []
 		for player in text:
 			if "(" not in player:
 				continue
 			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
-			player = parsePlayer(player.lower().split(" (")[0])
+			player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
 			#print(player, team)
 			game = teamGame.get(team, "")
 			players.append((player, game))
@@ -380,8 +383,10 @@ def writeCirca(date):
 		#i = img.crop((770,1230,1035,1320))
 		#print(pytesseract.image_to_string(i).split("\n"))
 
-		oversImg = img.crop((540,top,600,bottom))
-		undersImg = img.crop((670,top,760,bottom))
+		#oversImg = img.crop((540,top,600,bottom))
+		#undersImg = img.crop((670,top,760,bottom))
+		oversImg = img.crop((610,top,660,bottom))
+		undersImg = img.crop((725,top,780,bottom))
 		oversArr = pytesseract.image_to_string(oversImg).split("\n")
 		undersArr = pytesseract.image_to_string(undersImg).split("\n")
 		overs = []
@@ -389,7 +394,7 @@ def writeCirca(date):
 			o = re.search(r"\d{3,4}", over)
 			if not o:
 				continue
-			overs.append(over)
+			overs.append(over.replace("\u201c", ""))
 		unders = []
 		for under in undersArr:
 			o = re.search(r"\d{3,4}", under)
@@ -397,7 +402,7 @@ def writeCirca(date):
 				continue
 			elif "-" not in under:
 				under = "-"+under
-			unders.append(under)
+			unders.append(under.replace("\u201c", ""))
 		
 		for p,o,u in zip(players, overs, unders):
 			if len(u) == 4 and u.startswith("7"):
@@ -550,6 +555,11 @@ def mergeCirca():
 
 	with open("static/mlb/circa.json", "w") as fh:
 		json.dump(circaMain, fh, indent=4)
+	with open("static/dingers/circa_historical.json") as fh:
+		circaHist = json.load(fh)
+	circaHist[str(datetime.now())[:10]] = circaMain
+	with open("static/dingers/circa_historical.json", "w") as fh:
+		json.dump(circaHist, fh)
 		
 
 async def getESPNLinks(date):

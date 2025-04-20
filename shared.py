@@ -211,7 +211,7 @@ def parsePlayer(player):
 
 def convertMLBTeam(team):
 	team = team.lower().replace(".", "")
-	t = team.replace(" ", "")[:3]
+	t = team.replace(" ", "")[:3].strip()
 	if "cubs" in team:
 		return "chc"
 	elif t == "art":
@@ -230,6 +230,10 @@ def convertMLBTeam(team):
 		return "mil"
 	elif t == "nin":
 		return "min"
+	elif t == "nyh":
+		return "nym"
+	elif t == "ny":
+		return "nym"
 	elif t == "new":
 		if "yankees" in team:
 			return "nyy"
