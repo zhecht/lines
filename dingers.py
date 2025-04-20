@@ -905,7 +905,7 @@ def writeMGMSel(game, url):
 			show.click()
 
 			try:
-				WebDriverWait(driver, 3).until(
+				WebDriverWait(driver, 7).until(
 					lambda driver: show.text != "Show More"
 				)
 			except:
