@@ -214,8 +214,8 @@ def writeCircaMain(date):
 				data[game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}"
 			continue
 
-		#playersImg = img.crop((300,top,530,bottom))
-		playersImg = img.crop((320,top,525,bottom))
+		playersImg = img.crop((300,top,525,bottom))
+		#playersImg = img.crop((320,top,525,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text]
 		playersImg.save("out-player.png", "PNG")
