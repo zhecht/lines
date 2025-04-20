@@ -921,8 +921,8 @@ def writeMGMSel(game, url):
 
 
 	with open("updated.json") as fh:
-		upd = json.load(fh)
-	upd["mgm"] = str(datetime.now())
+		updated = json.load(fh)
+	updated["mgm"] = str(datetime.now())
 	with open("updated.json", "w") as fh:
 		json.dump(updated, fh, indent=4)
 
