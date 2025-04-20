@@ -863,7 +863,7 @@ def getMGMLinks(date):
 			continue
 		if "Today" in t.text or "Starting" in t.text:
 			d = str(datetime.now())[:10]
-		elif "Tomorrow" in t.txt:
+		elif "Tomorrow" in t.text:
 			d = str(datetime.now() + timedelta(days=1))[:10]
 		else:
 			m,d,y = map(int, t.text.split(" ")[0].split("/"))
