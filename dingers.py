@@ -875,7 +875,7 @@ def getMGMLinks(date):
 		teams = div.find_elements(By.CSS_SELECTOR, ".participant")
 		away, home = convertMGMMLBTeam(teams[0].text.strip()), convertMGMMLBTeam(teams[1].text.strip())
 		game = f"{away} @ {home}"
-		games[game] = div.find_element(By.CSS_SELECTOR, "a").get_attribute("href")
+		games[game] = div.find_element(By.CSS_SELECTOR, "a").get_attribute("href")+"?market=Players"
 
 	driver.quit()
 	return games
