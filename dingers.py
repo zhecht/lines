@@ -858,6 +858,9 @@ def writeMGMSel():
 		print("not found")
 		return
 
+	data = nested_dict()
+	game = "sd @ hou"
+
 	panels = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
 	for panel in panels:
 		if panel.text.startswith("Batter home runs"):
@@ -866,9 +869,18 @@ def writeMGMSel():
 			print("show")
 			show.click()
 
-			print(panel.text)
+			rows = panel.text.split("\n")
+			underIdx = rows.index("Under")
+			rows = rows[underIdx+1:]
+
+			for i in range(0, len(rows)):
+				if rows[i].startswith("O "):
+					player = parsePlayer(rows[i-1])
+					data[game]["hr"][player] = rows[i+1]
 			break
 
+	with open("static/dingers/mgm.json", "w") as fh:
+		json.dump(data, fh, indent=4)
 	driver.quit()
 
 async def writeMGM():
