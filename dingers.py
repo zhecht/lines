@@ -911,6 +911,7 @@ async def writeMGM():
 			player = parsePlayer(player.text.strip().split(" (")[0])
 			over = odds[i*2].select(".value")
 			under = odds[i*2+1].select(".value")
+			print(game, player, over, under)
 			if not over:
 				continue
 			ou = over[0].text
