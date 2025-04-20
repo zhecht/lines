@@ -861,6 +861,8 @@ def writeMGMSel():
 	panel = driver.find_element(By.CSS_SELECTOR, "ms-option-panel")
 	print(panel.text)
 
+	driver.quit()
+
 async def writeMGM():
 	book = "mgm"
 	try:
