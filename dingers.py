@@ -807,7 +807,7 @@ async def writeDK(date, loop, night):
 
 	browser.stop()
 
-async def getMGMLinks(date):
+async def getMGMLinks2(date):
 	try:
 		browser = await uc.start(no_sandbox=True)
 	except:
@@ -841,6 +841,40 @@ async def getMGMLinks(date):
 		games[game] = "https://sports.betmgm.com"+a.get("href")
 
 	browser.stop()
+	return games
+
+def getMGMLinks(date):
+	driver = webdriver.Firefox()
+	driver.get("https://sports.mi.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
+	try:
+		WebDriverWait(driver, 10).until(
+			lambda d: d.find_element(By.CSS_SELECTOR, "ms-six-pack-event").is_displayed()
+		)
+		pass
+	except:
+		return
+
+	games = {}
+	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
+	for div in divs:
+		t = div.find_element(By.CSS_SELECTOR, "ms-prematch-timer")
+		if "Today" in t.text or "Starting" in t.text:
+			d = str(datetime.now())[:10]
+		elif "Tomorrow" in t.txt:
+			d = str(datetime.now() + timedelta(days=1))[:10]
+		else:
+			m,d,y = map(int, t.text.split(" ")[0].split("/"))
+			d = f"20{y}-{m:02}-{d:02}"
+
+		if d != date:
+			continue
+
+		teams = div.find_elements(By.CSS_SELECTOR, ".participant")
+		away, home = convertMGMMLBTeam(teams[0].text.strip()), convertMGMMLBTeam(teams[1].text.strip())
+		game = f"{away} @ {home}"
+		games[game] = "https://sports.betmgm.com"+a.get("href")
+
+	driver.quit()
 	return games
 
 def runMGM():
@@ -2189,7 +2223,10 @@ if __name__ == '__main__':
 		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night, args.skip))
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
-		writeMGMSel()
+		games = getMGMLinks(date)
+		print(games)
+		#writeMGMSel()
+		
 		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		#runThreads("mgm", date, games, min(args.threads, len(games)))
