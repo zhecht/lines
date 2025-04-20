@@ -873,7 +873,7 @@ def writeMGMSel():
 			rows = rows[underIdx+1:]
 
 			for i in range(0, len(rows)):
-				if rows[i].startswith("O "):
+				if rows[i].startswith("O ") and not rows[i+1].startswith("U "):
 					player = parsePlayer(rows[i-1])
 					data[game]["hr"][player] = rows[i+1]
 			break
