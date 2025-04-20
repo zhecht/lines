@@ -919,6 +919,13 @@ def writeMGMSel(game, url):
 					data[game][player]["mgm"] = ou
 			break
 
+
+	with open("updated.json") as fh:
+		upd = json.load(fh)
+	upd["mgm"] = str(datetime.now())
+	with open("updated.json", "w") as fh:
+		json.dump(updated, fh, indent=4)
+
 	with open("static/dingers/mgm.json") as fh:
 		old = json.load(fh)
 	old.update(data)
