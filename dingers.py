@@ -875,7 +875,10 @@ def writeMGMSel():
 			for i in range(0, len(rows)):
 				if rows[i].startswith("O ") and not rows[i+1].startswith("U "):
 					player = parsePlayer(rows[i-1])
-					data[game]["hr"][player] = rows[i+1]
+					ou = rows[i+1]
+					if rows[i+2].startswith("U ") and rows[i+3][0] in ["+", "-"]:
+						ou += rows[i+3]
+					data[game]["hr"][player] = ou
 			break
 
 	with open("static/dingers/mgm.json", "w") as fh:
