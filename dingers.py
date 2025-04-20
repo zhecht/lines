@@ -858,8 +858,14 @@ def writeMGMSel():
 		print("not found")
 		return
 
-	panel = driver.find_element(By.CSS_SELECTOR, "ms-option-panel")
-	print(panel.text)
+	panels = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
+	for panel in panels:
+		if panel.text.startswith("Batter home runs"):
+			show = panel.find_element(By.CSS_SELECTOR, ".show-more-less-button")
+			show.click()
+
+			print(panel.text)
+			break
 
 	driver.quit()
 
