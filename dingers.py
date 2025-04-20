@@ -1696,7 +1696,7 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/baseballreference/rankings.json") as fh:
 		rankings = json.load(fh)
 
-	with open(f"static/baseballreference/parkFactors.json") as fh:
+	with open(f"static/baseballreference/parkfactors.json") as fh:
 		parkFactors = json.load(fh)
 
 	with open(f"static/mlb/schedule.json") as fh:
