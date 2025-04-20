@@ -858,7 +858,7 @@ def writeMGMSel():
 		print("not found")
 		return
 
-	panel = driver.find_element("ms-option-panel")
+	panel = driver.find_element(By.CSS_SELECTOR, "ms-option-panel")
 	print(panel.text)
 
 async def writeMGM():
