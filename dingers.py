@@ -898,7 +898,7 @@ def writeMGMSel(game, url):
 	data = nested_dict()
 
 	panels = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
-	for panel in panels:
+	for panelIdx, panel in enumerate(panels):
 		if panel.text.startswith("Batter home runs"):
 
 			show = panel.find_element(By.CSS_SELECTOR, ".show-more-less-button")
@@ -909,6 +909,7 @@ def writeMGMSel(game, url):
 					lambda driver: show.text != "Show More"
 				)
 			except:
+				panel = driver.find_element(By.CSS_SELECTOR, "ms-option-panel")
 				show = panel.find_element(By.CSS_SELECTOR, ".show-more-less-button")
 				show.click()
 
