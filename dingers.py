@@ -915,7 +915,7 @@ def writeMGMSel(game, url):
 					ou = rows[i+1]
 					if rows[i+2].startswith("U ") and rows[i+3][0] in ["+", "-"]:
 						ou += "/"+rows[i+3]
-					data[game]["hr"][player] = ou
+					data[game][player]["mgm"] = ou
 			break
 
 	with open("static/dingers/mgm.json") as fh:
