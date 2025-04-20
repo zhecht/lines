@@ -365,7 +365,8 @@ def writeCirca(date):
 		#w,h = img.size
 		# l,t,r,b
 		#playersImg = img.crop((0,top,400,bottom))
-		playersImg = img.crop((270,top,510,bottom))
+		#playersImg = img.crop((270,top,510,bottom))
+		playersImg = img.crop((430,top,600,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		#print(text)
 
@@ -385,8 +386,11 @@ def writeCirca(date):
 
 		#oversImg = img.crop((540,top,600,bottom))
 		#undersImg = img.crop((670,top,760,bottom))
-		oversImg = img.crop((610,top,660,bottom))
-		undersImg = img.crop((725,top,780,bottom))
+
+		#oversImg = img.crop((610,top,660,bottom))
+		#undersImg = img.crop((725,top,780,bottom))
+		oversImg = img.crop((670,top,710,bottom))
+		undersImg = img.crop((750,top,790,bottom))
 		oversArr = pytesseract.image_to_string(oversImg).split("\n")
 		undersArr = pytesseract.image_to_string(undersImg).split("\n")
 		overs = []
