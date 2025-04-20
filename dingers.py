@@ -866,7 +866,6 @@ def writeMGMSel():
 		if panel.text.startswith("Batter home runs"):
 
 			show = panel.find_element(By.CSS_SELECTOR, ".show-more-less-button")
-			print("show")
 			show.click()
 
 			rows = panel.text.split("\n")
