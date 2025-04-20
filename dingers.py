@@ -883,9 +883,9 @@ def getMGMLinks(date):
 def runMGM():
 	uc.loop().run_until_complete(writeMGM())
 
-def writeMGMSel():
+def writeMGMSel(game, url):
 	driver = webdriver.Firefox()
-	driver.get("https://sports.mi.betmgm.com/en/sports/events/san-diego-padres-at-houston-astros-17294907?market=Players")
+	driver.get(url)
 	try:
 		WebDriverWait(driver, 10).until(
 			lambda d: d.find_element(By.CSS_SELECTOR, ".option-panel").is_displayed()
@@ -896,7 +896,6 @@ def writeMGMSel():
 		return
 
 	data = nested_dict()
-	game = "sd @ hou"
 
 	panels = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
 	for panel in panels:
@@ -2227,9 +2226,10 @@ if __name__ == '__main__':
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
 		games = getMGMLinks(date)
-		print(games)
 		#writeMGMSel()
 
+		for game in games:
+			writeMGMSel(game, games[game])
 		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		#runThreads("mgm", date, games, min(args.threads, len(games)))
