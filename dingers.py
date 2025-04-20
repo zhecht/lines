@@ -857,8 +857,10 @@ def getMGMLinks(date):
 	games = {}
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
 	for div in divs:
-		print(div.text[:50])
-		t = div.find_element(By.CSS_SELECTOR, "ms-prematch-timer")
+		try:
+			t = div.find_element(By.CSS_SELECTOR, "ms-prematch-timer")
+		except:
+			continue
 		if "Today" in t.text or "Starting" in t.text:
 			d = str(datetime.now())[:10]
 		elif "Tomorrow" in t.txt:
