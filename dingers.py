@@ -917,8 +917,11 @@ def writeMGMSel(game, url):
 					data[game]["hr"][player] = ou
 			break
 
+	with open("static/dingers/mgm.json") as fh:
+		old = json.load(fh)
+	old.update(data)
 	with open("static/dingers/mgm.json", "w") as fh:
-		json.dump(data, fh, indent=4)
+		json.dump(old, fh, indent=4)
 	driver.quit()
 
 async def writeMGM():
