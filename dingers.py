@@ -846,6 +846,20 @@ async def getMGMLinks(date):
 def runMGM():
 	uc.loop().run_until_complete(writeMGM())
 
+def writeMGMSel():
+	driver = webdriver.Firefox()
+	driver.get("https://sports.mi.betmgm.com/en/sports/events/san-diego-padres-at-houston-astros-17294907?market=Players")
+	try:
+		WebDriverWait(driver, 10).until(
+			lambda d: d.find_element(By.CSS_SELECTOR, ".option-panel").is_displayed()
+		)
+		pass
+	except:
+		print("not found")
+		return
+
+
+
 async def writeMGM():
 	book = "mgm"
 	try:
@@ -2150,9 +2164,10 @@ if __name__ == '__main__':
 		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night, args.skip))
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
-		games = uc.loop().run_until_complete(getMGMLinks(date))
+		writeMGMSel()
+		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
-		runThreads("mgm", date, games, min(args.threads, len(games)))
+		#runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
 		#uc.loop().run_until_complete(writeDK(date, args.loop, args.night))
 		writeDKSel(date, args.loop, args.night)
