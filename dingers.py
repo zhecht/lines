@@ -857,6 +857,7 @@ def getMGMLinks(date):
 	games = {}
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
 	for div in divs:
+		print(div.text[:50])
 		t = div.find_element(By.CSS_SELECTOR, "ms-prematch-timer")
 		if "Today" in t.text or "Starting" in t.text:
 			d = str(datetime.now())[:10]
@@ -2226,7 +2227,7 @@ if __name__ == '__main__':
 		games = getMGMLinks(date)
 		print(games)
 		#writeMGMSel()
-		
+
 		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		#runThreads("mgm", date, games, min(args.threads, len(games)))
