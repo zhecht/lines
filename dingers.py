@@ -909,6 +909,7 @@ def writeMGMSel(game, url):
 					lambda driver: show.text != "Show More"
 				)
 			except:
+				print("except")
 				panel = driver.find_element(By.CSS_SELECTOR, "ms-option-panel")
 				show = panel.find_element(By.CSS_SELECTOR, ".show-more-less-button")
 				show.click()
