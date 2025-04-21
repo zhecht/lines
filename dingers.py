@@ -340,8 +340,6 @@ def writeCirca(date):
 
 	#writeHistorical(date, book="circa")
 
-	print(date)
-	exit()
 	games = [x["game"] for x in schedule[date]]
 	teamGame = {}
 	for game in games:
