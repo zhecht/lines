@@ -366,7 +366,7 @@ def writeCirca(date):
 		h = 21
 		t = 273
 		players = []
-		while True:
+		while False:
 			if t >= 2080:
 				break
 			playersImg = img.crop((430,t,600,t+h))
@@ -385,7 +385,7 @@ def writeCirca(date):
 			#data[game]["hr"][player] = overs[0]+"/"+unders[0]
 			t += h+2
 
-		if False:
+		if True:
 			#top=800
 			#w,h = img.size
 			# l,t,r,b
