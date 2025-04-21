@@ -403,7 +403,7 @@ def writeCirca(date):
 				player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
 				#print(player, team)
 				game = teamGame.get(team, "")
-				players.append((player, game))
+				players.append((game, player))
 
 		# strikeouts
 		#i = img.crop((770,1230,1035,1320))
