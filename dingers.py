@@ -434,6 +434,7 @@ def writeCirca(date):
 			unders.append(under.replace("\u201c", ""))
 		
 		for p,o,u in zip(players, overs, unders):
+			print(p,o,u)
 			if len(u) == 4 and u.startswith("7"):
 				u = "-"+u[1:]
 			data[p[0]]["hr"][p[1]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
