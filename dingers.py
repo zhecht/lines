@@ -364,8 +364,12 @@ def writeCirca(date):
 
 		h = 21
 		t = 273
-		playersImg = img.crop((430,t,600,t+h))
-		playersImg.save("outplayers.png", "PNG")
+		while True:
+			if t >= 2080:
+				break
+			playersImg = img.crop((430,t,600,t+h))
+			playersImg.save("outplayers.png", "PNG")
+			t += h+2
 		exit()
 
 		#top=800
