@@ -2305,10 +2305,10 @@ if __name__ == '__main__':
 	if args.circa:
 		writeCirca(date)
 		writeCircaMain(date)
-		mergeCirca()
+		mergeCirca(date)
 		exit()
 	if args.merge_circa:
-		mergeCirca()
+		mergeCirca(date)
 		exit()
 
 	if args.weather:
