@@ -340,14 +340,14 @@ def writeCirca(date):
 
 	#writeHistorical(date, book="circa")
 
+	print(date)
+	exit()
 	games = [x["game"] for x in schedule[date]]
 	teamGame = {}
 	for game in games:
 		a,h = map(str, game.split(" @ "))
 		teamGame[a] = game
 		teamGame[h] = game
-
-	print(schedule[date], teamGame)
 
 	dt = datetime.strftime(datetime.strptime(date, "%Y-%m-%d"), "%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
