@@ -196,6 +196,7 @@ def writeCircaMain(date):
 			bottom,top = 2015,490
 		#w,h = img.size
 		# l,t,r,b
+		bottom = 1300
 
 		if pageIdx == 1:
 			teams_img = img.crop((270,top,500,bottom))
