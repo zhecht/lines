@@ -234,6 +234,8 @@ def convertMLBTeam(team):
 		return "nym"
 	elif t == "ny":
 		return "nym"
+	elif t == "nyn":
+		return "nym"
 	elif t == "new":
 		if "yankees" in team:
 			return "nyy"
