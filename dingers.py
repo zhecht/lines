@@ -504,7 +504,7 @@ def writeCirca(date):
 			boxH = 90
 			pitcherRows = 6
 			t = 958
-			boxW = r-l
+			boxW = 94 #r-l
 			boxT = t
 			boxL = l
 			for c in range(3):
