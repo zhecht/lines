@@ -357,7 +357,7 @@ def writeCirca(date):
 	#pages = [pages[0]]
 
 	for pageIdx, page in enumerate(pages):
-		page.save("out.png", "PNG")
+		page.save(f"out-{pageIdx}.png", "PNG")
 		img = Image.open("out.png")
 		bottom, top = 2200, 400
 		bottom, top = 2180, 335
