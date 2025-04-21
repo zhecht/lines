@@ -368,7 +368,9 @@ def writeCirca(date):
 			if t >= 2080:
 				break
 			playersImg = img.crop((430,t,600,t+h))
-			playersImg.save("outplayers.png", "PNG")
+			#playersImg.save("outplayers.png", "PNG")
+			text = pytesseract.image_to_string(playersImg).split("\n")
+			print(text)
 			t += h+2
 		exit()
 
