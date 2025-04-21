@@ -360,8 +360,7 @@ def writeCirca(date):
 		page.save("out.png", "PNG")
 		img = Image.open("out.png")
 		bottom, top = 2200, 400
-		bottom, top = 2250, 335
-		top = 270
+		bottom, top = 2180, 335
 
 		h = 21
 		t = 273
