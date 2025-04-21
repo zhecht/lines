@@ -914,6 +914,7 @@ def getMGMLinks(date):
 	with open("updated.json") as fh:
 		updated = json.load(fh)
 	updated["mgm"] = str(datetime.now())
+	print(updated["mgm"], str(datetime.now()))
 	with open("updated.json", "w") as fh:
 		json.dump(updated, fh, indent=4)
 	return games
@@ -2281,9 +2282,9 @@ if __name__ == '__main__':
 		if args.game and args.url:
 			writeMGMSel(args.game, args.url)
 		else:
-			driver = webdriver.Firefox()
 			games = getMGMLinks(date)
 
+			#driver = webdriver.Firefox()
 			for game in games:
 				pass
 				#writeMGMSel(game, games[game], driver)
