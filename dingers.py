@@ -2272,6 +2272,7 @@ if __name__ == '__main__':
 			games = getMGMLinks(date)
 
 			for game in games:
+				subprocess.Popen(["python", "dingers.py", "--url", f"\"{games[game]}\"", "-g", game])
 				writeMGMSel(game, games[game])
 		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
