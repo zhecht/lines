@@ -1122,7 +1122,8 @@ def writeHistory():
 
 	with open("static/dingers/circa_historical.json") as fh:
 		circaHist = json.load(fh)
-
+	for date, games in circaHist.items():
+		pass
 
 	with open("static/dingers/history.json", "w") as fh:
 		json.dump(bookData, fh, indent=4)
