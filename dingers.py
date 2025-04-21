@@ -362,7 +362,12 @@ def writeCirca(date):
 		bottom, top = 2200, 400
 		bottom, top = 2250, 335
 
-		top=270
+		h = 21
+		t = 273
+		playersImg = img.crop((430,t,600,t+h))
+		playersImg.save("outplayers.png", "PNG")
+		exit()
+
 		#top=800
 		#w,h = img.size
 		# l,t,r,b
