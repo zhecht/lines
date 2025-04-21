@@ -911,7 +911,7 @@ def getMGMLinks(date):
 		games[game] = div.find_element(By.CSS_SELECTOR, "a").get_attribute("href")+"?market=Players"
 
 	driver.quit()
-	with open("static/dingers/mgm_updated", "w") as fh:
+	with open("static/dingers/updated_mgm", "w") as fh:
 		fh.write(str(datetime.now()))
 	return games
 
