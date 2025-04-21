@@ -347,7 +347,7 @@ def writeCirca(date):
 		teamGame[a] = game
 		teamGame[h] = game
 
-	dt = datetime.now().strftime("%Y-%-m-%-d")
+	dt = datetime.strftime(datetime.strptime(date, "%Y-%m-%d"), "%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
 	if os.path.exists(f"/Users/zackhecht"):
 		file = f"/Users/zackhecht/Downloads/MLB Props - {dt}.pdf"
