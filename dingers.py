@@ -374,7 +374,7 @@ def writeCirca(date):
 			player = parsePlayer(text[0].split(" (")[0])
 
 			oversImg = img.crop((670,t,710,t+h))
-			undersImg = img.crop((750,t,790,t+h))
+			undersImg = img.crop((750,t,800,t+h))
 			overs = pytesseract.image_to_string(oversImg).split("\n")
 			unders = pytesseract.image_to_string(undersImg).split("\n")
 
