@@ -557,7 +557,7 @@ def writeCirca(date):
 	with open("static/mlb/circa-props.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
-def mergeCirca():
+def mergeCirca(date):
 	with open("static/mlb/circa-props.json") as fh:
 		circa = json.load(fh)
 	with open("static/mlb/circa-main.json") as fh:
@@ -587,7 +587,7 @@ def mergeCirca():
 		json.dump(circaMain, fh, indent=4)
 	with open("static/dingers/circa_historical.json") as fh:
 		circaHist = json.load(fh)
-	circaHist[str(datetime.now())[:10]] = circaMain
+	circaHist[date] = circaMain
 	with open("static/dingers/circa_historical.json", "w") as fh:
 		json.dump(circaHist, fh)
 		
