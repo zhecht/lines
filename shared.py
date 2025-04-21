@@ -228,6 +228,8 @@ def convertMLBTeam(team):
 		return "laa"
 	elif t == "nil":
 		return "mil"
+	elif t == "nia":
+		return "mia"
 	elif t == "nin":
 		return "min"
 	elif t == "nyh":
