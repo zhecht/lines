@@ -1116,9 +1116,6 @@ def writeHistory():
 				for book, odds in books.items():
 					bookData[player][book][date] = odds
 
-	for player, books in bookData.items():
-		for book in books:
-			bookData[player][book]
 
 	for book in ["b365", "cz", "dk", "espn", "fd", "mgm", "pn"]:
 		with open(f"static/dingers/{book}_historical.json") as fh:
