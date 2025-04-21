@@ -381,6 +381,9 @@ def writeCirca(date):
 			game = teamGame.get(team, "")
 			data[game]["hr"][player] = overs[0]+"/"+unders[0]
 			t += h+2
+
+		with open("static/mlb/circa-props.json", "w") as fh:
+			json.dump(data, fh, indent=4)
 		exit()
 
 		#top=800
