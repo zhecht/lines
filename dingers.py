@@ -361,6 +361,7 @@ def writeCirca(date):
 		img = Image.open("out.png")
 		bottom, top = 2200, 400
 		bottom, top = 2250, 335
+		top = 270
 
 		h = 21
 		t = 273
@@ -383,8 +384,6 @@ def writeCirca(date):
 			players.append((game, player))
 			#data[game]["hr"][player] = overs[0]+"/"+unders[0]
 			t += h+2
-
-		print(players)
 
 		if False:
 			#top=800
