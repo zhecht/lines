@@ -364,6 +364,7 @@ def writeCirca(date):
 
 		h = 21
 		t = 273
+		players = []
 		while True:
 			if t >= 2080:
 				break
@@ -373,38 +374,36 @@ def writeCirca(date):
 			team = convertMLBTeam(text[0].split("(")[-1].split(")")[0])
 			player = parsePlayer(text[0].split(" (")[0])
 
-			oversImg = img.crop((670,t,710,t+h))
-			undersImg = img.crop((750,t,800,t+h))
-			overs = pytesseract.image_to_string(oversImg).split("\n")
-			unders = pytesseract.image_to_string(undersImg).split("\n")
+			#oversImg = img.crop((670,t,710,t+h))
+			#undersImg = img.crop((750,t,800,t+h))
+			#overs = pytesseract.image_to_string(oversImg).split("\n")
+			#unders = pytesseract.image_to_string(undersImg).split("\n")
 
 			game = teamGame.get(team, "")
-			data[game]["hr"][player] = overs[0]+"/"+unders[0]
+			players.append((game, player))
+			#data[game]["hr"][player] = overs[0]+"/"+unders[0]
 			t += h+2
 
-		with open("static/mlb/circa-props.json", "w") as fh:
-			json.dump(data, fh, indent=4)
-		exit()
+		if False:
+			#top=800
+			#w,h = img.size
+			# l,t,r,b
+			#playersImg = img.crop((0,top,400,bottom))
+			#playersImg = img.crop((270,top,510,bottom))
+			playersImg = img.crop((420,top,600,bottom))
+			playersImg.save("outplayers.png", "PNG")
+			text = pytesseract.image_to_string(playersImg).split("\n")
+			#print(text)
 
-		#top=800
-		#w,h = img.size
-		# l,t,r,b
-		#playersImg = img.crop((0,top,400,bottom))
-		#playersImg = img.crop((270,top,510,bottom))
-		playersImg = img.crop((420,top,600,bottom))
-		playersImg.save("outplayers.png", "PNG")
-		text = pytesseract.image_to_string(playersImg).split("\n")
-		#print(text)
-
-		players = []
-		for player in text:
-			if "(" not in player:
-				continue
-			team = convertMLBTeam(player.split(")")[0].split("(")[-1])
-			player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
-			print(player, team)
-			game = teamGame.get(team, "")
-			players.append((player, game))
+			#players = []
+			for player in text:
+				if "(" not in player:
+					continue
+				team = convertMLBTeam(player.split(")")[0].split("(")[-1])
+				player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
+				print(player, team)
+				game = teamGame.get(team, "")
+				players.append((player, game))
 
 		# strikeouts
 		#i = img.crop((770,1230,1035,1320))
@@ -437,7 +436,7 @@ def writeCirca(date):
 		for p,o,u in zip(players, overs, unders):
 			if len(u) == 4 and u.startswith("7"):
 				u = "-"+u[1:]
-			data[p[-1]]["hr"][p[0]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
+			data[p[0]]["hr"][p[1]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
 
 
 		if True and pageIdx == 0:
