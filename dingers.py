@@ -338,7 +338,7 @@ def writeCirca(date):
 			last = player.split(" ")[-1]
 			inits[team][f"{first} {last}"] = player
 
-	writeHistorical(date, book="circa")
+	#writeHistorical(date, book="circa")
 
 	games = [x["game"] for x in schedule[date]]
 	teamGame = {}
@@ -362,6 +362,8 @@ def writeCirca(date):
 		bottom, top = 2200, 400
 		bottom, top = 2250, 335
 
+		top=270
+		#top=800
 		#w,h = img.size
 		# l,t,r,b
 		#playersImg = img.crop((0,top,400,bottom))

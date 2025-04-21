@@ -38,7 +38,7 @@ def writeHistorical(date, book, gameStarted=None):
 		schedule = response.json()
 		gameStarted = {}
 		for gameData in schedule[date]:
-			if gameData["start"] == "LIVE":
+			if not gameData["start"] or gameData["start"] == "LIVE":
 				gameStarted[gameData["game"]] = True
 			else:
 				dt = datetime.strptime(gameData["start"], "%I:%M %p")
