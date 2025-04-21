@@ -381,9 +381,10 @@ def writeCirca(date):
 
 			game = teamGame.get(team, "")
 			players.append((game, player))
-		print(players)
 			#data[game]["hr"][player] = overs[0]+"/"+unders[0]
 			t += h+2
+
+		print(players)
 
 		if False:
 			#top=800
