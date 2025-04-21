@@ -911,12 +911,8 @@ def getMGMLinks(date):
 		games[game] = div.find_element(By.CSS_SELECTOR, "a").get_attribute("href")+"?market=Players"
 
 	driver.quit()
-	with open("updated.json") as fh:
-		updated = json.load(fh)
-	updated["mgm"] = str(datetime.now())
-	print(updated["mgm"], str(datetime.now()))
-	with open("updated.json", "w") as fh:
-		json.dump(updated, fh, indent=4)
+	with open("static/dingers/mgm_updated", "w") as fh:
+		fh.write(str(datetime.now()))
 	return games
 
 def runMGM():
