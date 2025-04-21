@@ -921,8 +921,9 @@ def getMGMLinks(date):
 def runMGM():
 	uc.loop().run_until_complete(writeMGM())
 
-def writeMGMSel(game, url):
-	driver = webdriver.Firefox()
+def writeMGMSel(game, url, driver=None):
+	if not driver:
+		driver = webdriver.Firefox()
 	driver.get(url)
 	try:
 		WebDriverWait(driver, 10).until(
@@ -2280,11 +2281,12 @@ if __name__ == '__main__':
 		if args.game and args.url:
 			writeMGMSel(args.game, args.url)
 		else:
+			driver = webdriver.Firefox()
 			games = getMGMLinks(date)
 
 			for game in games:
-				#subprocess.Popen(["python", "dingers.py", "--url", f"\"{games[game]}\"", "-g", game])
-				writeMGMSel(game, games[game])
+				pass
+				#writeMGMSel(game, games[game], driver)
 		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		#runThreads("mgm", date, games, min(args.threads, len(games)))
