@@ -412,10 +412,10 @@ def writeCirca(date):
 		#oversImg = img.crop((540,top,600,bottom))
 		#undersImg = img.crop((670,top,760,bottom))
 
-		#oversImg = img.crop((610,top,660,bottom))
-		#undersImg = img.crop((725,top,780,bottom))
-		oversImg = img.crop((670,top,710,bottom))
-		undersImg = img.crop((750,top,790,bottom))
+		oversImg = img.crop((600,top,660,bottom))
+		undersImg = img.crop((725,top,780,bottom))
+		#oversImg = img.crop((670,top,710,bottom))
+		#undersImg = img.crop((750,top,790,bottom))
 		oversArr = pytesseract.image_to_string(oversImg).split("\n")
 		undersArr = pytesseract.image_to_string(undersImg).split("\n")
 		overs = []
