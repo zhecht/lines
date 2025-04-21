@@ -367,10 +367,11 @@ def writeCirca(date):
 		while True:
 			if t >= 2080:
 				break
-			playersImg = img.crop((430,t,600,t+h))
+			playersImg = img.crop((430,t,800,t+h))
 			#playersImg.save("outplayers.png", "PNG")
 			text = pytesseract.image_to_string(playersImg).split("\n")
-			print(text)
+			team = convertMLBTeam(text[0].split("(")[-1].split(")")[0])
+			player = parsePlayer(text[0].split(" (")[0])
 			t += h+2
 		exit()
 
