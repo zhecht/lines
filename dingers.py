@@ -563,12 +563,16 @@ def mergeCirca(date):
 	with open("static/mlb/circa-main.json") as fh:
 		circaMain = json.load(fh)
 
+	hist = nested_dict()
 	for game in circa:
 		for prop in circa[game]:
 			for player in circa[game][prop]:
 				circaMain.setdefault(game, {})
 				circaMain[game].setdefault(prop, {})
 				circaMain[game][prop][player] = circa[game][prop][player]
+
+				if prop == "hr":
+					hist[game][player] = {"open": circa[game][prop][player], "close": circa[game][prop][player]}
 
 	with open("static/mlb/circa-props") as fh:
 		lines = fh.read().split("\n")
@@ -587,7 +591,7 @@ def mergeCirca(date):
 		json.dump(circaMain, fh, indent=4)
 	with open("static/dingers/circa_historical.json") as fh:
 		circaHist = json.load(fh)
-	circaHist[date] = circaMain
+	circaHist[date] = hist
 	with open("static/dingers/circa_historical.json", "w") as fh:
 		json.dump(circaHist, fh)
 		
