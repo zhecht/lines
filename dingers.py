@@ -423,8 +423,8 @@ def writeCirca(date):
 			o = re.search(r"\d{3,4}", over)
 			if not o:
 				continue
-			if len(o) == 4 and o[0] == "4":
-				o = o[1:]
+			if len(over) == 4 and over[0] == "4":
+				over = over[1:]
 			overs.append(over.replace("\u201c", ""))
 		unders = []
 		for under in undersArr:
