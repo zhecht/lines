@@ -1118,7 +1118,7 @@ def writeHistory():
 			for game in games:
 				#a,h = map(str, game.split(" @ "))
 				for player in hist[date][game]:
-					print(date, game, player)
+					print(date, game, player, book)
 					bookData[player][book][date] = hist[date][game][player]["close"]
 
 	with open("static/dingers/history.json", "w") as fh:
