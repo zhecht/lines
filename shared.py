@@ -192,12 +192,12 @@ def getFairValue(ou, method=None):
 		return x
 	return implied
 
-def averageOdds(odds):
+def averageOddsWithVig(odds):
 	avg = [getFairValue(x) for x in odds]
 	avg = sum(avg) / len(avg)
 	return convertAmericanFromImplied(avg)
 
-def fakeAverageOdds(odds):
+def averageOdds(odds):
 	avgOver = []
 	avgUnder = []
 	for o in odds:
