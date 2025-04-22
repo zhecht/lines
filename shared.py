@@ -207,6 +207,10 @@ def parsePlayer(player):
 		return "matt mclain"
 	elif player == "t willilams":
 		return "trevor williams"
+	elif player == "jackson chourto":
+		return "jackson chourio"
+	elif player == "jt reailmuto":
+		return "jt realmuto"
 	return player
 
 def convertMLBTeam(team):

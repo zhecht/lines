@@ -112,7 +112,7 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 		evData[player][f"implied"] = implied
 		evData[player][f"ev"] = ev
 
-def writeCircaHistory(date):
+def writeCircaHistory(date, debug):
 	with open("static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
@@ -120,8 +120,8 @@ def writeCircaHistory(date):
 	teamGame = {}
 	for game in games:
 		a,h = map(str, game.split(" @ "))
-		teamGame[a] = game
-		teamGame[h] = game
+		teamGame[a] = game.replace("-gm2", "")
+		teamGame[h] = game.replace("-gm2", "")
 
 	dt = datetime.strftime(datetime.strptime(date, "%Y-%m-%d"), "%Y-%-m-%-d")
 	file = f"/mnt/c/Users/zhech/Downloads/MLB Props - {dt}.pdf"
@@ -133,37 +133,70 @@ def writeCircaHistory(date):
 	#pages = [pages[1]]
 
 	for pageIdx, page in enumerate(pages):
-		page.save("out.png", "PNG")
-		img = Image.open("out.png")
-		bottom, top = 2240, 405
+		page.save(f"out-{pageIdx}.png", "PNG")
+		img = Image.open(f"out-{pageIdx}.png")
+		bottom, top = 2370, 395
 
+		left, right = 131, 420
 		if pageIdx == 1:
-			bottom = 1540
+			bottom = 1715
+			left,right = 107, 405
 
-		playersImg = img.crop((105,top,420,bottom))
+		playersImg = img.crop((left,top,right,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text if x.replace("\x0c", "").strip()]
 		playersImg.save("out-player.png", "PNG")
 
-		over_img = img.crop((530,top,600,bottom))
+		left,right = 540,600
+		if pageIdx == 1:
+			left = 530
+		over_img = img.crop((540,top,600,bottom))
 		over_text = pytesseract.image_to_string(over_img).split("\n")
 		over_text = [x for x in over_text if x.strip()]
+		over_img.save("out-over.png", "PNG")
 
-		under_img = img.crop((685,top,750,bottom))
+		left = 690 if pageIdx == 0 else 685
+		under_img = img.crop((left,top,755,bottom))
 		under_text = pytesseract.image_to_string(under_img).split("\n")
 		under_text = [x for x in under_text if x.strip()]
+		under_img.save("out-under.png", "PNG")
+
+		if debug:
+			print(text, over_text, under_text)
 		
 		for i, row in enumerate(text):
-			player = parsePlayer(row.split(" (")[0])
+			player = parsePlayer(row.split(" (")[0]).replace("gm 1", "").strip()
 			team = convertMLBTeam(row.split(")")[0].split("(")[-1])
+			if player == "willson contreras":
+				team = "stl"
 			game = teamGame.get(team, "")
-			data[game][player] = {"open": over_text[i]+"/"+under_text[i], "close": over_text[i]+"/"+under_text[i]}
+			#print(team, player, over_text, under_text)
+			o,u = over_text[i],under_text[i]
+			o = o.replace("~", "-").replace(",", "").replace("“", "")
+			u = u.replace("~", "-").replace(",", "").replace("“", "")
+			if len(u) >= 4 and u[0] in ["4", "7"]:
+				u = "-"+u[1:]
+			if len(o) == 4 and o[0] in ["4", "7"]:
+				o = "+"+o[1:]
+			if u[0] != "-" and o[0] == "+":
+				u = "-"+u
+			ou = f"""{o}/{u.replace("- ", "").replace("-_", "")}"""
+			if debug:
+				print(game, player, ou)
+				data[game][player] = ou
+			else:
+				if game:
+					data[game][player] = {"open": ou, "close": ou}
 
-	with open("static/dingers/circa_historical.json") as fh:
-		hist = json.load(fh)
-	hist[date] = data
-	with open("static/dingers/circa_historical.json", "w") as fh:
-		json.dump(hist, fh, indent=4)
+	if debug:
+		with open("static/mlb/circa-props.json", "w") as fh:
+			json.dump(data, fh, indent=4)
+	else:
+		with open("static/dingers/circa_historical.json") as fh:
+			hist = json.load(fh)
+		hist[date] = data
+		with open("static/dingers/circa_historical.json", "w") as fh:
+			json.dump(hist, fh, indent=4)
 
 
 def writeCircaMain(date):
@@ -2237,6 +2270,7 @@ if __name__ == '__main__':
 	parser.add_argument("--circa-history", action="store_true")
 	parser.add_argument("--circa-main", action="store_true")
 	parser.add_argument("--merge-circa", action="store_true")
+	parser.add_argument("--debug", action="store_true")
 
 	args = parser.parse_args()
 
@@ -2308,7 +2342,7 @@ if __name__ == '__main__':
 		pass
 
 	if args.circa_history:
-		writeCircaHistory(date)
+		writeCircaHistory(date, args.debug)
 	if args.circa_props:
 		writeCirca(date)
 	if args.circa_main:
