@@ -1135,7 +1135,6 @@ def analyzeHistory():
 				continue
 
 			data[player][book] = {k:dts[k] for k in sorted(dts)}
-			print([v for _,v in data[player][book].items()])
 			data[player][f"{book}_avg"] = averageOdds([v for _,v in data[player][book].items()])
 
 
