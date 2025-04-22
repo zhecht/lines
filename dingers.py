@@ -1130,7 +1130,7 @@ def analyzeHistory():
 	with open("static/dingers/odds.json") as fh:
 		oddsData = json.load(fh)
 
-	currOdds = {}
+	currOdds = nested_dict()
 	for game, players in oddsData.items():
 		for player, books in players.items():
 			for book, ou in books.items():
