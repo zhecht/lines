@@ -160,7 +160,7 @@ def getFairValue(ou, method=None):
 	if "/" not in ou:
 		u = 1.071 - impliedOver
 		if u > 1:
-			return
+			return 0.003
 		if over > 0:
 			under = int((100*u) / (-1+u))
 		else:
