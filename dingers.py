@@ -1143,7 +1143,7 @@ def analyzeHistory():
 			odds = [v for _,v in odds.items()]
 			imps = [getFairValue(x, add_vig=False) for x in odds]
 			avg = sum(imps) / len(imps)
-			std_dev = np.std(odds, ddof=1)
+			std_dev = np.std([x.split("/")[0] for x in odds], ddof=1)
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = convertAmericanFromImplied(avg)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
