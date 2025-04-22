@@ -1129,19 +1129,28 @@ def analyzeHistory():
 		history = json.load(fh)
 
 	data = nested_dict()
+	debug = nested_dict()
 	for player, books in history.items():
 		for book, dts in books.items():
 			if book not in ["fd", "circa", "pn"]:
 				continue
 
 			#data[player][book] = {k:dts[k] for k in sorted(dts)}
+			debug[player][book] = {k:dts[k] for k in sorted(dts)}
+
 			odds = [v for _,v in data[player][book].items()]
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = averageOdds(odds)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 
+			for k in ["avg_vig", "avg", "median"]:
+				debug[player][f"{book}_{k}"] = data[player][f"{book}_{k}"]
+
 	with open("static/dingers/analysis.json", "w") as fh:
 		json.dump(data, fh, indent=4)
+
+	with open("static/dingers/analysis_debug.json", "w") as fh:
+		json.dump(debug, fh, indent=4)
 
 
 def writeHistory():
