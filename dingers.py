@@ -1159,11 +1159,13 @@ def analyzeHistory():
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 			data[player][f"{book}_std_dev"] = std_dev
 
-
 			try:
 				curr = currOdds[player][book]
+				avg = sum(odds) / len(odds)
+				(int(curr.split("/")[0]) - avg) / std_dev
 			except:
 				curr = 0
+
 			if player == "oneil cruz":
 				print(book, odds, imps, std_dev, curr)
 
