@@ -952,9 +952,11 @@ def getMGMLinks(date):
 def runMGM():
 	uc.loop().run_until_complete(writeMGM())
 
-def writeMGMSel(game, url, driver=None):
-	if not driver:
+def writeMGMSel(game, url, driverArg=None):
+	if not driverArg:
 		driver = webdriver.Firefox()
+	else:
+		driver = driverArg
 	driver.get(url)
 	try:
 		WebDriverWait(driver, 10).until(
@@ -994,7 +996,8 @@ def writeMGMSel(game, url, driver=None):
 	old.update(data)
 	with open("static/dingers/mgm.json", "w") as fh:
 		json.dump(old, fh, indent=4)
-	driver.quit()
+	if not driverArg:
+		driver.quit()
 
 async def writeMGM():
 	book = "mgm"
