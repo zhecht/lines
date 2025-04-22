@@ -1147,11 +1147,12 @@ def analyzeHistory():
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = convertAmericanFromImplied(avg)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
+			data[player][f"{book}_std_dev"] = std_dev
 
 			if player == "oneil cruz":
 				print(book, odds, imps, std_dev)
 
-			for k in ["avg_vig", "avg", "median"]:
+			for k in ["avg_vig", "avg", "median", "std_dev"]:
 				debug[player][f"{book}_{k}"] = data[player][f"{book}_{k}"]
 
 	with open("static/dingers/analysis.json", "w") as fh:
