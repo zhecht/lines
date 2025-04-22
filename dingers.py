@@ -1159,7 +1159,7 @@ def analyzeHistory():
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = convertAmericanFromImplied(avg)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
-			data[player][f"{book}_std_dev"] = std_dev
+			data[player][f"{book}_std_dev"] = round(std_dev, 2)
 
 			try:
 				curr = currOdds[player][book]
