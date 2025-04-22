@@ -1161,7 +1161,8 @@ def analyzeHistory():
 
 			try:
 				curr = currOdds[player][book]
-				zScore = (int(curr.split("/")[0]) - convertAmericanFromImplied(avg)) / std_dev
+				if std_dev != "-" and std_dev:
+					zScore = (int(curr.split("/")[0]) - convertAmericanFromImplied(avg)) / std_dev
 			except:
 				curr, zScore = 0, 0
 
