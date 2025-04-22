@@ -1134,7 +1134,7 @@ def analyzeHistory():
 			if book not in ["fd", "circa", "pn"]:
 				continue
 
-			data[player][book] = {k:dts[k] for k in sorted(dts)}
+			#data[player][book] = {k:dts[k] for k in sorted(dts)}
 			odds = [v for _,v in data[player][book].items()]
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = averageOdds(odds)
