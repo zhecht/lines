@@ -149,12 +149,15 @@ def convertAmericanFromImplied(odds):
 		odds = ((1 - odds) / odds) * 100
 	return round(odds)
 
-def getFairValue(ou, method=None):
+def getFairValue(ou, method=None, add_vig=True):
 	over = int(ou.split("/")[0])
 	if over > 0:
 		impliedOver = 100 / (over+100)
 	else:
 		impliedOver = -1*over / (-1*over+100)
+
+	if not add_vig:
+		return impliedOver
 
 	# assume 7.1% vig if no under
 	if "/" not in ou:
