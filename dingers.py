@@ -1161,15 +1161,16 @@ def analyzeHistory():
 
 			try:
 				curr = currOdds[player][book]
-				avg = sum(odds) / len(odds)
-				(int(curr.split("/")[0]) - avg) / std_dev
+				zScore = (int(curr.split("/")[0]) - convertAmericanFromImplied(avg)) / std_dev
 			except:
-				curr = 0
+				curr, zScore = 0
+
+			data[player][f"{book}_z_score"] = zScore
 
 			if player == "oneil cruz":
-				print(book, odds, imps, std_dev, curr)
+				print(book, odds, imps, std_dev, curr, zScore)
 
-			for k in ["avg_vig", "avg", "median", "std_dev"]:
+			for k in ["avg_vig", "avg", "median", "std_dev", "z_score"]:
 				debug[player][f"{book}_{k}"] = data[player][f"{book}_{k}"]
 
 	with open("static/dingers/analysis.json", "w") as fh:
