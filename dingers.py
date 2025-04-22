@@ -1124,6 +1124,27 @@ async def writeBR(date):
 	browser.stop()
 	return res
 
+def analyzeHistory():
+	with open("static/dingers/history.json") as fh:
+		history = json.load(fh)
+
+	averageOdds(["-115/-115", "+150"])
+	exit()
+
+	data = nested_dict()
+	for player, books in history.items():
+		for book, dts in books.items():
+			if book not in ["fd", "circa", "pn"]:
+				continue
+
+			data[player][book] = {k:dts[k] for k in sorted(dts)}
+			data[player][f"{book}_avg"] = averageOdds([v for _,v in data[player][book].items()])
+
+
+	with open("static/dingers/analysis.json", "w") as fh:
+		json.dump(data, fh, indent=4)
+
+
 def writeHistory():
 	with open("static/baseballreference/roster.json") as fh:
 		roster = json.load(fh)
@@ -1165,7 +1186,7 @@ def writeHistory():
 
 	with open("static/dingers/history.json", "w") as fh:
 		json.dump(bookData, fh, indent=4)
-
+	analyzeHistory()
 
 async def getFDLinks(date):
 	try:

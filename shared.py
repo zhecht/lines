@@ -4,6 +4,7 @@ import unicodedata
 import git
 import json
 import requests
+import math
 import os
 from datetime import datetime
 
@@ -147,6 +148,54 @@ def convertAmericanFromImplied(odds):
 	else:
 		odds = ((1 - odds) / odds) * 100
 	return round(odds)
+
+def getFairValue(ou, method=None):
+	over = int(ou.split("/")[0])
+	if over > 0:
+		impliedOver = 100 / (over+100)
+	else:
+		impliedOver = -1*over / (-1*over+100)
+
+	# assume 7.1% vig if no under
+	if "/" not in ou:
+		u = 1.071 - impliedOver
+		if u > 1:
+			return
+		if over > 0:
+			under = int((100*u) / (-1+u))
+		else:
+			under = int((100 - 100*u) / u)
+	else:
+		under = int(ou.split("/")[1])
+
+	if under > 0:
+		impliedUnder = 100 / (under+100)
+	else:
+		impliedUnder = -1*under / (-1*under+100)
+
+	# power method
+	x = impliedOver
+	y = impliedUnder
+	while round(x+y, 8) != 1.0:
+		k = math.log(2) / math.log(2 / (x+y))
+		x = x**k
+		y = y**k
+
+	mult = impliedOver / (impliedOver + impliedUnder)
+	add = impliedOver - (impliedOver+impliedUnder-1) / 2
+	implied = min(x,mult,add)
+	if method == "mult":
+		return mult
+	elif method == "add":
+		return add
+	elif method == "power":
+		return x
+	return implied
+
+def averageOdds(odds):
+	avg = [getFairValue(x) for x in odds]
+	avg = sum(avg) / len(avg)
+	return convertAmericanFromImplied(avg)
 
 def strip_accents(text):
 	try:
