@@ -1144,7 +1144,7 @@ def analyzeHistory():
 			data[player][f"{book}_avg"] = averageOdds(odds)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 
-			if player == "oneil cruz":
+			if player == "oneil cruz" and book == "fd":
 				print(odds)
 				print(averageOdds(odds))
 
