@@ -1126,6 +1126,16 @@ async def writeBR(date):
 	return res
 
 def analyzeHistory():
+
+	with open("static/dingers/odds.json") as fh:
+		oddsData = json.load(fh)
+
+	currOdds = {}
+	for game, players in oddsData.items():
+		for player, books in players.items():
+			for book, ou in books.items():
+				currOdds[player][book] = ou
+
 	with open("static/dingers/history.json") as fh:
 		history = json.load(fh)
 
@@ -1149,8 +1159,13 @@ def analyzeHistory():
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 			data[player][f"{book}_std_dev"] = std_dev
 
+
+			try:
+				curr = currOdds[player][book]
+			except:
+				curr = 0
 			if player == "oneil cruz":
-				print(book, odds, imps, std_dev)
+				print(book, odds, imps, std_dev, curr)
 
 			for k in ["avg_vig", "avg", "median", "std_dev"]:
 				debug[player][f"{book}_{k}"] = data[player][f"{book}_{k}"]
