@@ -1128,9 +1128,6 @@ def analyzeHistory():
 	with open("static/dingers/history.json") as fh:
 		history = json.load(fh)
 
-	averageOdds(["-115/-115", "+150"])
-	exit()
-
 	data = nested_dict()
 	for player, books in history.items():
 		for book, dts in books.items():
