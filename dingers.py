@@ -1139,6 +1139,7 @@ def analyzeHistory():
 			debug[player][book] = {k:dts[k] for k in sorted(dts)}
 
 			odds = [v for _,v in data[player][book].items()]
+			print(odds)
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = averageOdds(odds)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
