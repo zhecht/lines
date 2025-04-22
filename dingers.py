@@ -372,7 +372,7 @@ def writeCirca(date):
 			last = player.split(" ")[-1]
 			inits[team][f"{first} {last}"] = player
 
-	#writeHistorical(date, book="circa")
+	writeHistorical(date, book="circa")
 
 	games = [x["game"] for x in schedule[date]]
 	teamGame = {}
@@ -1148,7 +1148,7 @@ def writeHistory():
 					bookData[player][book][date] = odds
 
 
-	for book in ["b365", "cz", "dk", "espn", "fd", "mgm", "pn"]:
+	for book in ["b365", "cz", "dk", "espn", "fd", "mgm", "pn", "circa"]:
 		with open(f"static/dingers/{book}_historical.json") as fh:
 			hist = json.load(fh)
 
