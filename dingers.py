@@ -1138,7 +1138,7 @@ def analyzeHistory():
 			odds = [v for _,v in data[player][book].items()]
 			data[player][f"{book}_avg"] = averageOdds(odds)
 			data[player][f"{book}_fake_avg"] = fakeAverageOdds(odds)
-			data[player][f"{book}_median"] = sorted([int(x) for x in odds])[len(odds) // 2]
+			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 
 	with open("static/dingers/analysis.json", "w") as fh:
 		json.dump(data, fh, indent=4)
