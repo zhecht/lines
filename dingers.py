@@ -1157,13 +1157,13 @@ def analyzeHistory():
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = convertAmericanFromImplied(avg)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
-			data[player][f"{book}_std_dev"] = std_dev
+			data[player][f"{book}_std_dev"] = std_dev or "-"
 
 			try:
 				curr = currOdds[player][book]
 				zScore = (int(curr.split("/")[0]) - convertAmericanFromImplied(avg)) / std_dev
 			except:
-				curr, zScore = 0
+				curr, zScore = 0, 0
 
 			data[player][f"{book}_z_score"] = zScore
 
