@@ -1141,8 +1141,9 @@ def analyzeHistory():
 
 			odds = [v for _,v in odds.items()]
 			imps = [getFairValue(x, add_vig=False) for x in odds]
+
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
-			data[player][f"{book}_avg"] = averageOdds(odds)
+			data[player][f"{book}_avg"] = convertAmericanFromImplied(sum(imps) // len(imps))
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 
 			if player == "oneil cruz":
