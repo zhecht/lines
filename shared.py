@@ -194,7 +194,6 @@ def getFairValue(ou, method=None):
 
 def averageOdds(odds):
 	avg = [getFairValue(x) for x in odds]
-	print(avg)
 	avg = sum(avg) / len(avg)
 	return convertAmericanFromImplied(avg)
 
