@@ -1760,6 +1760,9 @@ def writeEV(date, dinger, silent=False):
 	with open("updated.json", "w") as fh:
 		json.dump(updated, fh, indent=4)
 
+	with open("static/dingers/analysis.json") as fh:
+		analysis = json.load(fh)
+
 	with open(f"static/dingers/odds.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
@@ -2008,6 +2011,7 @@ def writeEV(date, dinger, silent=False):
 			evData[player]["oppRankClass"] = oppRankClass
 			evData[player]["pitcherData"] = pitcherData
 			evData[player]["savant"] = savantData
+			evData[player]["analysis"] = analysis.get(player, {})
 
 	with open("static/dingers/ev.json", "w") as fh:
 		json.dump(evData, fh, indent=4)
