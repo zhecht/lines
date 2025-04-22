@@ -1154,14 +1154,16 @@ def analyzeHistory():
 			imps = [getFairValue(x, add_vig=False) for x in odds]
 			avg = sum(imps) / len(imps)
 			std_dev = np.std([int(x.split("/")[0]) for x in odds], ddof=1)
+			if np.isnan(std_dev):
+				std_dev = 0
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = convertAmericanFromImplied(avg)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
-			data[player][f"{book}_std_dev"] = std_dev or "-"
+			data[player][f"{book}_std_dev"] = std_dev
 
 			try:
 				curr = currOdds[player][book]
-				if std_dev != "-" and std_dev:
+				if std_dev:
 					zScore = (int(curr.split("/")[0]) - convertAmericanFromImplied(avg)) / std_dev
 			except:
 				curr, zScore = 0, 0
