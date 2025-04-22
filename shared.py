@@ -197,6 +197,31 @@ def averageOdds(odds):
 	avg = sum(avg) / len(avg)
 	return convertAmericanFromImplied(avg)
 
+def fakeAverageOdds(odds):
+	avgOver = []
+	avgUnder = []
+	for o in odds:
+		if o and o != "-" and o.split("/")[0] != "-":
+			avgOver.append(convertImpOdds(int(o.split("/")[0])))
+			if "/" in o:
+				avgUnder.append(convertImpOdds(int(o.split("/")[1])))
+
+	if avgOver:
+		avgOver = float(sum(avgOver) / len(avgOver))
+		avgOver = convertAmericanFromImplied(avgOver)
+	else:
+		avgOver = "-"
+	if avgUnder:
+		avgUnder = float(sum(avgUnder) / len(avgUnder))
+		avgUnder = convertAmericanFromImplied(avgUnder)
+	else:
+		avgUnder = "-"
+
+	ou = f"{avgOver}/{avgUnder}"
+	if ou.endswith("/-"):
+		ou = ou.split("/")[0]
+	return ou
+
 def strip_accents(text):
 	try:
 		text = unicode(text, 'utf-8')
