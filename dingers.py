@@ -1140,7 +1140,7 @@ def analyzeHistory():
 			debug[player][book] = odds
 
 			odds = [v for _,v in odds.items()]
-			imps = [getFairValue(x) for x in odds]
+			imps = [getFairValue(x, add_vig=False) for x in odds]
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
 			data[player][f"{book}_avg"] = averageOdds(odds)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
