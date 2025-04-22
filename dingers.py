@@ -10,6 +10,7 @@ import time
 import nodriver as uc
 import subprocess
 import threading
+import numpy as np
 import multiprocessing
 from pdf2image import convert_from_path
 import pytesseract
@@ -1141,9 +1142,9 @@ def analyzeHistory():
 
 			odds = [v for _,v in odds.items()]
 			imps = [getFairValue(x, add_vig=False) for x in odds]
-
+			avg = sum(imps) / len(imps)
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
-			data[player][f"{book}_avg"] = convertAmericanFromImplied(sum(imps) // len(imps))
+			data[player][f"{book}_avg"] = convertAmericanFromImplied(avg)
 			data[player][f"{book}_median"] = sorted(odds)[len(odds) // 2]
 
 			if player == "oneil cruz":
