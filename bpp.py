@@ -27,7 +27,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-def writeMostLikely():
+def writeMostLikely(date):
 	with open("static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
@@ -92,18 +92,23 @@ def writeParkFactors():
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
+	parser.add_argument("--date", "-d")
 	parser.add_argument("--likely", action="store_true")
 	parser.add_argument("--factors", action="store_true")
-	parser.add_argument("-u", "--update", action="store_true")
+	parser.add_argument("--update", "-u", action="store_true")
 
 	args = parser.parse_args()
+
+	date = args.date
+	if not date:
+		date = str(datetime.now())[:10]
 
 	if args.factors:
 		writeParkFactors()
 
 	if args.likely:
-		writeMostLikely()
+		writeMostLikely(date)
 
 	if args.update:
 		writeParkFactors()
-		writeMostLikely()
+		writeMostLikely(date)
