@@ -35,20 +35,29 @@ def writeParkFactors():
 
 	games = soup.select(f"td[data-column=Game]")
 	arr = [("hr", "HomeRuns"), ("2b/3b", "DoublesTriples"), ("1b", "Singles"), ("r", "Runs")]
+	teamGame = {}
 	for prop, colName in arr:
 		cols = soup.select(f"td[data-column={colName}]")
 		for game, col in zip(games, cols):
 			game = game.find("a", class_="gameLink").text.lower()
 			words = [x for x in game.split(" ") if x]
 			game = " ".join(words)
+			a,h = map(str, game.split(" @ "))
+			teamGame[a] = game
+			teamGame[h] = game
 			factors[game][prop] = col.text
 
 	for rows in soup.select("#table_id tbody tr"):
 		tds = rows.select("td")
 		team = tds[0].text.lower()
+		game = teamGame.get(team, "")
 		player = parsePlayer(tds[1].text)
 		factor = tds[3].text
 		factorColor = tds[3].get("style").split("; ")[1]
+
+		factors[game]["players"][player] = {
+			"hr": factor, "color": factorColor
+		}
 
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
