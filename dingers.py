@@ -1848,6 +1848,9 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/mlb/lineups.json") as fh:
 		lineups = json.load(fh)
 
+	with open(f"static/bpp/factors.json") as fh:
+		bppFactors = json.load(fh)
+
 	gameTimes = {}
 	gameStarted = {}
 	for gameData in schedule[date]:
@@ -1868,6 +1871,7 @@ def writeEV(date, dinger, silent=False):
 		if game not in gameTimes:
 			continue
 		gameStart = gameTimes[game]
+		bpp = bppFactors.get(game, {})
 		gameWeather = weather.get(game, {})
 		awayStats = {}
 		homeStats = {}
@@ -2031,9 +2035,17 @@ def writeEV(date, dinger, silent=False):
 				pinchHit = f"{j['ph']} PH / {j['g']} G"
 			except:
 				pinchHit = ""
+
+			playerFactor = playerFactorColor = ""
+			if player in bpp.get("players", []):
+				playerFactor = bpp["players"][player]["hr"]
+				playerFactorColor = bpp["players"][player]["color"]
 			
 			evData[player]["id"] = f"{game}-{player}"
 			evData[player]["player"] = player
+			evData[player]["bpp"] = bpp.get("hr", "")
+			evData[player]["playerFactor"] = playerFactor
+			evData[player]["playerFactorColor"] = playerFactorColor
 			evData[player]["pitcher"] = "" if not pitcher else f"{pitcher} ({pitcherLR})"
 			evData[player]["game"] = game
 			evData[player]["team"] = team
