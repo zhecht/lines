@@ -2384,6 +2384,7 @@ if __name__ == '__main__':
 			for game in games:
 				pass
 				writeMGMSel(game, games[game], driver)
+			driver.quit()
 		#games = uc.loop().run_until_complete(getMGMLinks(date))
 		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
 		#runThreads("mgm", date, games, min(args.threads, len(games)))
