@@ -18,7 +18,6 @@ import pytesseract
 from PIL import Image
 
 from bs4 import BeautifulSoup as BS
-from controllers.shared import *
 from datetime import datetime, timedelta
 
 from selenium import webdriver
