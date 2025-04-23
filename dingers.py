@@ -1349,6 +1349,7 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 
 		currGame = game
 		if date == str(datetime.now())[:10] and game and gameStarted[game]:
+			print(game, "skip")
 			continue
 		if skip and currGame == skip:
 			continue
