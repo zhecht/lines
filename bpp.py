@@ -39,7 +39,8 @@ def writeParkFactors():
 		cols = soup.select(f"td[data-column={colName}]")
 		for game, col in zip(games, cols):
 			game = game.find("a", class_="gameLink").text.lower()
-
+			words = [x for x in game.split(" ") if x]
+			game = " ".join(words)
 			factors[game][prop] = col.text
 
 	with open("static/bpp/factors.json", "w") as fh:
