@@ -43,6 +43,13 @@ def writeParkFactors():
 			game = " ".join(words)
 			factors[game][prop] = col.text
 
+	for rows in soup.select("#table_id tbody tr"):
+		tds = rows.select("td")
+		team = tds[0].text.lower()
+		player = parsePlayer(tds[1].text)
+		factor = tds[3].text
+		print(tds[3].get("style").split(";"))
+
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
 
