@@ -29,6 +29,14 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def writeMostLikely():
 	url = "https://www.ballparkpal.com/Most-Likely.php"
+	likely = nested_dict()
+
+	soup = BS(open("static/bpp/likely.html"), "html.parser")
+	for row in soup.select("#batterTable tr")[1:]:
+		team = row.select("td[data-column=team]")[0].text.lower()
+		player = parsePlayer(row.select("td[data-column=entity]")[0].text.lower())
+		
+
 
 def writeParkFactors():
 	url = "https://www.ballparkpal.com/Park-Factors.php"
