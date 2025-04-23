@@ -34,7 +34,7 @@ def writeParkFactors():
 	soup = BS(open("static/bpp/factors.html"), "html.parser")
 
 	games = soup.find_all(f"td[data-column=Game]")
-	print(soup.find_all("td"))
+	print(soup.find("td"))
 	arr = [("hr", "HomeRuns"), ("2b/3b", "DoublesTriples"), ("1b", "Singles"), ("r", "Runs")]
 	for idx, (prop, colName) in enumerate(arr):
 		cols = soup.find_all(f"td[data-column={colName}]")
