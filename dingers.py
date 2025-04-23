@@ -1274,9 +1274,11 @@ async def writeFDFromBuilder(date, loop, night, skip):
 			teamMap[t] = game
 
 	url = "https://sportsbook.fanduel.com/navigation/mlb?tab=parlay-builder"
+	print(url)
 	try:
 		browser = await uc.start(no_sandbox=True)
 	except:
+		print("no browser")
 		return
 	page = await browser.get(url)
 	time.sleep(0.5)
