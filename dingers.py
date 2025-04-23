@@ -1274,7 +1274,6 @@ async def writeFDFromBuilder(date, loop, night, skip):
 			teamMap[t] = game
 
 	url = "https://sportsbook.fanduel.com/navigation/mlb?tab=parlay-builder"
-	print(url)
 	try:
 		browser = await uc.start(no_sandbox=True)
 	except:
@@ -1309,9 +1308,7 @@ async def writeFDFromBuilder(date, loop, night, skip):
 			dt = int(dt.strftime("%H%M"))
 			gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 
-		print("here")
 		writeHistorical(date, book, gameStarted)
-		print("here")
 		writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip)
 		if not loop:
 			break
@@ -1333,10 +1330,8 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 	for btn in btns:
 		label = btn.get("aria-label")
 		if not label:
-			print("6")
 			continue
 		if not label.startswith("To Hit A Home Run"):
-			print("5")
 			continue
 		player = parsePlayer(label.split(", ")[1])
 		odds = label.split(" ")[-1]
@@ -1352,15 +1347,12 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 			game = currGame
 
 		if "unavailable" in odds:
-			print("2")
 			continue
 
 		currGame = game
 		if date == str(datetime.now())[:10] and game and gameStarted[game]:
-			print("3")
 			continue
 		if skip and currGame == skip:
-			print("4")
 			continue
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
