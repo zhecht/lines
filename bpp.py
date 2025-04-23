@@ -27,6 +27,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
+def writeMostLikely():
+	url = "https://www.ballparkpal.com/Most-Likely.php"
+
 def writeParkFactors():
 	url = "https://www.ballparkpal.com/Park-Factors.php"
 	factors = nested_dict()
