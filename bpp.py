@@ -35,9 +35,12 @@ def writeParkFactors():
 
 	games = soup.select(f"td[data-column=Game]")
 	arr = [("hr", "HomeRuns"), ("2b/3b", "DoublesTriples"), ("1b", "Singles"), ("r", "Runs")]
-	for idx, (prop, colName) in enumerate(arr):
+	for prop, colName in arr:
 		cols = soup.select(f"td[data-column={colName}]")
-		print(prop, len(cols))
+		for game, col in zip(games, cols):
+			game = game.find("a", class_="gameLink").text.lower()
+
+			factors[game][prop] = col.text
 
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
