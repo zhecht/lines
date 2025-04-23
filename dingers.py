@@ -1329,8 +1329,10 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 	for btn in btns:
 		label = btn.get("aria-label")
 		if not label:
+			print("6")
 			continue
 		if not label.startswith("To Hit A Home Run"):
+			print("5")
 			continue
 		player = parsePlayer(label.split(", ")[1])
 		odds = label.split(" ")[-1]
@@ -1338,6 +1340,7 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 			team = btn.parent.parent.parent.find_all("img")[1]
 
 			if "/team/" not in team.get("src"):
+				print("1")
 				continue
 			team = convertMLBTeam(team.get("src").split("/")[-1].replace(".png", "").replace("_", " "))
 			game = teamMap.get(team, currGame)
@@ -1345,13 +1348,15 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 			game = currGame
 
 		if "unavailable" in odds:
+			print("2")
 			continue
 
 		currGame = game
 		if date == str(datetime.now())[:10] and game and gameStarted[game]:
-			print(game, "skip")
+			print("3")
 			continue
 		if skip and currGame == skip:
+			print("4")
 			continue
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
