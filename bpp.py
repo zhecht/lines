@@ -31,6 +31,17 @@ def writeParkFactors():
 	url = "https://www.ballparkpal.com/Park-Factors.php"
 	factors = nested_dict()
 
+	soup = BS(open("static/bpp/factors.html"), "html.parser")
+
+	games = soup.find_all(f"td[data-column=Game]")
+	arr = [("hr", "HomeRuns"), ("2b/3b", "DoublesTriples"), ("1b", "Singles"), ("r", "Runs")]
+	for idx, (prop, colName) in enumerate(arr):
+		cols = soup.find_all(f"td[data-column={colName}]")
+		print(prop, len(cols))
+
+	with open("static/bpp/factors.json", "w") as fh:
+		json.dump(factors, fh, indent=4)
+
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 
