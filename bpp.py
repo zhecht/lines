@@ -76,13 +76,13 @@ def writeParkFactors():
 			words = [x for x in game.split(" ") if x]
 			game = " ".join(words)
 			a,h = map(str, game.split(" @ "))
-			teamGame[a] = game
-			teamGame[h] = game
+			teamGame[convertBPPTeam(a)] = game
+			teamGame[convertBPPTeam(h)] = game
 			factors[game][prop] = col.text
 
 	for rows in soup.select("#table_id tbody tr"):
 		tds = rows.select("td")
-		team = tds[0].text.lower()
+		team = convertBPPTeam(tds[0].text.lower())
 		game = teamGame.get(team, "")
 		player = parsePlayer(tds[1].text)
 		factor = tds[3].text
