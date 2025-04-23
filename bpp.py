@@ -92,7 +92,18 @@ def writeParkFactors():
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
+	parser.add_argument("--likely", action="store_true")
+	parser.add_argument("--factors", action="store_true")
+	parser.add_argument("-u", "--update", action="store_true")
 
 	args = parser.parse_args()
 
-	writeParkFactors()
+	if args.factors:
+		writeParkFactors()
+
+	if args.likely:
+		writeMostLikely()
+
+	if args.update:
+		writeParkFactors()
+		writeMostLikely()
