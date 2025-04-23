@@ -53,11 +53,9 @@ def writeParkFactors():
 		game = teamGame.get(team, "")
 		player = parsePlayer(tds[1].text)
 		factor = tds[3].text
-		factorColor = tds[3].get("style").split("; ")[1]
+		factorColor = tds[3].get("style").split("; ")[1].split(": ")[-1]
 
-		factors[game]["players"][player] = {
-			"hr": factor, "color": factorColor
-		}
+		factors[game]["players"][player] = (factor, factorColor)
 
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
