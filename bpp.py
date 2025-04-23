@@ -26,6 +26,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+def convertBPPTeam(team):
+	team = team.lower()
+	if team == "was":
+		return "wsh"
+	return team
 
 def writeMostLikely(date):
 	with open("static/mlb/schedule.json") as fh:
@@ -43,7 +48,7 @@ def writeMostLikely(date):
 
 	soup = BS(open("static/bpp/likely.html"), "html.parser")
 	for row in soup.select("#batterTable tr")[1:]:
-		team = row.select("td[data-column=team]")[0].text.lower()
+		team = convertBPPTeam(row.select("td[data-column=team]")[0].text.lower())
 		game = teamGame.get(team, "")
 		player = parsePlayer(row.select("td[data-column=entity]")[0].text.lower())
 		prob = parsePlayer(row.select("td[data-column=probability0]")[0].text.lower())
