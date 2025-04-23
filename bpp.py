@@ -28,14 +28,31 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def writeMostLikely():
+	with open("static/mlb/schedule.json") as fh:
+		schedule = json.load(fh)
+
+	games = [x["game"] for x in schedule[date]]
+	teamGame = {}
+	for game in games:
+		a,h = map(str, game.split(" @ "))
+		teamGame[a] = game
+		teamGame[h] = game
+
 	url = "https://www.ballparkpal.com/Most-Likely.php"
 	likely = nested_dict()
 
 	soup = BS(open("static/bpp/likely.html"), "html.parser")
 	for row in soup.select("#batterTable tr")[1:]:
 		team = row.select("td[data-column=team]")[0].text.lower()
+		game = teamGame.get(team, "")
 		player = parsePlayer(row.select("td[data-column=entity]")[0].text.lower())
-		
+		prob = parsePlayer(row.select("td[data-column=probability0]")[0].text.lower())
+		odds = parsePlayer(row.select("td[data-column=book0]")[0].text.lower())
+		likely[game][player]["implied"] = prob
+		likely[game][player]["odds"] = odds
+
+	with open("static/bpp/likely.json", "w") as fh:
+		json.dump(likely, fh, indent=4)
 
 
 def writeParkFactors():
