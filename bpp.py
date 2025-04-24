@@ -38,14 +38,21 @@ from selenium.webdriver.support import expected_conditions as EC
 """
 
 def barrelDefinition():
+	barrel_threshold = {
+		98: [26,30],
+		99: [25,31],
+	}
 	evo = 100
 	minLA, maxLA = 24, 33
 
-	while evo < 116:
-		print(evo, minLA, maxLA)
+	while evo <= 116:
+		#print(evo, minLA, maxLA)
+		barrel_threshold[evo] = [minLA, maxLA]
 		minLA -= 1
 		maxLA += 1
 		evo += 1
+
+	print(barrel_threshold)
 
 def convertBPPTeam(team):
 	team = team.lower()
