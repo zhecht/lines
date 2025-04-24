@@ -1,3643 +1,2143 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608545967,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "G1 Kansas City Royals",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "G1 Colorado Rockies",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -230
       },
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "away",
+        "price": 208
       }
     ],
-    "rotation": 909,
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 23,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 594716249
+    "status": "open",
+    "type": "moneyline",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608566050,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608566051,
-        "name": "G1 Colorado Rockies",
-        "order": 0,
-        "rotation": 945
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -129
       },
       {
-        "alignment": "neutral",
-        "id": 1608566052,
-        "name": "G1 Kansas City Royals",
-        "order": 0,
-        "rotation": 946
+        "designation": "under",
+        "points": 4.5,
+        "price": 110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 945,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 418098344
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571245,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;away",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "G1 Kansas City Royals  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": 110
       },
       {
-        "alignment": "away",
-        "name": "G1 Colorado Rockies  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 3.5,
+        "price": -129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9909,
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 594698058
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571246,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571247,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": -104
       },
       {
-        "alignment": "neutral",
-        "id": 1608571248,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": 1.5,
+        "price": -106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098419
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571249,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571250,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571251,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571252,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571253,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571254,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571255,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571256,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571257,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571258,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571259,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571260,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571261,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571262,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571263,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571264,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571265,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571266,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571267,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571268,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571269,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571270,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571271,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571272,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571273,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571274,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571275,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571276,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571277,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571278,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571279,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571280,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571281,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571282,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571283,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571284,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571285,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571286,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571287,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571288,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571289,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571290,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571291,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571292,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571293,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571294,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571295,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571296,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571297,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571298,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571299,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571300,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571301,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571302,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571303,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571304,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571305,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 964
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -396
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 300
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098419
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571306,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571307,
-        "name": "G1 Colorado Rockies & Over 4.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571308,
-        "name": "G1 Kansas City Royals & Over 4.5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571309,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571310,
-        "name": "G1 Colorado Rockies & Under 4.5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571311,
-        "name": "G1 Kansas City Royals & Under 4.5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571312,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 914
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -342
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 273
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098437
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571313,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571314,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": -169
       },
       {
-        "alignment": "neutral",
-        "id": 1608571315,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": 1.0,
+        "price": 148
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098440
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571316,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571317,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571318,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571319,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571320,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571321,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571322,
-        "name": "5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571323,
-        "name": "6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571324,
-        "name": "7",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571325,
-        "name": "8+",
-        "order": 0,
-        "rotation": 917
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -2.0,
+        "price": 125
+      },
+      {
+        "designation": "away",
+        "points": 2.0,
+        "price": -141
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Colorado Rockies Exact Total Runs"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098440
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571326,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571327,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -2.5,
+        "price": 152
       },
       {
-        "alignment": "neutral",
-        "id": 1608571328,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": 2.5,
+        "price": -177
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Kansas City Royals Runs Odd/Even"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098440
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571329,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571330,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571331,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571332,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571333,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571334,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571335,
-        "name": "5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571336,
-        "name": "6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571337,
-        "name": "7",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571338,
-        "name": "8+",
-        "order": 0,
-        "rotation": 917
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -3.0,
+        "price": 201
+      },
+      {
+        "designation": "away",
+        "points": 3.0,
+        "price": -246
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Kansas City Royals Exact Total Runs"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098443
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571339,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571340,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -101
       },
       {
-        "alignment": "neutral",
-        "id": 1608571341,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "under",
+        "points": 8.5,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Kansas City Royals Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098443
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571342,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571343,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -394
       },
       {
-        "alignment": "neutral",
-        "id": 1608571344,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "under",
+        "points": 5.5,
+        "price": 298
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Colorado Rockies Runs Odd/Even"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098443
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571345,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571346,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -205
       },
       {
-        "alignment": "neutral",
-        "id": 1608571347,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "under",
+        "points": 7.0,
+        "price": 178
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Colorado Rockies Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098444
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571348,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571349,
-        "name": "G1 Colorado Rockies & Over 8.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571350,
-        "name": "G1 Kansas City Royals & Over 8.5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571351,
-        "name": "G1 Colorado Rockies & Under 8.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571352,
-        "name": "G1 Kansas City Royals & Under 8.5",
-        "order": 0,
-        "rotation": 912
+        "amount": 3750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.5,
+        "price": -145
+      },
+      {
+        "designation": "under",
+        "points": 7.5,
+        "price": 128
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098446
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571353,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571354,
-        "name": "G1 Colorado Rockies By 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571355,
-        "name": "G1 Colorado Rockies By 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571356,
-        "name": "G1 Colorado Rockies By 3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571357,
-        "name": "G1 Colorado Rockies By 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571358,
-        "name": "G1 Colorado Rockies By 5+",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571359,
-        "name": "G1 Kansas City Royals By 1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571360,
-        "name": "G1 Kansas City Royals By 2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571361,
-        "name": "G1 Kansas City Royals By 3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571362,
-        "name": "G1 Kansas City Royals By 4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571363,
-        "name": "G1 Kansas City Royals By 5+",
-        "order": 0,
-        "rotation": 918
+        "amount": 3750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.0,
+        "price": -119
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 106
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098446
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571364,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571365,
-        "name": "G1 Colorado Rockies By 1 - 2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571366,
-        "name": "G1 Colorado Rockies By 3 - 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571367,
-        "name": "G1 Colorado Rockies By 5 - 6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571368,
-        "name": "G1 Colorado Rockies By 7+",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571369,
-        "name": "G1 Kansas City Royals By 1 - 2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571370,
-        "name": "G1 Kansas City Royals By 3 - 4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571371,
-        "name": "G1 Kansas City Royals By 5 - 6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571372,
-        "name": "G1 Kansas City Royals By 7+",
-        "order": 0,
-        "rotation": 916
+        "amount": 3750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.0,
+        "price": 124
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": -140
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098450
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571373,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571374,
-        "name": "1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571375,
-        "name": "2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571376,
-        "name": "3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571377,
-        "name": "4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571378,
-        "name": "5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571379,
-        "name": "6",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571380,
-        "name": "7",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571381,
-        "name": "8",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571382,
-        "name": "9",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571383,
-        "name": "10",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571384,
-        "name": "11",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571385,
-        "name": "12",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571386,
-        "name": "13",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571387,
-        "name": "14",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571388,
-        "name": "15+",
-        "order": 0,
-        "rotation": 923
+        "amount": 3750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.5,
+        "price": 148
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -168
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098450
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571389,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571390,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571391,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571392,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571393,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571394,
-        "name": "13+",
-        "order": 0,
-        "rotation": 913
+        "amount": 3750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 10.0,
+        "price": 179
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -206
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098450
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571395,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571396,
-        "name": "G1 Colorado Rockies By 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571397,
-        "name": "G1 Colorado Rockies By 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571398,
-        "name": "G1 Colorado Rockies By 3+",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571399,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571400,
-        "name": "G1 Kansas City Royals By 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571401,
-        "name": "G1 Kansas City Royals By 2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571402,
-        "name": "G1 Kansas City Royals By 3+",
-        "order": 0,
-        "rotation": 915
+        "amount": 3750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 12.5,
+        "price": 338
+      },
+      {
+        "designation": "under",
+        "points": 12.5,
+        "price": -460
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098450
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571403,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571404,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571405,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571406,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571407,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571408,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571409,
-        "name": "5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571410,
-        "name": "6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571411,
-        "name": "7",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571412,
-        "name": "8",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571413,
-        "name": "9",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571414,
-        "name": "10",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571415,
-        "name": "11+",
-        "order": 0,
-        "rotation": 920
+        "amount": 750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "price": 220
+      },
+      {
+        "designation": "away",
+        "price": 359
+      },
+      {
+        "designation": "draw",
+        "price": -118
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098452
+    "status": "open",
+    "type": "moneyline",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571416,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571417,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571418,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571419,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571420,
-        "name": "7+",
-        "order": 0,
-        "rotation": 912
+        "amount": 750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -166
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 140
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098452
+    "status": "open",
+    "type": "spread",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571421,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571422,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571423,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571424,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571425,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571426,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571427,
-        "name": "5+",
-        "order": 0,
-        "rotation": 914
+        "amount": 750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 0.5,
+        "price": -111
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -105
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Colorado Rockies Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098455
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571428,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571429,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571430,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571431,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571432,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571433,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571434,
-        "name": "5+",
-        "order": 0,
-        "rotation": 914
+        "amount": 750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -119
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": -102
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "G1 Kansas City Royals Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098455
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3077057769
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608571435,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 21,
-        "matchupCountSE": 21,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608545967,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "G1 Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "G1 Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-24T18:10:00+00:00"
-    },
-    "parentId": 1608545967,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608571436,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571437,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571438,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571439,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571440,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571441,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571442,
-        "name": "G1 Colorado Rockies 0, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571443,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571444,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571445,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571446,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571447,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571448,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571449,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571450,
-        "name": "G1 Colorado Rockies 1, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571451,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571452,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571453,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571454,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571455,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571456,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571457,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571458,
-        "name": "G1 Colorado Rockies 2, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571459,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571460,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571461,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571462,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571463,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571464,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571465,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571466,
-        "name": "G1 Colorado Rockies 3, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571467,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571468,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571469,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571470,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571471,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571472,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571473,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571474,
-        "name": "G1 Colorado Rockies 4, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571475,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571476,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571477,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571478,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571479,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571480,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571481,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571482,
-        "name": "G1 Colorado Rockies 5, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571483,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571484,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571485,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571486,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571487,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571488,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571489,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571490,
-        "name": "G1 Colorado Rockies 6, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571491,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 0",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571492,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 1",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571493,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 2",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571494,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 3",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571495,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 4",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571496,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 5",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571497,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 6",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608571498,
-        "name": "G1 Colorado Rockies 7, G1 Kansas City Royals 7",
-        "order": 0,
-        "rotation": 971
+        "amount": 750,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-24T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": 102
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": -124
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-04-24T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418098455
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
+      {
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -222
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 191
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
+      {
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -469
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 343
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
+      {
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -284
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 233
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
+      {
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": -146
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": 126
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
+      {
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": -110
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -106
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
+      {
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -107
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -107
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
+      {
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -188
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 161
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
+      {
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -147
+      },
+      {
+        "designation": "under",
+        "points": 4.0,
+        "price": 128
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
+      {
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 122
+      },
+      {
+        "designation": "under",
+        "points": 5.0,
+        "price": -140
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
+      {
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608545967,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 149
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -173
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3077057769
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608566050,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608566051,
+        "price": -104
+      },
+      {
+        "participantId": 1608566052,
+        "price": -112
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931628835
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;27.0",
+    "limits": [
+      {
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571245,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 27.0,
+        "price": 130
+      },
+      {
+        "designation": "under",
+        "points": 27.0,
+        "price": -159
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3077056050
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571246,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571247,
+        "price": -155
+      },
+      {
+        "participantId": 1608571248,
+        "price": 132
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571249,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571250,
+        "price": 7203
+      },
+      {
+        "participantId": 1608571251,
+        "price": 6659
+      },
+      {
+        "participantId": 1608571252,
+        "price": 6725
+      },
+      {
+        "participantId": 1608571253,
+        "price": 7499
+      },
+      {
+        "participantId": 1608571254,
+        "price": 8546
+      },
+      {
+        "participantId": 1608571257,
+        "price": 4840
+      },
+      {
+        "participantId": 1608571258,
+        "price": 4051
+      },
+      {
+        "participantId": 1608571259,
+        "price": 4248
+      },
+      {
+        "participantId": 1608571260,
+        "price": 4646
+      },
+      {
+        "participantId": 1608571261,
+        "price": 5474
+      },
+      {
+        "participantId": 1608571262,
+        "price": 6567
+      },
+      {
+        "participantId": 1608571263,
+        "price": 8168
+      },
+      {
+        "participantId": 1608571264,
+        "price": 4302
+      },
+      {
+        "participantId": 1608571265,
+        "price": 2343
+      },
+      {
+        "participantId": 1608571266,
+        "price": 3030
+      },
+      {
+        "participantId": 1608571267,
+        "price": 3468
+      },
+      {
+        "participantId": 1608571268,
+        "price": 4014
+      },
+      {
+        "participantId": 1608571269,
+        "price": 5030
+      },
+      {
+        "participantId": 1608571270,
+        "price": 6914
+      },
+      {
+        "participantId": 1608571271,
+        "price": 4018
+      },
+      {
+        "participantId": 1608571272,
+        "price": 2548
+      },
+      {
+        "participantId": 1608571273,
+        "price": 1716
+      },
+      {
+        "participantId": 1608571274,
+        "price": 2823
+      },
+      {
+        "participantId": 1608571275,
+        "price": 3478
+      },
+      {
+        "participantId": 1608571276,
+        "price": 4692
+      },
+      {
+        "participantId": 1608571277,
+        "price": 6278
+      },
+      {
+        "participantId": 1608571278,
+        "price": 4065
+      },
+      {
+        "participantId": 1608571279,
+        "price": 2593
+      },
+      {
+        "participantId": 1608571280,
+        "price": 2198
+      },
+      {
+        "participantId": 1608571281,
+        "price": 1593
+      },
+      {
+        "participantId": 1608571282,
+        "price": 3467
+      },
+      {
+        "participantId": 1608571283,
+        "price": 4620
+      },
+      {
+        "participantId": 1608571284,
+        "price": 5754
+      },
+      {
+        "participantId": 1608571285,
+        "price": 4349
+      },
+      {
+        "participantId": 1608571286,
+        "price": 2803
+      },
+      {
+        "participantId": 1608571287,
+        "price": 2386
+      },
+      {
+        "participantId": 1608571288,
+        "price": 2359
+      },
+      {
+        "participantId": 1608571289,
+        "price": 2013
+      },
+      {
+        "participantId": 1608571290,
+        "price": 4408
+      },
+      {
+        "participantId": 1608571291,
+        "price": 5666
+      },
+      {
+        "participantId": 1608571292,
+        "price": 4852
+      },
+      {
+        "participantId": 1608571293,
+        "price": 3174
+      },
+      {
+        "participantId": 1608571294,
+        "price": 2770
+      },
+      {
+        "participantId": 1608571295,
+        "price": 3016
+      },
+      {
+        "participantId": 1608571296,
+        "price": 3382
+      },
+      {
+        "participantId": 1608571297,
+        "price": 2619
+      },
+      {
+        "participantId": 1608571298,
+        "price": 5667
+      },
+      {
+        "participantId": 1608571299,
+        "price": 5538
+      },
+      {
+        "participantId": 1608571300,
+        "price": 3758
+      },
+      {
+        "participantId": 1608571301,
+        "price": 3662
+      },
+      {
+        "participantId": 1608571302,
+        "price": 3792
+      },
+      {
+        "participantId": 1608571303,
+        "price": 3978
+      },
+      {
+        "participantId": 1608571304,
+        "price": 4391
+      },
+      {
+        "participantId": 1608571305,
+        "price": 3447
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571306,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571307,
+        "price": 484
+      },
+      {
+        "participantId": 1608571308,
+        "price": 187
+      },
+      {
+        "participantId": 1608571309,
+        "price": 1535
+      },
+      {
+        "participantId": 1608571310,
+        "price": 491
+      },
+      {
+        "participantId": 1608571311,
+        "price": 262
+      },
+      {
+        "participantId": 1608571312,
+        "price": 601
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931628835
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571313,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571314,
+        "price": -106
+      },
+      {
+        "participantId": 1608571315,
+        "price": -110
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571316,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571317,
+        "price": 792
+      },
+      {
+        "participantId": 1608571318,
+        "price": 479
+      },
+      {
+        "participantId": 1608571319,
+        "price": 420
+      },
+      {
+        "participantId": 1608571320,
+        "price": 444
+      },
+      {
+        "participantId": 1608571321,
+        "price": 532
+      },
+      {
+        "participantId": 1608571322,
+        "price": 647
+      },
+      {
+        "participantId": 1608571323,
+        "price": 833
+      },
+      {
+        "participantId": 1608571324,
+        "price": 1090
+      },
+      {
+        "participantId": 1608571325,
+        "price": 654
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571326,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571328,
+        "price": -110
+      },
+      {
+        "participantId": 1608571327,
+        "price": -106
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571329,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571330,
+        "price": 1655
+      },
+      {
+        "participantId": 1608571331,
+        "price": 987
+      },
+      {
+        "participantId": 1608571332,
+        "price": 671
+      },
+      {
+        "participantId": 1608571333,
+        "price": 534
+      },
+      {
+        "participantId": 1608571334,
+        "price": 490
+      },
+      {
+        "participantId": 1608571335,
+        "price": 509
+      },
+      {
+        "participantId": 1608571336,
+        "price": 591
+      },
+      {
+        "participantId": 1608571337,
+        "price": 721
+      },
+      {
+        "participantId": 1608571338,
+        "price": 325
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931458512
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571339,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571340,
+        "price": 107
+      },
+      {
+        "participantId": 1608571341,
+        "price": -125
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571342,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571343,
+        "price": -105
+      },
+      {
+        "participantId": 1608571344,
+        "price": -112
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931458512
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571345,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571346,
+        "price": 118
+      },
+      {
+        "participantId": 1608571347,
+        "price": -139
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931628835
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571348,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571349,
+        "price": 439
+      },
+      {
+        "participantId": 1608571350,
+        "price": 180
+      },
+      {
+        "participantId": 1608571351,
+        "price": 431
+      },
+      {
+        "participantId": 1608571352,
+        "price": 167
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571353,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571360,
+        "price": 568
+      },
+      {
+        "participantId": 1608571361,
+        "price": 661
+      },
+      {
+        "participantId": 1608571362,
+        "price": 797
+      },
+      {
+        "participantId": 1608571363,
+        "price": 342
+      },
+      {
+        "participantId": 1608571354,
+        "price": 721
+      },
+      {
+        "participantId": 1608571355,
+        "price": 902
+      },
+      {
+        "participantId": 1608571356,
+        "price": 1132
+      },
+      {
+        "participantId": 1608571357,
+        "price": 1476
+      },
+      {
+        "participantId": 1608571358,
+        "price": 934
+      },
+      {
+        "participantId": 1608571359,
+        "price": 357
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571364,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571365,
+        "price": 427
+      },
+      {
+        "participantId": 1608571366,
+        "price": 740
+      },
+      {
+        "participantId": 1608571367,
+        "price": 1365
+      },
+      {
+        "participantId": 1608571368,
+        "price": 1846
+      },
+      {
+        "participantId": 1608571369,
+        "price": 201
+      },
+      {
+        "participantId": 1608571370,
+        "price": 377
+      },
+      {
+        "participantId": 1608571371,
+        "price": 630
+      },
+      {
+        "participantId": 1608571372,
+        "price": 709
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571373,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571374,
+        "price": 2836
+      },
+      {
+        "participantId": 1608571375,
+        "price": 2577
+      },
+      {
+        "participantId": 1608571376,
+        "price": 1134
+      },
+      {
+        "participantId": 1608571377,
+        "price": 1211
+      },
+      {
+        "participantId": 1608571378,
+        "price": 683
+      },
+      {
+        "participantId": 1608571379,
+        "price": 825
+      },
+      {
+        "participantId": 1608571380,
+        "price": 550
+      },
+      {
+        "participantId": 1608571381,
+        "price": 743
+      },
+      {
+        "participantId": 1608571382,
+        "price": 654
+      },
+      {
+        "participantId": 1608571383,
+        "price": 972
+      },
+      {
+        "participantId": 1608571384,
+        "price": 831
+      },
+      {
+        "participantId": 1608571385,
+        "price": 1185
+      },
+      {
+        "participantId": 1608571386,
+        "price": 1088
+      },
+      {
+        "participantId": 1608571387,
+        "price": 1577
+      },
+      {
+        "participantId": 1608571388,
+        "price": 594
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571389,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608571392,
+        "price": 199
+      },
+      {
+        "participantId": 1608571393,
+        "price": 361
+      },
+      {
+        "participantId": 1608571394,
+        "price": 338
+      },
+      {
+        "participantId": 1608571390,
+        "price": 798
+      },
+      {
+        "participantId": 1608571391,
+        "price": 303
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571395,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571396,
+        "price": 628
+      },
+      {
+        "participantId": 1608571397,
+        "price": 864
+      },
+      {
+        "participantId": 1608571398,
+        "price": 583
+      },
+      {
+        "participantId": 1608571399,
+        "price": 475
+      },
+      {
+        "participantId": 1608571400,
+        "price": 489
+      },
+      {
+        "participantId": 1608571401,
+        "price": 553
+      },
+      {
+        "participantId": 1608571402,
+        "price": 207
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931605053
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571403,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571404,
+        "price": 1437
+      },
+      {
+        "participantId": 1608571405,
+        "price": 825
+      },
+      {
+        "participantId": 1608571406,
+        "price": 611
+      },
+      {
+        "participantId": 1608571407,
+        "price": 532
+      },
+      {
+        "participantId": 1608571408,
+        "price": 520
+      },
+      {
+        "participantId": 1608571409,
+        "price": 561
+      },
+      {
+        "participantId": 1608571410,
+        "price": 644
+      },
+      {
+        "participantId": 1608571411,
+        "price": 765
+      },
+      {
+        "participantId": 1608571412,
+        "price": 941
+      },
+      {
+        "participantId": 1608571413,
+        "price": 1188
+      },
+      {
+        "participantId": 1608571414,
+        "price": 1526
+      },
+      {
+        "participantId": 1608571415,
+        "price": 969
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931458512
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571416,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571417,
+        "price": 285
+      },
+      {
+        "participantId": 1608571418,
+        "price": 240
+      },
+      {
+        "participantId": 1608571419,
+        "price": 312
+      },
+      {
+        "participantId": 1608571420,
+        "price": 225
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931672696
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571421,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571424,
+        "price": 379
+      },
+      {
+        "participantId": 1608571425,
+        "price": 557
+      },
+      {
+        "participantId": 1608571426,
+        "price": 822
+      },
+      {
+        "participantId": 1608571427,
+        "price": 615
+      },
+      {
+        "participantId": 1608571422,
+        "price": 245
+      },
+      {
+        "participantId": 1608571423,
+        "price": 264
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931606045
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571428,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571429,
+        "price": 465
+      },
+      {
+        "participantId": 1608571430,
+        "price": 424
+      },
+      {
+        "participantId": 1608571431,
+        "price": 404
+      },
+      {
+        "participantId": 1608571432,
+        "price": 460
+      },
+      {
+        "participantId": 1608571433,
+        "price": 564
+      },
+      {
+        "participantId": 1608571434,
+        "price": 254
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931424985
+  },
+  {
+    "cutoffAt": "2025-04-24T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608571435,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608571443,
+        "price": 1818
+      },
+      {
+        "participantId": 1608571444,
+        "price": 1592
+      },
+      {
+        "participantId": 1608571445,
+        "price": 1480
+      },
+      {
+        "participantId": 1608571446,
+        "price": 1649
+      },
+      {
+        "participantId": 1608571447,
+        "price": 1980
+      },
+      {
+        "participantId": 1608571448,
+        "price": 2484
+      },
+      {
+        "participantId": 1608571449,
+        "price": 3216
+      },
+      {
+        "participantId": 1608571450,
+        "price": 4260
+      },
+      {
+        "participantId": 1608571451,
+        "price": 2272
+      },
+      {
+        "participantId": 1608571452,
+        "price": 2123
+      },
+      {
+        "participantId": 1608571453,
+        "price": 1934
+      },
+      {
+        "participantId": 1608571454,
+        "price": 2088
+      },
+      {
+        "participantId": 1608571455,
+        "price": 2492
+      },
+      {
+        "participantId": 1608571456,
+        "price": 3070
+      },
+      {
+        "participantId": 1608571457,
+        "price": 3939
+      },
+      {
+        "participantId": 1608571459,
+        "price": 2961
+      },
+      {
+        "participantId": 1608571460,
+        "price": 2775
+      },
+      {
+        "participantId": 1608571461,
+        "price": 2713
+      },
+      {
+        "participantId": 1608571462,
+        "price": 2854
+      },
+      {
+        "participantId": 1608571463,
+        "price": 3234
+      },
+      {
+        "participantId": 1608571464,
+        "price": 3950
+      },
+      {
+        "participantId": 1608571467,
+        "price": 3966
+      },
+      {
+        "participantId": 1608571468,
+        "price": 3761
+      },
+      {
+        "participantId": 1608571469,
+        "price": 3684
+      },
+      {
+        "participantId": 1608571470,
+        "price": 4042
+      },
+      {
+        "participantId": 1608571471,
+        "price": 4454
+      },
+      {
+        "participantId": 1608571436,
+        "price": 1493
+      },
+      {
+        "participantId": 1608571437,
+        "price": 1442
+      },
+      {
+        "participantId": 1608571438,
+        "price": 1607
+      },
+      {
+        "participantId": 1608571439,
+        "price": 1913
+      },
+      {
+        "participantId": 1608571440,
+        "price": 2401
+      },
+      {
+        "participantId": 1608571441,
+        "price": 3145
+      },
+      {
+        "participantId": 1608571442,
+        "price": 4167
+      }
+    ],
+    "type": "moneyline",
+    "version": 4931605938
   }
 ]
