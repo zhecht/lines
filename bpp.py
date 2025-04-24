@@ -72,12 +72,14 @@ def writeParkFactors():
 	for prop, colName in arr:
 		cols = soup.select(f"td[data-column={colName}]")
 		for game, col in zip(games, cols):
+			roofClosed = len(game.select("img[src*=RoofClosed]")) > 0
 			game = game.find("a", class_="gameLink").text.lower()
 			words = [x for x in game.split(" ") if x]
 			game = " ".join(words)
 			a,h = map(str, game.split(" @ "))
 			teamGame[convertBPPTeam(a)] = game
 			teamGame[convertBPPTeam(h)] = game
+			factors[game]["roof"] = roofClosed
 			factors[game][prop] = col.text
 
 	for rows in soup.select("#table_id tbody tr"):
@@ -101,6 +103,7 @@ if __name__ == '__main__':
 	parser.add_argument("--likely", action="store_true")
 	parser.add_argument("--factors", action="store_true")
 	parser.add_argument("--update", "-u", action="store_true")
+	parser.add_argument("--commit", "-c", action="store_true")
 
 	args = parser.parse_args()
 
@@ -117,3 +120,6 @@ if __name__ == '__main__':
 	if args.update:
 		writeParkFactors()
 		writeMostLikely(date)
+
+	if args.commit:
+		commitChanges()
