@@ -2396,6 +2396,8 @@ if __name__ == '__main__':
 			writeMGMSel(args.game, args.url)
 		else:
 			games = getMGMLinks(date)
+			if not games:
+				exit()
 
 			driver = webdriver.Firefox()
 			for game in games:
