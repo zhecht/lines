@@ -37,6 +37,16 @@ from selenium.webdriver.support import expected_conditions as EC
 	116 (8-50)
 """
 
+def barrelDefinition():
+	evo = 100
+	minLA, maxLA = 24, 33
+
+	while evo < 116:
+		print(evo, minLA, maxLA)
+		minLA -= 1
+		maxLA += 1
+		evo += 1
+
 def convertBPPTeam(team):
 	team = team.lower()
 	if team == "was":
@@ -134,3 +144,5 @@ if __name__ == '__main__':
 
 	if args.commit:
 		commitChanges()
+
+	barrelDefinition()
