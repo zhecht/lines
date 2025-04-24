@@ -1173,9 +1173,6 @@ def analyzeHistory():
 
 			data[player][f"{book}_z_score"] = zScore
 
-			if player == "oneil cruz":
-				print(book, odds, imps, std_dev, curr, zScore)
-
 			for k in ["avg_vig", "avg", "median", "std_dev", "z_score"]:
 				debug[player][f"{book}_{k}"] = data[player][f"{book}_{k}"]
 
