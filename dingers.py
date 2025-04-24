@@ -2039,15 +2039,18 @@ def writeEV(date, dinger, silent=False):
 				pinchHit = ""
 
 			playerFactor = playerFactorColor = ""
+			roof = False
 			if player in bpp.get("players", []):
 				playerFactor = bpp["players"][player]["hr"]
 				playerFactorColor = bpp["players"][player]["color"]
+				roof = bpp["roof"]
 			
 			evData[player]["id"] = f"{game}-{player}"
 			evData[player]["player"] = player
 			evData[player]["bpp"] = bpp.get("hr", "")
 			evData[player]["playerFactor"] = playerFactor
 			evData[player]["playerFactorColor"] = playerFactorColor
+			evData[player]["roof"] = roof
 			evData[player]["pitcher"] = "" if not pitcher else f"{pitcher} ({pitcherLR})"
 			evData[player]["game"] = game
 			evData[player]["team"] = team
