@@ -26,6 +26,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+"""
+	What is a Barrel
+	https://www.mlb.com/glossary/statcast/barrel
+
+	General: >= 98 EVO && 26 <= LA <= 30
+	99 EVO (25-31 LA)
+	100 EVO (24-33 LA)
+	101 EVO (23-34), 102 (22-35), 103 (21-36)
+	116 (8-50)
+"""
+
 def convertBPPTeam(team):
 	team = team.lower()
 	if team == "was":
