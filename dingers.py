@@ -618,7 +618,7 @@ def writeCirca(date):
 
 					ou = f"{o}/{u}"
 
-					print(player, team, line, ou)
+					#print(player, team, line, ou)
 
 					data[game]["k"][player][line] = ou
 					boxT += h+2
