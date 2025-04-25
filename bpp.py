@@ -105,8 +105,11 @@ def writeParkFactors():
 			words = [x for x in game.split(" ") if x]
 			game = " ".join(words)
 			a,h = map(str, game.split(" @ "))
-			teamGame[convertBPPTeam(a)] = game
-			teamGame[convertBPPTeam(h)] = game
+			a = convertBPPTeam(a)
+			h = convertBPPTeam(h)
+			game = f"{a} @ {h}"
+			teamGame[a] = game
+			teamGame[h] = game
 			factors[game]["roof"] = roofClosed
 			factors[game][prop] = col.text
 
