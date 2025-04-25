@@ -572,10 +572,6 @@ def writeCirca(date):
 					x = box.crop((w-110,40,w-60,h))
 					ou = box.crop((w-60,40,w,h))
 
-					x2 = box.crop((w-110,40,w,h))
-					x2.save(f"out-line-{i}.png", "PNG")
-					print(pytesseract.image_to_string(x2).split("\n"))
-
 					player_img = box.crop((0,0,w,40)) # l,t,r,b
 					player_img.save(f"out-player-{i}.png", "PNG")
 					player = pytesseract.image_to_string(player_img).split("\n")
