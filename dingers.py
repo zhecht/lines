@@ -582,6 +582,8 @@ def writeCirca(date):
 					player = player[0]
 
 					x.save(f"out-line-{i}.png", "PNG")
+					ou.save(f"out-ou-{i}.png", "PNG")
+
 					line = pytesseract.image_to_string(x).split("\n")
 					#print(player, line)
 					line = str(float(line[0][0].replace("T", "7")) + 0.5)
