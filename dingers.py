@@ -594,7 +594,6 @@ def writeCirca(date):
 					if player in inits[team]:
 						player = inits[team][player]
 
-					print(player, team, line, ous)
 					o = ous[0].replace("EVEN", "+100")
 					u = ous[1].replace("EVEN", "+100")
 
@@ -605,6 +604,8 @@ def writeCirca(date):
 
 					if o.startswith("+") and not u.startswith("-") and not u.startswith("+"):
 						u = f"-{u}"
+
+					print(player, team, line, o, u)
 
 					data[game]["k"][player][line] = f"{o}/{u}".replace("\u201c", "-").replace(",", "").replace("“", "-")
 					boxT += h+2
