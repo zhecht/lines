@@ -539,8 +539,11 @@ def writeCirca(date):
 			l,r,t = 770,1035,985
 			# custom
 			boxH = 90
-			pitcherRows = 6
+			pitcherRows = 7
 			t = 958
+			# Full Slate
+			pitcherRows = 10
+			t = 1326
 			boxW = 264 #r-l
 			boxT = t
 			boxL = l
