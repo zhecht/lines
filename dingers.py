@@ -2059,6 +2059,7 @@ def writeEV(date, dinger, silent=False):
 			evData[player]["ph"] = pinchHit
 			evData[player]["order"] = order
 			evData[player]["start"] = gameStart
+			evData[player]["startSortable"] = convertToSortable(gameStart)
 			evData[player]["bookOdds"] = {b: o for b, o in zip(books, oddsArr)}
 			evData[player]["stadiumRank"] = stadiumRank
 			evData[player]["oppRank"] = oppRank
