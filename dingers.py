@@ -593,7 +593,7 @@ def writeCirca(date):
 					if player in inits[team]:
 						player = inits[team][player]
 
-					#print(player, team, line, ous)
+					print(player, team, line, ous)
 					o = ous[0].replace("EVEN", "+100")
 					u = ous[1].replace("EVEN", "+100")
 
