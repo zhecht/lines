@@ -1680,6 +1680,7 @@ def writeKambi(date):
 	with open(outfile) as fh:
 		j = json.load(fh)
 
+	writeHistorical(date, "kambi")
 	data = nested_dict()
 
 	eventIds = {}
