@@ -448,7 +448,11 @@ def writeCirca(date):
 		#i = img.crop((770,1230,1035,1320))
 		#print(pytesseract.image_to_string(i).split("\n"))
 
-		oversImg = img.crop((540,top,600,bottom))
+		l,r = 540,600
+		if pageIdx == 1:
+			l,r = 550,610
+
+		oversImg = img.crop((l,top,r,bottom))
 		undersImg = img.crop((680,top,750,bottom))
 
 		#oversImg = img.crop((600,top,660,bottom))
