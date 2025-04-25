@@ -613,6 +613,8 @@ def writeCirca(date):
 							o = "-"+o
 						elif u == "-125":
 							o = "-105"
+						elif u == "-115":
+							o = "-115"
 
 					ou = f"{o}/{u}"
 
