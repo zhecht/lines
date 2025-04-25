@@ -11,7 +11,6 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -3.7		TOR @ NYY	Anthony Santander		'+370		'+400/-550	'+390	'+400/-550	'340	'450/-715
 -3.7		MIA @ SEA	Jesus Sanchez		'+450		'+375/-500	'+350		'333	
 -3.8		NYM @ WSH	Pete Alonso		'+290		'+320/-400	'+320	'+320/-400	'280	'360/-530
--4.2		MIL @ STL	Jordan Walker		'+800		'+600/-900	'+600	'+600/-900	'500	'575/-1000
 -4.3		TOR @ NYY	Aaron Judge		'+182		'+175/-210	'+170	'+175/-210	'163	'170/-220
 -4.4		MIL @ STL	Nolan Gorman		'+480		'+400/-550	'+370	'+425/-600	'340	'410/-670
 -4.8		MIA @ SEA	Matt Mervis		'+540		'+450/-600	'+475		'400	
@@ -20,6 +19,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -6.2		NYM @ WSH	Juan Soto		'+255		'+245/-305	'+230	'+260/-325	'220	'215/-295
 -6.4		NYM @ WSH	Brandon Nimmo		'+450		'+390/-525	'+370	'+375/-525	'360	'390/-590
 -6.4		TOR @ NYY	Austin Wells		'+560		'+600/-900	'+550	'+525/-750	'450	'650/-1250
+-6.5		MIL @ STL	Jordan Walker		'+800		'+600/-900	'+600	'+625/-1000	'500	'575/-1000
 -7.1		TOR @ NYY	Vladimir Guerrero		'+420		'+475/-650	'+425	'+400/-550	'380	'450/-715
 -8.2		PIT @ LAD	Shohei Ohtani		'+280		'+350/-450	'+310		'280	
 -9.0		NYM @ WSH	Jesse Winker		'+750		'+600/-900	'+650	'+600/-900	'500	'575/-1000
@@ -112,10 +112,9 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -23.4		MIA @ SEA	Rowdy Tellez		'+560		'+575/-850	'+600		'550	
 -23.5		HOU @ KC	Jeremy Pena		'+1000		'+850/-1400	'+850	'+850/-1600	'600	'850/-2000
 -23.5		LAA @ MIN	Logan Ohoppe		'+680		'+650/-1000	'+700	'+650/-1100	'700	'650/-1250
--23.5		MIL @ STL	Jackson Chourio		'+630		'+625/-950	'+600	'+600/-900	'480	'600/-1115
 -23.6		TOR @ NYY	Alan Roden		'+900		'+800/-1300	'+750	'+775/-1400	'600	'850/-2000
--23.6		MIL @ STL	Brendan Donovan				'+700/-1100	'+650	'+675/-1100	'700	'750/-1667
 -23.7		LAA @ MIN	Trevor Larnach		'+600		'+600/-900	'+550	'+600/-900	'450	'600/-1115
+-23.7		MIL @ STL	Brendan Donovan				'+700/-1100	'+650	'+700/-1100	'700	'750/-1667
 -23.8		LAA @ MIN	Taylor Ward		'+600		'+750/-1200	'+750	'+750/-1200	'600	'650/-1250
 -23.8		TEX @ SF	Marcus Semien		'+750		'+700/-1100	'+650		'550	
 -23.9		PHI @ CHC	Dansby Swanson		'+700		'+650/-1000	'+650	'+675/-1100	'500	'650/-1250
@@ -130,6 +129,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -24.9		PIT @ LAD	Mookie Betts		'+700		'+800/-1300	'+750		'500	
 -25.0		PIT @ LAD	Max Muncy		'+500		'+575/-850	'+550		'550	
 -25.3		CIN @ COL	Sean Bouchard		'+630		'+650/-1000	'+650	'+650/-1000	'600	'510/-910
+-25.4		MIL @ STL	Jackson Chourio		'+630		'+625/-950	'+600	'+625/-1000	'480	'600/-1115
 -25.5		TB @ SD	Christopher Morel		'+680		'+650/-1000	'+650		'550	'650/-1250
 -25.6		ATL @ ARI	Michael Harris		'+560		'+625/-950	'+600		'450	'510/-910
 -25.8		LAA @ MIN	Ryan Jeffers		'+700		'+700/-1100	'+700	'+725/-1200	'750	'600/-1115
@@ -158,7 +158,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -27.7		MIA @ SEA	Otto Lopez		'+900		'+950/-1700	'+1100		'700	'1150/-5000
 -27.7		TB @ SD	Kameron Misner		'+1060		'+900/-1600	'+900		'650	'950/-2500
 -27.8		BAL @ DET	Zach Mckinstry		'+900		'+1000/-2000	'+1000		'650	'1150/-5000
--27.8		MIL @ STL	Alec Burleson		'+700		'+750/-1200	'+750	'+725/-1200	'550	'750/-1667
+-27.8		MIL @ STL	Alec Burleson		'+700		'+750/-1200	'+750	'+750/-1200	'550	'750/-1667
 -27.8		CHW @ ATH	Jacob Wilson		'+1000		'+950/-1700	'+950		'650	
 -27.9		BAL @ DET	Heston Kjerstad		'+600		'+700/-1100	'+650		'500	'700/-1430
 -27.9		MIA @ SEA	Eric Wagaman		'+800		'+750/-1200	'+750		'550	
@@ -183,8 +183,8 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -30.0		NYM @ WSH	Dylan Crews		'+800		'+850/-1400	'+850	'+850/-1600	'600	'850/-2000
 -30.1		BOS @ CLE	Gabriel Arias		'+750		'+800/-1300	'+750	'+775/-1400	'550	'650/-1430
 -30.3		MIL @ STL	Victor Scott		'+830		'+850/-1400	'+900	'+850/-1600	'650	
--30.3		MIL @ STL	Isaac Collins		'+1100		'+1000/-2000	'+950	'+950/-2000	'650	
 -30.4		TEX @ SF	Josh Jung		'+830		'+800/-1300	'+750		'600	
+-30.5		MIL @ STL	Isaac Collins		'+1100		'+1000/-2000	'+950	'+1000/-2000	'650	
 -30.6		TOR @ NYY	Anthony Volpe		'+800		'+800/-1300	'+750	'+775/-1400	'600	'750/-1667
 -30.6		CIN @ COL	Blake Dunn		'+870		'+850/-1400	'+800	'+850/-1600	'650	
 -30.6		TB @ SD	Oscar Gonzalez		'+900		'+1000/-2000	'+1100		'700	'1000/-3335
@@ -193,8 +193,8 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -30.7		TEX @ SF	Patrick Bailey		'+1100		'+1000/-2000	'+1000		'700	
 -30.8		BAL @ DET	Dillon Dingler		'+700		'+800/-1300	'+700		'550	'750/-1667
 -30.9		CHW @ ATH	Brooks Baldwin		'+700		'+700/-1100	'+700		'600	
--31.1		MIL @ STL	Christian Yelich		'+800			'+750	'+775/-1400	'550	'850/-2000
 -31.2		TOR @ NYY	Oswaldo Cabrera		'+1100		'+1100/-2200	'+1200		'700	
+-31.3		MIL @ STL	Christian Yelich		'+800			'+750	'+825/-1400	'550	'850/-2000
 -31.3		TEX @ SF	Lamonte Wade		'+870		'+850/-1400	'+800		'650	
 -31.4		BAL @ DET	Jackson Holliday		'+1000		'+1000/-2000	'+1100		'700	'1050/-3335
 -31.5		LAA @ MIN	Ty France		'+800		'+800/-1300	'+800	'+800/-1400	'600	'700/-1667
@@ -224,8 +224,8 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -35.8		CIN @ COL	Tj Friedl		'+870		'+1000/-2000	'+1000	'+1000/-2000	'650	'900/-2500
 -35.9		MIL @ STL	Pedro Pages		'+870		'+900/-1600	'+900	'+900/-1600	'900	
 -36.0		TEX @ SF	Josh Smith		'+900		'+900/-1600	'+850		'650	
--36.1		MIL @ STL	Caleb Durbin		'+1100		'+1100/-2200	'+1200	'+1100/-2500	'1100	
 -36.1		PIT @ LAD	Kebryan Hayes		'+1060		'+1100/-2200	'+1100		'700	
+-36.2		MIL @ STL	Caleb Durbin		'+1100		'+1100/-2200	'+1200	'+1150/-2500	'1100	
 -36.3		PHI @ CHC	Bryson Stott		'+1060		'+1000/-2000	'+1100	'+1050/-2500	'700	'900/-2500
 -36.4		PHI @ CHC	Alec Bohm		'+1060		'+1000/-2000	'+1100	'+1100/-2500	'650	
 -36.4		HOU @ KC	Drew Waters		'+1060		'+1100/-2200	'+1100		'750	
@@ -252,7 +252,6 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -45.4		TB @ SD	Tyler Wade		'+1700		'+1600/-5000	'+2000		'900	
 -46.2		LAA @ MIN	Nolan Schanuel		'+1300		'+1500/-3500	'+1600	'+1450/-5000	'850	'850/-2500
 -47.2		NYM @ WSH	Jacob Young		'+2500		'+1650/-6600	'+2500	'+2000	'850	
--47.9		MIL @ STL	Sal Frelick		'+1500		'+1550/-4000	'+1700	'+1550/-5000	'850	'1400/-10000
 -48.6		LAA @ MIN	Luis Rengifo		'+1400		'+1400/-3000	'+1400	'+1350/-5000	'750	'1050/-3335
 -49.8		BOS @ CLE	Brayan Rocchio		'+1200		'+1500/-3500	'+1500	'+1450/-5000	'800	
 -50.2		PHI @ CHC	Nico Hoerner		'+1400		'+1500/-3500	'+1500	'+1500/-5000	'750	'1400/-10000
@@ -261,9 +260,10 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -52.2		ATL @ ARI	Nick Allen		'+2200		'+1650/-6600	'+2200		'900	'1300/-10000
 -52.7		HOU @ KC	Kyle Isbel		'+2000		'+1550/-4000	'+2000	'+1700/-10000	'1400	
 -52.8		HOU @ KC	Mauricio Dubon		'+2200		'+1600/-5000	'+2000	'+1700/-10000	'850	
--52.8		MIL @ STL	Brice Turang		'+1500		'+1550/-4000	'+1900	'+1550/-10000	'850	'1400/-10000
+-52.9		MIL @ STL	Brice Turang		'+1500		'+1550/-4000	'+1900	'+1650/-10000	'850	'1400/-10000
 -54.0		TEX @ SF	Wilmer Flores		'+800			'+850		'900	
 -54.7		PHI @ CHC	Johan Rojas		'+1500		'+1550/-4000	'+1800	'+1600/-10000	'800	
+-57.2		MIL @ STL	Sal Frelick		'+1500		'+1550/-4000	'+1700	'+1550/-10000	'850	'1400/-10000
 -58.7		BOS @ CLE	Carlos Narvaez		'+900						
 -58.7		TB @ SD	Chandler Simpson		'+900						
 -66.6		TB @ SD	Martin Maldonado		'+1000						
