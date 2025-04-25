@@ -1952,7 +1952,6 @@ def writeEV(date, dinger, silent=False):
 					evBook = book
 				avgOver.append(convertImpOdds(int(over)))
 				if "/" in odds and book not in ["kambi", "espn"]:
-				#if "/" in odds and book not in ["kambi", "pn"]:
 				#if "/" in odds:
 					avgUnder.append(convertImpOdds(int(odds.split("/")[-1])))
 
