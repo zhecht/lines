@@ -1731,6 +1731,8 @@ def writeKambi(date):
 				data[game][player][book] = f"{over}/{under}"
 
 	updateData(book, data)
+	with open("static/dingers/updated_kambi", "w") as fh:
+		fh.write(str(datetime.now()))
 
 def parseESPN(espnLines):
 	with open("baseballreference/roster.json") as fh:
