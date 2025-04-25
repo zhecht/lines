@@ -608,8 +608,11 @@ def writeCirca(date):
 					ou = f"{o}/{u}".replace("\u201c", "-").replace(",", "").replace("“", "-")
 					o,u = map(str, ou.split("/"))
 
-					if o[0] not in ["+", "-"] and u.startswith("+"):
-						o = "-"+o
+					if o[0] not in ["+", "-"]:
+						if u.startswith("+"):
+							o = "-"+o
+						elif u == "-125":
+							o = "-105"
 
 					ou = f"{o}/{u}"
 
