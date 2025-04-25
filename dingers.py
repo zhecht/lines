@@ -1681,7 +1681,6 @@ def writeKambi(date):
 		j = json.load(fh)
 
 	data = nested_dict()
-	writeHistorical(date, book)
 
 	eventIds = {}
 	for event in j["events"]:
