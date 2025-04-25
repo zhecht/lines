@@ -606,6 +606,12 @@ def writeCirca(date):
 						u = f"-{u}"
 
 					ou = f"{o}/{u}".replace("\u201c", "-").replace(",", "").replace("“", "-")
+					o,u = map(str, ou.split("/"))
+
+					if o[0] not in ["+", "-"] and u.startswith("+"):
+						o = "-"+o
+
+					ou = f"{o}/{u}"
 
 					print(player, team, line, ou)
 
