@@ -1798,6 +1798,7 @@ def writeEV(date, dinger, silent=False):
 		for player in circaLines[game]["hr"]:
 			data.setdefault(game, {})
 			data[game].setdefault(player, {})
+			print(game, player)
 			data[game][player]["circa"] = circaLines[game]["hr"][player]
 
 	with open("out", "w") as fh:
