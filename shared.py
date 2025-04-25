@@ -18,7 +18,6 @@ def commitChanges():
 	#print("Successful commit")
 
 def convertToSortable(val):
-	print(val)
 	if val == "LIVE":
 		return float("inf")
 	elif val.strip() == "":
