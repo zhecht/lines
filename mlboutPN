@@ -8,10 +8,10 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608467137,
+    "id": 1608467018,
     "isBetshareEnabled": false,
     "isFeatured": false,
-    "isHighlighted": true,
+    "isHighlighted": false,
     "isLive": false,
     "isPromoted": false,
     "league": {
@@ -46,7 +46,7 @@
     "participants": [
       {
         "alignment": "home",
-        "name": "San Francisco Giants",
+        "name": "Minnesota Twins",
         "order": 1,
         "pitcher": null,
         "stats": [
@@ -63,7 +63,7 @@
       },
       {
         "alignment": "away",
-        "name": "Texas Rangers",
+        "name": "Los Angeles Angels",
         "order": 0,
         "pitcher": null,
         "stats": [
@@ -81,7 +81,7 @@
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "hasMoneyline": true,
         "hasSpread": true,
         "hasTeamTotal": true,
@@ -90,7 +90,7 @@
         "status": "open"
       },
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "hasMoneyline": false,
         "hasSpread": true,
         "hasTeamTotal": true,
@@ -99,7 +99,7 @@
         "status": "open"
       },
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "hasMoneyline": true,
         "hasSpread": true,
         "hasTeamTotal": false,
@@ -108,14 +108,14 @@
         "status": "open"
       }
     ],
-    "rotation": 979,
-    "startTime": "2025-04-26T02:15:00Z",
+    "rotation": 971,
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
-    "totalMarketCount": 74,
+    "totalMarketCount": 53,
     "type": "matchup",
     "units": "Regular",
-    "version": 594852207
+    "version": 594851909
   },
   {
     "ageLimit": 0,
@@ -126,7 +126,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608485346,
+    "id": 1608478800,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -159,58 +159,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608485347,
-        "name": "Texas Rangers",
+        "id": 1608478802,
+        "name": "Los Angeles Angels",
         "order": 0,
-        "rotation": 1113
+        "rotation": 1083
       },
       {
         "alignment": "neutral",
-        "id": 1608485348,
-        "name": "San Francisco Giants",
+        "id": 1608478803,
+        "name": "Minnesota Twins",
         "order": 0,
-        "rotation": 1114
+        "rotation": 1084
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 1113,
+    "rotation": 1083,
     "special": {
       "category": "Next Run",
       "description": "Team To Score 1st Run"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "1st Run",
-    "version": 418219472
+    "version": 418265297
   },
   {
     "ageLimit": 0,
@@ -221,7 +221,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608627624,
+    "id": 1608631223,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -254,3486 +254,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
-      {
-        "alignment": "home",
-        "name": "San Francisco Giants  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Texas Rangers  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9979,
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 594809885
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627625,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608627626,
-        "name": "Texas Rangers 1, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627627,
-        "name": "Texas Rangers 2, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627628,
-        "name": "Texas Rangers 3, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627629,
-        "name": "Texas Rangers 4, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627630,
-        "name": "Texas Rangers 5, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627631,
-        "name": "Texas Rangers 6, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627632,
-        "name": "Texas Rangers 7, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627633,
-        "name": "Texas Rangers 0, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627634,
-        "name": "Texas Rangers 2, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627635,
-        "name": "Texas Rangers 3, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627636,
-        "name": "Texas Rangers 4, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627637,
-        "name": "Texas Rangers 5, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627638,
-        "name": "Texas Rangers 6, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627639,
-        "name": "Texas Rangers 7, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627640,
-        "name": "Texas Rangers 0, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627641,
-        "name": "Texas Rangers 1, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627642,
-        "name": "Texas Rangers 3, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627643,
-        "name": "Texas Rangers 4, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627644,
-        "name": "Texas Rangers 5, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627645,
-        "name": "Texas Rangers 6, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627646,
-        "name": "Texas Rangers 7, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627647,
-        "name": "Texas Rangers 0, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627648,
-        "name": "Texas Rangers 1, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627649,
-        "name": "Texas Rangers 2, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627650,
-        "name": "Texas Rangers 4, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627651,
-        "name": "Texas Rangers 5, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627652,
-        "name": "Texas Rangers 6, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627653,
-        "name": "Texas Rangers 7, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627654,
-        "name": "Texas Rangers 0, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627655,
-        "name": "Texas Rangers 1, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627656,
-        "name": "Texas Rangers 2, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627657,
-        "name": "Texas Rangers 3, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627658,
-        "name": "Texas Rangers 5, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627659,
-        "name": "Texas Rangers 6, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627660,
-        "name": "Texas Rangers 7, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627661,
-        "name": "Texas Rangers 0, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627662,
-        "name": "Texas Rangers 1, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627663,
-        "name": "Texas Rangers 2, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627664,
-        "name": "Texas Rangers 3, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627665,
-        "name": "Texas Rangers 4, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627666,
-        "name": "Texas Rangers 6, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627667,
-        "name": "Texas Rangers 7, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627668,
-        "name": "Texas Rangers 0, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627669,
-        "name": "Texas Rangers 1, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627670,
-        "name": "Texas Rangers 2, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627671,
-        "name": "Texas Rangers 3, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627672,
-        "name": "Texas Rangers 4, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627673,
-        "name": "Texas Rangers 5, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627674,
-        "name": "Texas Rangers 7, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627675,
-        "name": "Texas Rangers 0, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1028
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627676,
-        "name": "Texas Rangers 1, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1029
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627677,
-        "name": "Texas Rangers 2, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1030
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627678,
-        "name": "Texas Rangers 3, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1031
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627679,
-        "name": "Texas Rangers 4, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1032
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627680,
-        "name": "Texas Rangers 5, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1033
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627681,
-        "name": "Texas Rangers 6, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1034
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627682,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627683,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627684,
-        "name": "Even",
-        "order": 0,
-        "rotation": 980
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Texas Rangers Runs Odd/Even"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627685,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627686,
-        "name": "Texas Rangers & Over 4.5",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627687,
-        "name": "San Francisco Giants & Over 4.5",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627688,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627689,
-        "name": "Texas Rangers & Under 4.5",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627690,
-        "name": "San Francisco Giants & Under 4.5",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627691,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 984
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627692,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627693,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627694,
-        "name": "Even",
-        "order": 0,
-        "rotation": 980
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Runs Odd/Even"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627695,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627696,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627697,
-        "name": "Even",
-        "order": 0,
-        "rotation": 980
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627698,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627699,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627700,
-        "name": "Even",
-        "order": 0,
-        "rotation": 980
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627701,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627702,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627703,
-        "name": "Even",
-        "order": 0,
-        "rotation": 980
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Texas Rangers Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418224494
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627704,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627705,
-        "name": "0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627706,
-        "name": "1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627707,
-        "name": "2",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627708,
-        "name": "3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627709,
-        "name": "4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627710,
-        "name": "5",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627711,
-        "name": "6",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627712,
-        "name": "7",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627713,
-        "name": "8+",
-        "order": 0,
-        "rotation": 987
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Exact Total Runs"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627714,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627715,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627716,
-        "name": "Even",
-        "order": 0,
-        "rotation": 980
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627717,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627718,
-        "name": "0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627719,
-        "name": "1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627720,
-        "name": "2",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627721,
-        "name": "3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627722,
-        "name": "4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627723,
-        "name": "5",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627724,
-        "name": "6",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627725,
-        "name": "7",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627726,
-        "name": "8+",
-        "order": 0,
-        "rotation": 987
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Texas Rangers Exact Total Runs"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627727,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627728,
-        "name": "Texas Rangers & Over 8.5",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627729,
-        "name": "San Francisco Giants & Over 8.5",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627730,
-        "name": "Texas Rangers & Under 8.5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627731,
-        "name": "San Francisco Giants & Under 8.5",
-        "order": 0,
-        "rotation": 982
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627732,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627733,
-        "name": "Texas Rangers By 1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627734,
-        "name": "Texas Rangers By 2",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627735,
-        "name": "Texas Rangers By 3",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627736,
-        "name": "Texas Rangers By 4",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627737,
-        "name": "Texas Rangers By 5+",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627738,
-        "name": "San Francisco Giants By 1",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627739,
-        "name": "San Francisco Giants By 2",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627740,
-        "name": "San Francisco Giants By 3",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627741,
-        "name": "San Francisco Giants By 4",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627742,
-        "name": "San Francisco Giants By 5+",
-        "order": 0,
-        "rotation": 988
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627743,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627744,
-        "name": "Texas Rangers By 1 - 2",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627745,
-        "name": "Texas Rangers By 3 - 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627746,
-        "name": "Texas Rangers By 5 - 6",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627747,
-        "name": "Texas Rangers By 7+",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627748,
-        "name": "San Francisco Giants By 1 - 2",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627749,
-        "name": "San Francisco Giants By 3 - 4",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627750,
-        "name": "San Francisco Giants By 5 - 6",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627751,
-        "name": "San Francisco Giants By 7+",
-        "order": 0,
-        "rotation": 986
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627752,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627753,
-        "name": "1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627754,
-        "name": "2",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627755,
-        "name": "3",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627756,
-        "name": "4",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627757,
-        "name": "5",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627758,
-        "name": "6",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627759,
-        "name": "7",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627760,
-        "name": "8",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627761,
-        "name": "9",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627762,
-        "name": "10",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627763,
-        "name": "11",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627764,
-        "name": "12",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627765,
-        "name": "13",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627766,
-        "name": "14",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627767,
-        "name": "15+",
-        "order": 0,
-        "rotation": 993
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627768,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627769,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627770,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627771,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627772,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627773,
-        "name": "13+",
-        "order": 0,
-        "rotation": 983
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627774,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627775,
-        "name": "Texas Rangers By 1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627776,
-        "name": "Texas Rangers By 2",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627777,
-        "name": "Texas Rangers By 3+",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627778,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627779,
-        "name": "San Francisco Giants By 1",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627780,
-        "name": "San Francisco Giants By 2",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627781,
-        "name": "San Francisco Giants By 3+",
-        "order": 0,
-        "rotation": 985
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418224494
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627782,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627783,
-        "name": "0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627784,
-        "name": "1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627785,
-        "name": "2",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627786,
-        "name": "3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627787,
-        "name": "4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627788,
-        "name": "5",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627789,
-        "name": "6",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627790,
-        "name": "7",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627791,
-        "name": "8",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627792,
-        "name": "9",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627793,
-        "name": "10",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627794,
-        "name": "11+",
-        "order": 0,
-        "rotation": 990
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418224494
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627795,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627796,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627797,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627798,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627799,
-        "name": "7+",
-        "order": 0,
-        "rotation": 982
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418224494
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627800,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627801,
-        "name": "0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627802,
-        "name": "1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627803,
-        "name": "2",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627804,
-        "name": "3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627805,
-        "name": "4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627806,
-        "name": "5+",
-        "order": 0,
-        "rotation": 984
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Texas Rangers Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418224494
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627807,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627808,
-        "name": "0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627809,
-        "name": "1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627810,
-        "name": "2",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627811,
-        "name": "3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627812,
-        "name": "4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627813,
-        "name": "5+",
-        "order": 0,
-        "rotation": 984
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418224494
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608627814,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608627815,
-        "name": "Texas Rangers 0, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627816,
-        "name": "Texas Rangers 0, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627817,
-        "name": "Texas Rangers 0, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627818,
-        "name": "Texas Rangers 0, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627819,
-        "name": "Texas Rangers 0, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627820,
-        "name": "Texas Rangers 0, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627821,
-        "name": "Texas Rangers 0, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627822,
-        "name": "Texas Rangers 1, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627823,
-        "name": "Texas Rangers 1, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627824,
-        "name": "Texas Rangers 1, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627825,
-        "name": "Texas Rangers 1, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627826,
-        "name": "Texas Rangers 1, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627827,
-        "name": "Texas Rangers 1, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627828,
-        "name": "Texas Rangers 1, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627829,
-        "name": "Texas Rangers 1, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627830,
-        "name": "Texas Rangers 2, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627831,
-        "name": "Texas Rangers 2, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627832,
-        "name": "Texas Rangers 2, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627833,
-        "name": "Texas Rangers 2, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627834,
-        "name": "Texas Rangers 2, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627835,
-        "name": "Texas Rangers 2, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627836,
-        "name": "Texas Rangers 2, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627837,
-        "name": "Texas Rangers 2, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627838,
-        "name": "Texas Rangers 3, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627839,
-        "name": "Texas Rangers 3, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627840,
-        "name": "Texas Rangers 3, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627841,
-        "name": "Texas Rangers 3, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627842,
-        "name": "Texas Rangers 3, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627843,
-        "name": "Texas Rangers 3, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627844,
-        "name": "Texas Rangers 3, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627845,
-        "name": "Texas Rangers 3, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627846,
-        "name": "Texas Rangers 4, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627847,
-        "name": "Texas Rangers 4, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627848,
-        "name": "Texas Rangers 4, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627849,
-        "name": "Texas Rangers 4, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627850,
-        "name": "Texas Rangers 4, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627851,
-        "name": "Texas Rangers 4, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627852,
-        "name": "Texas Rangers 4, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627853,
-        "name": "Texas Rangers 4, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627854,
-        "name": "Texas Rangers 5, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627855,
-        "name": "Texas Rangers 5, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627856,
-        "name": "Texas Rangers 5, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627857,
-        "name": "Texas Rangers 5, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627858,
-        "name": "Texas Rangers 5, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627859,
-        "name": "Texas Rangers 5, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627860,
-        "name": "Texas Rangers 5, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627861,
-        "name": "Texas Rangers 5, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627862,
-        "name": "Texas Rangers 6, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627863,
-        "name": "Texas Rangers 6, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627864,
-        "name": "Texas Rangers 6, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 1028
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627865,
-        "name": "Texas Rangers 6, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1029
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627866,
-        "name": "Texas Rangers 6, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1030
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627867,
-        "name": "Texas Rangers 6, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1031
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627868,
-        "name": "Texas Rangers 6, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1032
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627869,
-        "name": "Texas Rangers 6, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1033
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627870,
-        "name": "Texas Rangers 7, San Francisco Giants 0",
-        "order": 0,
-        "rotation": 1034
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627871,
-        "name": "Texas Rangers 7, San Francisco Giants 1",
-        "order": 0,
-        "rotation": 1035
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627872,
-        "name": "Texas Rangers 7, San Francisco Giants 2",
-        "order": 0,
-        "rotation": 1036
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627873,
-        "name": "Texas Rangers 7, San Francisco Giants 3",
-        "order": 0,
-        "rotation": 1037
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627874,
-        "name": "Texas Rangers 7, San Francisco Giants 4",
-        "order": 0,
-        "rotation": 1038
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627875,
-        "name": "Texas Rangers 7, San Francisco Giants 5",
-        "order": 0,
-        "rotation": 1039
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627876,
-        "name": "Texas Rangers 7, San Francisco Giants 6",
-        "order": 0,
-        "rotation": 1040
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608627877,
-        "name": "Texas Rangers 7, San Francisco Giants 7",
-        "order": 0,
-        "rotation": 1041
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 979,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418223627
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632698,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632699,
+        "id": 1608631224,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632700,
+        "id": 1608631225,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Justin Verlander (Total Strikeouts)(must start)"
+      "description": "Kyle Hendricks (Total Strikeouts)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "Strikeouts",
-    "version": 418233331
+    "version": 418265297
   },
   {
     "ageLimit": 0,
@@ -3744,7 +316,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632701,
+    "id": 1608631226,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -3777,58 +349,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632702,
+        "id": 1608631227,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632703,
+        "id": 1608631228,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Justin Verlander (Hits Allowed)(must start)"
+      "description": "Kyle Hendricks (Hits Allowed)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HitsAllowed",
-    "version": 418233331
+    "version": 418265297
   },
   {
     "ageLimit": 0,
@@ -3839,7 +411,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632704,
+    "id": 1608631229,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -3872,58 +444,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632705,
+        "id": 1608631230,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632706,
+        "id": 1608631231,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Justin Verlander (Earned Runs)(must start)"
+      "description": "Kyle Hendricks (Earned Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "EarnedRuns",
-    "version": 418233331
+    "version": 418265297
   },
   {
     "ageLimit": 0,
@@ -3934,7 +506,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632707,
+    "id": 1608631232,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -3967,58 +539,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632708,
+        "id": 1608631233,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632709,
+        "id": 1608631234,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Justin Verlander (Pitching Outs)(must start)"
+      "description": "Kyle Hendricks (Pitching Outs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "PitchingOuts",
-    "version": 418233331
+    "version": 418265297
   },
   {
     "ageLimit": 0,
@@ -4029,7 +601,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632713,
+    "id": 1608631235,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4062,58 +634,153 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632714,
+        "id": 1608631236,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632715,
+        "id": 1608631237,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Wilmer Flores (Total Bases)(must start)"
+      "description": "Mike Trout (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 418265297
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631238,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631239,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631240,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Mike Trout (Total Bases)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233345
+    "version": 418265297
   },
   {
     "ageLimit": 0,
@@ -4124,7 +791,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632716,
+    "id": 1608631241,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4157,58 +824,818 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632717,
+        "id": 1608631242,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632718,
+        "id": 1608631243,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Nathan Eovaldi (Total Strikeouts)(must start)"
+      "description": "Carlos Correa (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 418265297
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631244,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631245,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631246,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Carlos Correa (Total Bases)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 418265297
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631247,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631248,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631249,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Byron Buxton (Home Runs)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 418265297
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631250,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631251,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631252,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Byron Buxton (Total Bases)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631253,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631254,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631255,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Taylor Ward (Home Runs)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631256,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631257,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631258,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Taylor Ward (Total Bases)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631259,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631260,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631261,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Jorge Soler (Home Runs)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631262,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631263,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631264,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Jorge Soler (Total Bases)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631265,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631266,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631267,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Pablo López (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "Strikeouts",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4219,7 +1646,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632719,
+    "id": 1608631268,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4252,58 +1679,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632720,
+        "id": 1608631269,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632721,
+        "id": 1608631270,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Nathan Eovaldi (Hits Allowed)(must start)"
+      "description": "Pablo López (Hits Allowed)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HitsAllowed",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4314,7 +1741,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632722,
+    "id": 1608631271,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4347,58 +1774,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632723,
+        "id": 1608631272,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632724,
+        "id": 1608631273,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Nathan Eovaldi (Earned Runs)(must start)"
+      "description": "Pablo López (Earned Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "EarnedRuns",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4409,7 +1836,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632725,
+    "id": 1608631274,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4442,58 +1869,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632726,
+        "id": 1608631275,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632727,
+        "id": 1608631276,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Nathan Eovaldi (Pitching Outs)(must start)"
+      "description": "Pablo López (Pitching Outs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "PitchingOuts",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4504,7 +1931,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632728,
+    "id": 1608631277,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4537,58 +1964,153 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632729,
+        "id": 1608631278,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632730,
+        "id": 1608631279,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Marcus Semien (Home Runs)(must start)"
+      "description": "Luis Rengifo (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631280,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631281,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631282,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Trevor Larnach (Home Runs)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4599,7 +2121,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632731,
+    "id": 1608631283,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4632,58 +2154,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632732,
+        "id": 1608631284,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632733,
+        "id": 1608631285,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Marcus Semien (Total Bases)(must start)"
+      "description": "Trevor Larnach (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4694,7 +2216,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632734,
+    "id": 1608631286,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4727,58 +2249,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632735,
+        "id": 1608631287,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632736,
+        "id": 1608631288,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Mike Yastrzemski (Home Runs)(must start)"
+      "description": "Ty France (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4789,7 +2311,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632737,
+    "id": 1608631289,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4822,58 +2344,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632738,
+        "id": 1608631290,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632739,
+        "id": 1608631291,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Mike Yastrzemski (Total Bases)(must start)"
+      "description": "Ty France (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4884,7 +2406,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632740,
+    "id": 1608631292,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -4917,58 +2439,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632741,
+        "id": 1608631293,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632742,
+        "id": 1608631294,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Joc Pederson (Home Runs)(must start)"
+      "description": "Harrison Bader (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -4979,7 +2501,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632743,
+    "id": 1608631295,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5012,58 +2534,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632744,
+        "id": 1608631296,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632745,
+        "id": 1608631297,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Joc Pederson (Total Bases)(must start)"
+      "description": "Harrison Bader (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5074,7 +2596,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632746,
+    "id": 1608631298,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5107,58 +2629,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632747,
+        "id": 1608631299,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632748,
+        "id": 1608631300,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Jonah Heim (Home Runs)(must start)"
+      "description": "Jo Adell (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5169,7 +2691,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632749,
+    "id": 1608631301,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5202,58 +2724,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632750,
+        "id": 1608631302,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632751,
+        "id": 1608631303,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Jonah Heim (Total Bases)(must start)"
+      "description": "Jo Adell (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233345
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5264,7 +2786,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632752,
+    "id": 1608631304,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5297,58 +2819,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632753,
+        "id": 1608631305,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632754,
+        "id": 1608631306,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Willy Adames (Home Runs)(must start)"
+      "description": "Edouard Julien (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5359,7 +2881,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632755,
+    "id": 1608631307,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5392,58 +2914,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632756,
+        "id": 1608631308,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632757,
+        "id": 1608631309,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Willy Adames (Total Bases)(must start)"
+      "description": "Edouard Julien (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5454,7 +2976,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632758,
+    "id": 1608631310,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5487,58 +3009,153 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632759,
+        "id": 1608631311,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632760,
+        "id": 1608631312,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Matt Chapman (Home Runs)(must start)"
+      "description": "Kyren Paris (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 418265328
+  },
+  {
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1608631313,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 39,
+        "matchupCountSE": 39,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1608467018,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Los Angeles Angels",
+          "score": null
+        }
+      ],
+      "startTime": "2025-04-25T23:40:00+00:00"
+    },
+    "parentId": 1608467018,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1608631314,
+        "name": "Over",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1608631315,
+        "name": "Under",
+        "order": 0,
+        "rotation": 973
+      }
+    ],
+    "periods": [
+      {
+        "cutoffAt": "2025-04-25T23:40:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 972,
+    "special": {
+      "category": "Player Props",
+      "description": "Ryan Jeffers (Home Runs)(must start)"
+    },
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5549,7 +3166,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632761,
+    "id": 1608631316,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5582,58 +3199,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632762,
+        "id": 1608631317,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632763,
+        "id": 1608631318,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Matt Chapman (Total Bases)(must start)"
+      "description": "Ryan Jeffers (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5644,7 +3261,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632764,
+    "id": 1608631319,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5677,58 +3294,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632765,
+        "id": 1608631320,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632766,
+        "id": 1608631321,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "LaMonte Wade Jr. (Home Runs)(must start)"
+      "description": "Logan O'Hoppe (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5739,7 +3356,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632767,
+    "id": 1608631322,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5772,58 +3389,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632768,
+        "id": 1608631323,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632769,
+        "id": 1608631324,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "LaMonte Wade Jr. (Total Bases)(must start)"
+      "description": "Logan O'Hoppe (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -5834,7 +3451,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632770,
+    "id": 1608631325,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -5867,248 +3484,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632771,
+        "id": 1608631326,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632772,
+        "id": 1608631327,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Leody Taveras (Total Bases)(must start)"
+      "description": "Brooks Lee (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632776,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632777,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632778,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Tyler Fitzgerald (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632779,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632780,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632781,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Adolis García (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -6119,7 +3546,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632782,
+    "id": 1608631328,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -6152,58 +3579,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632783,
+        "id": 1608631329,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632784,
+        "id": 1608631330,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Adolis García (Total Bases)(must start)"
+      "description": "Brooks Lee (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -6214,7 +3641,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632785,
+    "id": 1608631331,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -6247,58 +3674,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632786,
+        "id": 1608631332,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632787,
+        "id": 1608631333,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Jake Burger (Home Runs)(must start)"
+      "description": "Zach Neto (Home Runs)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "HomeRuns",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -6309,7 +3736,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632788,
+    "id": 1608631334,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -6342,58 +3769,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632789,
+        "id": 1608631335,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632790,
+        "id": 1608631336,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Jake Burger (Total Bases)(must start)"
+      "description": "Zach Neto (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -6404,7 +3831,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632791,
+    "id": 1608631337,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -6437,153 +3864,58 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632792,
+        "id": 1608631338,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632793,
+        "id": 1608631339,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Josh Smith (Home Runs)(must start)"
+      "description": "Nolan Schanuel (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632794,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632795,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632796,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Josh Smith (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   },
   {
     "ageLimit": 0,
@@ -6594,7 +3926,7 @@
     "hasBetshare": false,
     "hasLive": true,
     "hasMarkets": true,
-    "id": 1608632797,
+    "id": 1608631343,
     "isBetshareEnabled": false,
     "isFeatured": false,
     "isHighlighted": false,
@@ -6627,817 +3959,57 @@
     },
     "liveMode": null,
     "parent": {
-      "id": 1608467137,
+      "id": 1608467018,
       "participants": [
         {
           "alignment": "home",
-          "name": "San Francisco Giants",
+          "name": "Minnesota Twins",
           "score": null
         },
         {
           "alignment": "away",
-          "name": "Texas Rangers",
+          "name": "Los Angeles Angels",
           "score": null
         }
       ],
-      "startTime": "2025-04-26T02:15:00+00:00"
+      "startTime": "2025-04-25T23:40:00+00:00"
     },
-    "parentId": 1608467137,
+    "parentId": 1608467018,
     "parlayRestriction": null,
     "participants": [
       {
         "alignment": "neutral",
-        "id": 1608632798,
+        "id": 1608631344,
         "name": "Over",
         "order": 0,
-        "rotation": 980
+        "rotation": 972
       },
       {
         "alignment": "neutral",
-        "id": 1608632799,
+        "id": 1608631345,
         "name": "Under",
         "order": 0,
-        "rotation": 981
+        "rotation": 973
       }
     ],
     "periods": [
       {
-        "cutoffAt": "2025-04-26T02:15:00Z",
+        "cutoffAt": "2025-04-25T23:40:00Z",
         "period": 0,
         "status": "open"
       }
     ],
-    "rotation": 980,
+    "rotation": 972,
     "special": {
       "category": "Player Props",
-      "description": "Heliot Ramos (Home Runs)(must start)"
+      "description": "Luke Keaschall (Total Bases)(must start)"
     },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632800,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632801,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632802,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Heliot Ramos (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
+    "startTime": "2025-04-25T23:40:00Z",
     "state": {},
     "status": "pending",
     "totalMarketCount": 1,
     "type": "special",
     "units": "TotalBases",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632806,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632807,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632808,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Patrick Bailey (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632809,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632810,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632811,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Josh Jung (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632812,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632813,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632814,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Josh Jung (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632815,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632816,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632817,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Wyatt Langford (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632818,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632819,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632820,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Wyatt Langford (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418233377
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632821,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632822,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632823,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Jung Hoo Lee (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418244621
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608632824,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 39,
-        "matchupCountSE": 39,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608467137,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Francisco Giants",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Texas Rangers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T02:15:00+00:00"
-    },
-    "parentId": 1608467137,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1608632825,
-        "name": "Over",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608632826,
-        "name": "Under",
-        "order": 0,
-        "rotation": 981
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T02:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 980,
-    "special": {
-      "category": "Player Props",
-      "description": "Jung Hoo Lee (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T02:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418233377
+    "version": 418265328
   }
 ]
