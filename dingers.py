@@ -1857,7 +1857,7 @@ def writeEV(date, dinger, silent=False):
 		else:
 			dt = datetime.strptime(gameData["start"], "%I:%M %p")
 			dt = int(dt.strftime("%H%M"))
-			gameTimes[gameData["game"]] = dt
+			gameTimes[gameData["game"]] = gameData["start"]
 			gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 
 	evData = {}
