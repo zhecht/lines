@@ -573,7 +573,7 @@ def writeCirca(date):
 
 					x.save(f"out-line-{i}.png", "PNG")
 					line = pytesseract.image_to_string(x).split("\n")
-					print(player, line)
+					#print(player, line)
 					line = str(float(line[0][0].replace("T", "7")) + 0.5)
 					team = convertMLBTeam(player.split(")")[0].split("(")[-1])
 					game = teamGame.get(team, "")
@@ -583,7 +583,7 @@ def writeCirca(date):
 					if player in inits[team]:
 						player = inits[team][player]
 
-					print(player, team, line, ous)
+					#print(player, team, line, ous)
 					o = ous[0].replace("EVEN", "+100")
 					u = ous[1].replace("EVEN", "+100")
 
