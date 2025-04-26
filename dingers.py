@@ -634,11 +634,13 @@ def mergeCirca(date):
 
 	hist = nested_dict()
 	for game in circa:
+		circaMain.setdefault(game, {})
 		for prop in circa[game]:
+			if prop in ["rfi"]:
+				circaMain[game][prop] = circa[game][prop]
+
 			for player in circa[game][prop]:
-				circaMain.setdefault(game, {})
 				circaMain[game].setdefault(prop, {})
-				print(prop, player)
 				circaMain[game][prop][player] = circa[game][prop][player]
 
 				if prop == "hr":
