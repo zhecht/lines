@@ -1,3643 +1,2148 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608530573,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Seattle Mariners",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Miami Marlins",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -119
       },
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "away",
+        "price": 108
       }
     ],
-    "rotation": 929,
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 26,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 595046670
+    "status": "open",
+    "type": "moneyline",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608563511,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608563512,
-        "name": "Miami Marlins",
-        "order": 0,
-        "rotation": 931
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -126
       },
       {
-        "alignment": "neutral",
-        "id": 1608563513,
-        "name": "Seattle Mariners",
-        "order": 0,
-        "rotation": 932
+        "designation": "under",
+        "points": 3.5,
+        "price": 108
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 931,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 418444522
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708480,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;away",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Seattle Mariners  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -118
       },
       {
-        "alignment": "away",
-        "name": "Miami Marlins  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 3.5,
+        "price": 101
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9929,
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 595043920
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708481,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708482,
-        "name": "Miami Marlins 1, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708483,
-        "name": "Miami Marlins 2, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708484,
-        "name": "Miami Marlins 3, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708485,
-        "name": "Miami Marlins 4, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708486,
-        "name": "Miami Marlins 5, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708487,
-        "name": "Miami Marlins 6, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708488,
-        "name": "Miami Marlins 7, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708489,
-        "name": "Miami Marlins 0, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708490,
-        "name": "Miami Marlins 2, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708491,
-        "name": "Miami Marlins 3, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708492,
-        "name": "Miami Marlins 4, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708493,
-        "name": "Miami Marlins 5, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708494,
-        "name": "Miami Marlins 6, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708495,
-        "name": "Miami Marlins 7, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708496,
-        "name": "Miami Marlins 0, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708497,
-        "name": "Miami Marlins 1, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708498,
-        "name": "Miami Marlins 3, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708499,
-        "name": "Miami Marlins 4, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708500,
-        "name": "Miami Marlins 5, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708501,
-        "name": "Miami Marlins 6, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708502,
-        "name": "Miami Marlins 7, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708503,
-        "name": "Miami Marlins 0, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708504,
-        "name": "Miami Marlins 1, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708505,
-        "name": "Miami Marlins 2, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708506,
-        "name": "Miami Marlins 4, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708507,
-        "name": "Miami Marlins 5, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708508,
-        "name": "Miami Marlins 6, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708509,
-        "name": "Miami Marlins 7, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708510,
-        "name": "Miami Marlins 0, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708511,
-        "name": "Miami Marlins 1, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708512,
-        "name": "Miami Marlins 2, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708513,
-        "name": "Miami Marlins 3, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708514,
-        "name": "Miami Marlins 5, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708515,
-        "name": "Miami Marlins 6, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708516,
-        "name": "Miami Marlins 7, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708517,
-        "name": "Miami Marlins 0, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708518,
-        "name": "Miami Marlins 1, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708519,
-        "name": "Miami Marlins 2, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708520,
-        "name": "Miami Marlins 3, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708521,
-        "name": "Miami Marlins 4, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708522,
-        "name": "Miami Marlins 6, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708523,
-        "name": "Miami Marlins 7, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708524,
-        "name": "Miami Marlins 0, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708525,
-        "name": "Miami Marlins 1, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708526,
-        "name": "Miami Marlins 2, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708527,
-        "name": "Miami Marlins 3, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708528,
-        "name": "Miami Marlins 4, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708529,
-        "name": "Miami Marlins 5, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708530,
-        "name": "Miami Marlins 7, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708531,
-        "name": "Miami Marlins 0, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708532,
-        "name": "Miami Marlins 1, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708533,
-        "name": "Miami Marlins 2, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708534,
-        "name": "Miami Marlins 3, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708535,
-        "name": "Miami Marlins 4, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708536,
-        "name": "Miami Marlins 5, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708537,
-        "name": "Miami Marlins 6, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 984
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 178
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -205
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708538,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708539,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.5,
+        "price": -210
       },
       {
-        "alignment": "neutral",
-        "id": 1608708540,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": -1.5,
+        "price": 171
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Runs Odd/Even"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708541,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708542,
-        "name": "Miami Marlins & Over 4.5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708543,
-        "name": "Seattle Mariners & Over 4.5",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708544,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708545,
-        "name": "Miami Marlins & Under 4.5",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708546,
-        "name": "Seattle Mariners & Under 4.5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708547,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 934
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -167
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 141
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708548,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708549,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 127
       },
       {
-        "alignment": "neutral",
-        "id": 1608708550,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": 1.0,
+        "price": -147
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Seattle Mariners Runs Odd/Even"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708551,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708552,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -2.0,
+        "price": 242
       },
       {
-        "alignment": "neutral",
-        "id": 1608708553,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": 2.0,
+        "price": -297
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Seattle Mariners Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708554,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708555,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -2.5,
+        "price": 270
       },
       {
-        "alignment": "neutral",
-        "id": 1608708556,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": 2.5,
+        "price": -350
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708557,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708558,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -3.0,
+        "price": 368
       },
       {
-        "alignment": "neutral",
-        "id": 1608708559,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": 3.0,
+        "price": -537
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708560,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708561,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708562,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708563,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708564,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708565,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708566,
-        "name": "5",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708567,
-        "name": "6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708568,
-        "name": "7",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708569,
-        "name": "8+",
-        "order": 0,
-        "rotation": 937
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.5,
+        "price": -115
+      },
+      {
+        "designation": "under",
+        "points": 7.5,
+        "price": 102
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Seattle Mariners Exact Total Runs"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708570,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708571,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -573
       },
       {
-        "alignment": "neutral",
-        "id": 1608708572,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "under",
+        "points": 4.5,
+        "price": 402
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708573,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708574,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708575,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708576,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708577,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708578,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708579,
-        "name": "5",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708580,
-        "name": "6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708581,
-        "name": "7",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708582,
-        "name": "8+",
-        "order": 0,
-        "rotation": 937
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.0,
+        "price": -246
+      },
+      {
+        "designation": "under",
+        "points": 6.0,
+        "price": 210
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Exact Total Runs"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708583,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708584,
-        "name": "Miami Marlins & Over 8.5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708585,
-        "name": "Seattle Mariners & Over 8.5",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708586,
-        "name": "Miami Marlins & Under 8.5",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708587,
-        "name": "Seattle Mariners & Under 8.5",
-        "order": 0,
-        "rotation": 932
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.5,
+        "price": -191
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": 166
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708588,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708589,
-        "name": "Miami Marlins By 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708590,
-        "name": "Miami Marlins By 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708591,
-        "name": "Miami Marlins By 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708592,
-        "name": "Miami Marlins By 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708593,
-        "name": "Miami Marlins By 5+",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708594,
-        "name": "Seattle Mariners By 1",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708595,
-        "name": "Seattle Mariners By 2",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708596,
-        "name": "Seattle Mariners By 3",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708597,
-        "name": "Seattle Mariners By 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708598,
-        "name": "Seattle Mariners By 5+",
-        "order": 0,
-        "rotation": 938
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.0,
+        "price": -154
+      },
+      {
+        "designation": "under",
+        "points": 7.0,
+        "price": 136
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708599,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708600,
-        "name": "Miami Marlins By 1 - 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708601,
-        "name": "Miami Marlins By 3 - 4",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708602,
-        "name": "Miami Marlins By 5 - 6",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708603,
-        "name": "Miami Marlins By 7+",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708604,
-        "name": "Seattle Mariners By 1 - 2",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708605,
-        "name": "Seattle Mariners By 3 - 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708606,
-        "name": "Seattle Mariners By 5 - 6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708607,
-        "name": "Seattle Mariners By 7+",
-        "order": 0,
-        "rotation": 936
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.0,
+        "price": 103
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": -116
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708608,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708609,
-        "name": "1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708610,
-        "name": "2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708611,
-        "name": "3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708612,
-        "name": "4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708613,
-        "name": "5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708614,
-        "name": "6",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708615,
-        "name": "7",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708616,
-        "name": "8",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708617,
-        "name": "9",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708618,
-        "name": "10",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708619,
-        "name": "11",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708620,
-        "name": "12",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708621,
-        "name": "13",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708622,
-        "name": "14",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708623,
-        "name": "15+",
-        "order": 0,
-        "rotation": 943
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.5,
+        "price": 120
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": -135
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708624,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708625,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708626,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708627,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708628,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708629,
-        "name": "13+",
-        "order": 0,
-        "rotation": 933
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.0,
+        "price": 155
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": -177
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708630,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708631,
-        "name": "Miami Marlins By 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708632,
-        "name": "Miami Marlins By 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708633,
-        "name": "Miami Marlins By 3+",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708634,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708635,
-        "name": "Seattle Mariners By 1",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708636,
-        "name": "Seattle Mariners By 2",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708637,
-        "name": "Seattle Mariners By 3+",
-        "order": 0,
-        "rotation": 935
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 11.5,
+        "price": 343
+      },
+      {
+        "designation": "under",
+        "points": 11.5,
+        "price": -469
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708638,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708639,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708640,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708641,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708642,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708643,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708644,
-        "name": "5",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708645,
-        "name": "6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708646,
-        "name": "7",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708647,
-        "name": "8",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708648,
-        "name": "9",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708649,
-        "name": "10",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708650,
-        "name": "11+",
-        "order": 0,
-        "rotation": 940
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -151
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 123
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708651,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708652,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708653,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708654,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708655,
-        "name": "7+",
-        "order": 0,
-        "rotation": 932
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -131
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 108
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708656,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708657,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708658,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708659,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708660,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708661,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708662,
-        "name": "5+",
-        "order": 0,
-        "rotation": 934
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -118
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 105
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708663,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708664,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708665,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708666,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708667,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708668,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708669,
-        "name": "5+",
-        "order": 0,
-        "rotation": 934
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -252
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 205
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Seattle Mariners Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608708670,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 28,
-      "matchupCountSE": 28,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 58,
-        "matchupCountSE": 58,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530573,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Seattle Mariners",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Miami Marlins",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-27T01:40:00+00:00"
-    },
-    "parentId": 1608530573,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608708671,
-        "name": "Miami Marlins 0, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708672,
-        "name": "Miami Marlins 0, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708673,
-        "name": "Miami Marlins 0, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708674,
-        "name": "Miami Marlins 0, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708675,
-        "name": "Miami Marlins 0, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708676,
-        "name": "Miami Marlins 0, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708677,
-        "name": "Miami Marlins 0, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708678,
-        "name": "Miami Marlins 1, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708679,
-        "name": "Miami Marlins 1, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708680,
-        "name": "Miami Marlins 1, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708681,
-        "name": "Miami Marlins 1, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708682,
-        "name": "Miami Marlins 1, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708683,
-        "name": "Miami Marlins 1, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708684,
-        "name": "Miami Marlins 1, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708685,
-        "name": "Miami Marlins 1, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708686,
-        "name": "Miami Marlins 2, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708687,
-        "name": "Miami Marlins 2, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708688,
-        "name": "Miami Marlins 2, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708689,
-        "name": "Miami Marlins 2, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708690,
-        "name": "Miami Marlins 2, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708691,
-        "name": "Miami Marlins 2, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708692,
-        "name": "Miami Marlins 2, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708693,
-        "name": "Miami Marlins 2, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708694,
-        "name": "Miami Marlins 3, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708695,
-        "name": "Miami Marlins 3, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708696,
-        "name": "Miami Marlins 3, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708697,
-        "name": "Miami Marlins 3, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708698,
-        "name": "Miami Marlins 3, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708699,
-        "name": "Miami Marlins 3, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708700,
-        "name": "Miami Marlins 3, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708701,
-        "name": "Miami Marlins 3, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708702,
-        "name": "Miami Marlins 4, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708703,
-        "name": "Miami Marlins 4, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708704,
-        "name": "Miami Marlins 4, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708705,
-        "name": "Miami Marlins 4, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708706,
-        "name": "Miami Marlins 4, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708707,
-        "name": "Miami Marlins 4, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708708,
-        "name": "Miami Marlins 4, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708709,
-        "name": "Miami Marlins 4, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708710,
-        "name": "Miami Marlins 5, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708711,
-        "name": "Miami Marlins 5, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708712,
-        "name": "Miami Marlins 5, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708713,
-        "name": "Miami Marlins 5, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708714,
-        "name": "Miami Marlins 5, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708715,
-        "name": "Miami Marlins 5, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708716,
-        "name": "Miami Marlins 5, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708717,
-        "name": "Miami Marlins 5, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708718,
-        "name": "Miami Marlins 6, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708719,
-        "name": "Miami Marlins 6, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708720,
-        "name": "Miami Marlins 6, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708721,
-        "name": "Miami Marlins 6, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708722,
-        "name": "Miami Marlins 6, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708723,
-        "name": "Miami Marlins 6, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708724,
-        "name": "Miami Marlins 6, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708725,
-        "name": "Miami Marlins 6, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708726,
-        "name": "Miami Marlins 7, Seattle Mariners 0",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708727,
-        "name": "Miami Marlins 7, Seattle Mariners 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708728,
-        "name": "Miami Marlins 7, Seattle Mariners 2",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708729,
-        "name": "Miami Marlins 7, Seattle Mariners 3",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708730,
-        "name": "Miami Marlins 7, Seattle Mariners 4",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708731,
-        "name": "Miami Marlins 7, Seattle Mariners 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708732,
-        "name": "Miami Marlins 7, Seattle Mariners 6",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608708733,
-        "name": "Miami Marlins 7, Seattle Mariners 7",
-        "order": 0,
-        "rotation": 991
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-27T01:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -164
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 141
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-04-27T01:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418445489
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
+      {
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 118
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -135
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
+      {
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 166
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -199
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.0",
+    "limits": [
+      {
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -120
+      },
+      {
+        "designation": "under",
+        "points": 4.0,
+        "price": 105
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.0",
+    "limits": [
+      {
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.0,
+        "price": -237
+      },
+      {
+        "designation": "under",
+        "points": 3.0,
+        "price": 199
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
+      {
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -155
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 134
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
+      {
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": 110
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -126
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
+      {
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 147
+      },
+      {
+        "designation": "under",
+        "points": 5.0,
+        "price": -170
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079609432
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 280
+      },
+      {
+        "designation": "away",
+        "price": 330
+      },
+      {
+        "designation": "draw",
+        "price": -137
+      }
+    ],
+    "status": "open",
+    "type": "moneyline",
+    "version": 3079633461
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -125
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 107
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3079633461
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608523890,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": 105
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -122
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079633461
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608552241,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608552242,
+        "price": -136
+      },
+      {
+        "participantId": 1608552243,
+        "price": 116
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;25.0",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707969,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 25.0,
+        "price": -118
+      },
+      {
+        "designation": "under",
+        "points": 25.0,
+        "price": -103
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3079633461
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707970,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608707971,
+        "price": -105
+      },
+      {
+        "participantId": 1608707972,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707973,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608707974,
+        "price": 1026
+      },
+      {
+        "participantId": 1608707975,
+        "price": 612
+      },
+      {
+        "participantId": 1608707976,
+        "price": 481
+      },
+      {
+        "participantId": 1608707977,
+        "price": 448
+      },
+      {
+        "participantId": 1608707978,
+        "price": 479
+      },
+      {
+        "participantId": 1608707979,
+        "price": 564
+      },
+      {
+        "participantId": 1608707980,
+        "price": 708
+      },
+      {
+        "participantId": 1608707981,
+        "price": 924
+      },
+      {
+        "participantId": 1608707982,
+        "price": 570
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707983,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608707984,
+        "price": 111
+      },
+      {
+        "participantId": 1608707985,
+        "price": -130
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707986,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608707987,
+        "price": 914
+      },
+      {
+        "participantId": 1608707988,
+        "price": 560
+      },
+      {
+        "participantId": 1608707989,
+        "price": 474
+      },
+      {
+        "participantId": 1608707990,
+        "price": 468
+      },
+      {
+        "participantId": 1608707991,
+        "price": 512
+      },
+      {
+        "participantId": 1608707992,
+        "price": 599
+      },
+      {
+        "participantId": 1608707993,
+        "price": 740
+      },
+      {
+        "participantId": 1608707994,
+        "price": 945
+      },
+      {
+        "participantId": 1608707995,
+        "price": 538
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707996,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708000,
+        "price": 342
+      },
+      {
+        "participantId": 1608708001,
+        "price": 312
+      },
+      {
+        "participantId": 1608708002,
+        "price": 526
+      },
+      {
+        "participantId": 1608707997,
+        "price": 341
+      },
+      {
+        "participantId": 1608707998,
+        "price": 293
+      },
+      {
+        "participantId": 1608707999,
+        "price": 1574
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708003,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708004,
+        "price": 4776
+      },
+      {
+        "participantId": 1608708005,
+        "price": 4427
+      },
+      {
+        "participantId": 1608708006,
+        "price": 4478
+      },
+      {
+        "participantId": 1608708007,
+        "price": 4988
+      },
+      {
+        "participantId": 1608708008,
+        "price": 5732
+      },
+      {
+        "participantId": 1608708009,
+        "price": 6838
+      },
+      {
+        "participantId": 1608708010,
+        "price": 8260
+      },
+      {
+        "participantId": 1608708011,
+        "price": 3728
+      },
+      {
+        "participantId": 1608708012,
+        "price": 2678
+      },
+      {
+        "participantId": 1608708013,
+        "price": 2853
+      },
+      {
+        "participantId": 1608708014,
+        "price": 3145
+      },
+      {
+        "participantId": 1608708015,
+        "price": 3726
+      },
+      {
+        "participantId": 1608708016,
+        "price": 4520
+      },
+      {
+        "participantId": 1608708017,
+        "price": 5615
+      },
+      {
+        "participantId": 1608708018,
+        "price": 3924
+      },
+      {
+        "participantId": 1608708019,
+        "price": 1987
+      },
+      {
+        "participantId": 1608708020,
+        "price": 2243
+      },
+      {
+        "participantId": 1608708021,
+        "price": 2615
+      },
+      {
+        "participantId": 1608708022,
+        "price": 3067
+      },
+      {
+        "participantId": 1608708023,
+        "price": 3801
+      },
+      {
+        "participantId": 1608708024,
+        "price": 4779
+      },
+      {
+        "participantId": 1608708025,
+        "price": 4115
+      },
+      {
+        "participantId": 1608708026,
+        "price": 2610
+      },
+      {
+        "participantId": 1608708027,
+        "price": 1635
+      },
+      {
+        "participantId": 1608708028,
+        "price": 2344
+      },
+      {
+        "participantId": 1608708029,
+        "price": 2894
+      },
+      {
+        "participantId": 1608708030,
+        "price": 3555
+      },
+      {
+        "participantId": 1608708031,
+        "price": 4539
+      },
+      {
+        "participantId": 1608708032,
+        "price": 4614
+      },
+      {
+        "participantId": 1608708033,
+        "price": 2969
+      },
+      {
+        "participantId": 1608708034,
+        "price": 2520
+      },
+      {
+        "participantId": 1608708035,
+        "price": 1705
+      },
+      {
+        "participantId": 1608708036,
+        "price": 2824
+      },
+      {
+        "participantId": 1608708037,
+        "price": 3620
+      },
+      {
+        "participantId": 1608708038,
+        "price": 4584
+      },
+      {
+        "participantId": 1608708039,
+        "price": 5405
+      },
+      {
+        "participantId": 1608708040,
+        "price": 3534
+      },
+      {
+        "participantId": 1608708041,
+        "price": 3015
+      },
+      {
+        "participantId": 1608708042,
+        "price": 2926
+      },
+      {
+        "participantId": 1608708043,
+        "price": 2066
+      },
+      {
+        "participantId": 1608708044,
+        "price": 3740
+      },
+      {
+        "participantId": 1608708045,
+        "price": 4894
+      },
+      {
+        "participantId": 1608708046,
+        "price": 6516
+      },
+      {
+        "participantId": 1608708047,
+        "price": 4358
+      },
+      {
+        "participantId": 1608708048,
+        "price": 3744
+      },
+      {
+        "participantId": 1608708049,
+        "price": 3625
+      },
+      {
+        "participantId": 1608708050,
+        "price": 3805
+      },
+      {
+        "participantId": 1608708051,
+        "price": 2763
+      },
+      {
+        "participantId": 1608708052,
+        "price": 5269
+      },
+      {
+        "participantId": 1608708053,
+        "price": 7949
+      },
+      {
+        "participantId": 1608708054,
+        "price": 5444
+      },
+      {
+        "participantId": 1608708055,
+        "price": 4772
+      },
+      {
+        "participantId": 1608708056,
+        "price": 4627
+      },
+      {
+        "participantId": 1608708057,
+        "price": 4814
+      },
+      {
+        "participantId": 1608708058,
+        "price": 5295
+      },
+      {
+        "participantId": 1608708059,
+        "price": 3943
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936212495
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708060,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708061,
+        "price": -164
+      },
+      {
+        "participantId": 1608708062,
+        "price": 139
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708063,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708064,
+        "price": 113
+      },
+      {
+        "participantId": 1608708065,
+        "price": -133
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708066,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708067,
+        "price": -106
+      },
+      {
+        "participantId": 1608708068,
+        "price": -110
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708069,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708070,
+        "price": -104
+      },
+      {
+        "participantId": 1608708071,
+        "price": -112
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708072,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708073,
+        "price": 312
+      },
+      {
+        "participantId": 1608708074,
+        "price": 296
+      },
+      {
+        "participantId": 1608708075,
+        "price": 257
+      },
+      {
+        "participantId": 1608708076,
+        "price": 204
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708077,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708078,
+        "price": 542
+      },
+      {
+        "participantId": 1608708079,
+        "price": 673
+      },
+      {
+        "participantId": 1608708080,
+        "price": 830
+      },
+      {
+        "participantId": 1608708081,
+        "price": 1069
+      },
+      {
+        "participantId": 1608708082,
+        "price": 585
+      },
+      {
+        "participantId": 1608708083,
+        "price": 361
+      },
+      {
+        "participantId": 1608708084,
+        "price": 665
+      },
+      {
+        "participantId": 1608708085,
+        "price": 827
+      },
+      {
+        "participantId": 1608708086,
+        "price": 1064
+      },
+      {
+        "participantId": 1608708087,
+        "price": 604
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708088,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708096,
+        "price": 1249
+      },
+      {
+        "participantId": 1608708089,
+        "price": 300
+      },
+      {
+        "participantId": 1608708090,
+        "price": 513
+      },
+      {
+        "participantId": 1608708091,
+        "price": 932
+      },
+      {
+        "participantId": 1608708092,
+        "price": 1190
+      },
+      {
+        "participantId": 1608708093,
+        "price": 221
+      },
+      {
+        "participantId": 1608708094,
+        "price": 511
+      },
+      {
+        "participantId": 1608708095,
+        "price": 942
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708097,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708098,
+        "price": 2103
+      },
+      {
+        "participantId": 1608708099,
+        "price": 2094
+      },
+      {
+        "participantId": 1608708100,
+        "price": 889
+      },
+      {
+        "participantId": 1608708101,
+        "price": 1057
+      },
+      {
+        "participantId": 1608708102,
+        "price": 604
+      },
+      {
+        "participantId": 1608708103,
+        "price": 808
+      },
+      {
+        "participantId": 1608708104,
+        "price": 558
+      },
+      {
+        "participantId": 1608708105,
+        "price": 804
+      },
+      {
+        "participantId": 1608708106,
+        "price": 639
+      },
+      {
+        "participantId": 1608708107,
+        "price": 956
+      },
+      {
+        "participantId": 1608708108,
+        "price": 841
+      },
+      {
+        "participantId": 1608708109,
+        "price": 1274
+      },
+      {
+        "participantId": 1608708110,
+        "price": 1205
+      },
+      {
+        "participantId": 1608708111,
+        "price": 1820
+      },
+      {
+        "participantId": 1608708112,
+        "price": 810
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708113,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608708114,
+        "price": 592
+      },
+      {
+        "participantId": 1608708115,
+        "price": 267
+      },
+      {
+        "participantId": 1608708116,
+        "price": 205
+      },
+      {
+        "participantId": 1608708117,
+        "price": 370
+      },
+      {
+        "participantId": 1608708118,
+        "price": 446
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708119,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708120,
+        "price": 516
+      },
+      {
+        "participantId": 1608708121,
+        "price": 689
+      },
+      {
+        "participantId": 1608708122,
+        "price": 402
+      },
+      {
+        "participantId": 1608708123,
+        "price": 422
+      },
+      {
+        "participantId": 1608708124,
+        "price": 496
+      },
+      {
+        "participantId": 1608708125,
+        "price": 638
+      },
+      {
+        "participantId": 1608708126,
+        "price": 335
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708127,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708128,
+        "price": 1206
+      },
+      {
+        "participantId": 1608708129,
+        "price": 682
+      },
+      {
+        "participantId": 1608708130,
+        "price": 532
+      },
+      {
+        "participantId": 1608708131,
+        "price": 493
+      },
+      {
+        "participantId": 1608708132,
+        "price": 513
+      },
+      {
+        "participantId": 1608708133,
+        "price": 576
+      },
+      {
+        "participantId": 1608708134,
+        "price": 682
+      },
+      {
+        "participantId": 1608708135,
+        "price": 839
+      },
+      {
+        "participantId": 1608708136,
+        "price": 1061
+      },
+      {
+        "participantId": 1608708137,
+        "price": 1368
+      },
+      {
+        "participantId": 1608708138,
+        "price": 1785
+      },
+      {
+        "participantId": 1608708139,
+        "price": 1223
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708140,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708141,
+        "price": 237
+      },
+      {
+        "participantId": 1608708142,
+        "price": 239
+      },
+      {
+        "participantId": 1608708143,
+        "price": 315
+      },
+      {
+        "participantId": 1608708144,
+        "price": 268
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708145,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708146,
+        "price": 292
+      },
+      {
+        "participantId": 1608708147,
+        "price": 291
+      },
+      {
+        "participantId": 1608708148,
+        "price": 378
+      },
+      {
+        "participantId": 1608708149,
+        "price": 518
+      },
+      {
+        "participantId": 1608708150,
+        "price": 725
+      },
+      {
+        "participantId": 1608708151,
+        "price": 477
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936175630
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708152,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708153,
+        "price": 323
+      },
+      {
+        "participantId": 1608708154,
+        "price": 313
+      },
+      {
+        "participantId": 1608708155,
+        "price": 381
+      },
+      {
+        "participantId": 1608708156,
+        "price": 498
+      },
+      {
+        "participantId": 1608708157,
+        "price": 678
+      },
+      {
+        "participantId": 1608708158,
+        "price": 412
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-04-26T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608708159,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608708191,
+        "price": 2811
+      },
+      {
+        "participantId": 1608708192,
+        "price": 2753
+      },
+      {
+        "participantId": 1608708193,
+        "price": 3139
+      },
+      {
+        "participantId": 1608708194,
+        "price": 3800
+      },
+      {
+        "participantId": 1608708195,
+        "price": 4781
+      },
+      {
+        "participantId": 1608708199,
+        "price": 3783
+      },
+      {
+        "participantId": 1608708200,
+        "price": 3710
+      },
+      {
+        "participantId": 1608708201,
+        "price": 4202
+      },
+      {
+        "participantId": 1608708160,
+        "price": 1337
+      },
+      {
+        "participantId": 1608708161,
+        "price": 1551
+      },
+      {
+        "participantId": 1608708162,
+        "price": 1922
+      },
+      {
+        "participantId": 1608708163,
+        "price": 2486
+      },
+      {
+        "participantId": 1608708164,
+        "price": 3289
+      },
+      {
+        "participantId": 1608708165,
+        "price": 4476
+      },
+      {
+        "participantId": 1608708167,
+        "price": 1364
+      },
+      {
+        "participantId": 1608708168,
+        "price": 1333
+      },
+      {
+        "participantId": 1608708169,
+        "price": 1545
+      },
+      {
+        "participantId": 1608708170,
+        "price": 1915
+      },
+      {
+        "participantId": 1608708171,
+        "price": 2478
+      },
+      {
+        "participantId": 1608708172,
+        "price": 3279
+      },
+      {
+        "participantId": 1608708173,
+        "price": 4461
+      },
+      {
+        "participantId": 1608708175,
+        "price": 1659
+      },
+      {
+        "participantId": 1608708176,
+        "price": 1622
+      },
+      {
+        "participantId": 1608708177,
+        "price": 1872
+      },
+      {
+        "participantId": 1608708178,
+        "price": 2305
+      },
+      {
+        "participantId": 1608708179,
+        "price": 2959
+      },
+      {
+        "participantId": 1608708180,
+        "price": 3884
+      },
+      {
+        "participantId": 1608708183,
+        "price": 2125
+      },
+      {
+        "participantId": 1608708184,
+        "price": 2079
+      },
+      {
+        "participantId": 1608708185,
+        "price": 2385
+      },
+      {
+        "participantId": 1608708186,
+        "price": 2913
+      },
+      {
+        "participantId": 1608708187,
+        "price": 3704
+      },
+      {
+        "participantId": 1608708188,
+        "price": 4814
+      }
+    ],
+    "type": "moneyline",
+    "version": 4936212495
   }
 ]
