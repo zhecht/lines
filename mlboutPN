@@ -1,4543 +1,2245 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608530534,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Kansas City Royals",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Houston Astros",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -127
       },
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "under",
+        "points": 1.5,
+        "price": 104
       }
     ],
-    "rotation": 923,
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 39,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 595046670
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608559855,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608559856,
-        "name": "Houston Astros",
-        "order": 0,
-        "rotation": 913
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 1.5,
+        "price": -139
       },
       {
-        "alignment": "neutral",
-        "id": 1608559857,
-        "name": "Kansas City Royals",
-        "order": 0,
-        "rotation": 914
+        "designation": "under",
+        "points": 1.5,
+        "price": 115
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 418444084
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608707715,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Kansas City Royals  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -100
       },
       {
-        "alignment": "away",
-        "name": "Houston Astros  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "away",
+        "points": -0.0,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9923,
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 595043802
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608707749,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608707750,
-        "name": "Houston Astros 1, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707751,
-        "name": "Houston Astros 2, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707752,
-        "name": "Houston Astros 3, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707753,
-        "name": "Houston Astros 4, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707754,
-        "name": "Houston Astros 5, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707755,
-        "name": "Houston Astros 6, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707756,
-        "name": "Houston Astros 7, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707757,
-        "name": "Houston Astros 0, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707758,
-        "name": "Houston Astros 2, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707759,
-        "name": "Houston Astros 3, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707760,
-        "name": "Houston Astros 4, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707761,
-        "name": "Houston Astros 5, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707762,
-        "name": "Houston Astros 6, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707763,
-        "name": "Houston Astros 7, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707764,
-        "name": "Houston Astros 0, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707765,
-        "name": "Houston Astros 1, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707766,
-        "name": "Houston Astros 3, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707767,
-        "name": "Houston Astros 4, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707768,
-        "name": "Houston Astros 5, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707769,
-        "name": "Houston Astros 6, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707770,
-        "name": "Houston Astros 7, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707771,
-        "name": "Houston Astros 0, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707772,
-        "name": "Houston Astros 1, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707773,
-        "name": "Houston Astros 2, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707774,
-        "name": "Houston Astros 4, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707775,
-        "name": "Houston Astros 5, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707776,
-        "name": "Houston Astros 6, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707777,
-        "name": "Houston Astros 7, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707778,
-        "name": "Houston Astros 0, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707779,
-        "name": "Houston Astros 1, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707780,
-        "name": "Houston Astros 2, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707781,
-        "name": "Houston Astros 3, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707782,
-        "name": "Houston Astros 5, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707783,
-        "name": "Houston Astros 6, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707784,
-        "name": "Houston Astros 7, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707785,
-        "name": "Houston Astros 0, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707786,
-        "name": "Houston Astros 1, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707787,
-        "name": "Houston Astros 2, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707788,
-        "name": "Houston Astros 3, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707789,
-        "name": "Houston Astros 4, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707790,
-        "name": "Houston Astros 6, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707791,
-        "name": "Houston Astros 7, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707792,
-        "name": "Houston Astros 0, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707793,
-        "name": "Houston Astros 1, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707794,
-        "name": "Houston Astros 2, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707795,
-        "name": "Houston Astros 3, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707796,
-        "name": "Houston Astros 4, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707797,
-        "name": "Houston Astros 5, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707798,
-        "name": "Houston Astros 7, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707799,
-        "name": "Houston Astros 0, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707800,
-        "name": "Houston Astros 1, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707801,
-        "name": "Houston Astros 2, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707802,
-        "name": "Houston Astros 3, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707803,
-        "name": "Houston Astros 4, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707804,
-        "name": "Houston Astros 5, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707805,
-        "name": "Houston Astros 6, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 978
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -212
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 176
       }
     ],
-    "rotation": 923,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418446258
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608707905,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608707906,
-        "name": "Houston Astros 0, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707907,
-        "name": "Houston Astros 0, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707908,
-        "name": "Houston Astros 0, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707909,
-        "name": "Houston Astros 0, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707910,
-        "name": "Houston Astros 0, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707911,
-        "name": "Houston Astros 0, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707912,
-        "name": "Houston Astros 0, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707913,
-        "name": "Houston Astros 1, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707914,
-        "name": "Houston Astros 1, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707915,
-        "name": "Houston Astros 1, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707916,
-        "name": "Houston Astros 1, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707917,
-        "name": "Houston Astros 1, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707918,
-        "name": "Houston Astros 1, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707919,
-        "name": "Houston Astros 1, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707920,
-        "name": "Houston Astros 1, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707921,
-        "name": "Houston Astros 2, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707922,
-        "name": "Houston Astros 2, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707923,
-        "name": "Houston Astros 2, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707924,
-        "name": "Houston Astros 2, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707925,
-        "name": "Houston Astros 2, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707926,
-        "name": "Houston Astros 2, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707927,
-        "name": "Houston Astros 2, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707928,
-        "name": "Houston Astros 2, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707929,
-        "name": "Houston Astros 3, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707930,
-        "name": "Houston Astros 3, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707931,
-        "name": "Houston Astros 3, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707932,
-        "name": "Houston Astros 3, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707933,
-        "name": "Houston Astros 3, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707934,
-        "name": "Houston Astros 3, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707935,
-        "name": "Houston Astros 3, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707936,
-        "name": "Houston Astros 3, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707937,
-        "name": "Houston Astros 4, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707938,
-        "name": "Houston Astros 4, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707939,
-        "name": "Houston Astros 4, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707940,
-        "name": "Houston Astros 4, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707941,
-        "name": "Houston Astros 4, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707942,
-        "name": "Houston Astros 4, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707943,
-        "name": "Houston Astros 4, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707944,
-        "name": "Houston Astros 4, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707945,
-        "name": "Houston Astros 5, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707946,
-        "name": "Houston Astros 5, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707947,
-        "name": "Houston Astros 5, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707948,
-        "name": "Houston Astros 5, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707949,
-        "name": "Houston Astros 5, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707950,
-        "name": "Houston Astros 5, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707951,
-        "name": "Houston Astros 5, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707952,
-        "name": "Houston Astros 5, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707953,
-        "name": "Houston Astros 6, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707954,
-        "name": "Houston Astros 6, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707955,
-        "name": "Houston Astros 6, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707956,
-        "name": "Houston Astros 6, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707957,
-        "name": "Houston Astros 6, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707958,
-        "name": "Houston Astros 6, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707959,
-        "name": "Houston Astros 6, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707960,
-        "name": "Houston Astros 6, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707961,
-        "name": "Houston Astros 7, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707962,
-        "name": "Houston Astros 7, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707963,
-        "name": "Houston Astros 7, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707964,
-        "name": "Houston Astros 7, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707965,
-        "name": "Houston Astros 7, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707966,
-        "name": "Houston Astros 7, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707967,
-        "name": "Houston Astros 7, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1608707968,
-        "name": "Houston Astros 7, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 985
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -143
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 124
       }
     ],
-    "rotation": 923,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 418446258
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713183,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713184,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 136
       },
       {
-        "alignment": "neutral",
-        "id": 1608713185,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": 0.5,
+        "price": -158
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Jose Altuve (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713186,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713187,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 200
       },
       {
-        "alignment": "neutral",
-        "id": 1608713188,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": 1.0,
+        "price": -246
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Jose Altuve (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713189,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713190,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -108
       },
       {
-        "alignment": "neutral",
-        "id": 1608713191,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 4.0,
+        "price": -106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Salvador Perez (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457813
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713192,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713193,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.0,
+        "price": -214
       },
       {
-        "alignment": "neutral",
-        "id": 1608713194,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 3.0,
+        "price": 181
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Salvador Perez (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713195,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713196,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -141
       },
       {
-        "alignment": "neutral",
-        "id": 1608713197,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 3.5,
+        "price": 122
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Christian Walker (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457813
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713198,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713199,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": 121
       },
       {
-        "alignment": "neutral",
-        "id": 1608713200,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 4.5,
+        "price": -139
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Christian Walker (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713201,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713202,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 161
       },
       {
-        "alignment": "neutral",
-        "id": 1608713203,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 5.0,
+        "price": -188
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Mark Canha (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713204,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713205,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 298
       },
       {
-        "alignment": "neutral",
-        "id": 1608713206,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
-      }
-    ],
-    "periods": [
+        "designation": "away",
+        "price": 298
+      },
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "draw",
+        "price": -133
       }
     ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Hunter Renfroe (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457813
+    "status": "open",
+    "type": "moneyline",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713207,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713208,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -108
       },
       {
-        "alignment": "neutral",
-        "id": 1608713209,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": -0.0,
+        "price": -108
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Hunter Renfroe (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713210,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713211,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": 102
       },
       {
-        "alignment": "neutral",
-        "id": 1608713212,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 0.5,
+        "price": -119
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Wacha (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 418457813
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713213,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713214,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 116
       },
       {
-        "alignment": "neutral",
-        "id": 1608713215,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "price": -128
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Wacha (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 418457813
+    "status": "open",
+    "type": "moneyline",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713216,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713217,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -103
       },
       {
-        "alignment": "neutral",
-        "id": 1608713218,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 3.5,
+        "price": -113
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Wacha (Earned Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 418457813
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713219,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713220,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": 115
       },
       {
-        "alignment": "neutral",
-        "id": 1608713221,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 4.5,
+        "price": -135
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Wacha (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 418457813
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713222,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713223,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.5,
+        "price": -148
       },
       {
-        "alignment": "neutral",
-        "id": 1608713224,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": -1.5,
+        "price": 131
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Mauricio Dubón (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713225,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713226,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 3.0,
+        "price": -359
       },
       {
-        "alignment": "neutral",
-        "id": 1608713227,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": -3.0,
+        "price": 269
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Jonathan India (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713228,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713229,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.5,
+        "price": -247
       },
       {
-        "alignment": "neutral",
-        "id": 1608713230,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": -2.5,
+        "price": 201
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713231,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713232,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.0,
+        "price": -204
       },
       {
-        "alignment": "neutral",
-        "id": 1608713233,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": -2.0,
+        "price": 173
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713234,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713235,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -115
       },
       {
-        "alignment": "neutral",
-        "id": 1608713236,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": -1.0,
+        "price": 101
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Earned Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 418457813
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713237,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713238,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 179
       },
       {
-        "alignment": "neutral",
-        "id": 1608713239,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": 1.0,
+        "price": -217
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 418457831
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713240,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713241,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 227
       },
       {
-        "alignment": "neutral",
-        "id": 1608713242,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "away",
+        "points": 1.5,
+        "price": -292
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Jeremy Peña (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457831
+    "status": "open",
+    "type": "spread",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713243,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713244,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": 100
       },
       {
-        "alignment": "neutral",
-        "id": 1608713245,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 8.0,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Jeremy Peña (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713246,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713247,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -587
       },
       {
-        "alignment": "neutral",
-        "id": 1608713248,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 4.5,
+        "price": 409
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Freddy Fermin (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713249,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713250,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.5,
+        "price": -195
       },
       {
-        "alignment": "neutral",
-        "id": 1608713251,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 6.5,
+        "price": 170
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Yordan Alvarez (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713252,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713253,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -158
       },
       {
-        "alignment": "neutral",
-        "id": 1608713254,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 7.0,
+        "price": 139
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Yordan Alvarez (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713255,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713256,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -118
       },
       {
-        "alignment": "neutral",
-        "id": 1608713257,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 7.5,
+        "price": 105
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Isaac Paredes (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713258,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713259,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": 117
       },
       {
-        "alignment": "neutral",
-        "id": 1608713260,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 8.5,
+        "price": -132
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Isaac Paredes (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713264,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713265,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": 151
       },
       {
-        "alignment": "neutral",
-        "id": 1608713266,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 9.0,
+        "price": -172
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Maikel Garcia (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713267,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713268,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": 178
       },
       {
-        "alignment": "neutral",
-        "id": 1608713269,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 9.5,
+        "price": -205
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Yainer Diaz (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713270,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713271,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608530534,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.5,
+        "price": 333
       },
       {
-        "alignment": "neutral",
-        "id": 1608713272,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 11.5,
+        "price": -452
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Yainer Diaz (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713276,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713277,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608559855,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608559856,
+        "price": -150
       },
       {
-        "alignment": "neutral",
-        "id": 1608713278,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "participantId": 1608559857,
+        "price": 128
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Jake Meyers (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "type": "moneyline",
+    "version": 4936291508
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713279,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;25.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713280,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707715,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 25.5,
+        "price": -102
       },
       {
-        "alignment": "neutral",
-        "id": 1608713281,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "designation": "under",
+        "points": 25.5,
+        "price": -119
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Bobby Witt Jr. (Home Runs)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 418457831
+    "status": "open",
+    "type": "total",
+    "version": 3079673125
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713282,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713283,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707749,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608707750,
+        "price": 4642
       },
       {
-        "alignment": "neutral",
-        "id": 1608713284,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
-      }
-    ],
-    "periods": [
+        "participantId": 1608707751,
+        "price": 4158
+      },
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1608707752,
+        "price": 4073
+      },
+      {
+        "participantId": 1608707753,
+        "price": 4409
+      },
+      {
+        "participantId": 1608707754,
+        "price": 4946
+      },
+      {
+        "participantId": 1608707755,
+        "price": 5788
+      },
+      {
+        "participantId": 1608707756,
+        "price": 6880
+      },
+      {
+        "participantId": 1608707757,
+        "price": 3897
+      },
+      {
+        "participantId": 1608707758,
+        "price": 2544
+      },
+      {
+        "participantId": 1608707759,
+        "price": 2607
+      },
+      {
+        "participantId": 1608707760,
+        "price": 2791
+      },
+      {
+        "participantId": 1608707761,
+        "price": 3219
+      },
+      {
+        "participantId": 1608707762,
+        "price": 3824
+      },
+      {
+        "participantId": 1608707763,
+        "price": 4666
+      },
+      {
+        "participantId": 1608707764,
+        "price": 4257
+      },
+      {
+        "participantId": 1608707765,
+        "price": 2138
+      },
+      {
+        "participantId": 1608707766,
+        "price": 2133
+      },
+      {
+        "participantId": 1608707767,
+        "price": 2396
+      },
+      {
+        "participantId": 1608707768,
+        "price": 2743
+      },
+      {
+        "participantId": 1608707769,
+        "price": 3314
+      },
+      {
+        "participantId": 1608707770,
+        "price": 4088
+      },
+      {
+        "participantId": 1608707771,
+        "price": 4619
+      },
+      {
+        "participantId": 1608707772,
+        "price": 2922
+      },
+      {
+        "participantId": 1608707773,
+        "price": 1764
+      },
+      {
+        "participantId": 1608707774,
+        "price": 2241
+      },
+      {
+        "participantId": 1608707775,
+        "price": 2672
+      },
+      {
+        "participantId": 1608707776,
+        "price": 3215
+      },
+      {
+        "participantId": 1608707777,
+        "price": 4010
+      },
+      {
+        "participantId": 1608707778,
+        "price": 5317
+      },
+      {
+        "participantId": 1608707779,
+        "price": 3420
+      },
+      {
+        "participantId": 1608707780,
+        "price": 2813
+      },
+      {
+        "participantId": 1608707781,
+        "price": 1835
+      },
+      {
+        "participantId": 1608707782,
+        "price": 2709
+      },
+      {
+        "participantId": 1608707783,
+        "price": 3363
+      },
+      {
+        "participantId": 1608707784,
+        "price": 4191
+      },
+      {
+        "participantId": 1608707785,
+        "price": 6361
+      },
+      {
+        "participantId": 1608707786,
+        "price": 4162
+      },
+      {
+        "participantId": 1608707787,
+        "price": 3446
+      },
+      {
+        "participantId": 1608707788,
+        "price": 3235
+      },
+      {
+        "participantId": 1608707789,
+        "price": 2212
+      },
+      {
+        "participantId": 1608707790,
+        "price": 3599
+      },
+      {
+        "participantId": 1608707791,
+        "price": 4574
+      },
+      {
+        "participantId": 1608707792,
+        "price": 7790
+      },
+      {
+        "participantId": 1608707793,
+        "price": 5225
+      },
+      {
+        "participantId": 1608707794,
+        "price": 4360
+      },
+      {
+        "participantId": 1608707795,
+        "price": 4087
+      },
+      {
+        "participantId": 1608707796,
+        "price": 4164
+      },
+      {
+        "participantId": 1608707797,
+        "price": 2944
+      },
+      {
+        "participantId": 1608707798,
+        "price": 5085
+      },
+      {
+        "participantId": 1608707799,
+        "price": 9611
+      },
+      {
+        "participantId": 1608707800,
+        "price": 6610
+      },
+      {
+        "participantId": 1608707801,
+        "price": 5640
+      },
+      {
+        "participantId": 1608707802,
+        "price": 5300
+      },
+      {
+        "participantId": 1608707803,
+        "price": 5356
+      },
+      {
+        "participantId": 1608707804,
+        "price": 5736
+      },
+      {
+        "participantId": 1608707805,
+        "price": 4177
       }
     ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Bobby Witt Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "type": "moneyline",
+    "version": 4936291508
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713285,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713286,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608707905,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1608707922,
+        "price": 1513
       },
       {
-        "alignment": "neutral",
-        "id": 1608713287,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
-      }
-    ],
-    "periods": [
+        "participantId": 1608707923,
+        "price": 1873
+      },
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1608707924,
+        "price": 2415
+      },
+      {
+        "participantId": 1608707925,
+        "price": 3191
+      },
+      {
+        "participantId": 1608707926,
+        "price": 4283
+      },
+      {
+        "participantId": 1608707929,
+        "price": 1878
+      },
+      {
+        "participantId": 1608707930,
+        "price": 1945
+      },
+      {
+        "participantId": 1608707931,
+        "price": 2452
+      },
+      {
+        "participantId": 1608707932,
+        "price": 3030
+      },
+      {
+        "participantId": 1608707933,
+        "price": 3850
+      },
+      {
+        "participantId": 1608707937,
+        "price": 2519
+      },
+      {
+        "participantId": 1608707938,
+        "price": 2600
+      },
+      {
+        "participantId": 1608707939,
+        "price": 3134
+      },
+      {
+        "participantId": 1608707940,
+        "price": 3942
+      },
+      {
+        "participantId": 1608707941,
+        "price": 4970
+      },
+      {
+        "participantId": 1608707945,
+        "price": 3440
+      },
+      {
+        "participantId": 1608707946,
+        "price": 3428
+      },
+      {
+        "participantId": 1608707947,
+        "price": 4097
+      },
+      {
+        "participantId": 1608707953,
+        "price": 4665
+      },
+      {
+        "participantId": 1608707954,
+        "price": 4647
+      },
+      {
+        "participantId": 1608707906,
+        "price": 1254
+      },
+      {
+        "participantId": 1608707907,
+        "price": 1548
+      },
+      {
+        "participantId": 1608707908,
+        "price": 2004
+      },
+      {
+        "participantId": 1608707909,
+        "price": 2771
+      },
+      {
+        "participantId": 1608707910,
+        "price": 3871
+      },
+      {
+        "participantId": 1608707913,
+        "price": 1317
+      },
+      {
+        "participantId": 1608707914,
+        "price": 1270
+      },
+      {
+        "participantId": 1608707915,
+        "price": 1516
+      },
+      {
+        "participantId": 1608707916,
+        "price": 2041
+      },
+      {
+        "participantId": 1608707917,
+        "price": 2815
+      },
+      {
+        "participantId": 1608707918,
+        "price": 3801
+      },
+      {
+        "participantId": 1608707921,
+        "price": 1519
       }
     ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Vinnie Pasquantino (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "type": "moneyline",
+    "version": 4936291508
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608713288,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 23,
-      "matchupCountSE": 23,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 46,
-        "matchupCountSE": 46,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608530534,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-04-26T23:10:00+00:00"
-    },
-    "parentId": 1608530534,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608713289,
-        "name": "Over",
-        "order": 0,
-        "rotation": 924
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713183,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713184,
+        "points": 0.5,
+        "price": 870
       },
       {
-        "alignment": "neutral",
-        "id": 1608713290,
-        "name": "Under",
-        "order": 0,
-        "rotation": 925
+        "participantId": 1608713185,
+        "points": 0.5,
+        "price": -2174
       }
     ],
-    "periods": [
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "cutoffAt": "2025-04-26T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "rotation": 924,
-    "special": {
-      "category": "Player Props",
-      "description": "Cam Smith (Total Bases)(must start)"
-    },
-    "startTime": "2025-04-26T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 418457831
+    "matchupId": 1608713186,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713187,
+        "points": 1.5,
+        "price": 108
+      },
+      {
+        "participantId": 1608713188,
+        "points": 1.5,
+        "price": -144
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713189,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713190,
+        "points": 0.5,
+        "price": 552
+      },
+      {
+        "participantId": 1608713191,
+        "points": 0.5,
+        "price": -1025
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713192,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713193,
+        "points": 1.5,
+        "price": 121
+      },
+      {
+        "participantId": 1608713194,
+        "points": 1.5,
+        "price": -163
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713195,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713196,
+        "points": 0.5,
+        "price": 485
+      },
+      {
+        "participantId": 1608713197,
+        "points": 0.5,
+        "price": -843
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713198,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713199,
+        "points": 1.5,
+        "price": 137
+      },
+      {
+        "participantId": 1608713200,
+        "points": 1.5,
+        "price": -188
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713201,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713202,
+        "points": 1.5,
+        "price": 161
+      },
+      {
+        "participantId": 1608713203,
+        "points": 1.5,
+        "price": -228
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713204,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713205,
+        "points": 0.5,
+        "price": 773
+      },
+      {
+        "participantId": 1608713206,
+        "points": 0.5,
+        "price": -1770
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713207,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713208,
+        "points": 0.5,
+        "price": -159
+      },
+      {
+        "participantId": 1608713209,
+        "points": 0.5,
+        "price": 119
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713210,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713211,
+        "points": 4.5,
+        "price": 125
+      },
+      {
+        "participantId": 1608713212,
+        "points": 4.5,
+        "price": -169
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713213,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713214,
+        "points": 5.5,
+        "price": -126
+      },
+      {
+        "participantId": 1608713215,
+        "points": 5.5,
+        "price": -105
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713216,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713217,
+        "points": 2.5,
+        "price": 108
+      },
+      {
+        "participantId": 1608713218,
+        "points": 2.5,
+        "price": -144
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713219,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713220,
+        "points": 16.5,
+        "price": -128
+      },
+      {
+        "participantId": 1608713221,
+        "points": 16.5,
+        "price": -104
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713222,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713223,
+        "points": 0.5,
+        "price": -223
+      },
+      {
+        "participantId": 1608713224,
+        "points": 0.5,
+        "price": 159
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713225,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713226,
+        "points": 0.5,
+        "price": -228
+      },
+      {
+        "participantId": 1608713227,
+        "points": 0.5,
+        "price": 161
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713228,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713229,
+        "points": 4.5,
+        "price": 110
+      },
+      {
+        "participantId": 1608713230,
+        "points": 4.5,
+        "price": -147
+      }
+    ],
+    "type": "total",
+    "version": 4936375585
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713231,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713232,
+        "points": 5.5,
+        "price": -121
+      },
+      {
+        "participantId": 1608713233,
+        "points": 5.5,
+        "price": -110
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713234,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713235,
+        "points": 2.5,
+        "price": 116
+      },
+      {
+        "participantId": 1608713236,
+        "points": 2.5,
+        "price": -156
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713237,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713238,
+        "points": 17.5,
+        "price": -108
+      },
+      {
+        "participantId": 1608713239,
+        "points": 17.5,
+        "price": -122
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713240,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713241,
+        "points": 0.5,
+        "price": 792
+      },
+      {
+        "participantId": 1608713242,
+        "points": 0.5,
+        "price": -1845
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713243,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713244,
+        "points": 1.5,
+        "price": 114
+      },
+      {
+        "participantId": 1608713245,
+        "points": 1.5,
+        "price": -153
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713246,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713248,
+        "points": 0.5,
+        "price": 138
+      },
+      {
+        "participantId": 1608713247,
+        "points": 0.5,
+        "price": -189
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713249,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713250,
+        "points": 0.5,
+        "price": 460
+      },
+      {
+        "participantId": 1608713251,
+        "points": 0.5,
+        "price": -781
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713252,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713253,
+        "points": 1.5,
+        "price": 116
+      },
+      {
+        "participantId": 1608713254,
+        "points": 1.5,
+        "price": -156
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713255,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713256,
+        "points": 0.5,
+        "price": 715
+      },
+      {
+        "participantId": 1608713257,
+        "points": 0.5,
+        "price": -1552
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713258,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713259,
+        "points": 1.5,
+        "price": 149
+      },
+      {
+        "participantId": 1608713260,
+        "points": 1.5,
+        "price": -206
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713264,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713265,
+        "points": 1.5,
+        "price": 155
+      },
+      {
+        "participantId": 1608713266,
+        "points": 1.5,
+        "price": -217
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713267,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713268,
+        "points": 0.5,
+        "price": 684
+      },
+      {
+        "participantId": 1608713269,
+        "points": 0.5,
+        "price": -1442
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713270,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713271,
+        "points": 1.5,
+        "price": 116
+      },
+      {
+        "participantId": 1608713272,
+        "points": 1.5,
+        "price": -155
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713276,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713277,
+        "points": 1.5,
+        "price": 154
+      },
+      {
+        "participantId": 1608713278,
+        "points": 1.5,
+        "price": -215
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713279,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713280,
+        "points": 0.5,
+        "price": 653
+      },
+      {
+        "participantId": 1608713281,
+        "points": 0.5,
+        "price": -1339
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713282,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713283,
+        "points": 1.5,
+        "price": -129
+      },
+      {
+        "participantId": 1608713284,
+        "points": 1.5,
+        "price": -103
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713285,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713287,
+        "points": 0.5,
+        "price": 134
+      },
+      {
+        "participantId": 1608713286,
+        "points": 0.5,
+        "price": -183
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-04-26T23:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608713288,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608713289,
+        "points": 0.5,
+        "price": -194
+      },
+      {
+        "participantId": 1608713290,
+        "points": 0.5,
+        "price": 141
+      }
+    ],
+    "type": "total"
   }
 ]
