@@ -1759,9 +1759,10 @@ def writeKambi(date):
 				under = betOffer["outcomes"][1]["oddsAmerican"]
 				data[game][player][book] = f"{over}/{under}"
 
-	updateData(book, data)
 	with open("static/dingers/updated_kambi", "w") as fh:
 		fh.write(str(datetime.now()))
+	with open("static/dingers/kambi.json", "w") as fh:
+		json.dump(data, fh, indent=4)
 
 def parseESPN(espnLines):
 	with open("baseballreference/roster.json") as fh:
