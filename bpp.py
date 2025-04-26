@@ -88,7 +88,7 @@ def writeMostLikely(date):
 		json.dump(likely, fh, indent=4)
 
 
-def writeParkFactors():
+def writeParkFactors(date):
 	url = "https://www.ballparkpal.com/Park-Factors.php"
 	factors = nested_dict()
 
@@ -115,7 +115,7 @@ def writeParkFactors():
 
 	for rows in soup.select("#table_id tbody tr"):
 		tds = rows.select("td")
-		team = convertBPPTeam(tds[0].text.lower())
+		team = convertBPPTeam(tds[0].text.lower().strip())
 		game = teamGame.get(team, "")
 		player = parsePlayer(tds[1].text)
 		factor = tds[3].text
@@ -143,13 +143,13 @@ if __name__ == '__main__':
 		date = str(datetime.now())[:10]
 
 	if args.factors:
-		writeParkFactors()
+		writeParkFactors(date)
 
 	if args.likely:
 		writeMostLikely(date)
 
 	if args.update:
-		writeParkFactors()
+		writeParkFactors(date)
 		writeMostLikely(date)
 
 	if args.commit:
