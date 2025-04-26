@@ -1747,7 +1747,6 @@ def writeKambi(date):
 					#teamIds[row["participantId"]] = team
 					#data[team] = {}
 			elif "to hit a home run" in label:
-				print(betOffer)
 				player = strip_accents(betOffer["outcomes"][0]["participant"])
 				try:
 					last, first = map(str, player.lower().split(", "))
