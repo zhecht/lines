@@ -638,6 +638,7 @@ def mergeCirca(date):
 		for prop in circa[game]:
 			if prop in ["rfi"]:
 				circaMain[game][prop] = circa[game][prop]
+				continue
 
 			for player in circa[game][prop]:
 				circaMain[game].setdefault(prop, {})
