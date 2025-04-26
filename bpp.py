@@ -155,4 +155,4 @@ if __name__ == '__main__':
 	if args.commit:
 		commitChanges()
 
-	barrelDefinition()
+	#barrelDefinition()
