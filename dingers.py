@@ -31,7 +31,7 @@ for book in ["fd", "dk", "cz", "espn", "mgm", "kambi", "b365"]:
 	locks[book] = threading.Lock()
 #lock = threading.Lock()
 
-def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=False, book=""):
+def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", promo="", book=""):
 	impliedOver = impliedUnder = 0
 	over = int(ou.split("/")[0])
 	if over > 0:
@@ -89,17 +89,18 @@ def devig(evData, player="", ou="575/-900", finalOdds=630, prop="hr", dinger=Fal
 
 	ev = min(evs)
 
-	if dinger:
-		# 70% conversion * 40% (2.1 HR/game = 2.1*$5/$25)
+	if promo:
 		fairVal = min(x, mult, add)
-		x = 0.2856
-		# 80% conversion * 42% (2.1 HR/game = 2.1*$5/$25)
-		x = .336
-
 		# for DK, 70% * (32 HR/tue = $32 / $20)
 		#x = 1.12
 		# for DK No Sweat, 70% * $10/ $20 bet
-		x = 0.7
+		if "sweat" in promo:
+			x = 0.7
+		else:
+			# 70% conversion * 40% (2.1 HR/game = 2.1*$5/$25)
+			x = 0.2856
+			# 80% conversion * 42% (2.1 HR/game = 2.1*$5/$25)
+			x = .336
 		ev = ((100 * (finalOdds / 100 + 1)) * fairVal - 100 + (100 * x))
 		ev = round(ev, 1)
 
@@ -2017,11 +2018,14 @@ def writeEV(date, dinger, silent=False):
 				#if evBook == "dk" and player in evData:
 				#	evData[player]["dk_ev"] = evData[player]["ev"]
 				#else:
-				devig(evData, player, ou, int(data[game][player]["dk"]), book="dk-sweat", dinger=True)
+				devig(evData, player, ou, int(data[game][player]["dk"]), book="dk-sweat", promo="dk-sweat")
 				devig(evData, player, ou, int(data[game][player]["dk"]), book="dk")
 				pass
 			if "espn" in books:
-				devig(evData, player, ou, int(data[game][player]["espn"].split("/")[0]), book="espn")
+				o = int(data[game][player]["espn"].split("/")[0])
+				devig(evData, player, ou, o, book="espn")
+				devig(evData, player, ou, o, book="espn-hr", promo="espn-hr")
+
 				o = int(data[game][player]["espn"].split("/")[0])
 				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.50)
 				devig(evData, player, ou, o, book="espn-50")
@@ -2031,7 +2035,7 @@ def writeEV(date, dinger, silent=False):
 
 			if "mgm" in books:
 				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm")
-				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm-sweat", dinger=True)
+				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm-sweat", promo="mgm-sweat")
 				o = int(data[game][player]["mgm"].split("/")[0])
 				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.20)
 				devig(evData, player, ou, o, book="mgm-20")
