@@ -88,7 +88,7 @@ def writeMostLikely(date):
 		json.dump(likely, fh, indent=4)
 
 
-def writeParkFactors(date):
+def writeParkFactors(date, history):
 	url = "https://www.ballparkpal.com/Park-Factors.php"
 	factors = nested_dict()
 
@@ -144,6 +144,7 @@ if __name__ == '__main__':
 	parser.add_argument("--factors", action="store_true")
 	parser.add_argument("--update", "-u", action="store_true")
 	parser.add_argument("--commit", "-c", action="store_true")
+	parser.add_argument("--history", "-h", action="store_true")
 
 	args = parser.parse_args()
 
@@ -152,13 +153,13 @@ if __name__ == '__main__':
 		date = str(datetime.now())[:10]
 
 	if args.factors:
-		writeParkFactors(date)
+		writeParkFactors(date, args.history)
 
 	if args.likely:
 		writeMostLikely(date)
 
 	if args.update:
-		writeParkFactors(date)
+		writeParkFactors(date, args.history)
 		writeMostLikely(date)
 
 	if args.commit:
