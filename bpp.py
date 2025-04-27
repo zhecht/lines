@@ -110,10 +110,10 @@ def writeParkFactors(date):
 			h = convertBPPTeam(h)
 			game = f"{a} @ {h}"
 			seen = seenGame.get(game, False)
-			seenGame[game] = True
 			if game in seenGame:
 				game += "-gm2"
 			else:
+				seenGame[game] = True
 				teamGame[a] = game
 				teamGame[h] = game
 			factors[game]["roof"] = roofClosed
