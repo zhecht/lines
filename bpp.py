@@ -131,7 +131,7 @@ def writeParkFactors(date):
 			factorColor = tds[i].get("style").split("; ")[1].split(": ")[-1]
 
 			factors[game]["players"][player][k] = factor
-			factors[game]["players"][player][k+"color"] = factorColor
+			factors[game]["players"][player][k+"-color"] = factorColor
 
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
