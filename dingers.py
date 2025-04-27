@@ -1828,13 +1828,14 @@ def writeEV(date, dinger, silent=False):
 	with open("static/mlb/circa.json") as fh:
 		circaLines = json.load(fh)
 
-	for game in circaLines:
-		if "hr" not in circaLines[game]:
-			continue
-		for player in circaLines[game]["hr"]:
-			data.setdefault(game, {})
-			data[game].setdefault(player, {})
-			data[game][player]["circa"] = circaLines[game]["hr"][player]
+	if date in circaLines:
+		for game in circaLines[date]:
+			if "hr" not in circaLines[date][game]:
+				continue
+			for player in circaLines[date][game]["hr"]:
+				data.setdefault(game, {})
+				data[game].setdefault(player, {})
+				data[game][player]["circa"] = circaLines[date][game]["hr"][player]
 
 	with open("out", "w") as fh:
 		json.dump(data, fh, indent=4)
