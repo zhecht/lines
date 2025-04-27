@@ -134,8 +134,15 @@ def writeParkFactors(date, history):
 			factors[game]["players"][player][k+"-color"] = factorColor
 			i += 1
 
-	with open("static/bpp/factors.json", "w") as fh:
-		json.dump(factors, fh, indent=4)
+	if history:
+		with open("static/bpp/factors_historical.json") as fh:
+			hist = json.load(fh)
+		hist[date] = factors
+		with open("static/bpp/factors_historical.json", "w") as fh:
+			json.dump(hist, fh, indent=4)
+	else:
+		with open("static/bpp/factors.json", "w") as fh:
+			json.dump(factors, fh, indent=4)
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
