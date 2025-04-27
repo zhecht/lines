@@ -656,12 +656,12 @@ def mergeCirca(date):
 		for row in lines[1:]:
 			cols = row.split(",")
 			game, prop, player = cols[0], cols[1], cols[2]
-			circaMain[game].setdefault(prop, {})
+			circaMain[date][game].setdefault(prop, {})
 			if prop == "hr":
-				circaMain[game][prop][player] = cols[-1]
+				circaMain[date][game][prop][player] = cols[-1]
 			else:
-				circaMain[game][prop].setdefault(player, {})
-				circaMain[game][prop][player][cols[3]] = cols[-1]
+				circaMain[date][game][prop].setdefault(player, {})
+				circaMain[date][game][prop][player][cols[3]] = cols[-1]
 
 	with open("static/mlb/circa.json", "w") as fh:
 		json.dump(circaMain, fh, indent=4)
