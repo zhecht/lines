@@ -132,6 +132,7 @@ def writeParkFactors(date):
 
 			factors[game]["players"][player][k] = factor
 			factors[game]["players"][player][k+"-color"] = factorColor
+			i += 1
 
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
