@@ -124,12 +124,14 @@ def writeParkFactors(date):
 		team = convertBPPTeam(tds[0].text.lower().strip())
 		game = teamGame.get(team, "")
 		player = parsePlayer(tds[1].text)
-		factor = tds[3].text
-		factorColor = tds[3].get("style").split("; ")[1].split(": ")[-1]
 
-		#factors[game]["players"][player] = (factor, factorColor)
-		factors[game]["players"][player]["hr"] = factor
-		factors[game]["players"][player]["color"] = factorColor
+		i = 3
+		for k in ["hr", "2b/3b", "1b"]:
+			factor = tds[i].text
+			factorColor = tds[i].get("style").split("; ")[1].split(": ")[-1]
+
+			factors[game]["players"][player][k] = factor
+			factors[game]["players"][player][k+"color"] = factorColor
 
 	with open("static/bpp/factors.json", "w") as fh:
 		json.dump(factors, fh, indent=4)
