@@ -2076,7 +2076,7 @@ def writeEV(date, dinger, silent=False):
 			roof = False
 			if player in bpp.get("players", []):
 				playerFactor = bpp["players"][player]["hr"]
-				playerFactorColor = bpp["players"][player]["color"]
+				playerFactorColor = bpp["players"][player]["hr-color"]
 				roof = bpp["roof"]
 			
 			evData[player]["id"] = f"{game}-{player}"
