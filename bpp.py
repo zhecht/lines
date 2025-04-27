@@ -151,7 +151,7 @@ if __name__ == '__main__':
 	parser.add_argument("--factors", action="store_true")
 	parser.add_argument("--update", "-u", action="store_true")
 	parser.add_argument("--commit", "-c", action="store_true")
-	parser.add_argument("--history", "-h", action="store_true")
+	parser.add_argument("--history", action="store_true")
 
 	args = parser.parse_args()
 
