@@ -99,7 +99,11 @@ def writeParkFactors(date):
 	teamGame = {}
 	for prop, colName in arr:
 		cols = soup.select(f"td[data-column={colName}]")
+		seenGame = {}
 		for game, col in zip(games, cols):
+			if game in seenGame:
+				game += "-gm2"
+			seenGame[game] = True
 			roofClosed = len(game.select("img[src*=RoofClosed]")) > 0
 			game = game.find("a", class_="gameLink").text.lower()
 			words = [x for x in game.split(" ") if x]
