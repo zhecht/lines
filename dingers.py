@@ -185,10 +185,10 @@ def writeCircaHistory(date, debug):
 			ou = f"""{o}/{u.replace("- ", "").replace("-_", "")}"""
 			if debug:
 				print(game, player, ou)
-				data[game][player] = ou
+				data[date][game][player] = ou
 			else:
 				if game:
-					data[game][player] = {"open": ou, "close": ou}
+					data[date][game][player] = {"open": ou, "close": ou}
 
 	if debug:
 		with open("static/mlb/circa-props.json", "w") as fh:
@@ -335,20 +335,20 @@ def writeCircaMain(date):
 				break
 			if mls[i]:
 				ou = mls[i]+"/"+mls[i+1]
-				data[game]["ml"] = ou.replace("EVEN", "+100").replace("/7", "/-")
+				data[date][game]["ml"] = ou.replace("EVEN", "+100").replace("/7", "/-")
 
 			if totals and totals[i]:
-				data[game]["total"][totals[i][0]] = totals[i][1]
+				data[date][game]["total"][totals[i][0]] = totals[i][1]
 
 			if f5_totals and f5_totals[i]:
-				data[game]["f5_total"][f5_totals[i][0]] = f5_totals[i][1]
+				data[date][game]["f5_total"][f5_totals[i][0]] = f5_totals[i][1]
 
 			if spreads[i]:
 				line = spreads[i].split(" ")[0]
 				ou = spreads[i].split(" ")[-1]+"/"+spreads[i+1].split(" ")[-1]
-				data[game]["spread"][line] = ou.replace("EVEN", "+100")
+				data[date][game]["spread"][line] = ou.replace("EVEN", "+100")
 			if f5_ml[i]:
-				data[game]["f5_ml"] = f"{f5_ml[i]}/{f5_ml[i+1]}".replace("EVEN", "+100")
+				data[date][game]["f5_ml"] = f"{f5_ml[i]}/{f5_ml[i+1]}".replace("EVEN", "+100")
 
 			if f5_sp[i]:
 				line = "0.5" if f5_sp[i].startswith("+") else "-0.5"
@@ -489,7 +489,7 @@ def writeCirca(date):
 			#print(p,o,u)
 			if len(u) == 4 and u.startswith("7"):
 				u = "-"+u[1:]
-			data[p[0]]["hr"][p[1]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
+			data[date][p[0]]["hr"][p[1]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
 
 
 		if True and pageIdx == 0:
@@ -541,7 +541,7 @@ def writeCirca(date):
 							u = "-"+u[1:]
 
 						p = "away_total" if game.startswith(team) else "home_total"
-						data[game][p][line] = f"{o}/{u}".replace("EVEN", "+100").replace("~", "-").replace(",", "")
+						data[date][game][p][line] = f"{o}/{u}".replace("EVEN", "+100").replace("~", "-").replace(",", "")
 
 						t += h+3
 			
@@ -621,7 +621,7 @@ def writeCirca(date):
 
 					#print(player, team, line, ou)
 
-					data[game]["k"][player][line] = ou
+					data[date][game]["k"][player][line] = ou
 					boxT += h+2
 
 	with open("static/mlb/circa-props.json", "w") as fh:
@@ -634,19 +634,21 @@ def mergeCirca(date):
 		circaMain = json.load(fh)
 
 	hist = nested_dict()
-	for game in circa:
-		circaMain.setdefault(game, {})
-		for prop in circa[game]:
-			if prop in ["rfi"]:
-				circaMain[game][prop] = circa[game][prop]
-				continue
+	for dt, games in circa.items():
+		circaMain.setdefault(dt, {})
+		for game, gameData in games.items():
+			circaMain[dt].setdefault(game, {})
+			for prop in circa[dt][game]:
+				if prop in ["rfi"]:
+					circaMain[dt][game][prop] = circa[dt][game][prop]
+					continue
 
-			for player in circa[game][prop]:
-				circaMain[game].setdefault(prop, {})
-				circaMain[game][prop][player] = circa[game][prop][player]
+				for player in circa[dt][game][prop]:
+					circaMain[dt][game].setdefault(prop, {})
+					circaMain[dt][game][prop][player] = circa[dt][game][prop][player]
 
-				if prop == "hr":
-					hist[game][player] = {"open": circa[game][prop][player], "close": circa[game][prop][player]}
+					if prop == "hr":
+						hist[game][player] = {"open": circa[dt][game][prop][player], "close": circa[dt][game][prop][player]}
 
 	with open("static/mlb/circa-props") as fh:
 		lines = fh.read().split("\n")
