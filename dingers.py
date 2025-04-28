@@ -592,6 +592,7 @@ def writeCirca(date):
 					game = teamGame.get(team, "")
 					player = parsePlayer(player.lower().split(" (")[0])
 					ous = pytesseract.image_to_string(ou).split("\n")
+					print(ous)
 
 					if player in inits[team]:
 						player = inits[team][player]
