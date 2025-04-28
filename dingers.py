@@ -428,7 +428,7 @@ def writeCirca(date):
 			#w,h = img.size
 			# l,t,r,b
 			#playersImg = img.crop((0,top,400,bottom))
-			playersImg = img.crop((107,top,420,bottom))
+			playersImg = img.crop((120,top,420,bottom))
 			#playersImg = img.crop((420,top,600,bottom))
 			playersImg.save("outplayers.png", "PNG")
 			text = pytesseract.image_to_string(playersImg).split("\n")
@@ -436,7 +436,7 @@ def writeCirca(date):
 
 			#players = []
 			for player in text:
-				if "(" not in player:
+				if "(" not in player or player == "\x0c":
 					continue
 				team = convertMLBTeam(player.split(")")[0].split("(")[-1])
 				player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
