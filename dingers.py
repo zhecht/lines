@@ -559,7 +559,7 @@ def writeCirca(date):
 			boxW = 264 #r-l
 			boxT = t
 			boxL = l
-			for c in range(1):
+			for c in range(3):
 				boxT = t
 				if c == 1:
 					boxL = 1050
@@ -592,7 +592,7 @@ def writeCirca(date):
 					game = teamGame.get(team, "")
 					player = parsePlayer(player.lower().split(" (")[0])
 					ous = pytesseract.image_to_string(ou).split("\n")
-					print(ous)
+					#print(ous)
 
 					if player in inits[team]:
 						player = inits[team][player]
