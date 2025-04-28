@@ -88,6 +88,25 @@ def writeMostLikely(date):
 		json.dump(likely, fh, indent=4)
 
 
+def writeHomeRunZone(date):
+	url = "https://www.ballparkpal.com/Home-Run-Zone.php"
+	zone = nested_dict()
+
+	soup = BS(open("static/bpp/zone.html"), "html.parser")
+
+	rows = soup.select("#gameSummaryTable")[0].find_all("tr")[1:]
+	for row in rows:
+		tds = row.find_all("td")
+		away = tds[-5].text.lower()
+		home = tds[-2].text.lower()
+		gameHR = float(tds[-4].text) + float(tds[-1].text)
+		zone[away] = tds[-4].text
+		zone[home] = tds[-1].text
+		zone[game] = gameHR
+
+	with open("static/bpp/zone.json", "w") as fh:
+		json.dump(zone, fh, indent=4)
+
 def writeParkFactors(date, history):
 	url = "https://www.ballparkpal.com/Park-Factors.php"
 	factors = nested_dict()
@@ -149,6 +168,7 @@ if __name__ == '__main__':
 	parser.add_argument("--date", "-d")
 	parser.add_argument("--likely", action="store_true")
 	parser.add_argument("--factors", action="store_true")
+	parser.add_argument("--zone", action="store_true")
 	parser.add_argument("--update", "-u", action="store_true")
 	parser.add_argument("--commit", "-c", action="store_true")
 	parser.add_argument("--history", action="store_true")
@@ -164,6 +184,9 @@ if __name__ == '__main__':
 
 	if args.likely:
 		writeMostLikely(date)
+
+	if args.zone:
+		writeHomeRunZone(date)
 
 	if args.update:
 		writeParkFactors(date, args.history)
