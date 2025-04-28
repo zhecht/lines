@@ -2408,10 +2408,10 @@ if __name__ == '__main__':
 			json.dump({}, fh)
 		with open("static/mlb/circa.json", "w") as fh:
 			json.dump({}, fh)
-		with open("static/mlb/circa-main.json", "w") as fh:
-			json.dump({}, fh)
-		with open("static/mlb/circa-props.json", "w") as fh:
-			json.dump({}, fh)
+		#with open("static/mlb/circa-main.json", "w") as fh:
+		#	json.dump({}, fh)
+		#with open("static/mlb/circa-props.json", "w") as fh:
+		#	json.dump({}, fh)
 
 	games = {}
 	date = args.date
