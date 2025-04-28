@@ -94,7 +94,7 @@ def writeHomeRunZone(date):
 
 	soup = BS(open("static/bpp/zone.html"), "html.parser")
 
-	rows = soup.select("#gameSummaryTable")[0].find_all("tr")[1:]
+	rows = soup.select(".gameSummaryTable")[0].find_all("tr")[1:]
 	for row in rows:
 		tds = row.find_all("td")
 		away = tds[-5].text.lower()
