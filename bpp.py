@@ -176,7 +176,9 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	date = args.date
-	if not date:
+	if args.tmrw:
+		date = str(datetime.now() + timedelta(days=1))[:10]
+	elif not date:
 		date = str(datetime.now())[:10]
 
 	if args.factors:
