@@ -99,6 +99,7 @@ def writeHomeRunZone(date):
 		tds = row.find_all("td")
 		away = tds[-5].text.lower()
 		home = tds[-2].text.lower()
+		game = f"{away} @ {home}"
 		gameHR = float(tds[-4].text) + float(tds[-1].text)
 		zone[away] = tds[-4].text
 		zone[home] = tds[-1].text
