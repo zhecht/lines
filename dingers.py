@@ -510,7 +510,7 @@ def writeCirca(date):
 					for row in range(7):
 						boxH = 76 if row == 0 else 70
 						box = img.crop((l,t,r,t+boxH))
-						box.save(f"out-{row}.png", "PNG")
+						box.save(f"out-total-{row}.png", "PNG")
 						w,h = box.size
 
 						i = box.crop((0,0,w,25))
