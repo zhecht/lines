@@ -568,7 +568,7 @@ def writeCirca(date):
 				for i in range(pitcherRows):
 					#print(boxL, boxT, boxL+boxW, boxT+boxH)
 					box = img.crop((boxL,boxT,boxL+boxW,boxT+boxH))
-					box.save(f"out-{i}.png", "PNG")
+					box.save(f"out-player-box-{i}.png", "PNG")
 					w,h = box.size
 					x = box.crop((w-110,40,w-60,h))
 					ou = box.crop((w-60,40,w,h))
