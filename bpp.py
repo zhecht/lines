@@ -101,8 +101,8 @@ def writeHomeRunZone(date):
 		home = tds[-2].text.lower()
 		game = f"{away} @ {home}"
 		gameHR = float(tds[-4].text) + float(tds[-1].text)
-		zone[away] = tds[-4].text
-		zone[home] = tds[-1].text
+		zone[away] = float(tds[-4].text)
+		zone[home] = float(tds[-1].text)
 		zone[game] = gameHR
 
 	with open("static/bpp/zone.json", "w") as fh:
