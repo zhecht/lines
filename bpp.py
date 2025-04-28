@@ -100,7 +100,7 @@ def writeHomeRunZone(date):
 		away = tds[-5].text.lower()
 		home = tds[-2].text.lower()
 		game = f"{away} @ {home}"
-		gameHR = float(tds[-4].text) + float(tds[-1].text)
+		gameHR = round(float(tds[-4].text) + float(tds[-1].text), 2)
 		zone[away] = float(tds[-4].text)
 		zone[home] = float(tds[-1].text)
 		zone[game] = gameHR
