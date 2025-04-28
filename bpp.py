@@ -131,7 +131,8 @@ def writeParkFactors(date, history):
 			factorColor = tds[i].get("style").split("; ")[1].split(": ")[-1]
 
 			factors[game]["players"][player][k] = factor
-			factors[game]["players"][player][k+"-color"] = factorColor
+			if not history:
+				factors[game]["players"][player][k+"-color"] = factorColor
 			i += 1
 
 	if history:
@@ -139,7 +140,7 @@ def writeParkFactors(date, history):
 			hist = json.load(fh)
 		hist[date] = factors
 		with open("static/bpp/factors_historical.json", "w") as fh:
-			json.dump(hist, fh, indent=4)
+			json.dump(hist, fh)
 	else:
 		with open("static/bpp/factors.json", "w") as fh:
 			json.dump(factors, fh, indent=4)
@@ -167,7 +168,7 @@ if __name__ == '__main__':
 
 	if args.update:
 		writeParkFactors(date, args.history)
-		writeMostLikely(date)
+		#writeMostLikely(date)
 
 	if args.commit:
 		commitChanges()
