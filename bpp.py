@@ -97,8 +97,8 @@ def writeHomeRunZone(date):
 	rows = soup.select(".gameSummaryTable")[0].find_all("tr")[1:]
 	for row in rows:
 		tds = row.find_all("td")
-		away = tds[-5].text.lower()
-		home = tds[-2].text.lower()
+		away = convertMLBTeam(tds[-5].text.lower())
+		home = convertMLBTeam(tds[-2].text.lower())
 		game = f"{away} @ {home}"
 		gameHR = round(float(tds[-4].text) + float(tds[-1].text), 2)
 		zone[away] = float(tds[-4].text)
