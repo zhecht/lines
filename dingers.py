@@ -1199,7 +1199,10 @@ def analyzeHistory():
 			odds = [v for _,v in odds.items()]
 			imps = [getFairValue(x, add_vig=False) for x in odds]
 			avg = sum(imps) / len(imps)
-			std_dev = np.std([int(x.split("/")[0]) for x in odds], ddof=1)
+			arr = [int(x.split("/")[0]) for x in odds]
+			std_dev = 0
+			if len(arr) > 1:
+				std_dev = np.std(arr, ddof=1)
 			if np.isnan(std_dev):
 				std_dev = 0
 			data[player][f"{book}_avg_vig"] = averageOddsWithVig(odds)
