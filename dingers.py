@@ -443,6 +443,8 @@ def writeCirca(date):
 					continue
 				team = convertMLBTeam(player.split(")")[0].split("(")[-1])
 				player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
+				if team == "sf":
+					print(player)
 				#print(player, team)
 				game = teamGame.get(team, "")
 				players.append((game, player))
@@ -490,7 +492,7 @@ def writeCirca(date):
 		for p,o,u in zip(players, overs, unders):
 			if len(u) == 4 and u.startswith("7"):
 				u = "-"+u[1:]
-			print(p,o,u)
+			#print(p,o,u)
 			data[date][p[0]]["hr"][p[1]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
 
 
