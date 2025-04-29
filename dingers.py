@@ -1889,6 +1889,9 @@ def writeEV(date, dinger, silent=False):
 	with open(f"static/baseballreference/parkfactors.json") as fh:
 		parkFactors = json.load(fh)
 
+	with open(f"static/baseballreference/homer_logs.json") as fh:
+		homerLogs = json.load(fh)
+
 	with open(f"static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
@@ -2122,6 +2125,7 @@ def writeEV(date, dinger, silent=False):
 			evData[player]["pitcherData"] = pitcherData
 			evData[player]["savant"] = savantData
 			evData[player]["analysis"] = analysis.get(player, {})
+			evData[player]["homerLogs"] = homerLogs[team].get(player, {})
 
 	with open("static/dingers/ev.json", "w") as fh:
 		json.dump(evData, fh, indent=4)
