@@ -396,7 +396,7 @@ def writeCirca(date):
 		page.save(f"out-{pageIdx}.png", "PNG")
 		img = Image.open(f"out-{pageIdx}.png")
 		bottom, top = 1980, 400
-		left, right = 105, 420
+		left, right = 105, 410
 
 		if pageIdx == 1:
 			top = 380
