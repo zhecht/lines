@@ -435,7 +435,11 @@ def writeCirca(date):
 
 			#players = []
 			for player in text:
-				if "(" not in player or player == "\x0c":
+				if player == "\x0c":
+					continue
+				if player == "mike yastrzemski":
+					team = "sf"
+				elif "(" not in player:
 					continue
 				team = convertMLBTeam(player.split(")")[0].split("(")[-1])
 				player = parsePlayer(player.lower().split(" (")[0]).replace("natt ", "matt ").replace("nark ", "mark ")
