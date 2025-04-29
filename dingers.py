@@ -1813,6 +1813,7 @@ def writeEV(date, dinger, silent=False):
 	if not date:
 		date = str(datetime.now())[:10]
 
+	writeHistory()
 	data = {}
 	updated = {}
 	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "kambi"]:
