@@ -1031,6 +1031,10 @@ def writeMGMSel(game, url, driverArg=None):
 				if rows[i].startswith("O ") and not rows[i+1].startswith("U "):
 					player = parsePlayer(rows[i-1])
 					ou = rows[i+1]
+					try:
+						int(ou)
+					except:
+						continue
 					if rows[i+2].startswith("U ") and rows[i+3][0] in ["+", "-"]:
 						ou += "/"+rows[i+3]
 					#data[game]["hr"][player] = ou
@@ -1245,6 +1249,8 @@ def writeHistory():
 			if not game:
 				continue
 			a,h = map(str, game.split(" @ "))
+			a = a.replace("-gm2", "")
+			h = h.replace("-gm2", "")
 			for player, books in oddsHist[date][game].items():
 				team = ""
 				if player in roster[a]:
