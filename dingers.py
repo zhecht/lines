@@ -1951,7 +1951,7 @@ def writeEV(date, dinger, silent=False):
 			stadiumRank = parkFactors[home]["hrRank"]
 
 		if date == str(datetime.now())[:10] and gameStarted[game]:
-			continue
+			#continue
 			pass
 
 		if os.path.exists(f"splits/mlb/{away}.json"):
