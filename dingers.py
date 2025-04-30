@@ -1405,7 +1405,8 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 
 		currGame = game
 		if date == str(datetime.now())[:10] and game and gameStarted[game]:
-			continue
+			#continue
+			pass
 		if skip and currGame == skip:
 			continue
 		dingerData[game][player]["fd"] = odds
