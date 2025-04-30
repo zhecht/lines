@@ -1398,6 +1398,8 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 		except:
 			game = currGame
 
+		game = game.replace("-gm2", "")
+
 		if "unavailable" in odds:
 			continue
 
