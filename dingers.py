@@ -566,9 +566,9 @@ def writeCirca(date):
 			for c in range(3):
 				boxT = t
 				if c == 1:
-					boxL = 1045
+					boxL = 1050
 				elif c == 2:
-					boxL = 1320
+					boxL = 1330
 
 				for i in range(pitcherRows):
 					#print(boxL, boxT, boxL+boxW, boxT+boxH)
