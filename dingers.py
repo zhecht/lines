@@ -1398,14 +1398,14 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 		except:
 			game = currGame
 
-		game = game.replace("-gm2", "")
+		#game = game.replace("-gm2", "")
 
 		if "unavailable" in odds:
 			continue
 
 		currGame = game
 		if date == str(datetime.now())[:10] and game and gameStarted[game]:
-			#continue
+			continue
 			pass
 		if skip and currGame == skip:
 			continue
