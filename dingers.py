@@ -575,7 +575,7 @@ def writeCirca(date):
 					box = img.crop((boxL,boxT,boxL+boxW,boxT+boxH))
 					box.save(f"out-player-box-{i}.png", "PNG")
 					w,h = box.size
-					x = box.crop((w-110,35,w-60,h))
+					x = box.crop((w-110,35,w-55,h))
 					ou = box.crop((w-60,35,w,h))
 
 					player_img = box.crop((0,0,w,35)) # l,t,r,b
