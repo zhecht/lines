@@ -1924,6 +1924,8 @@ def writeEV(date, dinger, silent=False):
 		if not game:
 			continue
 		away, home = map(str, game.split(" @ "))
+		away = away.replace("-gm2", "")
+		home = home.replace("-gm2", "")
 		if game not in gameTimes:
 			continue
 		gameStart = gameTimes[game]
