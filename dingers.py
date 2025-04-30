@@ -1950,7 +1950,7 @@ def writeEV(date, dinger, silent=False):
 		if home in parkFactors:
 			stadiumRank = parkFactors[home]["hrRank"]
 
-		if date == str(datetime.now())[:10] and gameStarted[game] and game != "stl @ cin":
+		if date == str(datetime.now())[:10] and gameStarted[game]:
 			continue
 			pass
 
