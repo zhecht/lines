@@ -1825,7 +1825,10 @@ def writeEV(date, dinger, silent=False):
 	if not date:
 		date = str(datetime.now())[:10]
 
-	writeHistory()
+	try:
+		writeHistory()
+	except:
+		print("history error")
 	data = {}
 	updated = {}
 	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "kambi"]:
