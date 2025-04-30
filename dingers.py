@@ -1264,6 +1264,7 @@ def writeHistory():
 
 	for book in ["b365", "cz", "dk", "espn", "fd", "mgm", "pn", "circa"]:
 		with open(f"static/dingers/{book}_historical.json") as fh:
+			print(book)
 			hist = json.load(fh)
 
 		for date, games in hist.items():
