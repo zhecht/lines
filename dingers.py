@@ -1837,9 +1837,12 @@ def writeEV(date, dinger, silent=False):
 	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "kambi"]:
 		path = f"static/dingers/{book}.json"
 		if os.path.exists(path):
-			with open(path) as fh:
-				d = json.load(fh)
-			merge_dicts(data, d)
+			try:
+				with open(path) as fh:
+					d = json.load(fh)
+				merge_dicts(data, d)
+			except:
+				pass
 
 		upd = f"static/dingers/updated_{book}"
 		if os.path.exists(upd):
