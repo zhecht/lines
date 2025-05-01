@@ -556,9 +556,9 @@ def writeCirca(date):
 			t = 885
 			boxW = 260
 			# Full Slate
-			if True:
+			if False:
 				pitcherRows = 9
-				t = 1320
+				t = 1210
 				boxH = 81
 				boxW = 264 #r-l
 			boxT = t
