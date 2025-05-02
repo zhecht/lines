@@ -29,7 +29,6 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -6.1		LAD @ ATL	Shohei Ohtani		'+255		'+250/-310	'+235	'+240/-300	'225	'245/-335
 -6.6		ARI @ PHI	Nick Castellanos		'+520		'+450/-600	'+425	'+450/-625	'380	'410/-670
 -6.7		SD @ PIT	Manny Machado		'+500		'+425/-575	'+400	'+425/-600	'360	'480/-770
--6.7		LAD @ ATL	Max Muncy		'+500		'+425/-575	'+400	'+425/-600	'375	'410/-670
 -6.9		MIN @ BOS	Rafael Devers		'+255		'+275/-350	'+265	'+270/-350	'240	'290/-400
 -7.0		COL @ SF	Matt Chapman		'+470		'+450/-600	'+400	'+450/-625	'360	'500/-835
 -7.2		TB @ NYY	Ben Rice		'+260		'+325/-425	'+320	'+333/-450	'290	'290/-400
@@ -37,6 +36,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -7.3		NYM @ STL	Juan Soto		'+450		'+375/-500	'+350	'+450/-650	'360	'450/-715
 -7.4		MIN @ BOS	Jarren Duran		'+420		'+475/-650	'+450	'+450/-625	'375	'510/-835
 -7.6		LAD @ ATL	Marcell Ozuna		'+480		'+400/-550	'+380	'+425/-600	'350	'410/-625
+-7.8		LAD @ ATL	Freddie Freeman		'+460		'+400/-550	'+380	'+400/-550	'350	'375/-590
 -7.9		NYM @ STL	Brandon Nimmo		'+750		'+575/-850	'+550	'+625/-1000	'450	'750/-1667
 -8.0		NYM @ STL	Nolan Gorman		'+540		'+525/-750	'+500	'+525/-750	'400	'600/-1115
 -8.1		SEA @ TEX	Julio Rodriguez		'+420		'+450/-600	'+380	'+375/-525	'350	'390/-590
@@ -48,7 +48,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -9.3		CHC @ MIL	Michael Busch		'+450		'+475/-650	'+475		'380	'360/-530
 -9.4		CLE @ TOR	Jose Ramirez		'+430		'+400/-550	'+360	'+400/-525	'320	'360/-530
 -9.4		MIN @ BOS	Trevor Larnach		'+500		'+550/-800	'+550	'+600/-900	'450	'650/-1250
--9.4		LAD @ ATL	Freddie Freeman		'+450		'+400/-550	'+380	'+400/-550	'350	'375/-590
+-9.6		LAD @ ATL	Max Muncy		'+480		'+425/-575	'+400	'+425/-600	'375	'410/-670
 -9.7		KC @ BAL	Ramon Laureano		'+460		'+600/-900	'+425	'+500/-700	'400	'600/-1115
 -9.7		TB @ NYY	Austin Wells		'+390		'+390/-525	'+370	'+400/-550	'333	'320/-455
 -9.7		MIN @ BOS	Triston Casas		'+470		'+500/-700	'+475	'+500/-700	'400	'550/-1000
@@ -57,7 +57,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -9.8		SEA @ TEX	Adolis Garcia		'+470		'+390/-525	'+370	'+425/-625	'360	'425/-670
 -9.9		SEA @ TEX	Marcus Semien		'+830		'+700/-1100	'+600	'+700/-1100	'500	'600/-1250
 -10.0		ARI @ PHI	Corbin Carroll		'+560		'+525/-750	'+500	'+500/-700	'400	'500/-835
--10.0		LAD @ ATL	Teoscar Hernandez		'+440		'+450/-600	'+400	'+450/-625	'360	'460/-715
+-10.0		LAD @ ATL	Teoscar Hernandez		'+430		'+450/-600	'+400	'+450/-625	'360	'460/-715
 -10.0		COL @ SF	Willy Adames		'+470		'+500/-700	'+450	'+450/-650	'400	'525/-910
 -10.2		KC @ BAL	Ryan Ohearn		'+600		'+700/-1100	'+475	'+550/-800	'450	'600/-1115
 -10.2		ATH @ MIA	Tyler Soderstrom		'+500		'+475/-650	'+450		'380	'380/-560
@@ -93,7 +93,7 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -12.9		CHC @ MIL	Rhys Hoskins		'+500		'+500/-700	'+450	'+475/-650	'380	'430/-670
 -13.2		TB @ NYY	Danny Jansen		'+600		'+575/-850	'+600	'+525/-750	'450	'600/-1115
 -13.2		CLE @ TOR	Bo Naylor		'+600		'+550/-800	'+550	'+550/-800	'450	'575/-1115
--13.2		LAD @ ATL	Andy Pages		'+480		'+500/-700	'+450	'+500/-700	'400	'460/-715
+-13.4		LAD @ ATL	Andy Pages		'+500		'+500/-700	'+450	'+500/-700	'400	'460/-715
 -13.5		CHC @ MIL	William Contreras		'+520		'+525/-750	'+500	'+550/-800	'400	'500/-835
 -13.5		CHC @ MIL	Dansby Swanson		'+560		'+525/-750	'+500	'+550/-800	'400	'480/-770
 -13.5		DET @ LAA	Kerry Carpenter		'+500		'+475/-650	'+500	'+500/-700	'380	'460/-715
@@ -229,9 +229,9 @@ EV (AVG)	EV (365)	Game	Player	IN	FD	AVG	bet365	DK	MGM	CZ	Kambi
 -36.1		CLE @ TOR	Brayan Rocchio		'+900		'+1100/-2200	'+1100		'750	'1050/-3335
 -36.3		CHC @ MIL	Caleb Durbin		'+1100		'+1000/-2000	'+1100	'+1050/-2500	'650	
 -36.6		COL @ SF	Patrick Bailey				'+1100/-2200	'+1100	'+1150/-2500	'700	
--36.9		LAD @ ATL	Alex Verdugo		'+900		'+1100/-2200	'+1100	'+1150/-2500	'750	'1150/-5000
 -36.9		NYM @ STL	Pedro Pages		'+1100		'+1200/-2400	'+1200	'+1150/-2500	'650	'1150/-5000
 -37.2		ARI @ PHI	Johan Rojas						'+950/-2000		
+-37.2		LAD @ ATL	Alex Verdugo		'+1000		'+1100/-2200	'+1100	'+1150/-2500	'750	'1150/-5000
 -37.3		TB @ NYY	Brandon Lowe								
 -37.3		COL @ SF	Sam Huff		'+600						
 -37.6		NYM @ STL	Tyrone Taylor						'+1000/-2000		
