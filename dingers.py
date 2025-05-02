@@ -2471,21 +2471,23 @@ if __name__ == '__main__':
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
 
-		if args.game and args.url:
-			writeMGMSel(args.game, args.url)
-		else:
-			games = getMGMLinks(date)
-			if not games:
-				exit()
+		if False:
+			if args.game and args.url:
+				writeMGMSel(args.game, args.url)
+			else:
+				games = getMGMLinks(date)
+				if not games:
+					exit()
 
-			driver = webdriver.Firefox()
-			for game in games:
-				pass
-				writeMGMSel(game, games[game], driver)
-			driver.quit()
-		#games = uc.loop().run_until_complete(getMGMLinks(date))
-		#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
-		#runThreads("mgm", date, games, min(args.threads, len(games)))
+				driver = webdriver.Firefox()
+				for game in games:
+					pass
+					writeMGMSel(game, games[game], driver)
+				driver.quit()
+		else:
+			games = uc.loop().run_until_complete(getMGMLinks(date))
+			#games['det @ lad'] = 'https://sports.mi.betmgm.com/en/sports/events/detroit-tigers-at-los-angeles-dodgers-17081448'
+			runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
 		#uc.loop().run_until_complete(writeDK(date, args.loop, args.night))
 		writeDKSel(date, args.loop, args.night)
