@@ -2539,17 +2539,17 @@ if __name__ == '__main__':
 			if args.print:
 				printEV()
 			#for book in ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm", "kambi"]:
-			for book in ["pn", "dk"]:
+			for book in ["pn", "dk", "kambi"]:
 				subprocess.Popen(["python", "dingers.py", f"--{book}", "-d", date])
 
 			if not args.loop:
 				break
 
-			# every 5m
+			# every 10m
 			if args.night:
 				time.sleep(60 * 60)
 			else:
-				time.sleep(60 * 5)
+				time.sleep(60 * 10)
 			print(datetime.now())
 			if args.ev:
 				writeEV(date, args.dinger)
