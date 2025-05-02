@@ -2471,7 +2471,7 @@ if __name__ == '__main__':
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
 
-		if False:
+		if True:
 			if args.game and args.url:
 				writeMGMSel(args.game, args.url)
 			else:
