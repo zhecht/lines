@@ -2538,7 +2538,10 @@ if __name__ == '__main__':
 				writeEV(date, args.dinger)
 			if args.print:
 				printEV()
-			for book in ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm", "kambi"]:
+			arr = ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm", "kambi"]
+			if args.night:
+				arr = ["weather", "cz", "bet365", "pn", "dk", "kambi"]
+			for book in arr:
 			#for book in ["pn", "dk", "kambi"]:
 				subprocess.Popen(["python", "dingers.py", f"--{book}", "-d", date])
 
