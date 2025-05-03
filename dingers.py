@@ -1767,6 +1767,9 @@ def writeKambi(date):
 		with open(outfile) as fh:
 			j = json.load(fh)
 
+		if not j.get("betOffers"):
+			continue
+
 		for betOffer in j["betOffers"]:
 			label = betOffer["criterion"]["label"].lower()
 			#print(label)
