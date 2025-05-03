@@ -2558,6 +2558,8 @@ if __name__ == '__main__':
 			arr = ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm", "kambi"]
 			if args.night:
 				arr = ["weather", "cz", "bet365", "pn", "dk", "kambi"]
+
+			arr = ["cz", "bet365", "pn", "dk", "kambi"]
 			for book in arr:
 			#for book in ["pn", "dk", "kambi"]:
 				subprocess.Popen(["python", "dingers.py", f"--{book}", "-d", date])
