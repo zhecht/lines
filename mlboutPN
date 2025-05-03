@@ -1,6018 +1,2998 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 10,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608743513,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Toronto Blue Jays",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Cleveland Guardians",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -148
       },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "under",
+        "points": 1.5,
+        "price": 121
       }
     ],
-    "rotation": 969,
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 35,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 596827582
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608763975,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608763976,
-        "name": "Cleveland Guardians",
-        "order": 0,
-        "rotation": 1171
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": 111
       },
       {
-        "alignment": "neutral",
-        "id": 1608763977,
-        "name": "Toronto Blue Jays",
-        "order": 0,
-        "rotation": 1172
+        "designation": "under",
+        "points": 2.5,
+        "price": -135
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1171,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 420052390
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 11,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142062,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Toronto Blue Jays  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 112
       },
       {
-        "alignment": "away",
-        "name": "Cleveland Guardians  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "away",
+        "points": -0.0,
+        "price": -129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9969,
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 596691404
+    "status": "open",
+    "type": "spread",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142063,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142064,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 969
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -178
       },
       {
-        "alignment": "neutral",
-        "id": 1609142065,
-        "name": "Even",
-        "order": 0,
-        "rotation": 970
+        "designation": "away",
+        "points": -1.0,
+        "price": 147
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Toronto Blue Jays Runs Odd/Even"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142066,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142067,
-        "name": "0",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142068,
-        "name": "1",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142069,
-        "name": "2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142070,
-        "name": "3",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142071,
-        "name": "4",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142072,
-        "name": "5",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142073,
-        "name": "6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142074,
-        "name": "7",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142075,
-        "name": "8+",
-        "order": 0,
-        "rotation": 977
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -124
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 107
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Toronto Blue Jays Exact Total Runs"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142076,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142077,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 969
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 146
       },
       {
-        "alignment": "neutral",
-        "id": 1609142078,
-        "name": "Even",
-        "order": 0,
-        "rotation": 970
+        "designation": "away",
+        "points": 0.5,
+        "price": -173
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Toronto Blue Jays Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142079,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142080,
-        "name": "0",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142081,
-        "name": "1",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142082,
-        "name": "2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142083,
-        "name": "3",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142084,
-        "name": "4",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142085,
-        "name": "5",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142086,
-        "name": "6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142087,
-        "name": "7",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142088,
-        "name": "8+",
-        "order": 0,
-        "rotation": 977
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 205
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -259
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cleveland Guardians Exact Total Runs"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142089,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142090,
-        "name": "Cleveland Guardians & Over 4.5",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142091,
-        "name": "Toronto Blue Jays & Over 4.5",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142092,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142093,
-        "name": "Cleveland Guardians & Under 4.5",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142094,
-        "name": "Toronto Blue Jays & Under 4.5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142095,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": -115
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": 101
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142096,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142097,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142098,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142099,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142100,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142101,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142102,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142103,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142104,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142105,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142106,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142107,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142108,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142109,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142110,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142111,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142112,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142113,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142114,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142115,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142116,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142117,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142118,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142119,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142120,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142121,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142122,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142123,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142124,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142125,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142126,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142127,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142128,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142129,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142130,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142131,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142132,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142133,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142134,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142135,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142136,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142137,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142138,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142139,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142140,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142141,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142142,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142143,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142144,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142145,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142146,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142147,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142148,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142149,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142150,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142151,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142152,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1024
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -196
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 167
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142153,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142154,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 969
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -157
       },
       {
-        "alignment": "neutral",
-        "id": 1609142155,
-        "name": "Even",
-        "order": 0,
-        "rotation": 970
+        "designation": "under",
+        "points": 4.0,
+        "price": 135
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142156,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142157,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 969
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 113
       },
       {
-        "alignment": "neutral",
-        "id": 1609142158,
-        "name": "Even",
-        "order": 0,
-        "rotation": 970
+        "designation": "under",
+        "points": 5.0,
+        "price": -130
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cleveland Guardians Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142159,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142160,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 969
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 141
       },
       {
-        "alignment": "neutral",
-        "id": 1609142161,
-        "name": "Even",
-        "order": 0,
-        "rotation": 970
+        "designation": "under",
+        "points": 5.5,
+        "price": -164
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "total",
+    "version": 3093074771
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142162,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142163,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 969
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 285
       },
       {
-        "alignment": "neutral",
-        "id": 1609142164,
-        "name": "Even",
-        "order": 0,
-        "rotation": 970
-      }
-    ],
-    "periods": [
+        "designation": "away",
+        "price": 283
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "draw",
+        "price": -123
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cleveland Guardians Runs Odd/Even"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "moneyline",
+    "version": 3093100568
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142165,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142166,
-        "name": "Cleveland Guardians & Over 8.5",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142167,
-        "name": "Toronto Blue Jays & Over 8.5",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142168,
-        "name": "Cleveland Guardians & Under 8.5",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142169,
-        "name": "Toronto Blue Jays & Under 8.5",
-        "order": 0,
-        "rotation": 972
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -107
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": -109
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093100568
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142170,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142171,
-        "name": "Cleveland Guardians By 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142172,
-        "name": "Cleveland Guardians By 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142173,
-        "name": "Cleveland Guardians By 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142174,
-        "name": "Cleveland Guardians By 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142175,
-        "name": "Cleveland Guardians By 5+",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142176,
-        "name": "Toronto Blue Jays By 1",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142177,
-        "name": "Toronto Blue Jays By 2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142178,
-        "name": "Toronto Blue Jays By 3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142179,
-        "name": "Toronto Blue Jays By 4",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142180,
-        "name": "Toronto Blue Jays By 5+",
-        "order": 0,
-        "rotation": 978
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 0.5,
+        "price": -107
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -109
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "total",
+    "version": 3093100568
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142181,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142182,
-        "name": "Cleveland Guardians By 1 - 2",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142183,
-        "name": "Cleveland Guardians By 3 - 4",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142184,
-        "name": "Cleveland Guardians By 5 - 6",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142185,
-        "name": "Cleveland Guardians By 7+",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142186,
-        "name": "Toronto Blue Jays By 1 - 2",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142187,
-        "name": "Toronto Blue Jays By 3 - 4",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142188,
-        "name": "Toronto Blue Jays By 5 - 6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142189,
-        "name": "Toronto Blue Jays By 7+",
-        "order": 0,
-        "rotation": 976
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 111
+      },
+      {
+        "designation": "away",
+        "price": -121
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "moneyline",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142190,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142191,
-        "name": "1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142192,
-        "name": "2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142193,
-        "name": "3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142194,
-        "name": "4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142195,
-        "name": "5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142196,
-        "name": "6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142197,
-        "name": "7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142198,
-        "name": "8",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142199,
-        "name": "9",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142200,
-        "name": "10",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142201,
-        "name": "11",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142202,
-        "name": "12",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142203,
-        "name": "13",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142204,
-        "name": "14",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142205,
-        "name": "15+",
-        "order": 0,
-        "rotation": 983
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -122
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 104
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142206,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142207,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142208,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142209,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142210,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142211,
-        "name": "13+",
-        "order": 0,
-        "rotation": 973
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 103
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -120
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142212,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142213,
-        "name": "Cleveland Guardians By 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142214,
-        "name": "Cleveland Guardians By 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142215,
-        "name": "Cleveland Guardians By 3+",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142216,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142217,
-        "name": "Toronto Blue Jays By 1",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142218,
-        "name": "Toronto Blue Jays By 2",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142219,
-        "name": "Toronto Blue Jays By 3+",
-        "order": 0,
-        "rotation": 975
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -149
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 134
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142220,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142221,
-        "name": "0",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142222,
-        "name": "1",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142223,
-        "name": "2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142224,
-        "name": "3",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142225,
-        "name": "4",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142226,
-        "name": "5",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142227,
-        "name": "6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142228,
-        "name": "7",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142229,
-        "name": "8",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142230,
-        "name": "9",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142231,
-        "name": "10",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142232,
-        "name": "11+",
-        "order": 0,
-        "rotation": 980
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 3.0,
+        "price": -345
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 268
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057644
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142233,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142234,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142235,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142236,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142237,
-        "name": "7+",
-        "order": 0,
-        "rotation": 972
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.5,
+        "price": -242
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 202
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142238,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142239,
-        "name": "0",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142240,
-        "name": "1",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142241,
-        "name": "2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142242,
-        "name": "3",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142243,
-        "name": "4",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142244,
-        "name": "5+",
-        "order": 0,
-        "rotation": 974
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.0,
+        "price": -202
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 175
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cleveland Guardians Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057644
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142245,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142246,
-        "name": "0",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142247,
-        "name": "1",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142248,
-        "name": "2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142249,
-        "name": "3",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142250,
-        "name": "4",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142251,
-        "name": "5+",
-        "order": 0,
-        "rotation": 974
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -118
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 105
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Toronto Blue Jays Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057644
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609142252,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609142253,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142254,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142255,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142256,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142257,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142258,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142259,
-        "name": "Cleveland Guardians 0, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142260,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142261,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142262,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142263,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142264,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142265,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142266,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142267,
-        "name": "Cleveland Guardians 1, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142268,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142269,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142270,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142271,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142272,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142273,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142274,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142275,
-        "name": "Cleveland Guardians 2, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142276,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142277,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142278,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142279,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142280,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142281,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142282,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142283,
-        "name": "Cleveland Guardians 3, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142284,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142285,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142286,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142287,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142288,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142289,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142290,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142291,
-        "name": "Cleveland Guardians 4, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142292,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142293,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142294,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142295,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142296,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142297,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142298,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142299,
-        "name": "Cleveland Guardians 5, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142300,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142301,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142302,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142303,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142304,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142305,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142306,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142307,
-        "name": "Cleveland Guardians 6, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142308,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 0",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142309,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 1",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142310,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 2",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142311,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 3",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142312,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 4",
-        "order": 0,
-        "rotation": 1028
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142313,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 5",
-        "order": 0,
-        "rotation": 1029
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142314,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 6",
-        "order": 0,
-        "rotation": 1030
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609142315,
-        "name": "Cleveland Guardians 7, Toronto Blue Jays 7",
-        "order": 0,
-        "rotation": 1031
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 170
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -199
       }
     ],
-    "rotation": 969,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420057373
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143699,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143700,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 217
       },
       {
-        "alignment": "neutral",
-        "id": 1609143701,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "away",
+        "points": 1.5,
+        "price": -270
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "George Springer (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053739
+    "status": "open",
+    "type": "spread",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143702,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143703,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -103
       },
       {
-        "alignment": "neutral",
-        "id": 1609143704,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 8.5,
+        "price": -109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Kevin Gausman (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 420155621
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143705,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143706,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -363
       },
       {
-        "alignment": "neutral",
-        "id": 1609143707,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 5.5,
+        "price": 279
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Kevin Gausman (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 420155621
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143708,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143709,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -197
       },
       {
-        "alignment": "neutral",
-        "id": 1609143710,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 7.0,
+        "price": 171
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Kevin Gausman (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 420155621
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143711,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143712,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -143
       },
       {
-        "alignment": "neutral",
-        "id": 1609143713,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 7.5,
+        "price": 126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Kevin Gausman (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 420155621
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143714,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143715,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -122
       },
       {
-        "alignment": "neutral",
-        "id": 1609143716,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 8.0,
+        "price": 109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Anthony Santander (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053739
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143717,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143718,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": 123
       },
       {
-        "alignment": "neutral",
-        "id": 1609143719,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 9.0,
+        "price": -139
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Daulton Varsho (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053739
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143720,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143721,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": 148
       },
       {
-        "alignment": "neutral",
-        "id": 1609143722,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 9.5,
+        "price": -168
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Vladimir Guerrero Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053739
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143723,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143724,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": 178
       },
       {
-        "alignment": "neutral",
-        "id": 1609143725,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 10.0,
+        "price": -205
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Andrés Giménez (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053744
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143726,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143727,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608766469,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.5,
+        "price": 359
       },
       {
-        "alignment": "neutral",
-        "id": 1609143728,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 12.5,
+        "price": -496
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Bo Bichette (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053744
+    "status": "open",
+    "type": "total",
+    "version": 3093114932
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143729,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143730,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608777417,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608777418,
+        "price": -161
       },
       {
-        "alignment": "neutral",
-        "id": 1609143731,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1608777419,
+        "price": 136
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Alejandro Kirk (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053744
+    "type": "moneyline",
+    "version": 4958292249
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143732,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;26.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143733,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142598,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 26.0,
+        "price": -104
       },
       {
-        "alignment": "neutral",
-        "id": 1609143734,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "designation": "under",
+        "points": 26.0,
+        "price": -116
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Ernie Clement (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053744
+    "status": "open",
+    "type": "total",
+    "version": 3092540012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609143735,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609143736,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142599,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142600,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609143737,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1609142601,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Addison Barger (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420053744
+    "type": "moneyline",
+    "version": 4956202344
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160082,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160083,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142602,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142603,
+        "price": 1005
       },
       {
-        "alignment": "neutral",
-        "id": 1609160084,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142604,
+        "price": 598
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142605,
+        "price": 478
+      },
+      {
+        "participantId": 1609142606,
+        "price": 452
+      },
+      {
+        "participantId": 1609142607,
+        "price": 484
+      },
+      {
+        "participantId": 1609142608,
+        "price": 568
+      },
+      {
+        "participantId": 1609142609,
+        "price": 711
+      },
+      {
+        "participantId": 1609142610,
+        "price": 926
+      },
+      {
+        "participantId": 1609142611,
+        "price": 575
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Gavin Williams (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 420113245
+    "type": "moneyline",
+    "version": 4956938137
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160085,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160086,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142612,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142613,
+        "price": 112
       },
       {
-        "alignment": "neutral",
-        "id": 1609160087,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1609142614,
+        "price": -130
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Steven Kwan (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420113447
+    "type": "moneyline",
+    "version": 4957066259
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160088,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160089,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142615,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142624,
+        "price": 388
       },
       {
-        "alignment": "neutral",
-        "id": 1609160090,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142616,
+        "price": 1147
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142617,
+        "price": 707
+      },
+      {
+        "participantId": 1609142618,
+        "price": 557
+      },
+      {
+        "participantId": 1609142619,
+        "price": 508
+      },
+      {
+        "participantId": 1609142620,
+        "price": 517
+      },
+      {
+        "participantId": 1609142621,
+        "price": 568
+      },
+      {
+        "participantId": 1609142622,
+        "price": 665
+      },
+      {
+        "participantId": 1609142623,
+        "price": 814
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Gabriel Arias (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420113455
+    "type": "moneyline",
+    "version": 4956938137
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160094,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160095,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142625,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142626,
+        "price": 249
       },
       {
-        "alignment": "neutral",
-        "id": 1609160096,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142627,
+        "price": 306
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142628,
+        "price": 1413
+      },
+      {
+        "participantId": 1609142629,
+        "price": 342
+      },
+      {
+        "participantId": 1609142630,
+        "price": 394
+      },
+      {
+        "participantId": 1609142631,
+        "price": 601
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Kyle Manzardo (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420155306
+    "type": "moneyline",
+    "version": 4957066259
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160097,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160098,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142632,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142633,
+        "price": 5712
       },
       {
-        "alignment": "neutral",
-        "id": 1609160099,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142634,
+        "price": 4936
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142635,
+        "price": 4694
+      },
+      {
+        "participantId": 1609142636,
+        "price": 4937
+      },
+      {
+        "participantId": 1609142637,
+        "price": 5395
+      },
+      {
+        "participantId": 1609142638,
+        "price": 6167
+      },
+      {
+        "participantId": 1609142639,
+        "price": 7184
+      },
+      {
+        "participantId": 1609142640,
+        "price": 4488
+      },
+      {
+        "participantId": 1609142641,
+        "price": 3064
+      },
+      {
+        "participantId": 1609142642,
+        "price": 3009
+      },
+      {
+        "participantId": 1609142643,
+        "price": 3122
+      },
+      {
+        "participantId": 1609142644,
+        "price": 3502
+      },
+      {
+        "participantId": 1609142645,
+        "price": 4052
+      },
+      {
+        "participantId": 1609142646,
+        "price": 4837
+      },
+      {
+        "participantId": 1609142647,
+        "price": 4726
+      },
+      {
+        "participantId": 1609142648,
+        "price": 2394
+      },
+      {
+        "participantId": 1609142649,
+        "price": 2423
+      },
+      {
+        "participantId": 1609142650,
+        "price": 2611
+      },
+      {
+        "participantId": 1609142651,
+        "price": 2900
+      },
+      {
+        "participantId": 1609142652,
+        "price": 3424
+      },
+      {
+        "participantId": 1609142653,
+        "price": 4167
+      },
+      {
+        "participantId": 1609142654,
+        "price": 4979
+      },
+      {
+        "participantId": 1609142655,
+        "price": 3121
+      },
+      {
+        "participantId": 1609142656,
+        "price": 1852
+      },
+      {
+        "participantId": 1609142657,
+        "price": 2393
+      },
+      {
+        "participantId": 1609142658,
+        "price": 2752
+      },
+      {
+        "participantId": 1609142659,
+        "price": 3257
+      },
+      {
+        "participantId": 1609142660,
+        "price": 3988
+      },
+      {
+        "participantId": 1609142661,
+        "price": 5586
+      },
+      {
+        "participantId": 1609142662,
+        "price": 3558
+      },
+      {
+        "participantId": 1609142663,
+        "price": 2823
+      },
+      {
+        "participantId": 1609142664,
+        "price": 1810
+      },
+      {
+        "participantId": 1609142665,
+        "price": 2773
+      },
+      {
+        "participantId": 1609142666,
+        "price": 3336
+      },
+      {
+        "participantId": 1609142667,
+        "price": 4062
+      },
+      {
+        "participantId": 1609142668,
+        "price": 6538
+      },
+      {
+        "participantId": 1609142669,
+        "price": 4231
+      },
+      {
+        "participantId": 1609142670,
+        "price": 3387
+      },
+      {
+        "participantId": 1609142671,
+        "price": 3075
+      },
+      {
+        "participantId": 1609142672,
+        "price": 2093
+      },
+      {
+        "participantId": 1609142673,
+        "price": 3523
+      },
+      {
+        "participantId": 1609142674,
+        "price": 4363
+      },
+      {
+        "participantId": 1609142675,
+        "price": 7866
+      },
+      {
+        "participantId": 1609142676,
+        "price": 5208
+      },
+      {
+        "participantId": 1609142677,
+        "price": 4207
+      },
+      {
+        "participantId": 1609142678,
+        "price": 3864
+      },
+      {
+        "participantId": 1609142679,
+        "price": 3825
+      },
+      {
+        "participantId": 1609142680,
+        "price": 2668
+      },
+      {
+        "participantId": 1609142681,
+        "price": 4803
+      },
+      {
+        "participantId": 1609142682,
+        "price": 9570
+      },
+      {
+        "participantId": 1609142683,
+        "price": 6493
+      },
+      {
+        "participantId": 1609142684,
+        "price": 5407
+      },
+      {
+        "participantId": 1609142685,
+        "price": 4938
+      },
+      {
+        "participantId": 1609142686,
+        "price": 4868
+      },
+      {
+        "participantId": 1609142687,
+        "price": 5094
+      },
+      {
+        "participantId": 1609142688,
+        "price": 3662
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Carlos Santana (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420155295
+    "type": "moneyline",
+    "version": 4956938137
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160100,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160101,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142689,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142690,
+        "price": -159
       },
       {
-        "alignment": "neutral",
-        "id": 1609160102,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1609142691,
+        "price": 135
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Bo Naylor (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420155306
+    "type": "moneyline",
+    "version": 4956202344
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160103,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160104,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142692,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142693,
+        "price": 110
       },
       {
-        "alignment": "neutral",
-        "id": 1609160105,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1609142694,
+        "price": -128
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Angel Martínez (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420155306
+    "type": "moneyline",
+    "version": 4957066259
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160106,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160107,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142695,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142696,
+        "price": -107
       },
       {
-        "alignment": "neutral",
-        "id": 1609160108,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1609142697,
+        "price": -109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Jhonkensy Noel (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420155306
+    "type": "moneyline",
+    "version": 4957066259
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609160109,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609160110,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142698,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142699,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609160111,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
+        "participantId": 1609142700,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Brayan Rocchio (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420113574
+    "type": "moneyline",
+    "version": 4956202344
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609161901,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609161902,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142701,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142702,
+        "price": 234
       },
       {
-        "alignment": "neutral",
-        "id": 1609161903,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142703,
+        "price": 304
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142704,
+        "price": 256
+      },
+      {
+        "participantId": 1609142705,
+        "price": 262
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Gavin Williams (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 420139568
+    "type": "moneyline",
+    "version": 4956938137
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609161904,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609161905,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142706,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142707,
+        "price": 558
       },
       {
-        "alignment": "neutral",
-        "id": 1609161906,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142708,
+        "price": 647
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142709,
+        "price": 763
+      },
+      {
+        "participantId": 1609142710,
+        "price": 943
+      },
+      {
+        "participantId": 1609142711,
+        "price": 435
+      },
+      {
+        "participantId": 1609142712,
+        "price": 390
+      },
+      {
+        "participantId": 1609142713,
+        "price": 728
+      },
+      {
+        "participantId": 1609142714,
+        "price": 920
+      },
+      {
+        "participantId": 1609142715,
+        "price": 1193
+      },
+      {
+        "participantId": 1609142716,
+        "price": 720
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Gavin Williams (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 420139568
+    "type": "moneyline",
+    "version": 4956938137
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609167707,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608743513,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Toronto Blue Jays",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cleveland Guardians",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-03T19:07:00+00:00"
-    },
-    "parentId": 1608743513,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609167708,
-        "name": "Over",
-        "order": 0,
-        "rotation": 970
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142717,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142720,
+        "price": 766
       },
       {
-        "alignment": "neutral",
-        "id": 1609167709,
-        "name": "Under",
-        "order": 0,
-        "rotation": 971
-      }
-    ],
-    "periods": [
+        "participantId": 1609142721,
+        "price": 869
+      },
       {
-        "cutoffAt": "2025-05-03T19:07:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609142722,
+        "price": 245
+      },
+      {
+        "participantId": 1609142723,
+        "price": 581
+      },
+      {
+        "participantId": 1609142724,
+        "price": 1084
+      },
+      {
+        "participantId": 1609142725,
+        "price": 1478
+      },
+      {
+        "participantId": 1609142718,
+        "price": 299
+      },
+      {
+        "participantId": 1609142719,
+        "price": 454
       }
     ],
-    "rotation": 970,
-    "special": {
-      "category": "Player Props",
-      "description": "Daniel Schneemann (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-03T19:07:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420155394
+    "type": "moneyline",
+    "version": 4956938137
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142726,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142727,
+        "price": 2522
+      },
+      {
+        "participantId": 1609142728,
+        "price": 2429
+      },
+      {
+        "participantId": 1609142729,
+        "price": 1059
+      },
+      {
+        "participantId": 1609142730,
+        "price": 1196
+      },
+      {
+        "participantId": 1609142731,
+        "price": 681
+      },
+      {
+        "participantId": 1609142732,
+        "price": 862
+      },
+      {
+        "participantId": 1609142733,
+        "price": 586
+      },
+      {
+        "participantId": 1609142734,
+        "price": 805
+      },
+      {
+        "participantId": 1609142735,
+        "price": 628
+      },
+      {
+        "participantId": 1609142736,
+        "price": 904
+      },
+      {
+        "participantId": 1609142737,
+        "price": 782
+      },
+      {
+        "participantId": 1609142738,
+        "price": 1150
+      },
+      {
+        "participantId": 1609142739,
+        "price": 1074
+      },
+      {
+        "participantId": 1609142740,
+        "price": 1586
+      },
+      {
+        "participantId": 1609142741,
+        "price": 640
+      }
+    ],
+    "type": "moneyline",
+    "version": 4956202344
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142742,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609142743,
+        "price": 720
+      },
+      {
+        "participantId": 1609142744,
+        "price": 305
+      },
+      {
+        "participantId": 1609142745,
+        "price": 208
+      },
+      {
+        "participantId": 1609142746,
+        "price": 338
+      },
+      {
+        "participantId": 1609142747,
+        "price": 358
+      }
+    ],
+    "type": "moneyline",
+    "version": 4956938137
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142748,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142752,
+        "price": 455
+      },
+      {
+        "participantId": 1609142753,
+        "price": 552
+      },
+      {
+        "participantId": 1609142754,
+        "price": 712
+      },
+      {
+        "participantId": 1609142755,
+        "price": 383
+      },
+      {
+        "participantId": 1609142749,
+        "price": 508
+      },
+      {
+        "participantId": 1609142750,
+        "price": 631
+      },
+      {
+        "participantId": 1609142751,
+        "price": 304
+      }
+    ],
+    "type": "moneyline",
+    "version": 4957066259
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142756,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142757,
+        "price": 1398
+      },
+      {
+        "participantId": 1609142758,
+        "price": 798
+      },
+      {
+        "participantId": 1609142759,
+        "price": 603
+      },
+      {
+        "participantId": 1609142760,
+        "price": 537
+      },
+      {
+        "participantId": 1609142761,
+        "price": 536
+      },
+      {
+        "participantId": 1609142762,
+        "price": 553
+      },
+      {
+        "participantId": 1609142763,
+        "price": 636
+      },
+      {
+        "participantId": 1609142764,
+        "price": 764
+      },
+      {
+        "participantId": 1609142765,
+        "price": 947
+      },
+      {
+        "participantId": 1609142766,
+        "price": 1202
+      },
+      {
+        "participantId": 1609142767,
+        "price": 1549
+      },
+      {
+        "participantId": 1609142768,
+        "price": 993
+      }
+    ],
+    "type": "moneyline",
+    "version": 4957066259
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142769,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142770,
+        "price": 289
+      },
+      {
+        "participantId": 1609142771,
+        "price": 260
+      },
+      {
+        "participantId": 1609142772,
+        "price": 295
+      },
+      {
+        "participantId": 1609142773,
+        "price": 216
+      }
+    ],
+    "type": "moneyline",
+    "version": 4957066259
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142774,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142775,
+        "price": 370
+      },
+      {
+        "participantId": 1609142776,
+        "price": 349
+      },
+      {
+        "participantId": 1609142777,
+        "price": 385
+      },
+      {
+        "participantId": 1609142778,
+        "price": 476
+      },
+      {
+        "participantId": 1609142779,
+        "price": 622
+      },
+      {
+        "participantId": 1609142780,
+        "price": 345
+      }
+    ],
+    "type": "moneyline",
+    "version": 4957066259
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142781,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142784,
+        "price": 382
+      },
+      {
+        "participantId": 1609142785,
+        "price": 500
+      },
+      {
+        "participantId": 1609142786,
+        "price": 679
+      },
+      {
+        "participantId": 1609142787,
+        "price": 413
+      },
+      {
+        "participantId": 1609142782,
+        "price": 321
+      },
+      {
+        "participantId": 1609142783,
+        "price": 313
+      }
+    ],
+    "type": "moneyline",
+    "version": 4957066259
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609142788,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609142820,
+        "price": 2522
+      },
+      {
+        "participantId": 1609142821,
+        "price": 2377
+      },
+      {
+        "participantId": 1609142822,
+        "price": 2723
+      },
+      {
+        "participantId": 1609142823,
+        "price": 3314
+      },
+      {
+        "participantId": 1609142824,
+        "price": 4261
+      },
+      {
+        "participantId": 1609142828,
+        "price": 3157
+      },
+      {
+        "participantId": 1609142829,
+        "price": 3092
+      },
+      {
+        "participantId": 1609142830,
+        "price": 3522
+      },
+      {
+        "participantId": 1609142831,
+        "price": 4250
+      },
+      {
+        "participantId": 1609142836,
+        "price": 4239
+      },
+      {
+        "participantId": 1609142837,
+        "price": 4154
+      },
+      {
+        "participantId": 1609142838,
+        "price": 4701
+      },
+      {
+        "participantId": 1609142789,
+        "price": 1610
+      },
+      {
+        "participantId": 1609142790,
+        "price": 1861
+      },
+      {
+        "participantId": 1609142791,
+        "price": 2294
+      },
+      {
+        "participantId": 1609142792,
+        "price": 2946
+      },
+      {
+        "participantId": 1609142793,
+        "price": 3736
+      },
+      {
+        "participantId": 1609142796,
+        "price": 1534
+      },
+      {
+        "participantId": 1609142797,
+        "price": 1527
+      },
+      {
+        "participantId": 1609142798,
+        "price": 1807
+      },
+      {
+        "participantId": 1609142799,
+        "price": 2229
+      },
+      {
+        "participantId": 1609142800,
+        "price": 2763
+      },
+      {
+        "participantId": 1609142801,
+        "price": 3639
+      },
+      {
+        "participantId": 1609142802,
+        "price": 4926
+      },
+      {
+        "participantId": 1609142804,
+        "price": 1675
+      },
+      {
+        "participantId": 1609142805,
+        "price": 1637
+      },
+      {
+        "participantId": 1609142806,
+        "price": 1926
+      },
+      {
+        "participantId": 1609142807,
+        "price": 2330
+      },
+      {
+        "participantId": 1609142808,
+        "price": 2991
+      },
+      {
+        "participantId": 1609142809,
+        "price": 3926
+      },
+      {
+        "participantId": 1609142812,
+        "price": 2002
+      },
+      {
+        "participantId": 1609142813,
+        "price": 1958
+      },
+      {
+        "participantId": 1609142814,
+        "price": 2168
+      },
+      {
+        "participantId": 1609142815,
+        "price": 2704
+      },
+      {
+        "participantId": 1609142816,
+        "price": 3517
+      },
+      {
+        "participantId": 1609142817,
+        "price": 4583
+      }
+    ],
+    "type": "moneyline",
+    "version": 4957066259
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154153,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154154,
+        "points": 0.5,
+        "price": -216
+      },
+      {
+        "participantId": 1609154155,
+        "points": 0.5,
+        "price": 159
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154156,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154157,
+        "points": 0.5,
+        "price": -186
+      },
+      {
+        "participantId": 1609154158,
+        "points": 0.5,
+        "price": 138
+      }
+    ],
+    "type": "total",
+    "version": 4957099746
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154159,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154160,
+        "points": 4.5,
+        "price": -104
+      },
+      {
+        "participantId": 1609154161,
+        "points": 4.5,
+        "price": -128
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154162,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154163,
+        "points": 5.5,
+        "price": -102
+      },
+      {
+        "participantId": 1609154164,
+        "points": 5.5,
+        "price": -130
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154165,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154166,
+        "points": 2.5,
+        "price": -136
+      },
+      {
+        "participantId": 1609154167,
+        "points": 2.5,
+        "price": 103
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154168,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154169,
+        "points": 15.5,
+        "price": 114
+      },
+      {
+        "participantId": 1609154170,
+        "points": 15.5,
+        "price": -152
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154171,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154172,
+        "points": 0.5,
+        "price": -166
+      },
+      {
+        "participantId": 1609154173,
+        "points": 0.5,
+        "price": 124
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154174,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154176,
+        "points": 4.5,
+        "price": 129
+      },
+      {
+        "participantId": 1609154175,
+        "points": 4.5,
+        "price": -172
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154177,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154178,
+        "points": 5.5,
+        "price": 128
+      },
+      {
+        "participantId": 1609154179,
+        "points": 5.5,
+        "price": -171
+      }
+    ],
+    "type": "total",
+    "version": 4957704023
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154180,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154181,
+        "points": 2.5,
+        "price": 101
+      },
+      {
+        "participantId": 1609154182,
+        "points": 2.5,
+        "price": -134
+      }
+    ],
+    "type": "total",
+    "version": 4957704023
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154183,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154184,
+        "points": 17.5,
+        "price": -158
+      },
+      {
+        "participantId": 1609154185,
+        "points": 17.5,
+        "price": 118
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154186,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154187,
+        "points": 1.5,
+        "price": 156
+      },
+      {
+        "participantId": 1609154188,
+        "points": 1.5,
+        "price": -212
+      }
+    ],
+    "type": "total",
+    "version": 4957706058
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154189,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154190,
+        "points": 0.5,
+        "price": 385
+      },
+      {
+        "participantId": 1609154191,
+        "points": 0.5,
+        "price": -633
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154192,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154193,
+        "points": 1.5,
+        "price": 128
+      },
+      {
+        "participantId": 1609154194,
+        "points": 1.5,
+        "price": -171
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154195,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154196,
+        "points": 0.5,
+        "price": -165
+      },
+      {
+        "participantId": 1609154197,
+        "points": 0.5,
+        "price": 124
+      }
+    ],
+    "type": "total",
+    "version": 4957099784
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154198,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154199,
+        "points": 0.5,
+        "price": -182
+      },
+      {
+        "participantId": 1609154200,
+        "points": 0.5,
+        "price": 136
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154201,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154202,
+        "points": 0.5,
+        "price": 242
+      },
+      {
+        "participantId": 1609154203,
+        "points": 0.5,
+        "price": -349
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154204,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154205,
+        "points": 1.5,
+        "price": -110
+      },
+      {
+        "participantId": 1609154206,
+        "points": 1.5,
+        "price": -120
+      }
+    ],
+    "type": "total",
+    "version": 4957704045
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154207,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154208,
+        "points": 0.5,
+        "price": -170
+      },
+      {
+        "participantId": 1609154209,
+        "points": 0.5,
+        "price": 127
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154210,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154211,
+        "points": 0.5,
+        "price": 384
+      },
+      {
+        "participantId": 1609154212,
+        "points": 0.5,
+        "price": -631
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154213,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154214,
+        "points": 1.5,
+        "price": 136
+      },
+      {
+        "participantId": 1609154215,
+        "points": 1.5,
+        "price": -183
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154216,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154217,
+        "points": 0.5,
+        "price": 320
+      },
+      {
+        "participantId": 1609154218,
+        "points": 0.5,
+        "price": -493
+      }
+    ],
+    "type": "total",
+    "version": 4957706058
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154219,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154220,
+        "points": 1.5,
+        "price": 114
+      },
+      {
+        "participantId": 1609154221,
+        "points": 1.5,
+        "price": -152
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154222,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154223,
+        "points": 0.5,
+        "price": -156
+      },
+      {
+        "participantId": 1609154224,
+        "points": 0.5,
+        "price": 117
+      }
+    ],
+    "type": "total",
+    "version": 4957704045
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154225,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154226,
+        "points": 1.5,
+        "price": 146
+      },
+      {
+        "participantId": 1609154227,
+        "points": 1.5,
+        "price": -197
+      }
+    ],
+    "type": "total",
+    "version": 4957782004
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154228,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154229,
+        "points": 0.5,
+        "price": -178
+      },
+      {
+        "participantId": 1609154230,
+        "points": 0.5,
+        "price": 133
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154231,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154232,
+        "points": 0.5,
+        "price": 403
+      },
+      {
+        "participantId": 1609154233,
+        "points": 0.5,
+        "price": -675
+      }
+    ],
+    "type": "total",
+    "version": 4957704045
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154234,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154235,
+        "points": 1.5,
+        "price": -119
+      },
+      {
+        "participantId": 1609154236,
+        "points": 1.5,
+        "price": -112
+      }
+    ],
+    "type": "total",
+    "version": 4957704045
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154237,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154238,
+        "points": 0.5,
+        "price": -132
+      },
+      {
+        "participantId": 1609154239,
+        "points": 0.5,
+        "price": -101
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154240,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154241,
+        "points": 1.5,
+        "price": 126
+      },
+      {
+        "participantId": 1609154242,
+        "points": 1.5,
+        "price": -168
+      }
+    ],
+    "type": "total",
+    "version": 4957706058
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609154243,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609154244,
+        "points": 1.5,
+        "price": 138
+      },
+      {
+        "participantId": 1609154245,
+        "points": 1.5,
+        "price": -186
+      }
+    ],
+    "type": "total",
+    "version": 4957813743
+  },
+  {
+    "cutoffAt": "2025-05-03T23:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609159951,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609159952,
+        "points": 0.5,
+        "price": 451
+      },
+      {
+        "participantId": 1609159953,
+        "points": 0.5,
+        "price": -795
+      }
+    ],
+    "type": "total",
+    "version": 4957704045
   }
 ]
