@@ -300,6 +300,8 @@ def parsePlayer(player):
 	return player
 
 def convertMLBTeam(team):
+	if team == "B0S":
+		return "bos"
 	team = team.lower().replace(".", "")
 	t = team.replace(" ", "")[:3].strip()
 	if "cubs" in team:
