@@ -1690,8 +1690,6 @@ def writePinnacle(date, debug=False):
 	for row in data:
 		if type(row) is str:
 			continue
-		print(row["startTime"])
-		print(str(datetime.strptime(row["startTime"], "%Y-%m-%dT%H:%M:%SZ") - timedelta(hours=4))[:10])
 		if str(datetime.strptime(row["startTime"], "%Y-%m-%dT%H:%M:%SZ") - timedelta(hours=4))[:10] != date:
 			continue
 			pass
