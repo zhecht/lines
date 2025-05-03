@@ -1,11 +1,11 @@
 {
     "kc @ bal": {
-        "wind": "35%",
+        "wind": "32%",
         "time": "7:15PM",
         "stadium": "Oriole Park at Camden Yards",
-        "conditions": "Light Rain",
-        "temp": "78",
-        "feels like": "78",
+        "conditions": "Rain",
+        "temp": "76",
+        "feels like": "76",
         "precip %": "44%",
         "wind speed": "6.3 mph",
         "wind dir": "SSE",
@@ -15,22 +15,22 @@
         "wind": "10.7 mph",
         "time": "6:05PM",
         "stadium": "Citizens Bank Park",
-        "conditions": "Possible Light Rain",
-        "temp": "82",
-        "feels like": "80",
-        "precip %": "22%",
+        "conditions": "Drizzle",
+        "temp": "81",
+        "feels like": "79",
+        "precip %": "28%",
         "wind speed": "9.8 mph",
         "wind dir": "SSW",
-        "transform": "transform: rotate(-6.875deg);"
+        "transform": "transform: rotate(3.125deg);"
     },
     "nym @ stl": {
-        "wind": "12%",
+        "wind": "20%",
         "time": "2:15PM",
         "stadium": "Busch Stadium",
-        "conditions": "Mostly Cloudy",
-        "temp": "61",
+        "conditions": "Light Rain",
+        "temp": "60",
         "feels like": "54",
-        "precip %": "18%",
+        "precip %": "39%",
         "wind speed": "10.7 mph",
         "wind dir": "NNW",
         "transform": "transform: rotate(82.500deg);"
@@ -39,10 +39,10 @@
         "wind": "12.5 mph",
         "time": "4:10PM",
         "stadium": "Fenway Park",
-        "conditions": "Mostly Clear",
+        "conditions": "Possible Drizzle",
         "temp": "78",
         "feels like": "75",
-        "precip %": "12%",
+        "precip %": "9%",
         "wind speed": "11.6 mph",
         "wind dir": "SSW",
         "transform": "transform: rotate(-25.000deg);"
@@ -51,13 +51,25 @@
         "wind": "13.4 mph",
         "time": "1:05PM",
         "stadium": "Yankee Stadium",
-        "conditions": "Possible Drizzle",
+        "conditions": "Possible Light Rain",
         "temp": "81",
         "feels like": "76",
-        "precip %": "11%",
+        "precip %": "14%",
         "wind speed": "14.3 mph",
         "wind dir": "SSW",
         "transform": "transform: rotate(-68.750deg);"
+    },
+    "cle @ tor": {
+        "wind": "6% (Roof)",
+        "time": "3:07PM",
+        "stadium": "Rogers Centre",
+        "conditions": "Mostly Cloudy",
+        "temp": "53",
+        "feels like": "47",
+        "precip %": "5%",
+        "wind speed": "6.3 mph",
+        "wind dir": "ESE",
+        "transform": "transform: rotate(-417.500deg);"
     },
     "hou @ chw": {
         "wind": "16.1 mph",
@@ -70,18 +82,6 @@
         "wind speed": "17.0 mph",
         "wind dir": "NNE",
         "transform": "transform: rotate(-305.000deg);"
-    },
-    "cle @ tor": {
-        "wind": "0% (Roof)",
-        "time": "3:07PM",
-        "stadium": "Rogers Centre",
-        "conditions": "Mostly Cloudy",
-        "temp": "53",
-        "feels like": "47",
-        "precip %": "0%",
-        "wind speed": "6.3 mph",
-        "wind dir": "ESE",
-        "transform": "transform: rotate(-417.500deg);"
     },
     "col @ sf": {
         "wind": "16.1 mph",
@@ -99,13 +99,13 @@
         "wind": "0% (Roof)",
         "time": "4:10PM",
         "stadium": "loanDepot park",
-        "conditions": "Clear",
-        "temp": "81",
-        "feels like": "83",
+        "conditions": "Mostly Clear",
+        "temp": "82",
+        "feels like": "84",
         "precip %": "0%",
         "wind speed": "8.9 mph",
-        "wind dir": "ESE",
-        "transform": "transform: rotate(-185.000deg);"
+        "wind dir": "SSE",
+        "transform": "transform: rotate(-175.000deg);"
     },
     "sea @ tex": {
         "wind": "0% (Roof)",
@@ -140,8 +140,32 @@
         "feels like": "60",
         "precip %": "0%",
         "wind speed": "8.0 mph",
-        "wind dir": "SSW",
-        "transform": "transform: rotate(-5.000deg);"
+        "wind dir": "WSW",
+        "transform": "transform: rotate(5.000deg);"
+    },
+    "sd @ pit": {
+        "wind": "51%",
+        "time": "4:05PM",
+        "stadium": "PNC Park",
+        "conditions": "Rain",
+        "temp": "67",
+        "feels like": "67",
+        "precip %": "53%",
+        "wind speed": "6.3 mph",
+        "wind dir": "WSW",
+        "transform": "transform: rotate(-32.500deg);"
+    },
+    "wsh @ cin": {
+        "wind": "49%",
+        "time": "6:40PM",
+        "stadium": "Great American Ball Park",
+        "conditions": "Drizzle",
+        "temp": "59",
+        "feels like": "56",
+        "precip %": "37%",
+        "wind speed": "8.0 mph",
+        "wind dir": "NNE",
+        "transform": "transform: rotate(-273.750deg);"
     },
     "lad @ atl": {
         "wind": "10.7 mph",
@@ -149,34 +173,10 @@
         "stadium": "Truist Park",
         "conditions": "Rain",
         "temp": "66",
-        "feels like": "64",
-        "precip %": "70%",
+        "feels like": "65",
+        "precip %": "71%",
         "wind speed": "8.9 mph",
         "wind dir": "WSW",
         "transform": "transform: rotate(-97.500deg);"
-    },
-    "sd @ pit": {
-        "wind": "54%",
-        "time": "4:05PM",
-        "stadium": "PNC Park",
-        "conditions": "Light Rain",
-        "temp": "68",
-        "feels like": "68",
-        "precip %": "50%",
-        "wind speed": "6.3 mph",
-        "wind dir": "WSW",
-        "transform": "transform: rotate(-22.500deg);"
-    },
-    "wsh @ cin": {
-        "wind": "50%",
-        "time": "6:40PM",
-        "stadium": "Great American Ball Park",
-        "conditions": "Overcast",
-        "temp": "59",
-        "feels like": "56",
-        "precip %": "34%",
-        "wind speed": "8.0 mph",
-        "wind dir": "NNE",
-        "transform": "transform: rotate(-273.750deg);"
     }
 }
