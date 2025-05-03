@@ -428,6 +428,7 @@ def writeCirca(date):
 			#top=800
 			#w,h = img.size
 			# l,t,r,b
+			left, right = 260, 490
 			playersImg = img.crop((left,top,right,bottom))
 			playersImg.save("outplayers.png", "PNG")
 			text = pytesseract.image_to_string(playersImg).split("\n")
