@@ -1857,7 +1857,7 @@ def writeEV(date, dinger, silent=False):
 		print("history error")
 	data = {}
 	updated = {}
-	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn", "kambi"]:
+	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn"]:
 		path = f"static/dingers/{book}.json"
 		if os.path.exists(path):
 			try:
