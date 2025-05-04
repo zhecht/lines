@@ -820,10 +820,9 @@ async def write365(loop):
 		players = await page.query_selector_all(".gl-Participant_General")
 		data = nested_dict()
 		for player in players:
+			print(player.text)
 			game = player.parent.parent.parent.parent.children[0].children[0].children[0].text
 			game = convertMLBTeam(game.split(" @ ")[0])+" @ "+convertMLBTeam(game.split(" @ ")[-1])
-
-			print(game)
 
 			attrs = player.attributes
 			labelIdx = attrs.index("aria-label")
