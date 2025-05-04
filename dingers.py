@@ -1873,14 +1873,17 @@ def parseESPN(espnLines):
 					else:
 						espnLines[game][prop][player] = espn[game][prop][p].copy()
 
-def writeEV(date, dinger, silent=False):
+def writeEV(date, dinger, parx=False, silent=False):
 	if not date:
 		date = str(datetime.now())[:10]
 
 	#writeHistory()
 	data = {}
 	updated = {}
-	for book in ["fd", "espn", "dk", "cz", "b365", "mgm", "pn"]:
+	arr = ["fd", "espn", "dk", "cz", "b365", "mgm", "pn"]
+	if parx:
+		arr.append("kambi")
+	for book in arr:
 		path = f"static/dingers/{book}.json"
 		if os.path.exists(path):
 			try:
@@ -2193,10 +2196,16 @@ def writeEV(date, dinger, silent=False):
 			evData[player]["analysis"] = analysis.get(player, {})
 			evData[player]["homerLogs"] = homerLogs[team].get(player, {})
 
-	with open("static/dingers/ev.json", "w") as fh:
+	u = "static/dingers/ev.json"
+	if parx:
+		u = "static/dingers/ev_kambi.json"
+	with open(u, "w") as fh:
 		json.dump(evData, fh, indent=4)
 
-	with open("static/dingers/evArr.json", "w") as fh:
+	u = "static/dingers/evArr.json"
+	if parx:
+		u = "static/dingers/evArr_kambi.json"
+	with open(u, "w") as fh:
 		json.dump(
 			{"updated": updated, "data": [value for key, value in evData.items()]},
 			fh,
@@ -2456,6 +2465,7 @@ if __name__ == '__main__':
 	parser.add_argument("--pn", action="store_true")
 	parser.add_argument("--mgm", action="store_true")
 	parser.add_argument("--kambi", action="store_true")
+	parser.add_argument("--parx", action="store_true")
 	parser.add_argument("--feed", action="store_true")
 	parser.add_argument("--keep", action="store_true")
 	parser.add_argument("--ev", action="store_true")
@@ -2581,7 +2591,7 @@ if __name__ == '__main__':
 
 		while True:
 			if args.ev:
-				writeEV(date, args.dinger)
+				writeEV(date, args.dinger, args.parx)
 			if args.print:
 				printEV()
 			arr = ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm"]
@@ -2603,7 +2613,7 @@ if __name__ == '__main__':
 				time.sleep(60 * 10)
 			print(datetime.now())
 			if args.ev:
-				writeEV(date, args.dinger)
+				writeEV(date, args.dinger, args.parx)
 			if args.print:
 				printEV()
 
@@ -2625,7 +2635,7 @@ if __name__ == '__main__':
 	if args.commit and args.loop:
 		while True:
 			if args.ev:
-				writeEV(date, args.dinger, silent=True)
+				writeEV(date, args.dinger, args.parx, silent=True)
 			if args.print:
 				printEV()
 			try:
@@ -2641,7 +2651,7 @@ if __name__ == '__main__':
 				time.sleep(5)
 
 	if args.ev:
-		writeEV(date, args.dinger)
+		writeEV(date, args.dinger, args.parx)
 	if args.print:
 		printEV()
 
