@@ -799,7 +799,7 @@ async def write365(loop):
 	page = await browser.get(url)
 
 	try:
-		await page.wait_for(selector=".gl-Participant_General")	
+		await page.wait_for(selector=".gl-Participant_General")
 	except:
 		return
 	reject = await page.query_selector(".ccm-CookieConsentPopup_Reject")
