@@ -1035,8 +1035,8 @@ def writeMGMSel(date):
 	a = t.find_previous(By.CSS_SELECTOR, "ms-six-pack-event").find_element(By.CSS_SELECTOR, "a")
 	a.click()
 
-	time.sleep(20)
-	
+	time.sleep(10)
+	driver.quit()
 
 
 def writeMGMSel2(game, url, driverArg=None):
