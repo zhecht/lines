@@ -1040,7 +1040,7 @@ def writeMGMSel(date):
 		break
 
 
-
+	time.sleep(5)
 	driver.quit()
 
 
