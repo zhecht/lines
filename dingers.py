@@ -2559,9 +2559,9 @@ if __name__ == '__main__':
 				writeEV(date, args.dinger)
 			if args.print:
 				printEV()
-			arr = ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm", "kambi"]
+			arr = ["weather", "lineups", "cz", "bet365", "espn", "pn", "dk", "mgm"]
 			if args.night:
-				arr = ["weather", "cz", "bet365", "pn", "dk", "kambi"]
+				arr = ["weather", "cz", "bet365", "pn", "dk"]
 
 			#arr = ["cz", "bet365", "pn", "dk", "kambi"]
 			for book in arr:
