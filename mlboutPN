@@ -1,5923 +1,2848 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608832778,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Cincinnati Reds",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Washington Nationals",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -101
       },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "away",
+        "price": -107
       }
     ],
-    "rotation": 911,
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 54,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 597288409
+    "status": "open",
+    "type": "moneyline",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608837718,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608837719,
-        "name": "Washington Nationals",
-        "order": 0,
-        "rotation": 983
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -109
       },
       {
-        "alignment": "neutral",
-        "id": 1608837720,
-        "name": "Cincinnati Reds",
-        "order": 0,
-        "rotation": 984
+        "designation": "under",
+        "points": 3.5,
+        "price": -107
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 983,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 420486304
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220476,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;away",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Cincinnati Reds  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -124
       },
       {
-        "alignment": "away",
-        "name": "Washington Nationals  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 3.5,
+        "price": 106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9911,
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 597141297
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220477,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220478,
-        "name": "Washington Nationals 1, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220479,
-        "name": "Washington Nationals 2, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220480,
-        "name": "Washington Nationals 3, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220481,
-        "name": "Washington Nationals 4, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220482,
-        "name": "Washington Nationals 5, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220483,
-        "name": "Washington Nationals 6, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220484,
-        "name": "Washington Nationals 7, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220485,
-        "name": "Washington Nationals 0, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220486,
-        "name": "Washington Nationals 2, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220487,
-        "name": "Washington Nationals 3, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220488,
-        "name": "Washington Nationals 4, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220489,
-        "name": "Washington Nationals 5, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220490,
-        "name": "Washington Nationals 6, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220491,
-        "name": "Washington Nationals 7, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220492,
-        "name": "Washington Nationals 0, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220493,
-        "name": "Washington Nationals 1, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220494,
-        "name": "Washington Nationals 3, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220495,
-        "name": "Washington Nationals 4, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220496,
-        "name": "Washington Nationals 5, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220497,
-        "name": "Washington Nationals 6, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220498,
-        "name": "Washington Nationals 7, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220499,
-        "name": "Washington Nationals 0, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220500,
-        "name": "Washington Nationals 1, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220501,
-        "name": "Washington Nationals 2, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220502,
-        "name": "Washington Nationals 4, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220503,
-        "name": "Washington Nationals 5, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220504,
-        "name": "Washington Nationals 6, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220505,
-        "name": "Washington Nationals 7, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220506,
-        "name": "Washington Nationals 0, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220507,
-        "name": "Washington Nationals 1, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220508,
-        "name": "Washington Nationals 2, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220509,
-        "name": "Washington Nationals 3, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220510,
-        "name": "Washington Nationals 5, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220511,
-        "name": "Washington Nationals 6, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220512,
-        "name": "Washington Nationals 7, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220513,
-        "name": "Washington Nationals 0, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220514,
-        "name": "Washington Nationals 1, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220515,
-        "name": "Washington Nationals 2, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220516,
-        "name": "Washington Nationals 3, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220517,
-        "name": "Washington Nationals 4, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220518,
-        "name": "Washington Nationals 6, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220519,
-        "name": "Washington Nationals 7, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220520,
-        "name": "Washington Nationals 0, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220521,
-        "name": "Washington Nationals 1, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220522,
-        "name": "Washington Nationals 2, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220523,
-        "name": "Washington Nationals 3, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220524,
-        "name": "Washington Nationals 4, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220525,
-        "name": "Washington Nationals 5, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220526,
-        "name": "Washington Nationals 7, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220527,
-        "name": "Washington Nationals 0, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220528,
-        "name": "Washington Nationals 1, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220529,
-        "name": "Washington Nationals 2, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220530,
-        "name": "Washington Nationals 3, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220531,
-        "name": "Washington Nationals 4, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220532,
-        "name": "Washington Nationals 5, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220533,
-        "name": "Washington Nationals 6, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 966
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -176
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 158
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220534,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220535,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 911
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 3.0,
+        "price": -451
       },
       {
-        "alignment": "neutral",
-        "id": 1609220536,
-        "name": "Even",
-        "order": 0,
-        "rotation": 912
+        "designation": "away",
+        "points": -3.0,
+        "price": 333
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220537,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220538,
-        "name": "Washington Nationals & Over 4.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220539,
-        "name": "Cincinnati Reds & Over 4.5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220540,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220541,
-        "name": "Washington Nationals & Under 4.5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220542,
-        "name": "Cincinnati Reds & Under 4.5",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220543,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 916
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.5,
+        "price": -300
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 244
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220544,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220545,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 911
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.0,
+        "price": -251
       },
       {
-        "alignment": "neutral",
-        "id": 1609220546,
-        "name": "Even",
-        "order": 0,
-        "rotation": 912
+        "designation": "away",
+        "points": -2.0,
+        "price": 214
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Runs Odd/Even"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220547,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220548,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 911
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -140
       },
       {
-        "alignment": "neutral",
-        "id": 1609220549,
-        "name": "Even",
-        "order": 0,
-        "rotation": 912
+        "designation": "away",
+        "points": -1.0,
+        "price": 124
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220550,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220551,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 911
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 150
       },
       {
-        "alignment": "neutral",
-        "id": 1609220552,
-        "name": "Even",
-        "order": 0,
-        "rotation": 912
+        "designation": "away",
+        "points": 1.0,
+        "price": -175
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220553,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220554,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 911
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 198
       },
       {
-        "alignment": "neutral",
-        "id": 1609220555,
-        "name": "Even",
-        "order": 0,
-        "rotation": 912
+        "designation": "away",
+        "points": 1.5,
+        "price": -243
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220556,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220557,
-        "name": "0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220558,
-        "name": "1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220559,
-        "name": "2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220560,
-        "name": "3",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220561,
-        "name": "4",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220562,
-        "name": "5",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220563,
-        "name": "6",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220564,
-        "name": "7",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220565,
-        "name": "8+",
-        "order": 0,
-        "rotation": 919
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.5,
+        "price": -108
+      },
+      {
+        "designation": "under",
+        "points": 7.5,
+        "price": -104
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Exact Total Runs"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220566,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220567,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 911
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -529
       },
       {
-        "alignment": "neutral",
-        "id": 1609220568,
-        "name": "Even",
-        "order": 0,
-        "rotation": 912
+        "designation": "under",
+        "points": 4.5,
+        "price": 377
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220569,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220570,
-        "name": "0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220571,
-        "name": "1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220572,
-        "name": "2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220573,
-        "name": "3",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220574,
-        "name": "4",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220575,
-        "name": "5",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220576,
-        "name": "6",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220577,
-        "name": "7",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220578,
-        "name": "8+",
-        "order": 0,
-        "rotation": 919
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.0,
+        "price": -228
+      },
+      {
+        "designation": "under",
+        "points": 6.0,
+        "price": 196
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220579,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220580,
-        "name": "Washington Nationals & Over 8.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220581,
-        "name": "Cincinnati Reds & Over 8.5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220582,
-        "name": "Washington Nationals & Under 8.5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220583,
-        "name": "Cincinnati Reds & Under 8.5",
-        "order": 0,
-        "rotation": 914
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.5,
+        "price": -178
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": 156
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220584,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220585,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220586,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220587,
-        "name": "Washington Nationals By 3",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220588,
-        "name": "Washington Nationals By 4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220589,
-        "name": "Washington Nationals By 5+",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220590,
-        "name": "Cincinnati Reds By 1",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220591,
-        "name": "Cincinnati Reds By 2",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220592,
-        "name": "Cincinnati Reds By 3",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220593,
-        "name": "Cincinnati Reds By 4",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220594,
-        "name": "Cincinnati Reds By 5+",
-        "order": 0,
-        "rotation": 920
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.0,
+        "price": -143
+      },
+      {
+        "designation": "under",
+        "points": 7.0,
+        "price": 126
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220595,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220596,
-        "name": "Washington Nationals By 1 - 2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220597,
-        "name": "Washington Nationals By 3 - 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220598,
-        "name": "Washington Nationals By 5 - 6",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220599,
-        "name": "Washington Nationals By 7+",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220600,
-        "name": "Cincinnati Reds By 1 - 2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220601,
-        "name": "Cincinnati Reds By 3 - 4",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220602,
-        "name": "Cincinnati Reds By 5 - 6",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220603,
-        "name": "Cincinnati Reds By 7+",
-        "order": 0,
-        "rotation": 918
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.0,
+        "price": 111
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": -124
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220604,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220605,
-        "name": "1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220606,
-        "name": "2",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220607,
-        "name": "3",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220608,
-        "name": "4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220609,
-        "name": "5",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220610,
-        "name": "6",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220611,
-        "name": "7",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220612,
-        "name": "8",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220613,
-        "name": "9",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220614,
-        "name": "10",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220615,
-        "name": "11",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220616,
-        "name": "12",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220617,
-        "name": "13",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220618,
-        "name": "14",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220619,
-        "name": "15+",
-        "order": 0,
-        "rotation": 925
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.5,
+        "price": 128
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": -145
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220620,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220621,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220622,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220623,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220624,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220625,
-        "name": "13+",
-        "order": 0,
-        "rotation": 915
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.0,
+        "price": 168
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": -193
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220626,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220627,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220628,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220629,
-        "name": "Washington Nationals By 3+",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220630,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220631,
-        "name": "Cincinnati Reds By 1",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220632,
-        "name": "Cincinnati Reds By 2",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220633,
-        "name": "Cincinnati Reds By 3+",
-        "order": 0,
-        "rotation": 917
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 11.5,
+        "price": 370
+      },
+      {
+        "designation": "under",
+        "points": 11.5,
+        "price": -517
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220634,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220635,
-        "name": "0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220636,
-        "name": "1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220637,
-        "name": "2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220638,
-        "name": "3",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220639,
-        "name": "4",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220640,
-        "name": "5",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220641,
-        "name": "6",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220642,
-        "name": "7",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220643,
-        "name": "8",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220644,
-        "name": "9",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220645,
-        "name": "10",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220646,
-        "name": "11+",
-        "order": 0,
-        "rotation": 922
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "price": 304
+      },
+      {
+        "designation": "away",
+        "price": 323
+      },
+      {
+        "designation": "draw",
+        "price": -144
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "moneyline",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220647,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220648,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220649,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220650,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220651,
-        "name": "7+",
-        "order": 0,
-        "rotation": 914
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -114
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": -102
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220652,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220653,
-        "name": "0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220654,
-        "name": "1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220655,
-        "name": "2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220656,
-        "name": "3",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220657,
-        "name": "4",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220658,
-        "name": "5+",
-        "order": 0,
-        "rotation": 916
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 0.5,
+        "price": 110
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -129
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220659,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220660,
-        "name": "0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220661,
-        "name": "1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220662,
-        "name": "2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220663,
-        "name": "3",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220664,
-        "name": "4",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220665,
-        "name": "5+",
-        "order": 0,
-        "rotation": 916
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -127
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 105
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609220666,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609220667,
-        "name": "Washington Nationals 0, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220668,
-        "name": "Washington Nationals 0, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220669,
-        "name": "Washington Nationals 0, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220670,
-        "name": "Washington Nationals 0, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220671,
-        "name": "Washington Nationals 0, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220672,
-        "name": "Washington Nationals 0, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220673,
-        "name": "Washington Nationals 0, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220674,
-        "name": "Washington Nationals 1, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220675,
-        "name": "Washington Nationals 1, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220676,
-        "name": "Washington Nationals 1, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220677,
-        "name": "Washington Nationals 1, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220678,
-        "name": "Washington Nationals 1, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220679,
-        "name": "Washington Nationals 1, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220680,
-        "name": "Washington Nationals 1, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220681,
-        "name": "Washington Nationals 1, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220682,
-        "name": "Washington Nationals 2, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220683,
-        "name": "Washington Nationals 2, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220684,
-        "name": "Washington Nationals 2, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220685,
-        "name": "Washington Nationals 2, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220686,
-        "name": "Washington Nationals 2, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220687,
-        "name": "Washington Nationals 2, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220688,
-        "name": "Washington Nationals 2, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220689,
-        "name": "Washington Nationals 2, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220690,
-        "name": "Washington Nationals 3, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220691,
-        "name": "Washington Nationals 3, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220692,
-        "name": "Washington Nationals 3, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220693,
-        "name": "Washington Nationals 3, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220694,
-        "name": "Washington Nationals 3, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220695,
-        "name": "Washington Nationals 3, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220696,
-        "name": "Washington Nationals 3, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220697,
-        "name": "Washington Nationals 3, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220698,
-        "name": "Washington Nationals 4, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220699,
-        "name": "Washington Nationals 4, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220700,
-        "name": "Washington Nationals 4, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220701,
-        "name": "Washington Nationals 4, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220702,
-        "name": "Washington Nationals 4, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220703,
-        "name": "Washington Nationals 4, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220704,
-        "name": "Washington Nationals 4, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220705,
-        "name": "Washington Nationals 4, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220706,
-        "name": "Washington Nationals 5, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220707,
-        "name": "Washington Nationals 5, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220708,
-        "name": "Washington Nationals 5, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220709,
-        "name": "Washington Nationals 5, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220710,
-        "name": "Washington Nationals 5, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220711,
-        "name": "Washington Nationals 5, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220712,
-        "name": "Washington Nationals 5, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220713,
-        "name": "Washington Nationals 5, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220714,
-        "name": "Washington Nationals 6, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220715,
-        "name": "Washington Nationals 6, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220716,
-        "name": "Washington Nationals 6, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220717,
-        "name": "Washington Nationals 6, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220718,
-        "name": "Washington Nationals 6, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220719,
-        "name": "Washington Nationals 6, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220720,
-        "name": "Washington Nationals 6, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220721,
-        "name": "Washington Nationals 6, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220722,
-        "name": "Washington Nationals 7, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220723,
-        "name": "Washington Nationals 7, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220724,
-        "name": "Washington Nationals 7, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220725,
-        "name": "Washington Nationals 7, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220726,
-        "name": "Washington Nationals 7, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220727,
-        "name": "Washington Nationals 7, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220728,
-        "name": "Washington Nationals 7, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609220729,
-        "name": "Washington Nationals 7, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 973
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -131
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 108
       }
     ],
-    "rotation": 911,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420491067
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229081,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229082,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -104
       },
       {
-        "alignment": "neutral",
-        "id": 1609229083,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "away",
+        "points": -0.0,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Martinez (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 420527151
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229084,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229085,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -228
       },
       {
-        "alignment": "neutral",
-        "id": 1609229086,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "away",
+        "points": -1.0,
+        "price": 183
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Martinez (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 420527151
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229087,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229088,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -148
       },
       {
-        "alignment": "neutral",
-        "id": 1609229089,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "away",
+        "points": -0.5,
+        "price": 126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Martinez (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 420527151
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229090,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229091,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 133
       },
       {
-        "alignment": "neutral",
-        "id": 1609229092,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "away",
+        "points": 0.5,
+        "price": -156
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Jose Trevino (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229093,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229094,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 192
       },
       {
-        "alignment": "neutral",
-        "id": 1609229095,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "away",
+        "points": 1.0,
+        "price": -240
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Keibert Ruiz (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "status": "open",
+    "type": "spread",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229096,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229097,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -103
       },
       {
-        "alignment": "neutral",
-        "id": 1609229098,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "under",
+        "points": 4.0,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Tyler Stephenson (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229099,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229100,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.0,
+        "price": -204
       },
       {
-        "alignment": "neutral",
-        "id": 1609229101,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "under",
+        "points": 3.0,
+        "price": 174
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Nathaniel Lowe (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229102,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229103,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -135
       },
       {
-        "alignment": "neutral",
-        "id": 1609229104,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "under",
+        "points": 3.5,
+        "price": 118
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Spencer Steer (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229105,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229106,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": 126
       },
       {
-        "alignment": "neutral",
-        "id": 1609229107,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "under",
+        "points": 4.5,
+        "price": -145
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "MacKenzie Gore (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 420527151
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229108,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229109,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608807040,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 169
       },
       {
-        "alignment": "neutral",
-        "id": 1609229110,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "under",
+        "points": 5.0,
+        "price": -198
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "MacKenzie Gore (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 420527151
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229111,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229112,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608813068,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608813069,
+        "price": -146
       },
       {
-        "alignment": "neutral",
-        "id": 1609229113,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1608813070,
+        "price": 124
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "MacKenzie Gore (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4963398290
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229114,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;25.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229115,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219645,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 25.0,
+        "price": -107
       },
       {
-        "alignment": "neutral",
-        "id": 1609229116,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "designation": "under",
+        "points": 25.0,
+        "price": -113
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Santiago Espinal (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "status": "open",
+    "type": "total",
+    "version": 3095450858
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229117,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229118,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219646,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219668,
+        "price": 4230
       },
       {
-        "alignment": "neutral",
-        "id": 1609229119,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
-      }
-    ],
-    "periods": [
+        "participantId": 1609219669,
+        "price": 2693
+      },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609219670,
+        "price": 1679
+      },
+      {
+        "participantId": 1609219671,
+        "price": 2284
+      },
+      {
+        "participantId": 1609219672,
+        "price": 2691
+      },
+      {
+        "participantId": 1609219673,
+        "price": 3340
+      },
+      {
+        "participantId": 1609219674,
+        "price": 4265
+      },
+      {
+        "participantId": 1609219675,
+        "price": 4834
+      },
+      {
+        "participantId": 1609219676,
+        "price": 3124
+      },
+      {
+        "participantId": 1609219677,
+        "price": 2662
+      },
+      {
+        "participantId": 1609219678,
+        "price": 1796
+      },
+      {
+        "participantId": 1609219679,
+        "price": 2693
+      },
+      {
+        "participantId": 1609219680,
+        "price": 3457
+      },
+      {
+        "participantId": 1609219681,
+        "price": 4421
+      },
+      {
+        "participantId": 1609219682,
+        "price": 5756
+      },
+      {
+        "participantId": 1609219683,
+        "price": 3782
+      },
+      {
+        "participantId": 1609219684,
+        "price": 3238
+      },
+      {
+        "participantId": 1609219685,
+        "price": 3008
+      },
+      {
+        "participantId": 1609219686,
+        "price": 2117
+      },
+      {
+        "participantId": 1609219687,
+        "price": 3652
+      },
+      {
+        "participantId": 1609219688,
+        "price": 4779
+      },
+      {
+        "participantId": 1609219689,
+        "price": 7034
+      },
+      {
+        "participantId": 1609219690,
+        "price": 4732
+      },
+      {
+        "participantId": 1609219691,
+        "price": 3900
+      },
+      {
+        "participantId": 1609219692,
+        "price": 3788
+      },
+      {
+        "participantId": 1609219693,
+        "price": 3985
+      },
+      {
+        "participantId": 1609219694,
+        "price": 2887
+      },
+      {
+        "participantId": 1609219695,
+        "price": 5251
+      },
+      {
+        "participantId": 1609219696,
+        "price": 8678
+      },
+      {
+        "participantId": 1609219697,
+        "price": 5738
+      },
+      {
+        "participantId": 1609219698,
+        "price": 5047
+      },
+      {
+        "participantId": 1609219699,
+        "price": 4902
+      },
+      {
+        "participantId": 1609219700,
+        "price": 5105
+      },
+      {
+        "participantId": 1609219701,
+        "price": 5624
+      },
+      {
+        "participantId": 1609219702,
+        "price": 4186
+      },
+      {
+        "participantId": 1609219647,
+        "price": 4423
+      },
+      {
+        "participantId": 1609219648,
+        "price": 4092
+      },
+      {
+        "participantId": 1609219649,
+        "price": 4150
+      },
+      {
+        "participantId": 1609219650,
+        "price": 4630
+      },
+      {
+        "participantId": 1609219651,
+        "price": 5339
+      },
+      {
+        "participantId": 1609219652,
+        "price": 6395
+      },
+      {
+        "participantId": 1609219653,
+        "price": 7757
+      },
+      {
+        "participantId": 1609219654,
+        "price": 3649
+      },
+      {
+        "participantId": 1609219655,
+        "price": 2478
+      },
+      {
+        "participantId": 1609219656,
+        "price": 2645
+      },
+      {
+        "participantId": 1609219657,
+        "price": 2927
+      },
+      {
+        "participantId": 1609219658,
+        "price": 3475
+      },
+      {
+        "participantId": 1609219659,
+        "price": 4237
+      },
+      {
+        "participantId": 1609219660,
+        "price": 5063
+      },
+      {
+        "participantId": 1609219661,
+        "price": 3945
+      },
+      {
+        "participantId": 1609219662,
+        "price": 1987
+      },
+      {
+        "participantId": 1609219663,
+        "price": 2128
+      },
+      {
+        "participantId": 1609219664,
+        "price": 2484
+      },
+      {
+        "participantId": 1609219665,
+        "price": 2932
+      },
+      {
+        "participantId": 1609219666,
+        "price": 3473
+      },
+      {
+        "participantId": 1609219667,
+        "price": 4401
       }
     ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Alex Call (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4963398290
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229120,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229121,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219703,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219704,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609229122,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1609219705,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "TJ Friedl (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4963531426
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229123,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229124,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219706,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219712,
+        "price": 490
       },
       {
-        "alignment": "neutral",
-        "id": 1609229125,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
-      }
-    ],
-    "periods": [
+        "participantId": 1609219707,
+        "price": 340
+      },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609219708,
+        "price": 350
+      },
+      {
+        "participantId": 1609219709,
+        "price": 1675
+      },
+      {
+        "participantId": 1609219710,
+        "price": 300
+      },
+      {
+        "participantId": 1609219711,
+        "price": 310
       }
     ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Luis García Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4961506672
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229126,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229127,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219713,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219714,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609229128,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1609219715,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "José Tena (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4963531426
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229129,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229130,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219716,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219717,
+        "price": 114
       },
       {
-        "alignment": "neutral",
-        "id": 1609229131,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1609219718,
+        "price": -133
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt McLain (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4961506672
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229132,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229133,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219719,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219720,
+        "price": -163
       },
       {
-        "alignment": "neutral",
-        "id": 1609229134,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1609219721,
+        "price": 138
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Noelvi Marte (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4963398290
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229135,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229136,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219722,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219723,
+        "price": 113
       },
       {
-        "alignment": "neutral",
-        "id": 1609229137,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1609219724,
+        "price": -132
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Elly De La Cruz (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4961506672
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229138,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229139,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219725,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219726,
+        "price": 923
       },
       {
-        "alignment": "neutral",
-        "id": 1609229140,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
-      }
-    ],
-    "periods": [
+        "participantId": 1609219727,
+        "price": 551
+      },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609219728,
+        "price": 448
+      },
+      {
+        "participantId": 1609219729,
+        "price": 436
+      },
+      {
+        "participantId": 1609219730,
+        "price": 485
+      },
+      {
+        "participantId": 1609219731,
+        "price": 586
+      },
+      {
+        "participantId": 1609219732,
+        "price": 753
+      },
+      {
+        "participantId": 1609219733,
+        "price": 1000
+      },
+      {
+        "participantId": 1609219734,
+        "price": 658
       }
     ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "CJ Abrams (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527151
+    "type": "moneyline",
+    "version": 4963531426
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229141,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229142,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219735,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219736,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1609229143,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
+        "participantId": 1609219737,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Dylan Crews (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527155
+    "type": "moneyline",
+    "version": 4961506672
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229144,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229145,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219738,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219744,
+        "price": 589
       },
       {
-        "alignment": "neutral",
-        "id": 1609229146,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
-      }
-    ],
-    "periods": [
+        "participantId": 1609219745,
+        "price": 724
+      },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609219746,
+        "price": 924
+      },
+      {
+        "participantId": 1609219747,
+        "price": 526
+      },
+      {
+        "participantId": 1609219739,
+        "price": 940
+      },
+      {
+        "participantId": 1609219740,
+        "price": 578
+      },
+      {
+        "participantId": 1609219741,
+        "price": 483
+      },
+      {
+        "participantId": 1609219742,
+        "price": 470
+      },
+      {
+        "participantId": 1609219743,
+        "price": 508
       }
     ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Blake Dunn (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527155
+    "type": "moneyline",
+    "version": 4963531426
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229147,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229148,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219748,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219749,
+        "price": 298
       },
       {
-        "alignment": "neutral",
-        "id": 1609229149,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
-      }
-    ],
-    "periods": [
+        "participantId": 1609219750,
+        "price": 339
+      },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609219751,
+        "price": 225
+      },
+      {
+        "participantId": 1609219752,
+        "price": 214
       }
     ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "James Wood (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527155
+    "type": "moneyline",
+    "version": 4963531426
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609229150,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 25,
-      "matchupCountSE": 25,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 27,
-        "matchupCountSE": 27,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608832778,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-04T20:10:00+00:00"
-    },
-    "parentId": 1608832778,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609229151,
-        "name": "Over",
-        "order": 0,
-        "rotation": 912
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219753,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219754,
+        "price": 514
       },
       {
-        "alignment": "neutral",
-        "id": 1609229152,
-        "name": "Under",
-        "order": 0,
-        "rotation": 913
-      }
-    ],
-    "periods": [
+        "participantId": 1609219755,
+        "price": 630
+      },
       {
-        "cutoffAt": "2025-05-04T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609219756,
+        "price": 782
+      },
+      {
+        "participantId": 1609219757,
+        "price": 996
+      },
+      {
+        "participantId": 1609219758,
+        "price": 533
+      },
+      {
+        "participantId": 1609219759,
+        "price": 377
+      },
+      {
+        "participantId": 1609219760,
+        "price": 700
+      },
+      {
+        "participantId": 1609219761,
+        "price": 884
+      },
+      {
+        "participantId": 1609219762,
+        "price": 1140
+      },
+      {
+        "participantId": 1609219763,
+        "price": 680
       }
     ],
-    "rotation": 912,
-    "special": {
-      "category": "Player Props",
-      "description": "Jacob Young (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-04T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 420527155
+    "type": "moneyline",
+    "version": 4963398290
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219764,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219765,
+        "price": 277
+      },
+      {
+        "participantId": 1609219766,
+        "price": 475
+      },
+      {
+        "participantId": 1609219767,
+        "price": 868
+      },
+      {
+        "participantId": 1609219768,
+        "price": 1110
+      },
+      {
+        "participantId": 1609219769,
+        "price": 233
+      },
+      {
+        "participantId": 1609219770,
+        "price": 552
+      },
+      {
+        "participantId": 1609219771,
+        "price": 1036
+      },
+      {
+        "participantId": 1609219772,
+        "price": 1422
+      }
+    ],
+    "type": "moneyline",
+    "version": 4963531426
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219773,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219776,
+        "price": 846
+      },
+      {
+        "participantId": 1609219777,
+        "price": 1019
+      },
+      {
+        "participantId": 1609219778,
+        "price": 587
+      },
+      {
+        "participantId": 1609219779,
+        "price": 795
+      },
+      {
+        "participantId": 1609219780,
+        "price": 557
+      },
+      {
+        "participantId": 1609219781,
+        "price": 793
+      },
+      {
+        "participantId": 1609219782,
+        "price": 642
+      },
+      {
+        "participantId": 1609219783,
+        "price": 965
+      },
+      {
+        "participantId": 1609219784,
+        "price": 864
+      },
+      {
+        "participantId": 1609219785,
+        "price": 1310
+      },
+      {
+        "participantId": 1609219786,
+        "price": 1259
+      },
+      {
+        "participantId": 1609219787,
+        "price": 1897
+      },
+      {
+        "participantId": 1609219788,
+        "price": 881
+      },
+      {
+        "participantId": 1609219774,
+        "price": 1988
+      },
+      {
+        "participantId": 1609219775,
+        "price": 1999
+      }
+    ],
+    "type": "moneyline",
+    "version": 4963531426
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219789,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609219790,
+        "price": 557
+      },
+      {
+        "participantId": 1609219791,
+        "price": 257
+      },
+      {
+        "participantId": 1609219792,
+        "price": 204
+      },
+      {
+        "participantId": 1609219793,
+        "price": 381
+      },
+      {
+        "participantId": 1609219794,
+        "price": 483
+      }
+    ],
+    "type": "moneyline",
+    "version": 4963531426
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219795,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219796,
+        "price": 483
+      },
+      {
+        "participantId": 1609219797,
+        "price": 649
+      },
+      {
+        "participantId": 1609219798,
+        "price": 381
+      },
+      {
+        "participantId": 1609219799,
+        "price": 403
+      },
+      {
+        "participantId": 1609219800,
+        "price": 498
+      },
+      {
+        "participantId": 1609219801,
+        "price": 666
+      },
+      {
+        "participantId": 1609219802,
+        "price": 390
+      }
+    ],
+    "type": "moneyline",
+    "version": 4961506672
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219803,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219808,
+        "price": 508
+      },
+      {
+        "participantId": 1609219809,
+        "price": 607
+      },
+      {
+        "participantId": 1609219810,
+        "price": 725
+      },
+      {
+        "participantId": 1609219811,
+        "price": 896
+      },
+      {
+        "participantId": 1609219812,
+        "price": 1139
+      },
+      {
+        "participantId": 1609219813,
+        "price": 1473
+      },
+      {
+        "participantId": 1609219814,
+        "price": 1925
+      },
+      {
+        "participantId": 1609219815,
+        "price": 1353
+      },
+      {
+        "participantId": 1609219804,
+        "price": 1117
+      },
+      {
+        "participantId": 1609219805,
+        "price": 626
+      },
+      {
+        "participantId": 1609219806,
+        "price": 492
+      },
+      {
+        "participantId": 1609219807,
+        "price": 462
+      }
+    ],
+    "type": "moneyline",
+    "version": 4961506672
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219816,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219817,
+        "price": 211
+      },
+      {
+        "participantId": 1609219818,
+        "price": 227
+      },
+      {
+        "participantId": 1609219819,
+        "price": 338
+      },
+      {
+        "participantId": 1609219820,
+        "price": 301
+      }
+    ],
+    "type": "moneyline",
+    "version": 4961506672
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219821,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219822,
+        "price": 291
+      },
+      {
+        "participantId": 1609219823,
+        "price": 289
+      },
+      {
+        "participantId": 1609219824,
+        "price": 376
+      },
+      {
+        "participantId": 1609219825,
+        "price": 519
+      },
+      {
+        "participantId": 1609219826,
+        "price": 734
+      },
+      {
+        "participantId": 1609219827,
+        "price": 481
+      }
+    ],
+    "type": "moneyline",
+    "version": 4961506672
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219828,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219829,
+        "price": 284
+      },
+      {
+        "participantId": 1609219830,
+        "price": 287
+      },
+      {
+        "participantId": 1609219831,
+        "price": 377
+      },
+      {
+        "participantId": 1609219832,
+        "price": 524
+      },
+      {
+        "participantId": 1609219833,
+        "price": 743
+      },
+      {
+        "participantId": 1609219834,
+        "price": 491
+      }
+    ],
+    "type": "moneyline",
+    "version": 4961506672
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609219835,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609219836,
+        "price": 1271
+      },
+      {
+        "participantId": 1609219837,
+        "price": 1532
+      },
+      {
+        "participantId": 1609219838,
+        "price": 1950
+      },
+      {
+        "participantId": 1609219839,
+        "price": 2652
+      },
+      {
+        "participantId": 1609219840,
+        "price": 3697
+      },
+      {
+        "participantId": 1609219843,
+        "price": 1235
+      },
+      {
+        "participantId": 1609219844,
+        "price": 1239
+      },
+      {
+        "participantId": 1609219845,
+        "price": 1516
+      },
+      {
+        "participantId": 1609219846,
+        "price": 1995
+      },
+      {
+        "participantId": 1609219847,
+        "price": 2737
+      },
+      {
+        "participantId": 1609219848,
+        "price": 3664
+      },
+      {
+        "participantId": 1609219851,
+        "price": 1496
+      },
+      {
+        "participantId": 1609219852,
+        "price": 1479
+      },
+      {
+        "participantId": 1609219853,
+        "price": 1860
+      },
+      {
+        "participantId": 1609219854,
+        "price": 2481
+      },
+      {
+        "participantId": 1609219855,
+        "price": 3236
+      },
+      {
+        "participantId": 1609219856,
+        "price": 4299
+      },
+      {
+        "participantId": 1609219859,
+        "price": 1910
+      },
+      {
+        "participantId": 1609219860,
+        "price": 1953
+      },
+      {
+        "participantId": 1609219861,
+        "price": 2422
+      },
+      {
+        "participantId": 1609219862,
+        "price": 3067
+      },
+      {
+        "participantId": 1609219863,
+        "price": 4013
+      },
+      {
+        "participantId": 1609219867,
+        "price": 2603
+      },
+      {
+        "participantId": 1609219868,
+        "price": 2684
+      },
+      {
+        "participantId": 1609219869,
+        "price": 3165
+      },
+      {
+        "participantId": 1609219870,
+        "price": 3919
+      },
+      {
+        "participantId": 1609219875,
+        "price": 3634
+      },
+      {
+        "participantId": 1609219876,
+        "price": 3599
+      },
+      {
+        "participantId": 1609219877,
+        "price": 4210
+      },
+      {
+        "participantId": 1609219883,
+        "price": 4994
+      },
+      {
+        "participantId": 1609219884,
+        "price": 4946
+      }
+    ],
+    "type": "moneyline",
+    "version": 4963531426
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221937,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221938,
+        "points": 0.5,
+        "price": -160
+      },
+      {
+        "participantId": 1609221939,
+        "points": 0.5,
+        "price": 120
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221940,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221941,
+        "points": 0.5,
+        "price": -203
+      },
+      {
+        "participantId": 1609221942,
+        "points": 0.5,
+        "price": 150
+      }
+    ],
+    "type": "total",
+    "version": 4962715339
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221943,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221944,
+        "points": 0.5,
+        "price": -128
+      },
+      {
+        "participantId": 1609221945,
+        "points": 0.5,
+        "price": -103
+      }
+    ],
+    "type": "total",
+    "version": 4962709188
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221946,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221947,
+        "points": 6.5,
+        "price": 115
+      },
+      {
+        "participantId": 1609221948,
+        "points": 6.5,
+        "price": -153
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221949,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221950,
+        "points": 4.5,
+        "price": 104
+      },
+      {
+        "participantId": 1609221951,
+        "points": 4.5,
+        "price": -138
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221952,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221953,
+        "points": 2.5,
+        "price": 122
+      },
+      {
+        "participantId": 1609221954,
+        "points": 2.5,
+        "price": -163
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221955,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221956,
+        "points": 16.5,
+        "price": -111
+      },
+      {
+        "participantId": 1609221957,
+        "points": 16.5,
+        "price": -119
+      }
+    ],
+    "type": "total",
+    "version": 4962955935
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221958,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221959,
+        "points": 0.5,
+        "price": 312
+      },
+      {
+        "participantId": 1609221960,
+        "points": 0.5,
+        "price": -477
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221961,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221962,
+        "points": 0.5,
+        "price": -148
+      },
+      {
+        "participantId": 1609221963,
+        "points": 0.5,
+        "price": 111
+      }
+    ],
+    "type": "total",
+    "version": 4962711050
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221964,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221965,
+        "points": 1.5,
+        "price": 136
+      },
+      {
+        "participantId": 1609221966,
+        "points": 1.5,
+        "price": -183
+      }
+    ],
+    "type": "total",
+    "version": 4962711050
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221967,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221968,
+        "points": 1.5,
+        "price": 162
+      },
+      {
+        "participantId": 1609221969,
+        "points": 1.5,
+        "price": -220
+      }
+    ],
+    "type": "total",
+    "version": 4962711050
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221970,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221971,
+        "points": 0.5,
+        "price": 435
+      },
+      {
+        "participantId": 1609221972,
+        "points": 0.5,
+        "price": -1020
+      }
+    ],
+    "type": "total",
+    "version": 4963360520
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221973,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221974,
+        "points": 1.5,
+        "price": 143
+      },
+      {
+        "participantId": 1609221975,
+        "points": 1.5,
+        "price": -192
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221976,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221977,
+        "points": 0.5,
+        "price": -181
+      },
+      {
+        "participantId": 1609221978,
+        "points": 0.5,
+        "price": 135
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221979,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221980,
+        "points": 0.5,
+        "price": -164
+      },
+      {
+        "participantId": 1609221981,
+        "points": 0.5,
+        "price": 123
+      }
+    ],
+    "type": "total",
+    "version": 4962711050
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221982,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221984,
+        "points": 0.5,
+        "price": 116
+      },
+      {
+        "participantId": 1609221983,
+        "points": 0.5,
+        "price": -155
+      }
+    ],
+    "type": "total",
+    "version": 4962715339
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221985,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221986,
+        "points": 0.5,
+        "price": -165
+      },
+      {
+        "participantId": 1609221987,
+        "points": 0.5,
+        "price": 124
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221988,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221989,
+        "points": 0.5,
+        "price": -145
+      },
+      {
+        "participantId": 1609221990,
+        "points": 0.5,
+        "price": 109
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221991,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221992,
+        "points": 5.5,
+        "price": 108
+      },
+      {
+        "participantId": 1609221993,
+        "points": 5.5,
+        "price": -143
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221994,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221995,
+        "points": 5.5,
+        "price": 110
+      },
+      {
+        "participantId": 1609221996,
+        "points": 5.5,
+        "price": -146
+      }
+    ],
+    "type": "total",
+    "version": 4962974147
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609221997,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609221998,
+        "points": 2.5,
+        "price": 110
+      },
+      {
+        "participantId": 1609221999,
+        "points": 2.5,
+        "price": -147
+      }
+    ],
+    "type": "total",
+    "version": 4963266860
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609222000,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609222001,
+        "points": 17.5,
+        "price": -164
+      },
+      {
+        "participantId": 1609222002,
+        "points": 17.5,
+        "price": 122
+      }
+    ],
+    "type": "total",
+    "version": 4963084532
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609222003,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609222004,
+        "points": 0.5,
+        "price": -153
+      },
+      {
+        "participantId": 1609222005,
+        "points": 0.5,
+        "price": 115
+      }
+    ],
+    "type": "total",
+    "version": 4962436079
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609222006,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609222007,
+        "points": 0.5,
+        "price": -133
+      },
+      {
+        "participantId": 1609222008,
+        "points": 0.5,
+        "price": 100
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609222009,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609222010,
+        "points": 0.5,
+        "price": -190
+      },
+      {
+        "participantId": 1609222011,
+        "points": 0.5,
+        "price": 141
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609222012,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609222013,
+        "points": 1.5,
+        "price": 111
+      },
+      {
+        "participantId": 1609222014,
+        "points": 1.5,
+        "price": -147
+      }
+    ],
+    "type": "total",
+    "version": 4962711050
+  },
+  {
+    "cutoffAt": "2025-05-04T18:10:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609222015,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609222016,
+        "points": 0.5,
+        "price": -146
+      },
+      {
+        "participantId": 1609222017,
+        "points": 0.5,
+        "price": 110
+      }
+    ],
+    "type": "total",
+    "version": 4962943707
   }
 ]
