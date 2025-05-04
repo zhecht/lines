@@ -1031,7 +1031,13 @@ def writeMGMSel(date):
 		print("not found")
 		return
 
+	t = driver.find_element(By.CSS_SELECTOR, ".starting-time")
+	a = t.find_previous(By.CSS_SELECTOR, "ms-six-pack-event").find_element(By.CSS_SELECTOR, "a")
+	a.click()
+
+	time.sleep(20)
 	
+
 
 def writeMGMSel2(game, url, driverArg=None):
 	if not driverArg:
