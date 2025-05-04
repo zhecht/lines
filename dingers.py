@@ -1018,7 +1018,22 @@ def getMGMLinks(date):
 def runMGM():
 	uc.loop().run_until_complete(writeMGM())
 
-def writeMGMSel(game, url, driverArg=None):
+def writeMGMSel(date):
+	driver = webdriver.Firefox()
+	driver.get("https://sports.mi.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
+
+	try:
+		WebDriverWait(driver, 10).until(
+			lambda d: d.find_element(By.CSS_SELECTOR, "ms-six-pack-event").is_displayed()
+		)
+		pass
+	except:
+		print("not found")
+		return
+
+	
+
+def writeMGMSel2(game, url, driverArg=None):
 	if not driverArg:
 		driver = webdriver.Firefox()
 	else:
@@ -2490,10 +2505,12 @@ if __name__ == '__main__':
 		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night, args.skip))
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
+		writeMGMSel(date)
+		exit()
 
 		if True:
 			if args.game and args.url:
-				writeMGMSel(args.game, args.url)
+				writeMGMSel2(args.game, args.url)
 			else:
 				games = getMGMLinks(date)
 				if not games:
@@ -2502,7 +2519,7 @@ if __name__ == '__main__':
 				driver = webdriver.Firefox()
 				for game in games:
 					pass
-					writeMGMSel(game, games[game], driver)
+					writeMGMSel2(game, games[game], driver)
 				driver.quit()
 		else:
 			games = uc.loop().run_until_complete(getMGMLinks(date))
