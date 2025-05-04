@@ -396,7 +396,7 @@ def writeCirca(date):
 		page.save(f"out-{pageIdx}.png", "PNG")
 		img = Image.open(f"out-{pageIdx}.png")
 		bottom, top = 2320, 330
-		left, right = 105, 410
+		left, right = 310, 520
 
 		if pageIdx == 1:
 			top = 340
@@ -428,7 +428,6 @@ def writeCirca(date):
 			#top=800
 			#w,h = img.size
 			# l,t,r,b
-			left, right = 260, 490
 			playersImg = img.crop((left,top,right,bottom))
 			playersImg.save("outplayers.png", "PNG")
 			text = pytesseract.image_to_string(playersImg).split("\n")
@@ -467,7 +466,7 @@ def writeCirca(date):
 		))
 
 		# may 3rd
-		l,r = 595,650
+		l,r = 595,660
 		if pageIdx == 1:
 			l,r = 595,650
 
