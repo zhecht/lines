@@ -823,6 +823,8 @@ async def write365(loop):
 			game = player.parent.parent.parent.parent.children[0].children[0].children[0].text
 			game = convertMLBTeam(game.split(" @ ")[0])+" @ "+convertMLBTeam(game.split(" @ ")[-1])
 
+			print(game)
+
 			attrs = player.attributes
 			labelIdx = attrs.index("aria-label")
 			label = attrs[labelIdx+1].lower().strip()
