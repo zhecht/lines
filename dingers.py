@@ -703,7 +703,11 @@ async def getESPNLinks(date):
 		return
 	url = "https://espnbet.com/sport/baseball/organization/united-states/competition/mlb"
 	page = await browser.get(url)
-	await page.wait_for(selector="article")
+
+	try:
+		await page.wait_for(selector="article")
+	except:
+		return
 	html = await page.get_content()
 
 	games = {}
