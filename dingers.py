@@ -818,7 +818,6 @@ async def write365(loop):
 
 	while True:
 		players = await page.query_selector_all(".gl-Participant_General")
-		print(len(players))
 		data = nested_dict()
 		for player in players:
 			game = player.parent.parent.parent.parent.children[0].children[0].children[0].text
