@@ -395,7 +395,7 @@ def writeCirca(date):
 	for pageIdx, page in enumerate(pages):
 		page.save(f"out-{pageIdx}.png", "PNG")
 		img = Image.open(f"out-{pageIdx}.png")
-		bottom, top = 2320, 330
+		bottom, top = 2075, 400
 		left, right = 280, 520
 
 		if pageIdx == 1:
@@ -408,7 +408,7 @@ def writeCirca(date):
 		while False:
 			if t >= 2080:
 				break
-			playersImg = img.crop((430,t,600,t+h))
+			playersImg = img.crop((105,t,415,t+h))
 			#playersImg.save("outplayers.png", "PNG")
 			text = pytesseract.image_to_string(playersImg).split("\n")
 			team = convertMLBTeam(text[0].split("(")[-1].split(")")[0])
@@ -462,19 +462,6 @@ def writeCirca(date):
 			680 if pageIdx == 0 else 695,
 			top,
 			750 if pageIdx == 0 else 760,
-			bottom
-		))
-
-		# may 3rd
-		l,r = 595,660
-		if pageIdx == 1:
-			l,r = 595,650
-
-		oversImg = img.crop((l,top,r,bottom))
-		undersImg = img.crop((
-			720 if pageIdx == 0 else 720,
-			top,
-			775 if pageIdx == 0 else 775,
 			bottom
 		))
 
