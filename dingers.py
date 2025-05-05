@@ -248,7 +248,7 @@ def writeCircaMain(date):
 					game = f"{convertMGMTeam(text[i])} @ {convertMGMTeam(text[i+1])}"
 				except:
 					break
-				data[game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}".replace("=", "-")
+				data[date][game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}".replace("=", "-")
 			continue
 
 		playersImg = img.crop((300,top,525,bottom))
