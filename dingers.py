@@ -609,7 +609,8 @@ def writeCirca(date):
 							o = "-115"
 
 					ou = f"{o}/{u}"
-
+					if ou == "125/105":
+						ou = "-125/-105"
 					#print(player, team, line, ou)
 
 					data[date][game]["k"][player][line] = ou
