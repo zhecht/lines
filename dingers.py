@@ -242,6 +242,8 @@ def writeCircaMain(date):
 			rfi_text = pytesseract.image_to_string(rfi_img).split("\n")
 			rfi_text = [x.replace("EVEN", "+100") for x in rfi_text if x]
 
+			print(rfi_text)
+
 			for i in range(0, len(text), 2):
 				try:
 					game = f"{convertMGMTeam(text[i])} @ {convertMGMTeam(text[i+1])}"
