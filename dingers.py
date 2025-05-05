@@ -440,9 +440,9 @@ def writeCirca(date):
 
 		oversImg = img.crop((l,top,r,bottom))
 		undersImg = img.crop((
-			680 if pageIdx == 0 else 695,
+			680,
 			top,
-			750 if pageIdx == 0 else 760,
+			750,
 			bottom
 		))
 
