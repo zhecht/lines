@@ -268,8 +268,6 @@ def writeCircaMain(date):
 			mls.append(r)
 		#mlImg.save("out-ml.png", "PNG")
 
-		print(mls)
-
 		add = 0
 		totals = []
 		f5_totals = []
