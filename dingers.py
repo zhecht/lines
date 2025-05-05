@@ -405,25 +405,6 @@ def writeCirca(date):
 		h = 21
 		t = 273
 		players = []
-		while False:
-			if t >= 2080:
-				break
-			playersImg = img.crop((105,t,415,t+h))
-			#playersImg.save("outplayers.png", "PNG")
-			text = pytesseract.image_to_string(playersImg).split("\n")
-			team = convertMLBTeam(text[0].split("(")[-1].split(")")[0])
-			player = parsePlayer(text[0].split(" (")[0])
-
-			#oversImg = img.crop((670,t,710,t+h))
-			#undersImg = img.crop((750,t,800,t+h))
-			#overs = pytesseract.image_to_string(oversImg).split("\n")
-			#unders = pytesseract.image_to_string(undersImg).split("\n")
-
-			game = teamGame.get(team, "")
-			players.append((game, player))
-			#data[game]["hr"][player] = overs[0]+"/"+unders[0]
-			t += h+2
-
 		if True:
 			#top=800
 			#w,h = img.size
