@@ -2075,7 +2075,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 				ou = ou.split("/")[0]
 
 			devig(evData, player, ou, highest)
-			if "dk" in books:
+			if "dk" in books and "++" not in data[game][player]["dk"]:
 				#if evBook == "dk" and player in evData:
 				#	evData[player]["dk_ev"] = evData[player]["ev"]
 				#else:
