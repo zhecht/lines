@@ -1849,7 +1849,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 	if not date:
 		date = str(datetime.now())[:10]
 
-	#writeHistory()
+	writeHistory()
 	data = {}
 	updated = {}
 	arr = ["fd", "espn", "dk", "cz", "b365", "mgm", "pn"]
