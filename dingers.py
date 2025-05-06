@@ -914,6 +914,8 @@ def writeDKApi(date):
 		catId = market["subcategoryId"]
 
 		for selection in selections:
+			print(selection)
+			exit()
 			ou = selection["displayOdds"]["american"].replace("\u2212", "-")
 			participants = selection.get("participants", [])
 			player = parsePlayer(participants[0]["name"])
