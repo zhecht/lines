@@ -859,7 +859,7 @@ def writeDKSel(date, loop, night):
 	writeHistorical(date, book)
 
 
-def writeDKApi(date, loop, night):
+def writeDKApi(date):
 	book = "dk"
 	lines = nested_dict()
 	url = f"https://sportsbook-nash.draftkings.com/api/sportscontent/dkusmi/v1/leagues/84240/categories/743?format=json"
@@ -2592,7 +2592,8 @@ if __name__ == '__main__':
 			runThreads("mgm", date, games, min(args.threads, len(games)))
 	elif args.dk:
 		#uc.loop().run_until_complete(writeDK(date, args.loop, args.night))
-		writeDKSel(date, args.loop, args.night)
+		#writeDKSel(date, args.loop, args.night)
+		writeDKApi(date)
 	elif args.br:
 		uc.loop().run_until_complete(writeBR(date))
 	elif args.bet365 or args.b365:
