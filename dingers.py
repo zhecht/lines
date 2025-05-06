@@ -2046,6 +2046,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 				oddsArr.append(odds)
 				over = odds.split("/")[0]
 				#print(book, over)
+				if "++" in over:
+					continue
 				highest = max(highest, int(over))
 				if highest == int(over):
 					evBook = book
