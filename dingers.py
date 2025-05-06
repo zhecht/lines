@@ -396,7 +396,7 @@ def writeCirca(date):
 	for pageIdx, page in enumerate(pages):
 		page.save(f"out-{pageIdx}.png", "PNG")
 		img = Image.open(f"out-{pageIdx}.png")
-		bottom, top = 2075, 400
+		bottom, top = 2245, 400
 		left, right = 105, 415
 
 		if pageIdx == 1:
@@ -541,8 +541,8 @@ def writeCirca(date):
 			boxW = 260
 			# Full Slate
 			if True:
-				pitcherRows = 7
-				t = 1246
+				pitcherRows = 10
+				t = 1326
 				boxH = 117
 				boxW = 264 #r-l
 			boxT = t
