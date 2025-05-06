@@ -1799,8 +1799,11 @@ def writeKambi(date):
 				except:
 					player = player.lower()
 				player = parsePlayer(player)
-				over = betOffer["outcomes"][0]["oddsAmerican"]
-				under = betOffer["outcomes"][1]["oddsAmerican"]
+				try:
+					over = betOffer["outcomes"][0]["oddsAmerican"]
+					under = betOffer["outcomes"][1]["oddsAmerican"]
+				except:
+					continue
 				data[game][player][book] = f"{over}/{under}"
 
 	with open("static/dingers/updated_kambi", "w") as fh:
