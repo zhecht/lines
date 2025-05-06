@@ -874,7 +874,7 @@ def writeDKApi(date, loop, night):
 
 	if "events" not in data:
 		print("events not found")
-		continue
+		return
 
 	started_events = {}
 	for event in data["events"]:
