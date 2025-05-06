@@ -543,7 +543,7 @@ def writeCirca(date):
 			if True:
 				pitcherRows = 10
 				t = 1326
-				boxH = 117
+				boxH = 89
 				boxW = 264 #r-l
 			boxT = t
 			boxL = l
