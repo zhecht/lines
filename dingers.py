@@ -923,7 +923,7 @@ def writeDKApi(date, loop, night):
 		fh.write(str(datetime.now()))
 	with open("static/dingers/dk.json", "w") as fh:
 		json.dump(lines, fh, indent=4)
-	writeHistorical(date, book)
+	writeHistorical(date, "dk")
 
 async def writeDK(date, loop, night):
 	book = "dk"
