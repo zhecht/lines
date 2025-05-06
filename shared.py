@@ -103,7 +103,10 @@ def merge_dicts(d1, d2, forceReplace=False):
 			if "/" in d1[k]:
 				if len(d1[k].split("/")) != 2:
 					continue
-				o,u = map(int, d1[k].split("/"))
+				try:
+					o,u = map(int, d1[k].split("/"))
+				except:
+					continue
 			else:
 				o,u = d1[k],""
 
