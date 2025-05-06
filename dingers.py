@@ -2163,7 +2163,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 			evData[player]["pitcherData"] = pitcherData
 			evData[player]["savant"] = savantData
 			evData[player]["analysis"] = analysis.get(player, {})
-			evData[player]["homerLogs"] = homerLogs[team].get(player, {})
+			evData[player]["homerLogs"] = homerLogs.get(player, {})
 
 	u = "static/dingers/ev.json"
 	if parx:
