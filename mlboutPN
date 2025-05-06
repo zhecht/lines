@@ -1,3643 +1,2162 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608865047,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Colorado Rockies",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Detroit Tigers",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -135
       },
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "under",
+        "points": 1.5,
+        "price": 111
       }
     ],
-    "rotation": 929,
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 22,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 597663612
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608914401,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608914402,
-        "name": "Detroit Tigers",
-        "order": 0,
-        "rotation": 1031
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": -113
       },
       {
-        "alignment": "neutral",
-        "id": 1608914403,
-        "name": "Colorado Rockies",
-        "order": 0,
-        "rotation": 1032
+        "designation": "under",
+        "points": 2.5,
+        "price": -107
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1031,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 420980135
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284827,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Colorado Rockies  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 143
       },
       {
-        "alignment": "away",
-        "name": "Detroit Tigers  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "away",
+        "points": -0.0,
+        "price": -165
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9929,
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 597656894
+    "status": "open",
+    "type": "spread",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284828,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284829,
-        "name": "Detroit Tigers 1, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284830,
-        "name": "Detroit Tigers 2, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284831,
-        "name": "Detroit Tigers 3, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284832,
-        "name": "Detroit Tigers 4, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284833,
-        "name": "Detroit Tigers 5, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284834,
-        "name": "Detroit Tigers 6, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284835,
-        "name": "Detroit Tigers 7, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284836,
-        "name": "Detroit Tigers 0, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284837,
-        "name": "Detroit Tigers 2, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284838,
-        "name": "Detroit Tigers 3, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284839,
-        "name": "Detroit Tigers 4, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284840,
-        "name": "Detroit Tigers 5, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284841,
-        "name": "Detroit Tigers 6, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284842,
-        "name": "Detroit Tigers 7, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284843,
-        "name": "Detroit Tigers 0, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284844,
-        "name": "Detroit Tigers 1, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284845,
-        "name": "Detroit Tigers 3, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284846,
-        "name": "Detroit Tigers 4, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284847,
-        "name": "Detroit Tigers 5, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284848,
-        "name": "Detroit Tigers 6, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284849,
-        "name": "Detroit Tigers 7, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284850,
-        "name": "Detroit Tigers 0, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284851,
-        "name": "Detroit Tigers 1, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284852,
-        "name": "Detroit Tigers 2, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284853,
-        "name": "Detroit Tigers 4, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284854,
-        "name": "Detroit Tigers 5, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284855,
-        "name": "Detroit Tigers 6, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284856,
-        "name": "Detroit Tigers 7, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284857,
-        "name": "Detroit Tigers 0, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284858,
-        "name": "Detroit Tigers 1, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284859,
-        "name": "Detroit Tigers 2, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284860,
-        "name": "Detroit Tigers 3, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284861,
-        "name": "Detroit Tigers 5, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284862,
-        "name": "Detroit Tigers 6, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284863,
-        "name": "Detroit Tigers 7, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284864,
-        "name": "Detroit Tigers 0, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284865,
-        "name": "Detroit Tigers 1, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284866,
-        "name": "Detroit Tigers 2, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284867,
-        "name": "Detroit Tigers 3, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284868,
-        "name": "Detroit Tigers 4, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284869,
-        "name": "Detroit Tigers 6, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284870,
-        "name": "Detroit Tigers 7, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284871,
-        "name": "Detroit Tigers 0, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284872,
-        "name": "Detroit Tigers 1, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284873,
-        "name": "Detroit Tigers 2, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284874,
-        "name": "Detroit Tigers 3, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284875,
-        "name": "Detroit Tigers 4, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284876,
-        "name": "Detroit Tigers 5, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284877,
-        "name": "Detroit Tigers 7, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284878,
-        "name": "Detroit Tigers 0, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284879,
-        "name": "Detroit Tigers 1, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284880,
-        "name": "Detroit Tigers 2, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284881,
-        "name": "Detroit Tigers 3, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284882,
-        "name": "Detroit Tigers 4, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284883,
-        "name": "Detroit Tigers 5, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284884,
-        "name": "Detroit Tigers 6, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 984
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -135
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 114
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284885,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284886,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": 100
       },
       {
-        "alignment": "neutral",
-        "id": 1609284887,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": -0.5,
+        "price": -117
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Detroit Tigers Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284888,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284889,
-        "name": "Detroit Tigers & Over 4.5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284890,
-        "name": "Colorado Rockies & Over 4.5",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284891,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284892,
-        "name": "Detroit Tigers & Under 4.5",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284893,
-        "name": "Colorado Rockies & Under 4.5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284894,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 934
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -0.5,
+        "price": 177
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -214
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284895,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284896,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 252
       },
       {
-        "alignment": "neutral",
-        "id": 1609284897,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "away",
+        "points": 1.0,
+        "price": -332
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284898,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284899,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 101
       },
       {
-        "alignment": "neutral",
-        "id": 1609284900,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "under",
+        "points": 5.0,
+        "price": -115
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284901,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284902,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -176
       },
       {
-        "alignment": "neutral",
-        "id": 1609284903,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "under",
+        "points": 4.0,
+        "price": 152
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284904,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284905,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -127
       },
       {
-        "alignment": "neutral",
-        "id": 1609284906,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "under",
+        "points": 4.5,
+        "price": 111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Detroit Tigers Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284907,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284908,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284909,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284910,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284911,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284912,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284913,
-        "name": "5",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284914,
-        "name": "6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284915,
-        "name": "7",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284916,
-        "name": "8+",
-        "order": 0,
-        "rotation": 937
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": 127
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -146
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Exact Total Runs"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284917,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284918,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 929
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.0,
+        "price": 167
       },
       {
-        "alignment": "neutral",
-        "id": 1609284919,
-        "name": "Even",
-        "order": 0,
-        "rotation": 930
+        "designation": "under",
+        "points": 6.0,
+        "price": -196
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098412268
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284920,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284921,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284922,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284923,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284924,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284925,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284926,
-        "name": "5",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284927,
-        "name": "6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284928,
-        "name": "7",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284929,
-        "name": "8+",
-        "order": 0,
-        "rotation": 937
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 155
+      },
+      {
+        "designation": "away",
+        "price": -173
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Detroit Tigers Exact Total Runs"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "moneyline",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284930,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284931,
-        "name": "Detroit Tigers & Over 8.5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284932,
-        "name": "Colorado Rockies & Over 8.5",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284933,
-        "name": "Detroit Tigers & Under 8.5",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284934,
-        "name": "Colorado Rockies & Under 8.5",
-        "order": 0,
-        "rotation": 932
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -129
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 111
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284935,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;5.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284936,
-        "name": "Detroit Tigers By 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284937,
-        "name": "Detroit Tigers By 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284938,
-        "name": "Detroit Tigers By 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284939,
-        "name": "Detroit Tigers By 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284940,
-        "name": "Detroit Tigers By 5+",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284941,
-        "name": "Colorado Rockies By 1",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284942,
-        "name": "Colorado Rockies By 2",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284943,
-        "name": "Colorado Rockies By 3",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284944,
-        "name": "Colorado Rockies By 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284945,
-        "name": "Colorado Rockies By 5+",
-        "order": 0,
-        "rotation": 938
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": -102
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -115
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284946,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284947,
-        "name": "Detroit Tigers By 1 - 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284948,
-        "name": "Detroit Tigers By 3 - 4",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284949,
-        "name": "Detroit Tigers By 5 - 6",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284950,
-        "name": "Detroit Tigers By 7+",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284951,
-        "name": "Colorado Rockies By 1 - 2",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284952,
-        "name": "Colorado Rockies By 3 - 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284953,
-        "name": "Colorado Rockies By 5 - 6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284954,
-        "name": "Colorado Rockies By 7+",
-        "order": 0,
-        "rotation": 936
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -102
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": -110
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284955,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284956,
-        "name": "1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284957,
-        "name": "2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284958,
-        "name": "3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284959,
-        "name": "4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284960,
-        "name": "5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284961,
-        "name": "6",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284962,
-        "name": "7",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284963,
-        "name": "8",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284964,
-        "name": "9",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284965,
-        "name": "10",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284966,
-        "name": "11",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284967,
-        "name": "12",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284968,
-        "name": "13",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284969,
-        "name": "14",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284970,
-        "name": "15+",
-        "order": 0,
-        "rotation": 943
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 3.0,
+        "price": -210
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 170
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284971,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284972,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284973,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284974,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284975,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284976,
-        "name": "13+",
-        "order": 0,
-        "rotation": 933
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 2.5,
+        "price": -160
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 135
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284979,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284980,
-        "name": "Detroit Tigers By 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284981,
-        "name": "Detroit Tigers By 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284982,
-        "name": "Detroit Tigers By 3+",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284983,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284984,
-        "name": "Colorado Rockies By 1",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284985,
-        "name": "Colorado Rockies By 2",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284986,
-        "name": "Colorado Rockies By 3+",
-        "order": 0,
-        "rotation": 935
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.0,
+        "price": -130
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 114
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609284987,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609284988,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284989,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284990,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284991,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284992,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284993,
-        "name": "5",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284994,
-        "name": "6",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284995,
-        "name": "7",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284996,
-        "name": "8",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284997,
-        "name": "9",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284998,
-        "name": "10",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609284999,
-        "name": "11+",
-        "order": 0,
-        "rotation": 940
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": 125
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": -144
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609285000,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609285001,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285002,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285003,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285004,
-        "name": "7+",
-        "order": 0,
-        "rotation": 932
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 235
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -295
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609285005,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609285006,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285007,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285008,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285009,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285010,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285011,
-        "name": "5+",
-        "order": 0,
-        "rotation": 934
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 278
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -375
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Detroit Tigers Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "spread",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609285012,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609285013,
-        "name": "0",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285014,
-        "name": "1",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285015,
-        "name": "2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285016,
-        "name": "3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285017,
-        "name": "4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285018,
-        "name": "5+",
-        "order": 0,
-        "rotation": 934
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 9.5,
+        "price": -105
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -107
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609285019,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 40,
-        "matchupCountSE": 40,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608865047,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Colorado Rockies",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Detroit Tigers",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T00:40:00+00:00"
-    },
-    "parentId": 1608865047,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609285020,
-        "name": "Detroit Tigers 0, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285021,
-        "name": "Detroit Tigers 0, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285022,
-        "name": "Detroit Tigers 0, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285023,
-        "name": "Detroit Tigers 0, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285024,
-        "name": "Detroit Tigers 0, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285025,
-        "name": "Detroit Tigers 0, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285026,
-        "name": "Detroit Tigers 0, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285027,
-        "name": "Detroit Tigers 1, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285028,
-        "name": "Detroit Tigers 1, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285029,
-        "name": "Detroit Tigers 1, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285030,
-        "name": "Detroit Tigers 1, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285031,
-        "name": "Detroit Tigers 1, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285032,
-        "name": "Detroit Tigers 1, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285033,
-        "name": "Detroit Tigers 1, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285034,
-        "name": "Detroit Tigers 1, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285035,
-        "name": "Detroit Tigers 2, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285036,
-        "name": "Detroit Tigers 2, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285037,
-        "name": "Detroit Tigers 2, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285038,
-        "name": "Detroit Tigers 2, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285039,
-        "name": "Detroit Tigers 2, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285040,
-        "name": "Detroit Tigers 2, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285041,
-        "name": "Detroit Tigers 2, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285042,
-        "name": "Detroit Tigers 2, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285043,
-        "name": "Detroit Tigers 3, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285044,
-        "name": "Detroit Tigers 3, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285045,
-        "name": "Detroit Tigers 3, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285046,
-        "name": "Detroit Tigers 3, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285047,
-        "name": "Detroit Tigers 3, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285048,
-        "name": "Detroit Tigers 3, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285049,
-        "name": "Detroit Tigers 3, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285050,
-        "name": "Detroit Tigers 3, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285051,
-        "name": "Detroit Tigers 4, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285052,
-        "name": "Detroit Tigers 4, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285053,
-        "name": "Detroit Tigers 4, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285054,
-        "name": "Detroit Tigers 4, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285055,
-        "name": "Detroit Tigers 4, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285056,
-        "name": "Detroit Tigers 4, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285057,
-        "name": "Detroit Tigers 4, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285058,
-        "name": "Detroit Tigers 4, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285059,
-        "name": "Detroit Tigers 5, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285060,
-        "name": "Detroit Tigers 5, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285061,
-        "name": "Detroit Tigers 5, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285062,
-        "name": "Detroit Tigers 5, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285063,
-        "name": "Detroit Tigers 5, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285064,
-        "name": "Detroit Tigers 5, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285065,
-        "name": "Detroit Tigers 5, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285066,
-        "name": "Detroit Tigers 5, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285067,
-        "name": "Detroit Tigers 6, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285068,
-        "name": "Detroit Tigers 6, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285069,
-        "name": "Detroit Tigers 6, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285070,
-        "name": "Detroit Tigers 6, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285071,
-        "name": "Detroit Tigers 6, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285072,
-        "name": "Detroit Tigers 6, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285073,
-        "name": "Detroit Tigers 6, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285074,
-        "name": "Detroit Tigers 6, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285075,
-        "name": "Detroit Tigers 7, Colorado Rockies 0",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285076,
-        "name": "Detroit Tigers 7, Colorado Rockies 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285077,
-        "name": "Detroit Tigers 7, Colorado Rockies 2",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285078,
-        "name": "Detroit Tigers 7, Colorado Rockies 3",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285079,
-        "name": "Detroit Tigers 7, Colorado Rockies 4",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285080,
-        "name": "Detroit Tigers 7, Colorado Rockies 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285081,
-        "name": "Detroit Tigers 7, Colorado Rockies 6",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609285082,
-        "name": "Detroit Tigers 7, Colorado Rockies 7",
-        "order": 0,
-        "rotation": 991
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T00:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 6.5,
+        "price": -382
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": 291
       }
     ],
-    "rotation": 929,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-07T00:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 420980344
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -197
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 171
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -159
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": 141
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": -132
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": 117
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": 111
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -125
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.5,
+        "price": 127
+      },
+      {
+        "designation": "under",
+        "points": 10.5,
+        "price": -144
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.0,
+        "price": 160
+      },
+      {
+        "designation": "under",
+        "points": 11.0,
+        "price": -183
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;13.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 13.5,
+        "price": 323
+      },
+      {
+        "designation": "under",
+        "points": 13.5,
+        "price": -434
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098415484
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 293
+      },
+      {
+        "designation": "away",
+        "price": 239
+      },
+      {
+        "designation": "draw",
+        "price": -109
+      }
+    ],
+    "status": "open",
+    "type": "moneyline",
+    "version": 3098420019
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 110
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": -128
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3098420019
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608865047,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -122
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": 104
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098420019
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608914401,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608914402,
+        "price": -188
+      },
+      {
+        "participantId": 1608914403,
+        "price": 158
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967920145
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;28.0",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284827,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 28.0,
+        "price": -120
+      },
+      {
+        "designation": "under",
+        "points": 28.0,
+        "price": -101
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3098388081
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284828,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284859,
+        "price": 3614
+      },
+      {
+        "participantId": 1609284860,
+        "price": 2216
+      },
+      {
+        "participantId": 1609284861,
+        "price": 2823
+      },
+      {
+        "participantId": 1609284862,
+        "price": 3102
+      },
+      {
+        "participantId": 1609284863,
+        "price": 3535
+      },
+      {
+        "participantId": 1609284864,
+        "price": 8868
+      },
+      {
+        "participantId": 1609284865,
+        "price": 5731
+      },
+      {
+        "participantId": 1609284866,
+        "price": 4296
+      },
+      {
+        "participantId": 1609284867,
+        "price": 3630
+      },
+      {
+        "participantId": 1609284868,
+        "price": 2328
+      },
+      {
+        "participantId": 1609284869,
+        "price": 3322
+      },
+      {
+        "participantId": 1609284870,
+        "price": 3790
+      },
+      {
+        "participantId": 1609284872,
+        "price": 6929
+      },
+      {
+        "participantId": 1609284873,
+        "price": 5253
+      },
+      {
+        "participantId": 1609284874,
+        "price": 4470
+      },
+      {
+        "participantId": 1609284875,
+        "price": 4119
+      },
+      {
+        "participantId": 1609284876,
+        "price": 2732
+      },
+      {
+        "participantId": 1609284877,
+        "price": 4225
+      },
+      {
+        "participantId": 1609284879,
+        "price": 8444
+      },
+      {
+        "participantId": 1609284880,
+        "price": 6573
+      },
+      {
+        "participantId": 1609284881,
+        "price": 5630
+      },
+      {
+        "participantId": 1609284882,
+        "price": 5192
+      },
+      {
+        "participantId": 1609284883,
+        "price": 5083
+      },
+      {
+        "participantId": 1609284884,
+        "price": 3476
+      },
+      {
+        "participantId": 1609284829,
+        "price": 7521
+      },
+      {
+        "participantId": 1609284830,
+        "price": 6038
+      },
+      {
+        "participantId": 1609284831,
+        "price": 5372
+      },
+      {
+        "participantId": 1609284832,
+        "price": 5313
+      },
+      {
+        "participantId": 1609284833,
+        "price": 5461
+      },
+      {
+        "participantId": 1609284834,
+        "price": 5898
+      },
+      {
+        "participantId": 1609284835,
+        "price": 6498
+      },
+      {
+        "participantId": 1609284836,
+        "price": 6281
+      },
+      {
+        "participantId": 1609284837,
+        "price": 3925
+      },
+      {
+        "participantId": 1609284838,
+        "price": 3520
+      },
+      {
+        "participantId": 1609284839,
+        "price": 3388
+      },
+      {
+        "participantId": 1609284840,
+        "price": 3562
+      },
+      {
+        "participantId": 1609284841,
+        "price": 3871
+      },
+      {
+        "participantId": 1609284842,
+        "price": 4364
+      },
+      {
+        "participantId": 1609284843,
+        "price": 6561
+      },
+      {
+        "participantId": 1609284844,
+        "price": 3393
+      },
+      {
+        "participantId": 1609284845,
+        "price": 2919
+      },
+      {
+        "participantId": 1609284846,
+        "price": 2850
+      },
+      {
+        "participantId": 1609284847,
+        "price": 2934
+      },
+      {
+        "participantId": 1609284848,
+        "price": 3250
+      },
+      {
+        "participantId": 1609284849,
+        "price": 3692
+      },
+      {
+        "participantId": 1609284850,
+        "price": 6919
+      },
+      {
+        "participantId": 1609284851,
+        "price": 4312
+      },
+      {
+        "participantId": 1609284852,
+        "price": 2455
+      },
+      {
+        "participantId": 1609284853,
+        "price": 2669
+      },
+      {
+        "participantId": 1609284854,
+        "price": 2785
+      },
+      {
+        "participantId": 1609284855,
+        "price": 3034
+      },
+      {
+        "participantId": 1609284856,
+        "price": 3502
+      },
+      {
+        "participantId": 1609284857,
+        "price": 7688
+      },
+      {
+        "participantId": 1609284858,
+        "price": 4888
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967847676
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284885,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284886,
+        "price": -106
+      },
+      {
+        "participantId": 1609284887,
+        "price": -110
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284888,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609284889,
+        "price": 198
+      },
+      {
+        "participantId": 1609284890,
+        "price": 353
+      },
+      {
+        "participantId": 1609284891,
+        "price": 1393
+      },
+      {
+        "participantId": 1609284892,
+        "price": 327
+      },
+      {
+        "participantId": 1609284893,
+        "price": 459
+      },
+      {
+        "participantId": 1609284894,
+        "price": 643
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284895,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284896,
+        "price": -105
+      },
+      {
+        "participantId": 1609284897,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284898,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609284899,
+        "price": 113
+      },
+      {
+        "participantId": 1609284900,
+        "price": -132
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284901,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284902,
+        "price": -151
+      },
+      {
+        "participantId": 1609284903,
+        "price": 128
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284904,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609284905,
+        "price": 107
+      },
+      {
+        "participantId": 1609284906,
+        "price": -125
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284907,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284908,
+        "price": 1009
+      },
+      {
+        "participantId": 1609284909,
+        "price": 607
+      },
+      {
+        "participantId": 1609284910,
+        "price": 491
+      },
+      {
+        "participantId": 1609284911,
+        "price": 467
+      },
+      {
+        "participantId": 1609284912,
+        "price": 497
+      },
+      {
+        "participantId": 1609284913,
+        "price": 575
+      },
+      {
+        "participantId": 1609284914,
+        "price": 706
+      },
+      {
+        "participantId": 1609284915,
+        "price": 902
+      },
+      {
+        "participantId": 1609284916,
+        "price": 518
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284917,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609284918,
+        "price": -107
+      },
+      {
+        "participantId": 1609284919,
+        "price": -109
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284920,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284928,
+        "price": 693
+      },
+      {
+        "participantId": 1609284929,
+        "price": 228
+      },
+      {
+        "participantId": 1609284921,
+        "price": 1638
+      },
+      {
+        "participantId": 1609284922,
+        "price": 1021
+      },
+      {
+        "participantId": 1609284923,
+        "price": 748
+      },
+      {
+        "participantId": 1609284924,
+        "price": 626
+      },
+      {
+        "participantId": 1609284925,
+        "price": 576
+      },
+      {
+        "participantId": 1609284926,
+        "price": 574
+      },
+      {
+        "participantId": 1609284927,
+        "price": 614
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284930,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284931,
+        "price": 145
+      },
+      {
+        "participantId": 1609284932,
+        "price": 317
+      },
+      {
+        "participantId": 1609284933,
+        "price": 287
+      },
+      {
+        "participantId": 1609284934,
+        "price": 402
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284935,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284936,
+        "price": 595
+      },
+      {
+        "participantId": 1609284937,
+        "price": 635
+      },
+      {
+        "participantId": 1609284938,
+        "price": 705
+      },
+      {
+        "participantId": 1609284939,
+        "price": 830
+      },
+      {
+        "participantId": 1609284940,
+        "price": 286
+      },
+      {
+        "participantId": 1609284941,
+        "price": 467
+      },
+      {
+        "participantId": 1609284942,
+        "price": 872
+      },
+      {
+        "participantId": 1609284943,
+        "price": 1105
+      },
+      {
+        "participantId": 1609284944,
+        "price": 1428
+      },
+      {
+        "participantId": 1609284945,
+        "price": 868
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284946,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284947,
+        "price": 308
+      },
+      {
+        "participantId": 1609284948,
+        "price": 402
+      },
+      {
+        "participantId": 1609284949,
+        "price": 610
+      },
+      {
+        "participantId": 1609284950,
+        "price": 550
+      },
+      {
+        "participantId": 1609284951,
+        "price": 307
+      },
+      {
+        "participantId": 1609284952,
+        "price": 717
+      },
+      {
+        "participantId": 1609284953,
+        "price": 1305
+      },
+      {
+        "participantId": 1609284954,
+        "price": 1687
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284955,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284960,
+        "price": 857
+      },
+      {
+        "participantId": 1609284961,
+        "price": 1004
+      },
+      {
+        "participantId": 1609284962,
+        "price": 674
+      },
+      {
+        "participantId": 1609284963,
+        "price": 853
+      },
+      {
+        "participantId": 1609284964,
+        "price": 649
+      },
+      {
+        "participantId": 1609284965,
+        "price": 868
+      },
+      {
+        "participantId": 1609284966,
+        "price": 730
+      },
+      {
+        "participantId": 1609284967,
+        "price": 1009
+      },
+      {
+        "participantId": 1609284968,
+        "price": 918
+      },
+      {
+        "participantId": 1609284969,
+        "price": 1289
+      },
+      {
+        "participantId": 1609284970,
+        "price": 414
+      },
+      {
+        "participantId": 1609284956,
+        "price": 3323
+      },
+      {
+        "participantId": 1609284957,
+        "price": 3079
+      },
+      {
+        "participantId": 1609284958,
+        "price": 1412
+      },
+      {
+        "participantId": 1609284959,
+        "price": 1493
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284971,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609284972,
+        "price": 1012
+      },
+      {
+        "participantId": 1609284973,
+        "price": 402
+      },
+      {
+        "participantId": 1609284974,
+        "price": 235
+      },
+      {
+        "participantId": 1609284975,
+        "price": 302
+      },
+      {
+        "participantId": 1609284976,
+        "price": 233
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284979,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609284980,
+        "price": 510
+      },
+      {
+        "participantId": 1609284981,
+        "price": 593
+      },
+      {
+        "participantId": 1609284982,
+        "price": 237
+      },
+      {
+        "participantId": 1609284983,
+        "price": 478
+      },
+      {
+        "participantId": 1609284984,
+        "price": 597
+      },
+      {
+        "participantId": 1609284985,
+        "price": 788
+      },
+      {
+        "participantId": 1609284986,
+        "price": 464
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609284987,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609284992,
+        "price": 540
+      },
+      {
+        "participantId": 1609284993,
+        "price": 562
+      },
+      {
+        "participantId": 1609284994,
+        "price": 632
+      },
+      {
+        "participantId": 1609284995,
+        "price": 744
+      },
+      {
+        "participantId": 1609284996,
+        "price": 906
+      },
+      {
+        "participantId": 1609284997,
+        "price": 1131
+      },
+      {
+        "participantId": 1609284998,
+        "price": 1437
+      },
+      {
+        "participantId": 1609284999,
+        "price": 862
+      },
+      {
+        "participantId": 1609284988,
+        "price": 1514
+      },
+      {
+        "participantId": 1609284989,
+        "price": 867
+      },
+      {
+        "participantId": 1609284990,
+        "price": 640
+      },
+      {
+        "participantId": 1609284991,
+        "price": 556
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609285000,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609285001,
+        "price": 319
+      },
+      {
+        "participantId": 1609285002,
+        "price": 267
+      },
+      {
+        "participantId": 1609285003,
+        "price": 297
+      },
+      {
+        "participantId": 1609285004,
+        "price": 193
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609285005,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609285006,
+        "price": 440
+      },
+      {
+        "participantId": 1609285007,
+        "price": 403
+      },
+      {
+        "participantId": 1609285008,
+        "price": 400
+      },
+      {
+        "participantId": 1609285009,
+        "price": 464
+      },
+      {
+        "participantId": 1609285010,
+        "price": 578
+      },
+      {
+        "participantId": 1609285011,
+        "price": 271
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609285012,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609285013,
+        "price": 299
+      },
+      {
+        "participantId": 1609285014,
+        "price": 296
+      },
+      {
+        "participantId": 1609285015,
+        "price": 380
+      },
+      {
+        "participantId": 1609285016,
+        "price": 514
+      },
+      {
+        "participantId": 1609285017,
+        "price": 714
+      },
+      {
+        "participantId": 1609285018,
+        "price": 456
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967845790
+  },
+  {
+    "cutoffAt": "2025-05-07T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609285019,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609285022,
+        "price": 2647
+      },
+      {
+        "participantId": 1609285023,
+        "price": 3440
+      },
+      {
+        "participantId": 1609285024,
+        "price": 4503
+      },
+      {
+        "participantId": 1609285027,
+        "price": 1638
+      },
+      {
+        "participantId": 1609285028,
+        "price": 1638
+      },
+      {
+        "participantId": 1609285029,
+        "price": 1984
+      },
+      {
+        "participantId": 1609285030,
+        "price": 2497
+      },
+      {
+        "participantId": 1609285031,
+        "price": 3217
+      },
+      {
+        "participantId": 1609285032,
+        "price": 4269
+      },
+      {
+        "participantId": 1609285035,
+        "price": 1638
+      },
+      {
+        "participantId": 1609285036,
+        "price": 1621
+      },
+      {
+        "participantId": 1609285037,
+        "price": 1955
+      },
+      {
+        "participantId": 1609285038,
+        "price": 2468
+      },
+      {
+        "participantId": 1609285039,
+        "price": 3218
+      },
+      {
+        "participantId": 1609285040,
+        "price": 4270
+      },
+      {
+        "participantId": 1609285043,
+        "price": 1853
+      },
+      {
+        "participantId": 1609285044,
+        "price": 1835
+      },
+      {
+        "participantId": 1609285045,
+        "price": 2157
+      },
+      {
+        "participantId": 1609285046,
+        "price": 2731
+      },
+      {
+        "participantId": 1609285047,
+        "price": 3593
+      },
+      {
+        "participantId": 1609285048,
+        "price": 4744
+      },
+      {
+        "participantId": 1609285051,
+        "price": 2230
+      },
+      {
+        "participantId": 1609285052,
+        "price": 2182
+      },
+      {
+        "participantId": 1609285053,
+        "price": 2583
+      },
+      {
+        "participantId": 1609285054,
+        "price": 3219
+      },
+      {
+        "participantId": 1609285055,
+        "price": 4186
+      },
+      {
+        "participantId": 1609285059,
+        "price": 2755
+      },
+      {
+        "participantId": 1609285060,
+        "price": 2730
+      },
+      {
+        "participantId": 1609285061,
+        "price": 3212
+      },
+      {
+        "participantId": 1609285062,
+        "price": 3972
+      },
+      {
+        "participantId": 1609285067,
+        "price": 3580
+      },
+      {
+        "participantId": 1609285068,
+        "price": 3546
+      },
+      {
+        "participantId": 1609285069,
+        "price": 4143
+      },
+      {
+        "participantId": 1609285075,
+        "price": 4730
+      },
+      {
+        "participantId": 1609285076,
+        "price": 4692
+      },
+      {
+        "participantId": 1609285020,
+        "price": 1771
+      },
+      {
+        "participantId": 1609285021,
+        "price": 2108
+      }
+    ],
+    "type": "moneyline",
+    "version": 4967847676
   }
 ]
