@@ -858,6 +858,150 @@ def writeDKSel(date, loop, night):
 		json.dump(data, fh, indent=4)
 	writeHistorical(date, book)
 
+
+def writeDKApi(date, loop, night):
+	book = "dk"
+	mainCats = {
+		"batter": 743,
+	}
+	
+	subCats = {
+		743: [17319]
+	}
+
+	lines = nested_dict()
+	for mainCat in mainCats:
+		for subCat in subCats.get(mainCats[mainCat], [0]):
+			if propArg and "hr" in propArg and subCat not in [6606, 15520]:
+				continue
+			elif propArg and "k" in propArg and subCat != 15221:
+				continue
+			elif propArg and "single" in propArg and subCat != 11031:
+				continue
+			elif propArg and "double" in propArg and subCat != 11032:
+				continue
+			time.sleep(0.3)
+			#url = f"https://sportsbook-nash-usmi.draftkings.com/sites/US-MI-SB/api/v5/eventgroups/84240/categories/{mainCats[mainCat]}"
+			url = f"https://sportsbook-nash.draftkings.com/api/sportscontent/dkusmi/v1/leagues/84240/categories/{mainCats[mainCat]}"
+			if subCat:
+				url += f"/subcategories/{subCat}"
+			url += "?format=json"
+			#print(url)
+			outfile = "outmlbdk"
+			cookie = """-H 'Cookie: hgg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWQiOiIxODU4ODA5NTUwIiwiZGtoLTEyNiI6IjgzM1RkX1lKIiwiZGtlLTEyNiI6IjAiLCJka2UtMjA0IjoiNzEwIiwiZGtlLTI4OCI6IjExMjgiLCJka2UtMzE4IjoiMTI2MCIsImRrZS0zNDUiOiIxMzUzIiwiZGtlLTM0NiI6IjEzNTYiLCJka2UtNDI5IjoiMTcwNSIsImRrZS03MDAiOiIyOTkyIiwiZGtlLTczOSI6IjMxNDAiLCJka2UtNzU3IjoiMzIxMiIsImRrZS04MDYiOiIzNDI2IiwiZGtlLTgwNyI6IjM0MzciLCJka2UtODI0IjoiMzUxMSIsImRrZS04MjUiOiIzNTE0IiwiZGtlLTgzNiI6IjM1NzAiLCJka2gtODk1IjoiOGVTdlpEbzAiLCJka2UtODk1IjoiMCIsImRrZS05MDMiOiIzODQ4IiwiZGtlLTkxNyI6IjM5MTMiLCJka2UtOTQ3IjoiNDA0MiIsImRrZS05NzYiOiI0MTcxIiwiZGtoLTE2NDEiOiJSMGtfbG1rRyIsImRrZS0xNjQxIjoiMCIsImRrZS0xNjUzIjoiNzEzMSIsImRrZS0xNjg2IjoiNzI3MSIsImRrZS0xNjg5IjoiNzI4NyIsImRrZS0xNzU0IjoiNzYwNSIsImRrZS0xNzYwIjoiNzY0OSIsImRrZS0xNzc0IjoiNzcxMCIsImRrZS0xNzgwIjoiNzczMSIsImRrZS0xNzk0IjoiNzgwMSIsImRraC0xODA1IjoiT0drYmxrSHgiLCJka2UtMTgwNSI6IjAiLCJka2UtMTgyOCI6Ijc5NTYiLCJka2UtMTg2MSI6IjgxNTciLCJka2UtMTg2OCI6IjgxODgiLCJka2UtMTg5OCI6IjgzMTMiLCJka2gtMTk1MiI6ImFVZ2VEWGJRIiwiZGtlLTE5NTIiOiIwIiwiZGtzLTIwNzkiOiI5MTMzIiwiZGtlLTIwOTciOiI5MjA1IiwiZGtlLTIxMDAiOiI5MjIzIiwiZGtlLTIxMDMiOiI5MjQyIiwiZGtlLTIxMzUiOiI5MzkzIiwiZGtlLTIxNDEiOiI5NDM0IiwiZGtoLTIxNTAiOiJOa2JhU0Y4ZiIsImRrZS0yMTUwIjoiMCIsImRrZS0yMTYxIjoiOTUxNSIsImRrZS0yMTY1IjoiOTUzNSIsImRrcy0yMDE5IjoiODg0OCIsImRrcy0yMDIwIjoiODg1MCIsImRrcy0yMTkzIjoiOTY1OSIsImRrcy0yMTk0IjoiOTY2MyIsImRrZS0yMTk1IjoiOTY2NSIsImRrZS0yMjIwIjoiOTc2OCIsImRrZS0yMjIyIjoiOTc3NCIsImRraC0yMjI0IjoicjBFQ0xod3MiLCJka2UtMjIyNCI6IjAiLCJka2UtMjIyNiI6Ijk3ODkiLCJka2UtMjIzNyI6Ijk4MzQiLCJka2UtMjIzOCI6Ijk4MzciLCJka2UtMjI0MCI6Ijk4NTciLCJka2UtMjI0MSI6Ijk4NjUiLCJka2UtMjI0NiI6Ijk4ODciLCJka2UtMjI2NCI6Ijk5NzAiLCJka2UtMjI4MSI6IjEwMDQyIiwiZGtlLTIyODgiOiIxMDA5MiIsImRrZS0yMjg5IjoiMTAwOTYiLCJka2UtMjI5MSI6IjEwMTAzIiwiZGtlLTIzMDMiOiIxMDIwMCIsImRrZS0yMzEwIjoiMTAyNDYiLCJka2UtMjMxMSI6IjEwMjUwIiwiZGtlLTIzMTIiOiIxMDI1OCIsImRrZS0yMzE0IjoiMTAyNjMiLCJka2UtMjMxNiI6IjEwMjcxIiwiZGtlLTIzMTgiOiIxMDI4MCIsImRrZS0yMzI0IjoiMTAzMjMiLCJka2UtMjMyNyI6IjEwMzM0IiwiZGtlLTIzMjgiOiIxMDMzOCIsImRrZS0yMzMzIjoiMTAzNzEiLCJka2gtMjMzNiI6InkzTjl5VFN4IiwiZGtlLTIzMzYiOiIwIiwiZGtoLTIzMzciOiJTa0JFeTdBUCIsImRrZS0yMzM3IjoiMCIsImRrZS0yMzM5IjoiMTAzOTYiLCJka2UtMjM0MCI6IjEwNDA0IiwiZGtlLTIzNDEiOiIxMDQwNiIsImRrZS0yMzQyIjoiMTA0MTEiLCJka2UtMjM0NSI6IjEwNDMwIiwiZGtlLTIzNDYiOiIxMDQzMyIsImRrZS0yMzQ5IjoiMTA0NTgiLCJka2UtMjM1MCI6IjEwNDYzIiwiZGtlLTIzNTIiOiIxMDQ4MyIsImRraC0yMzUzIjoiMGVmdzVpM3YiLCJka2UtMjM1MyI6IjAiLCJka2gtMjM1NiI6Imc1a0h1NWh6IiwiZGtlLTIzNTYiOiIwIiwiZGtlLTIzNTgiOiIxMDUxMyIsImRrZS0yMzU5IjoiMTA1MTgiLCJuYmYiOjE3NDY1NTAxNDksImV4cCI6MTc0NjU1MDQ0OSwiaWF0IjoxNzQ2NTUwMTQ5LCJpc3MiOiJkayJ9.00mW8-YHtCcIX1B-E9nolAebcPgN-gPsjVECYnx1IEU; STE="2025-05-06T17:19:30.3720099Z"; STIDN=eyJDIjoxMjIzNTQ4NTIzLCJTIjo5NDMyNDA3MDgyMCwiU1MiOjk4MzA0NTE3MDA5LCJWIjoxODU4ODA5NTUwLCJMIjoxLCJFIjoiMjAyNS0wNS0wNlQxNzoxMzowMy4yNzc4MzE1WiIsIlNFIjoiVVMtREsiLCJVQSI6Ijl3b2JhVUUvNkNublhxM0hDbjB4MDJzWEVndUE0UDNsSUdLUUZFZE8va3M9IiwiREsiOiI2OGU5OWVkYi1kOWY4LTQ2ZTctYWVhMC05YmZiMDJhMWE1OTkiLCJESSI6ImU2ZWEyNDI4LTM3OTctNDc3YS05YWQyLTNiNzNjZWY3OTdlNyIsIkREIjo2MjQ0MDIxNTA4M30=; STH=ce7daf454073b63ca5680ab7bc031d5c6a404825a1806b50a51d33d217d29c45; _abck=79207192B7A8C5C29A826D0111889DD3~0~YAAQ7xw/F7azwYiWAQAApbx6pg1rdq68++/LExuHUqKNruRBUBdNW3OJlTB3Y2CSoZxPi7Rzzc+J6EIXS713NGMz0ND8PnLEcp+Zq9OM9qXrdyke8Bz3z1GqnmI4Uiq0pBmWGXp2wFXTu9RnHquNYitQ9w0U8IsknzxdDDKkJJtVb9c6/veMiqjhE3OYq7/8puAy0v65EYZ3wHckYiTfndLomSDs9kuXc9APPDrBHGGfMqn/W3+bH9eYPSs6Km6/2FMhz86nRb1uNmOq4a+F7PY3TASNSN7Oxc7PujmAk+L6n9vD5w1Dat9h9P5aVFCVahyzI/oO0B4wnGxS24+a2AF8RjARd8ucv1jWdoG4M8orzRe72316DlW3vzJ0arULPxLloeyQZ1DzKTFjBvugRwHCQ90njeZ70sY/ql8acau8P0FPMZIIw/yEYg5NDnXqy7IIzRScyeSrIaFDxgv7drV1OhElSOox4qasTEEtiuR10RultOBTquSbkQWdm4igElXRshSTr7KpFMbCzldmdvmReveELblNBdxJU9fU0+0nqu9oflQmOs0xqiFbjX1rKnHVP4RF8L7QOsfNkqi8j1ovRcOTl2tqK37HEaPhzFH38RH2FbGCJUk1diAf/c3oeglb/gm25SlvwDMGMRs8MGp/DBZsCTNb54Iwdh71da/Drj3bbKopMR8Ts9It3DuBVhsk9ASMZuX2grieNZYG9i6oRqsznacOcVCpFBuAOK20wXROCWj9jnSzoemYFqNIpE/2hiejRFOEIXewmJtHd0MYbgIQS2Yz05CqC+OFw1N1Tk0dyr5meqQ=~-1~-1~-1; _dpm_id.16f4=b80869a3-625c-4846-a155-16a5fdfbfa10.1739405531.80.1746549824.1746462655.64818bb9-4efe-48de-8ad2-db7e38205f61; _tgpc=b4ba6823-4aa4-5ebb-b46d-9556fa0fabc0; _tglksd=eyJzIjoiMzFjM2JkMjUtMDQ3YS01ZjMyLWExZmUtNzYyNDNmOWYxZTgwIiwic3QiOjE3NDE3NDczOTc1NzksInNvZCI6IihkaXJlY3QpIiwic29kdCI6MTc0MDYwNjYwODcyMCwic29kcyI6Im8iLCJzb2RzdCI6MTc0MDYwNjYwODcyMH0=; _sp_srt_id.16f4=da0e1cd6-bc30-4c7a-8061-3ddf5c612d4e.1739405532.78.1746549825.1746462656.f0ed6839-6cac-4e92-9457-523af852b269.c6714f43-096c-48b1-acee-b1e3ab65aa63...0; _gcl_au=1.1.21040710.1739405532; _ga_QG8WHJSQMJ=GS2.1.s1746549788$o89$g1$t1746550170$j60$l0$h0; _ga=GA1.1.295993567.1739405532; PRV=3P=0&V=1858809550&E=1746636183; ss-pid=xLVY5Iz0ovpHmAfrqLI7; ab.storage.sessionId.b543cb99-2762-451f-9b3e-91b2b1538a42=%7B%22g%22%3A%220d0e4f80-4483-ac3d-7557-313f102a9d46%22%2C%22e%22%3A1746551625215%2C%22c%22%3A1746549786247%2C%22l%22%3A1746549825215%7D; _scid=f9fmQ3aISR4DACGy5G6BsoFsosxKelLYr1aeHw; _svsid=9d0929120b67695ad6ee074ccfd583b7; _ga_M8T3LWXCC5=GS2.2.s1746549825$o74$g0$t1746549825$j60$l0$h0; _sctr=1%7C1746158400000; _hjSessionUser_2150570=eyJpZCI6Ijg2ZmNmOThiLTg5Y2YtNWRiMi04N2JlLTMxNmE2MmM4NGQxMCIsImNyZWF0ZWQiOjE3Mzk0OTM5MTM3MzUsImV4aXN0aW5nIjp0cnVlfQ==; site=US-DK; _csrf=ba945d1a-57c4-4b50-a4b2-1edea5014b72; ss-id=r5euvZ9m6uXjh6jDjFtb; _csrf=d90ba50a-ac17-4e0e-a925-72a7f838403b; ak_bmsc=7CB2940479752C68157CCB879139ABB4~000000000000000000000000000000~YAAQ7xw/F6OzwYiWAQAAL7x6phtfd4yvAW0ban9mECQ9rWrQ5xWVd23/jVTWg1wmtk2T7zDb+0JR2Bv7r25P70vcqNNuLDu9v49q2isFogpj+BA5N8UavcvvZB3xS5T2ArXHNPtmoez+NGs2pPbP69Pm7DmbS56Xj0t+irnMQ/51cPX6y/U9mNahSFPmxOg9oLN0hHccEK2xFp0ddXJfeCpW7hXKh1a/j8A1xrua2G3JG+khln+OO5p9LiJOvVKLWrXpt82L9IFDFCCbB/5PJH2D163Pxhgy5Dm6eON+v/D4FxKvq64aY83jhOCgoEX6FLjqJCrvzVw8sTtk3F9lhFl7BcQmpKesMijwXvRNkHSxWwriVT6qX4ydZFbLMvw/wdFUcvQx4AYDkTSnrC3DDGjY9dG2JNpN4BEH9A/fnkvaLyF4VQ==; bm_sz=D7D9304C76E845F0CF5E0D6F42889140~YAAQ6hw/F0c9koyWAQAA4aGAphvyt3W7XRwDbeS7aiYtstr7b39yiaXl5vtSW7nQqLX/AvQU9EKNSQ9kONT/ojasEyhoqfwuvLCTCoau/56nO8YJNemTEjXEq3wqk2x4l718W3uTQ8DAO6tsDtHOrf2M+IK7+znJo8S2FDo8HV+WRqwnSrn+/Ur58hE2efsZTkgllfCUYccdX53YvjHsknwGFrgyq5ANpfGj2OT7Y1xvJ29PiVu32JcmCd1ue15BoYbgTGGQRO1OJZVLRPioVOOQCVuL/wUFP7qdVM67288MU2W8kkJflPR4lb9Z1J0CPe7e2MP/KjkhiB5rUaSziRlI3V1WJ5/VOrBxlyYA2HB06GkywWbohrFAPwOpgW97ebcu8Kzs/lxLJdd3e3cN9mCEjgeJSljaUkvGGSZJ2+HNiq+RilaZiQxCgmbrrVVvLNOLC/kD+vVSY0yDiQ==~3491378~4469830; bm_sv=36561FDB53C4BB93D9D2DF02D3DDD40B~YAAQ6hw/F6s9koyWAQAA9KOAphv+fmKPKFNU7xgdAGN6++OkoIWPQS7aD9mX6DA46tlKO/KrEy787nioc2AP71ObdoigfNZ3Xfe9jVXCpYrIDXLD4NLgAHpnoFQFcutNkmuGBd6TJYojwIHC87O+7m8+C4mSIZI9z5QjUSyITZ9LoxiW36qWjmXe41EPzsbjs+5K/pqXuE9vAiU/ccW4Dko1GSvb90MQTIeDb7YJXnDD6/wZumEgTChBUfz2vyHitW+YeZQ=~1; _dpm_ses.16f4=*; _sp_srt_ses.16f4=*; _hjSession_2150570=eyJpZCI6IjZhNTMyYjY2LWEwNzktNDY0Mi1iYTRjLTdhYjc0YmVhMWYzMCIsImMiOjE3NDY1NDk4MDY4MDQsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=; _rdt_uuid=1739493910839.b8d9d6b9-37a2-49b2-9486-b9060fddaa81; _scid_r=atfmQ3aISR4DACGy5G6BsoFsosxKelLYr1aedA; _uetsid=317c19102a9911f0940c9546a4dbc989; _uetvid=d50156603a0211efbb275bc348d5d48b; _gid=GA1.2.1930863984.1746549825'"""
+			os.system(f"curl -s {url} --compressed -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Connection: keep-alive' {cookie} -o {outfile}")
+
+			with open(outfile) as fh:
+				data = json.load(fh)
+
+			if debug:
+				with open("out", "w") as fh:
+					json.dump(data, fh, indent=4)
+
+			prop = propIds.get(subCat, "")
+			#print(prop)
+
+			events = {}
+			#if "eventGroup" not in data:
+			#	print("eventGroup not found")
+			#	continue
+
+			if "events" not in data:
+				print("events not found")
+				continue
+
+			started_events = {}
+			for event in data["events"]:
+				start = f"{event['startEventDate'].split('T')[0]}T{':'.join(event['startEventDate'].split('T')[1].split(':')[:2])}Z"
+				game = event["name"].lower()
+				games = []
+				for team in game.split(" @ "):
+					t = convertTeam(team)
+					games.append(t)
+				game = " @ ".join(games)
+				startDt = datetime.strptime(start, "%Y-%m-%dT%H:%MZ") - timedelta(hours=4)
+				if startDt.day != int(date[-2:]):
+					started_events[event["id"]] = game
+					continue
+					pass
+				if event.get("status", "") == "STARTED":
+					started_events[event["id"]] = game
+					continue
+
+				events[event["id"]] = game
+
+			#print(events)
+			markets = {}
+			for row in data["markets"]:
+				markets[row["id"]] = row
+
+			selections = {}
+			for row in data["selections"]:
+				selections.setdefault(row["marketId"], [])
+				selections[row["marketId"]].append(row)
+
+			for marketId, selections in selections.items():
+				market = markets[marketId]
+				if started_events.get(market["eventId"]):
+					continue
+				game = events[market["eventId"]]
+				catId = market["subcategoryId"]
+				prop = propIds.get(catId, "")
+
+				alt = False
+				if prop:
+					if "-alt" in prop:
+						alt = True
+						prop = prop.replace("-alt", "")
+				else:
+					prop = market["name"].lower().split(" [")[0]
+					fullProp = prop
+					prop = getDKProp(game, prop, catId)
+
+				if not prop:
+					continue
+
+				skip = 1 if alt else 2
+				for idx in range(0, len(selections), skip):
+					selection = selections[idx]
+
+					over = selection["displayOdds"]["american"].replace("\u2212", "-")
+					ou = over
+					if skip != 1:
+						under = selections[idx+1]["displayOdds"]["american"].replace("\u2212", "-")
+
+						isOver = selection["outcomeType"] in ["Over", "Away"]
+						if not isOver:
+							over,under = under,over
+							pass
+						ou = f"{over}/{under}"
+
+					line = selection.get("points", "")
+					if alt:
+						line = str(float(selection["label"].split("+")[0]) - 0.5)
+					participants = selection.get("participants", [])
+
+					if not line:
+						lines[game][prop] = ou
+					else:
+						line = str(float(line))
+
+						if participants and participants[0]["type"] == "Player":
+							player = parsePlayer(participants[0]["name"])
+							if alt and line in lines[game][prop][player]:
+								over = lines[game][prop][player][line].split("/")[0]
+								rest = lines[game][prop][player][line].replace(over, "")
+								if int(ou) > int(over):
+									over = ou
+								ou = f"{over}{rest}"
+
+							lines[game][prop][player][line] = ou
+						else:
+							lines[game][prop][line] = ou
+
+							if prop == "f1_total" and line == "0.5":
+								lines[game]["rfi"] = ou
+
 async def writeDK(date, loop, night):
 	book = "dk"
 	try:
