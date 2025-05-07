@@ -1,6113 +1,2773 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608935706,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Atlanta Braves",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Cincinnati Reds",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -106
       },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "under",
+        "points": 2.5,
+        "price": -114
       }
     ],
-    "rotation": 959,
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 54,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 597823856
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608989929,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608989930,
-        "name": "Cincinnati Reds",
-        "order": 0,
-        "rotation": 1059
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 1.5,
+        "price": 100
       },
       {
-        "alignment": "neutral",
-        "id": 1608989931,
-        "name": "Atlanta Braves",
-        "order": 0,
-        "rotation": 1060
+        "designation": "under",
+        "points": 1.5,
+        "price": -121
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1059,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 421106984
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341654,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Atlanta Braves  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -198
       },
       {
-        "alignment": "away",
-        "name": "Cincinnati Reds  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "away",
+        "points": -0.0,
+        "price": 169
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9959,
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 597795683
+    "status": "open",
+    "type": "spread",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341655,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341656,
-        "name": "Cincinnati Reds 1, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341657,
-        "name": "Cincinnati Reds 2, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341658,
-        "name": "Cincinnati Reds 3, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341659,
-        "name": "Cincinnati Reds 4, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341660,
-        "name": "Cincinnati Reds 5, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341661,
-        "name": "Cincinnati Reds 6, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341662,
-        "name": "Cincinnati Reds 7, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341663,
-        "name": "Cincinnati Reds 0, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341664,
-        "name": "Cincinnati Reds 2, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341665,
-        "name": "Cincinnati Reds 3, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341666,
-        "name": "Cincinnati Reds 4, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341667,
-        "name": "Cincinnati Reds 5, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341668,
-        "name": "Cincinnati Reds 6, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341669,
-        "name": "Cincinnati Reds 7, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341670,
-        "name": "Cincinnati Reds 0, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341671,
-        "name": "Cincinnati Reds 1, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341672,
-        "name": "Cincinnati Reds 3, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341673,
-        "name": "Cincinnati Reds 4, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341674,
-        "name": "Cincinnati Reds 5, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341675,
-        "name": "Cincinnati Reds 6, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341676,
-        "name": "Cincinnati Reds 7, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341677,
-        "name": "Cincinnati Reds 0, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341678,
-        "name": "Cincinnati Reds 1, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341679,
-        "name": "Cincinnati Reds 2, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341680,
-        "name": "Cincinnati Reds 4, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341681,
-        "name": "Cincinnati Reds 5, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341682,
-        "name": "Cincinnati Reds 6, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341683,
-        "name": "Cincinnati Reds 7, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341684,
-        "name": "Cincinnati Reds 0, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341685,
-        "name": "Cincinnati Reds 1, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341686,
-        "name": "Cincinnati Reds 2, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341687,
-        "name": "Cincinnati Reds 3, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341688,
-        "name": "Cincinnati Reds 5, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341689,
-        "name": "Cincinnati Reds 6, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341690,
-        "name": "Cincinnati Reds 7, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341691,
-        "name": "Cincinnati Reds 0, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341692,
-        "name": "Cincinnati Reds 1, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341693,
-        "name": "Cincinnati Reds 2, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341694,
-        "name": "Cincinnati Reds 3, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341695,
-        "name": "Cincinnati Reds 4, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341696,
-        "name": "Cincinnati Reds 6, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341697,
-        "name": "Cincinnati Reds 7, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341698,
-        "name": "Cincinnati Reds 0, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341699,
-        "name": "Cincinnati Reds 1, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341700,
-        "name": "Cincinnati Reds 2, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341701,
-        "name": "Cincinnati Reds 3, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341702,
-        "name": "Cincinnati Reds 4, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341703,
-        "name": "Cincinnati Reds 5, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341704,
-        "name": "Cincinnati Reds 7, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341705,
-        "name": "Cincinnati Reds 0, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341706,
-        "name": "Cincinnati Reds 1, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341707,
-        "name": "Cincinnati Reds 2, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341708,
-        "name": "Cincinnati Reds 3, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341709,
-        "name": "Cincinnati Reds 4, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341710,
-        "name": "Cincinnati Reds 5, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341711,
-        "name": "Cincinnati Reds 6, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1014
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -436
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 313
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341712,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341713,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 959
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -258
       },
       {
-        "alignment": "neutral",
-        "id": 1609341714,
-        "name": "Even",
-        "order": 0,
-        "rotation": 960
+        "designation": "away",
+        "points": -0.5,
+        "price": 209
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341715,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341716,
-        "name": "Cincinnati Reds & Over 4.5",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341717,
-        "name": "Atlanta Braves & Over 4.5",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341718,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341719,
-        "name": "Cincinnati Reds & Under 4.5",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341720,
-        "name": "Atlanta Braves & Under 4.5",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341721,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 964
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -0.5,
+        "price": -132
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": 113
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341722,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341723,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 959
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 101
       },
       {
-        "alignment": "neutral",
-        "id": 1609341724,
-        "name": "Even",
-        "order": 0,
-        "rotation": 960
+        "designation": "away",
+        "points": 1.0,
+        "price": -120
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341725,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341726,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 959
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -100
       },
       {
-        "alignment": "neutral",
-        "id": 1609341727,
-        "name": "Even",
-        "order": 0,
-        "rotation": 960
+        "designation": "under",
+        "points": 4.5,
+        "price": -114
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341728,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341729,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 959
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -172
       },
       {
-        "alignment": "neutral",
-        "id": 1609341730,
-        "name": "Even",
-        "order": 0,
-        "rotation": 960
+        "designation": "under",
+        "points": 3.5,
+        "price": 148
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341731,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341732,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 959
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -134
       },
       {
-        "alignment": "neutral",
-        "id": 1609341733,
-        "name": "Even",
-        "order": 0,
-        "rotation": 960
+        "designation": "under",
+        "points": 4.0,
+        "price": 117
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341734,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341735,
-        "name": "0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341736,
-        "name": "1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341737,
-        "name": "2",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341738,
-        "name": "3",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341739,
-        "name": "4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341740,
-        "name": "5",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341741,
-        "name": "6",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341742,
-        "name": "7",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341743,
-        "name": "8+",
-        "order": 0,
-        "rotation": 967
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.0,
+        "price": 132
+      },
+      {
+        "designation": "under",
+        "points": 5.0,
+        "price": -152
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Exact Total Runs"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341744,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341745,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 959
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 161
       },
       {
-        "alignment": "neutral",
-        "id": 1609341746,
-        "name": "Even",
-        "order": 0,
-        "rotation": 960
+        "designation": "under",
+        "points": 5.5,
+        "price": -188
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341747,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341748,
-        "name": "0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341749,
-        "name": "1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341750,
-        "name": "2",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341751,
-        "name": "3",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341752,
-        "name": "4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341753,
-        "name": "5",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341754,
-        "name": "6",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341755,
-        "name": "7",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341756,
-        "name": "8+",
-        "order": 0,
-        "rotation": 967
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 227
+      },
+      {
+        "designation": "away",
+        "price": 375
+      },
+      {
+        "designation": "draw",
+        "price": -126
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Exact Total Runs"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "moneyline",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341757,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341758,
-        "name": "Cincinnati Reds & Over 8.5",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341759,
-        "name": "Atlanta Braves & Over 8.5",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341760,
-        "name": "Cincinnati Reds & Under 8.5",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341761,
-        "name": "Atlanta Braves & Under 8.5",
-        "order": 0,
-        "rotation": 962
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -169
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 142
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341762,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341763,
-        "name": "Cincinnati Reds By 1",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341764,
-        "name": "Cincinnati Reds By 2",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341765,
-        "name": "Cincinnati Reds By 3",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341766,
-        "name": "Cincinnati Reds By 4",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341767,
-        "name": "Cincinnati Reds By 5+",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341768,
-        "name": "Atlanta Braves By 1",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341769,
-        "name": "Atlanta Braves By 2",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341770,
-        "name": "Atlanta Braves By 3",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341771,
-        "name": "Atlanta Braves By 4",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341772,
-        "name": "Atlanta Braves By 5+",
-        "order": 0,
-        "rotation": 968
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 0.5,
+        "price": -104
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -112
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "total",
+    "version": 3099996375
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341773,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341774,
-        "name": "Cincinnati Reds By 1 - 2",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341775,
-        "name": "Cincinnati Reds By 3 - 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341776,
-        "name": "Cincinnati Reds By 5 - 6",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341777,
-        "name": "Cincinnati Reds By 7+",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341778,
-        "name": "Atlanta Braves By 1 - 2",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341779,
-        "name": "Atlanta Braves By 3 - 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341780,
-        "name": "Atlanta Braves By 5 - 6",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341781,
-        "name": "Atlanta Braves By 7+",
-        "order": 0,
-        "rotation": 966
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -214
+      },
+      {
+        "designation": "away",
+        "price": 189
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "moneyline",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341782,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341783,
-        "name": "1",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341784,
-        "name": "2",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341785,
-        "name": "3",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341786,
-        "name": "4",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341787,
-        "name": "5",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341788,
-        "name": "6",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341789,
-        "name": "7",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341790,
-        "name": "8",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341791,
-        "name": "9",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341792,
-        "name": "10",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341793,
-        "name": "11",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341794,
-        "name": "12",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341795,
-        "name": "13",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341796,
-        "name": "14",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341797,
-        "name": "15+",
-        "order": 0,
-        "rotation": 973
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": -111
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -105
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341798,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341799,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341800,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341801,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341802,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341803,
-        "name": "13+",
-        "order": 0,
-        "rotation": 963
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": 120
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": -141
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341804,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341805,
-        "name": "Cincinnati Reds By 1",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341806,
-        "name": "Cincinnati Reds By 2",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341807,
-        "name": "Cincinnati Reds By 3+",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341808,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341809,
-        "name": "Atlanta Braves By 1",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341810,
-        "name": "Atlanta Braves By 2",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341811,
-        "name": "Atlanta Braves By 3+",
-        "order": 0,
-        "rotation": 965
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 101
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -113
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341812,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341813,
-        "name": "0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341814,
-        "name": "1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341815,
-        "name": "2",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341816,
-        "name": "3",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341817,
-        "name": "4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341818,
-        "name": "5",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341819,
-        "name": "6",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341820,
-        "name": "7",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341821,
-        "name": "8",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341822,
-        "name": "9",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341823,
-        "name": "10",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341824,
-        "name": "11+",
-        "order": 0,
-        "rotation": 970
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -397
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 291
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112439
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341825,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341826,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341827,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341828,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341829,
-        "name": "7+",
-        "order": 0,
-        "rotation": 962
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -335
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 261
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112439
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341830,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341831,
-        "name": "0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341832,
-        "name": "1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341833,
-        "name": "2",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341834,
-        "name": "3",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341835,
-        "name": "4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341836,
-        "name": "5+",
-        "order": 0,
-        "rotation": 964
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": -159
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": 137
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341837,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341838,
-        "name": "0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341839,
-        "name": "1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341840,
-        "name": "2",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341841,
-        "name": "3",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341842,
-        "name": "4",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341843,
-        "name": "5+",
-        "order": 0,
-        "rotation": 964
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -2.0,
+        "price": 130
+      },
+      {
+        "designation": "away",
+        "points": 2.0,
+        "price": -150
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341844,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341845,
-        "name": "Cincinnati Reds 0, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341846,
-        "name": "Cincinnati Reds 0, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341847,
-        "name": "Cincinnati Reds 0, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341848,
-        "name": "Cincinnati Reds 0, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341849,
-        "name": "Cincinnati Reds 0, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341850,
-        "name": "Cincinnati Reds 0, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341851,
-        "name": "Cincinnati Reds 0, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341852,
-        "name": "Cincinnati Reds 1, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341853,
-        "name": "Cincinnati Reds 1, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341854,
-        "name": "Cincinnati Reds 1, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341855,
-        "name": "Cincinnati Reds 1, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341856,
-        "name": "Cincinnati Reds 1, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341857,
-        "name": "Cincinnati Reds 1, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341858,
-        "name": "Cincinnati Reds 1, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341859,
-        "name": "Cincinnati Reds 1, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341860,
-        "name": "Cincinnati Reds 2, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341861,
-        "name": "Cincinnati Reds 2, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341862,
-        "name": "Cincinnati Reds 2, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341863,
-        "name": "Cincinnati Reds 2, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341864,
-        "name": "Cincinnati Reds 2, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341865,
-        "name": "Cincinnati Reds 2, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341866,
-        "name": "Cincinnati Reds 2, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341867,
-        "name": "Cincinnati Reds 2, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341868,
-        "name": "Cincinnati Reds 3, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341869,
-        "name": "Cincinnati Reds 3, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341870,
-        "name": "Cincinnati Reds 3, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341871,
-        "name": "Cincinnati Reds 3, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341872,
-        "name": "Cincinnati Reds 3, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341873,
-        "name": "Cincinnati Reds 3, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341874,
-        "name": "Cincinnati Reds 3, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341875,
-        "name": "Cincinnati Reds 3, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341876,
-        "name": "Cincinnati Reds 4, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341877,
-        "name": "Cincinnati Reds 4, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341878,
-        "name": "Cincinnati Reds 4, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341879,
-        "name": "Cincinnati Reds 4, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341880,
-        "name": "Cincinnati Reds 4, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341881,
-        "name": "Cincinnati Reds 4, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341882,
-        "name": "Cincinnati Reds 4, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341883,
-        "name": "Cincinnati Reds 4, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341884,
-        "name": "Cincinnati Reds 5, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341885,
-        "name": "Cincinnati Reds 5, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341886,
-        "name": "Cincinnati Reds 5, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341887,
-        "name": "Cincinnati Reds 5, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341888,
-        "name": "Cincinnati Reds 5, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341889,
-        "name": "Cincinnati Reds 5, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341890,
-        "name": "Cincinnati Reds 5, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341891,
-        "name": "Cincinnati Reds 5, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341892,
-        "name": "Cincinnati Reds 6, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341893,
-        "name": "Cincinnati Reds 6, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341894,
-        "name": "Cincinnati Reds 6, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341895,
-        "name": "Cincinnati Reds 6, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341896,
-        "name": "Cincinnati Reds 6, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341897,
-        "name": "Cincinnati Reds 6, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341898,
-        "name": "Cincinnati Reds 6, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341899,
-        "name": "Cincinnati Reds 6, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341900,
-        "name": "Cincinnati Reds 7, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341901,
-        "name": "Cincinnati Reds 7, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341902,
-        "name": "Cincinnati Reds 7, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341903,
-        "name": "Cincinnati Reds 7, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341904,
-        "name": "Cincinnati Reds 7, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341905,
-        "name": "Cincinnati Reds 7, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341906,
-        "name": "Cincinnati Reds 7, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341907,
-        "name": "Cincinnati Reds 7, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 1021
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -2.5,
+        "price": 155
+      },
+      {
+        "designation": "away",
+        "points": 2.5,
+        "price": -185
       }
     ],
-    "rotation": 959,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421112408
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346917,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346918,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -3.0,
+        "price": 203
       },
       {
-        "alignment": "neutral",
-        "id": 1609346919,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "away",
+        "points": 3.0,
+        "price": -257
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Marcell Ozuna (Home Runs)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 421126461
+    "status": "open",
+    "type": "spread",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346920,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346921,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1609346922,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 8.0,
+        "price": -106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Marcell Ozuna (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346923,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346924,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -645
       },
       {
-        "alignment": "neutral",
-        "id": 1609346925,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 4.5,
+        "price": 439
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt Olson (Home Runs)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346926,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346927,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.5,
+        "price": -208
       },
       {
-        "alignment": "neutral",
-        "id": 1609346928,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 6.5,
+        "price": 181
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt Olson (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346929,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346930,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -170
       },
       {
-        "alignment": "neutral",
-        "id": 1609346931,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 7.0,
+        "price": 149
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Eli White (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346932,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346933,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -125
       },
       {
-        "alignment": "neutral",
-        "id": 1609346934,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 7.5,
+        "price": 111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Ozzie Albies (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346935,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346936,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": 112
       },
       {
-        "alignment": "neutral",
-        "id": 1609346937,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 8.5,
+        "price": -126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Grant Holmes (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421120457
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346938,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346939,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": 143
       },
       {
-        "alignment": "neutral",
-        "id": 1609346940,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 9.0,
+        "price": -163
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Grant Holmes (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421120457
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346941,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346942,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": 169
       },
       {
-        "alignment": "neutral",
-        "id": 1609346943,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 9.5,
+        "price": -194
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Grant Holmes (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421120457
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346947,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346948,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956546,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.5,
+        "price": 317
       },
       {
-        "alignment": "neutral",
-        "id": 1609346949,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 11.5,
+        "price": -424
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Alex Verdugo (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100036875
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346950,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346951,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608990923,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608990924,
+        "price": -107
       },
       {
-        "alignment": "neutral",
-        "id": 1609346952,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1608990925,
+        "price": -109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Austin Riley (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346953,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;25.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346954,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342416,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 25.5,
+        "price": -108
       },
       {
-        "alignment": "neutral",
-        "id": 1609346955,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "designation": "under",
+        "points": 25.5,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Sean Murphy (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "status": "open",
+    "type": "total",
+    "version": 3100065219
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346956,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346957,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342417,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342418,
+        "price": 5523
       },
       {
-        "alignment": "neutral",
-        "id": 1609346958,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342419,
+        "price": 5356
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342420,
+        "price": 5761
+      },
+      {
+        "participantId": 1609342421,
+        "price": 6776
+      },
+      {
+        "participantId": 1609342422,
+        "price": 8110
+      },
+      {
+        "participantId": 1609342423,
+        "price": 9970
+      },
+      {
+        "participantId": 1609342425,
+        "price": 4036
+      },
+      {
+        "participantId": 1609342426,
+        "price": 3252
+      },
+      {
+        "participantId": 1609342427,
+        "price": 3616
+      },
+      {
+        "participantId": 1609342428,
+        "price": 4204
+      },
+      {
+        "participantId": 1609342429,
+        "price": 5222
+      },
+      {
+        "participantId": 1609342430,
+        "price": 6563
+      },
+      {
+        "participantId": 1609342431,
+        "price": 8366
+      },
+      {
+        "participantId": 1609342432,
+        "price": 3846
+      },
+      {
+        "participantId": 1609342433,
+        "price": 2012
+      },
+      {
+        "participantId": 1609342434,
+        "price": 2671
+      },
+      {
+        "participantId": 1609342435,
+        "price": 3205
+      },
+      {
+        "participantId": 1609342436,
+        "price": 3931
+      },
+      {
+        "participantId": 1609342437,
+        "price": 5082
+      },
+      {
+        "participantId": 1609342438,
+        "price": 6749
+      },
+      {
+        "participantId": 1609342439,
+        "price": 3696
+      },
+      {
+        "participantId": 1609342440,
+        "price": 2374
+      },
+      {
+        "participantId": 1609342441,
+        "price": 1618
+      },
+      {
+        "participantId": 1609342442,
+        "price": 2717
+      },
+      {
+        "participantId": 1609342443,
+        "price": 3416
+      },
+      {
+        "participantId": 1609342444,
+        "price": 4469
+      },
+      {
+        "participantId": 1609342445,
+        "price": 5914
+      },
+      {
+        "participantId": 1609342446,
+        "price": 3841
+      },
+      {
+        "participantId": 1609342447,
+        "price": 2490
+      },
+      {
+        "participantId": 1609342448,
+        "price": 2254
+      },
+      {
+        "participantId": 1609342449,
+        "price": 1669
+      },
+      {
+        "participantId": 1609342450,
+        "price": 3259
+      },
+      {
+        "participantId": 1609342451,
+        "price": 4224
+      },
+      {
+        "participantId": 1609342452,
+        "price": 5517
+      },
+      {
+        "participantId": 1609342453,
+        "price": 4211
+      },
+      {
+        "participantId": 1609342454,
+        "price": 2764
+      },
+      {
+        "participantId": 1609342455,
+        "price": 2511
+      },
+      {
+        "participantId": 1609342456,
+        "price": 2615
+      },
+      {
+        "participantId": 1609342457,
+        "price": 2056
+      },
+      {
+        "participantId": 1609342458,
+        "price": 4184
+      },
+      {
+        "participantId": 1609342459,
+        "price": 5515
+      },
+      {
+        "participantId": 1609342460,
+        "price": 4802
+      },
+      {
+        "participantId": 1609342461,
+        "price": 3206
+      },
+      {
+        "participantId": 1609342462,
+        "price": 2929
+      },
+      {
+        "participantId": 1609342463,
+        "price": 3123
+      },
+      {
+        "participantId": 1609342464,
+        "price": 3486
+      },
+      {
+        "participantId": 1609342465,
+        "price": 2710
+      },
+      {
+        "participantId": 1609342466,
+        "price": 5726
+      },
+      {
+        "participantId": 1609342467,
+        "price": 5593
+      },
+      {
+        "participantId": 1609342468,
+        "price": 3810
+      },
+      {
+        "participantId": 1609342469,
+        "price": 3628
+      },
+      {
+        "participantId": 1609342470,
+        "price": 3769
+      },
+      {
+        "participantId": 1609342471,
+        "price": 4171
+      },
+      {
+        "participantId": 1609342472,
+        "price": 4838
+      },
+      {
+        "participantId": 1609342473,
+        "price": 3815
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Allen (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609346959,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609346960,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342474,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342475,
+        "price": -104
       },
       {
-        "alignment": "neutral",
-        "id": 1609346961,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1609342476,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Harris II (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421117569
+    "type": "moneyline",
+    "version": 4969701610
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349559,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349560,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342477,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342478,
+        "price": 466
       },
       {
-        "alignment": "neutral",
-        "id": 1609349561,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342479,
+        "price": 200
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342480,
+        "price": 1594
+      },
+      {
+        "participantId": 1609342481,
+        "price": 449
+      },
+      {
+        "participantId": 1609342482,
+        "price": 271
+      },
+      {
+        "participantId": 1609342483,
+        "price": 571
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Jake Fraley (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969701610
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349562,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349563,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342484,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342485,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1609349564,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1609342486,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Austin Wynns (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969701610
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349565,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349566,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342487,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342488,
+        "price": 108
       },
       {
-        "alignment": "neutral",
-        "id": 1609349567,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1609342489,
+        "price": -126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Tyler Stephenson (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969701610
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349568,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349569,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342490,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342491,
+        "price": -158
       },
       {
-        "alignment": "neutral",
-        "id": 1609349570,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1609342492,
+        "price": 134
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Gavin Lux (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349571,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349572,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342493,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342494,
+        "price": 116
       },
       {
-        "alignment": "neutral",
-        "id": 1609349573,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1609342495,
+        "price": -136
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Spencer Steer (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969701610
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349574,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349575,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342496,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342497,
+        "price": 1441
       },
       {
-        "alignment": "neutral",
-        "id": 1609349576,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342498,
+        "price": 867
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342499,
+        "price": 608
+      },
+      {
+        "participantId": 1609342500,
+        "price": 504
+      },
+      {
+        "participantId": 1609342501,
+        "price": 486
+      },
+      {
+        "participantId": 1609342502,
+        "price": 525
+      },
+      {
+        "participantId": 1609342503,
+        "price": 616
+      },
+      {
+        "participantId": 1609342504,
+        "price": 761
+      },
+      {
+        "participantId": 1609342505,
+        "price": 370
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Hunter Greene (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349577,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349578,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342506,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342507,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1609349579,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
+        "participantId": 1609342508,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Hunter Greene (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969701610
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349580,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349581,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342509,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342510,
+        "price": 724
       },
       {
-        "alignment": "neutral",
-        "id": 1609349582,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342511,
+        "price": 436
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342512,
+        "price": 403
+      },
+      {
+        "participantId": 1609342513,
+        "price": 445
+      },
+      {
+        "participantId": 1609342514,
+        "price": 536
+      },
+      {
+        "participantId": 1609342515,
+        "price": 672
+      },
+      {
+        "participantId": 1609342516,
+        "price": 873
+      },
+      {
+        "participantId": 1609342517,
+        "price": 1156
+      },
+      {
+        "participantId": 1609342518,
+        "price": 760
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Hunter Greene (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969722305
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349586,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349587,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342519,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342520,
+        "price": 449
       },
       {
-        "alignment": "neutral",
-        "id": 1609349588,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342521,
+        "price": 203
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342522,
+        "price": 377
+      },
+      {
+        "participantId": 1609342523,
+        "price": 161
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Santiago Espinal (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349589,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349590,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342524,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342528,
+        "price": 1454
       },
       {
-        "alignment": "neutral",
-        "id": 1609349591,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342529,
+        "price": 981
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342530,
+        "price": 357
+      },
+      {
+        "participantId": 1609342531,
+        "price": 593
+      },
+      {
+        "participantId": 1609342532,
+        "price": 686
+      },
+      {
+        "participantId": 1609342533,
+        "price": 825
+      },
+      {
+        "participantId": 1609342534,
+        "price": 352
+      },
+      {
+        "participantId": 1609342525,
+        "price": 651
+      },
+      {
+        "participantId": 1609342526,
+        "price": 831
+      },
+      {
+        "participantId": 1609342527,
+        "price": 1080
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "TJ Friedl (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349592,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349593,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342535,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342536,
+        "price": 382
       },
       {
-        "alignment": "neutral",
-        "id": 1609349594,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342537,
+        "price": 713
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342538,
+        "price": 1392
+      },
+      {
+        "participantId": 1609342539,
+        "price": 1998
+      },
+      {
+        "participantId": 1609342540,
+        "price": 206
+      },
+      {
+        "participantId": 1609342541,
+        "price": 394
+      },
+      {
+        "participantId": 1609342542,
+        "price": 650
+      },
+      {
+        "participantId": 1609342543,
+        "price": 722
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt McLain (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969726393
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609349595,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 34,
-        "matchupCountSE": 34,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608935706,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Cincinnati Reds",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T23:15:00+00:00"
-    },
-    "parentId": 1608935706,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609349596,
-        "name": "Over",
-        "order": 0,
-        "rotation": 960
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342545,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342560,
+        "price": 748
       },
       {
-        "alignment": "neutral",
-        "id": 1609349597,
-        "name": "Under",
-        "order": 0,
-        "rotation": 961
-      }
-    ],
-    "periods": [
+        "participantId": 1609342546,
+        "price": 2345
+      },
       {
-        "cutoffAt": "2025-05-07T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342547,
+        "price": 2232
+      },
+      {
+        "participantId": 1609342548,
+        "price": 966
+      },
+      {
+        "participantId": 1609342549,
+        "price": 1093
+      },
+      {
+        "participantId": 1609342550,
+        "price": 632
+      },
+      {
+        "participantId": 1609342551,
+        "price": 805
+      },
+      {
+        "participantId": 1609342552,
+        "price": 563
+      },
+      {
+        "participantId": 1609342553,
+        "price": 776
+      },
+      {
+        "participantId": 1609342554,
+        "price": 646
+      },
+      {
+        "participantId": 1609342555,
+        "price": 929
+      },
+      {
+        "participantId": 1609342556,
+        "price": 829
+      },
+      {
+        "participantId": 1609342557,
+        "price": 1217
+      },
+      {
+        "participantId": 1609342558,
+        "price": 1165
+      },
+      {
+        "participantId": 1609342559,
+        "price": 1720
       }
     ],
-    "rotation": 960,
-    "special": {
-      "category": "Player Props",
-      "description": "Elly De La Cruz (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421125355
+    "type": "moneyline",
+    "version": 4969722305
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342561,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342562,
+        "price": 656
+      },
+      {
+        "participantId": 1609342563,
+        "price": 277
+      },
+      {
+        "participantId": 1609342564,
+        "price": 204
+      },
+      {
+        "participantId": 1609342565,
+        "price": 357
+      },
+      {
+        "participantId": 1609342566,
+        "price": 413
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969722305
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342567,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342569,
+        "price": 596
+      },
+      {
+        "participantId": 1609342570,
+        "price": 855
+      },
+      {
+        "participantId": 1609342571,
+        "price": 600
+      },
+      {
+        "participantId": 1609342572,
+        "price": 454
+      },
+      {
+        "participantId": 1609342573,
+        "price": 484
+      },
+      {
+        "participantId": 1609342574,
+        "price": 557
+      },
+      {
+        "participantId": 1609342575,
+        "price": 217
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969701610
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342576,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342577,
+        "price": 1314
+      },
+      {
+        "participantId": 1609342578,
+        "price": 745
+      },
+      {
+        "participantId": 1609342579,
+        "price": 567
+      },
+      {
+        "participantId": 1609342580,
+        "price": 511
+      },
+      {
+        "participantId": 1609342581,
+        "price": 517
+      },
+      {
+        "participantId": 1609342582,
+        "price": 566
+      },
+      {
+        "participantId": 1609342583,
+        "price": 659
+      },
+      {
+        "participantId": 1609342584,
+        "price": 798
+      },
+      {
+        "participantId": 1609342585,
+        "price": 999
+      },
+      {
+        "participantId": 1609342586,
+        "price": 1278
+      },
+      {
+        "participantId": 1609342587,
+        "price": 1658
+      },
+      {
+        "participantId": 1609342588,
+        "price": 1101
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342589,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342592,
+        "price": 305
+      },
+      {
+        "participantId": 1609342593,
+        "price": 240
+      },
+      {
+        "participantId": 1609342590,
+        "price": 265
+      },
+      {
+        "participantId": 1609342591,
+        "price": 245
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969701610
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342594,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342595,
+        "price": 245
+      },
+      {
+        "participantId": 1609342596,
+        "price": 252
+      },
+      {
+        "participantId": 1609342597,
+        "price": 382
+      },
+      {
+        "participantId": 1609342598,
+        "price": 573
+      },
+      {
+        "participantId": 1609342599,
+        "price": 842
+      },
+      {
+        "participantId": 1609342600,
+        "price": 628
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969701610
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342601,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342602,
+        "price": 427
+      },
+      {
+        "participantId": 1609342603,
+        "price": 394
+      },
+      {
+        "participantId": 1609342604,
+        "price": 396
+      },
+      {
+        "participantId": 1609342605,
+        "price": 465
+      },
+      {
+        "participantId": 1609342606,
+        "price": 585
+      },
+      {
+        "participantId": 1609342607,
+        "price": 283
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969701610
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342608,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342613,
+        "price": 2463
+      },
+      {
+        "participantId": 1609342614,
+        "price": 3228
+      },
+      {
+        "participantId": 1609342615,
+        "price": 4309
+      },
+      {
+        "participantId": 1609342616,
+        "price": 1534
+      },
+      {
+        "participantId": 1609342617,
+        "price": 1438
+      },
+      {
+        "participantId": 1609342618,
+        "price": 1446
+      },
+      {
+        "participantId": 1609342619,
+        "price": 1644
+      },
+      {
+        "participantId": 1609342620,
+        "price": 1992
+      },
+      {
+        "participantId": 1609342621,
+        "price": 2507
+      },
+      {
+        "participantId": 1609342622,
+        "price": 3281
+      },
+      {
+        "participantId": 1609342623,
+        "price": 4379
+      },
+      {
+        "participantId": 1609342624,
+        "price": 2054
+      },
+      {
+        "participantId": 1609342625,
+        "price": 1932
+      },
+      {
+        "participantId": 1609342626,
+        "price": 1942
+      },
+      {
+        "participantId": 1609342627,
+        "price": 2195
+      },
+      {
+        "participantId": 1609342628,
+        "price": 2635
+      },
+      {
+        "participantId": 1609342629,
+        "price": 3283
+      },
+      {
+        "participantId": 1609342630,
+        "price": 4246
+      },
+      {
+        "participantId": 1609342632,
+        "price": 2808
+      },
+      {
+        "participantId": 1609342633,
+        "price": 2650
+      },
+      {
+        "participantId": 1609342634,
+        "price": 2663
+      },
+      {
+        "participantId": 1609342635,
+        "price": 2991
+      },
+      {
+        "participantId": 1609342636,
+        "price": 3557
+      },
+      {
+        "participantId": 1609342637,
+        "price": 4385
+      },
+      {
+        "participantId": 1609342640,
+        "price": 3852
+      },
+      {
+        "participantId": 1609342641,
+        "price": 3646
+      },
+      {
+        "participantId": 1609342642,
+        "price": 3663
+      },
+      {
+        "participantId": 1609342643,
+        "price": 4089
+      },
+      {
+        "participantId": 1609342644,
+        "price": 4820
+      },
+      {
+        "participantId": 1609342609,
+        "price": 1410
+      },
+      {
+        "participantId": 1609342610,
+        "price": 1418
+      },
+      {
+        "participantId": 1609342611,
+        "price": 1613
+      },
+      {
+        "participantId": 1609342612,
+        "price": 1955
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969715112
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346808,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346809,
+        "points": 1.5,
+        "price": 111
+      },
+      {
+        "participantId": 1609346810,
+        "points": 1.5,
+        "price": -147
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346811,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346812,
+        "points": 4.5,
+        "price": -121
+      },
+      {
+        "participantId": 1609346813,
+        "points": 4.5,
+        "price": -110
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346814,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346816,
+        "points": 4.5,
+        "price": 105
+      },
+      {
+        "participantId": 1609346815,
+        "points": 4.5,
+        "price": -139
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346817,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346818,
+        "points": 1.5,
+        "price": -125
+      },
+      {
+        "participantId": 1609346819,
+        "points": 1.5,
+        "price": -106
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346820,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346821,
+        "points": 0.5,
+        "price": -155
+      },
+      {
+        "participantId": 1609346822,
+        "points": 0.5,
+        "price": 117
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346823,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346824,
+        "points": 0.5,
+        "price": -153
+      },
+      {
+        "participantId": 1609346825,
+        "points": 0.5,
+        "price": 115
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346826,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346827,
+        "points": 1.5,
+        "price": 145
+      },
+      {
+        "participantId": 1609346828,
+        "points": 1.5,
+        "price": -196
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346829,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346830,
+        "points": 0.5,
+        "price": -145
+      },
+      {
+        "participantId": 1609346831,
+        "points": 0.5,
+        "price": 109
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346832,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346833,
+        "points": 0.5,
+        "price": -217
+      },
+      {
+        "participantId": 1609346834,
+        "points": 0.5,
+        "price": 160
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346835,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346836,
+        "points": 0.5,
+        "price": -134
+      },
+      {
+        "participantId": 1609346837,
+        "points": 0.5,
+        "price": 101
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346838,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346839,
+        "points": 0.5,
+        "price": -162
+      },
+      {
+        "participantId": 1609346840,
+        "points": 0.5,
+        "price": 122
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346841,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346842,
+        "points": 1.5,
+        "price": 123
+      },
+      {
+        "participantId": 1609346843,
+        "points": 1.5,
+        "price": -164
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346844,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346845,
+        "points": 0.5,
+        "price": -190
+      },
+      {
+        "participantId": 1609346846,
+        "points": 0.5,
+        "price": 141
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346847,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346848,
+        "points": 1.5,
+        "price": -125
+      },
+      {
+        "participantId": 1609346849,
+        "points": 1.5,
+        "price": -106
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346850,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346851,
+        "points": 0.5,
+        "price": -198
+      },
+      {
+        "participantId": 1609346852,
+        "points": 0.5,
+        "price": 147
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346853,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346854,
+        "points": 0.5,
+        "price": -132
+      },
+      {
+        "participantId": 1609346855,
+        "points": 0.5,
+        "price": -100
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346856,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346857,
+        "points": 1.5,
+        "price": 140
+      },
+      {
+        "participantId": 1609346858,
+        "points": 1.5,
+        "price": -188
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346859,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346860,
+        "points": 1.5,
+        "price": 144
+      },
+      {
+        "participantId": 1609346861,
+        "points": 1.5,
+        "price": -193
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346862,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346863,
+        "points": 3.5,
+        "price": -118
+      },
+      {
+        "participantId": 1609346864,
+        "points": 3.5,
+        "price": -112
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346865,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346866,
+        "points": 5.5,
+        "price": -151
+      },
+      {
+        "participantId": 1609346867,
+        "points": 5.5,
+        "price": 114
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346868,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346869,
+        "points": 2.5,
+        "price": -136
+      },
+      {
+        "participantId": 1609346870,
+        "points": 2.5,
+        "price": 103
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346871,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346872,
+        "points": 0.5,
+        "price": -194
+      },
+      {
+        "participantId": 1609346873,
+        "points": 0.5,
+        "price": 144
+      }
+    ],
+    "type": "total",
+    "version": 4969869881
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346874,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346875,
+        "points": 0.5,
+        "price": -170
+      },
+      {
+        "participantId": 1609346876,
+        "points": 0.5,
+        "price": 127
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609346877,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609346878,
+        "points": 0.5,
+        "price": -203
+      },
+      {
+        "participantId": 1609346879,
+        "points": 0.5,
+        "price": 150
+      }
+    ],
+    "type": "total",
+    "version": 4969873483
   }
 ]
