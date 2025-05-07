@@ -478,7 +478,7 @@ def writeCirca(date):
 			data[date][p[0]]["hr"][p[1]] = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
 
 
-		if False and pageIdx == 0:
+		if True and pageIdx == 0:
 
 			boxW,boxH = 264,80
 			l,r = 770,1034
@@ -543,7 +543,7 @@ def writeCirca(date):
 			if True:
 				pitcherRows = 10
 				t = 1236
-				boxH = 89
+				boxH = 80
 				boxW = 264 #r-l
 			boxT = t
 			boxL = l
