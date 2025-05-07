@@ -1,6113 +1,2862 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 6,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608927835,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Chicago Cubs",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "San Francisco Giants",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 283
       },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
+        "designation": "away",
+        "price": 266
       },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "draw",
+        "price": -116
       }
     ],
-    "rotation": 953,
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 39,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 597846847
+    "status": "open",
+    "type": "moneyline",
+    "version": 3100477581
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608974582,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608974583,
-        "name": "San Francisco Giants",
-        "order": 0,
-        "rotation": 1045
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -102
       },
       {
-        "alignment": "neutral",
-        "id": 1608974584,
-        "name": "Chicago Cubs",
-        "order": 0,
-        "rotation": 1046
+        "designation": "away",
+        "points": -0.0,
+        "price": -114
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1045,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100477581
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 7,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341050,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Chicago Cubs  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -114
       },
       {
-        "alignment": "away",
-        "name": "San Francisco Giants  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 0.5,
+        "price": -102
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9953,
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 597803139
+    "status": "open",
+    "type": "total",
+    "version": 3100477581
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341051,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341053,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 1.5,
+        "price": -154
       },
       {
-        "alignment": "neutral",
-        "id": 1609341054,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 1.5,
+        "price": 126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago Cubs Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341067,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341069,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341070,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341071,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341072,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341073,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341074,
-        "name": "5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341075,
-        "name": "6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341076,
-        "name": "7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341077,
-        "name": "8+",
-        "order": 0,
-        "rotation": 961
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -104
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": -117
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago Cubs Exact Total Runs"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341082,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341084,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 120
       },
       {
-        "alignment": "neutral",
-        "id": 1609341085,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "away",
+        "points": -0.0,
+        "price": -138
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago Cubs Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341092,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341094,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341095,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341096,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341097,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341098,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341099,
-        "name": "5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341100,
-        "name": "6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341101,
-        "name": "7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341102,
-        "name": "8+",
-        "order": 0,
-        "rotation": 961
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -160
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 133
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Exact Total Runs"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341109,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341111,
-        "name": "San Francisco Giants & Over 4.5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341112,
-        "name": "Chicago Cubs & Over 4.5",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341113,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341114,
-        "name": "San Francisco Giants & Under 4.5",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341115,
-        "name": "Chicago Cubs & Under 4.5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341116,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 958
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -116
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": -101
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341180,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341181,
-        "name": "San Francisco Giants 1, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341182,
-        "name": "San Francisco Giants 2, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341183,
-        "name": "San Francisco Giants 3, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341184,
-        "name": "San Francisco Giants 4, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341185,
-        "name": "San Francisco Giants 5, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341186,
-        "name": "San Francisco Giants 6, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341187,
-        "name": "San Francisco Giants 7, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341188,
-        "name": "San Francisco Giants 0, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341189,
-        "name": "San Francisco Giants 2, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341190,
-        "name": "San Francisco Giants 3, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341191,
-        "name": "San Francisco Giants 4, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341192,
-        "name": "San Francisco Giants 5, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341193,
-        "name": "San Francisco Giants 6, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341194,
-        "name": "San Francisco Giants 7, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341195,
-        "name": "San Francisco Giants 0, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341196,
-        "name": "San Francisco Giants 1, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341197,
-        "name": "San Francisco Giants 3, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341198,
-        "name": "San Francisco Giants 4, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341199,
-        "name": "San Francisco Giants 5, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341200,
-        "name": "San Francisco Giants 6, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341201,
-        "name": "San Francisco Giants 7, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341202,
-        "name": "San Francisco Giants 0, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341203,
-        "name": "San Francisco Giants 1, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341204,
-        "name": "San Francisco Giants 2, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341205,
-        "name": "San Francisco Giants 4, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341206,
-        "name": "San Francisco Giants 5, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341207,
-        "name": "San Francisco Giants 6, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341208,
-        "name": "San Francisco Giants 7, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341209,
-        "name": "San Francisco Giants 0, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341210,
-        "name": "San Francisco Giants 1, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341211,
-        "name": "San Francisco Giants 2, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341212,
-        "name": "San Francisco Giants 3, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341213,
-        "name": "San Francisco Giants 5, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341214,
-        "name": "San Francisco Giants 6, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341215,
-        "name": "San Francisco Giants 7, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341216,
-        "name": "San Francisco Giants 0, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341217,
-        "name": "San Francisco Giants 1, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341218,
-        "name": "San Francisco Giants 2, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341219,
-        "name": "San Francisco Giants 3, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341220,
-        "name": "San Francisco Giants 4, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341221,
-        "name": "San Francisco Giants 6, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341222,
-        "name": "San Francisco Giants 7, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341223,
-        "name": "San Francisco Giants 0, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341224,
-        "name": "San Francisco Giants 1, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341225,
-        "name": "San Francisco Giants 2, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341226,
-        "name": "San Francisco Giants 3, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341227,
-        "name": "San Francisco Giants 4, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341228,
-        "name": "San Francisco Giants 5, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341229,
-        "name": "San Francisco Giants 7, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341230,
-        "name": "San Francisco Giants 0, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341231,
-        "name": "San Francisco Giants 1, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341232,
-        "name": "San Francisco Giants 2, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341233,
-        "name": "San Francisco Giants 3, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341234,
-        "name": "San Francisco Giants 4, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341235,
-        "name": "San Francisco Giants 5, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341236,
-        "name": "San Francisco Giants 6, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1008
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -0.5,
+        "price": 153
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -182
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341237,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341238,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 214
       },
       {
-        "alignment": "neutral",
-        "id": 1609341239,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "away",
+        "points": 1.0,
+        "price": -272
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341240,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341241,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 101
       },
       {
-        "alignment": "neutral",
-        "id": 1609341242,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 5.0,
+        "price": -116
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341243,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341244,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -177
       },
       {
-        "alignment": "neutral",
-        "id": 1609341245,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 4.0,
+        "price": 152
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341246,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341247,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -127
       },
       {
-        "alignment": "neutral",
-        "id": 1609341248,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 4.5,
+        "price": 111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341249,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341250,
-        "name": "San Francisco Giants & Over 8.5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341251,
-        "name": "Chicago Cubs & Over 8.5",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341252,
-        "name": "San Francisco Giants & Under 8.5",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341253,
-        "name": "Chicago Cubs & Under 8.5",
-        "order": 0,
-        "rotation": 956
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": 127
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -146
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341254,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341255,
-        "name": "San Francisco Giants By 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341256,
-        "name": "San Francisco Giants By 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341257,
-        "name": "San Francisco Giants By 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341258,
-        "name": "San Francisco Giants By 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341259,
-        "name": "San Francisco Giants By 5+",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341260,
-        "name": "Chicago Cubs By 1",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341261,
-        "name": "Chicago Cubs By 2",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341262,
-        "name": "Chicago Cubs By 3",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341263,
-        "name": "Chicago Cubs By 4",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341264,
-        "name": "Chicago Cubs By 5+",
-        "order": 0,
-        "rotation": 962
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.0,
+        "price": 165
+      },
+      {
+        "designation": "under",
+        "points": 6.0,
+        "price": -193
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100480896
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341265,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341266,
-        "name": "San Francisco Giants By 1 - 2",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341267,
-        "name": "San Francisco Giants By 3 - 4",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341268,
-        "name": "San Francisco Giants By 5 - 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341269,
-        "name": "San Francisco Giants By 7+",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341270,
-        "name": "Chicago Cubs By 1 - 2",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341271,
-        "name": "Chicago Cubs By 3 - 4",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341272,
-        "name": "Chicago Cubs By 5 - 6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341273,
-        "name": "Chicago Cubs By 7+",
-        "order": 0,
-        "rotation": 960
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 125
+      },
+      {
+        "designation": "away",
+        "price": -136
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "moneyline",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341274,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341275,
-        "name": "1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341276,
-        "name": "2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341277,
-        "name": "3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341278,
-        "name": "4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341279,
-        "name": "5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341280,
-        "name": "6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341281,
-        "name": "7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341282,
-        "name": "8",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341283,
-        "name": "9",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341284,
-        "name": "10",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341285,
-        "name": "11",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341286,
-        "name": "12",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341287,
-        "name": "13",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341288,
-        "name": "14",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341289,
-        "name": "15+",
-        "order": 0,
-        "rotation": 967
+        "amount": 1500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -137
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 117
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341290,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341291,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341292,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341293,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341294,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341295,
-        "name": "13+",
-        "order": 0,
-        "rotation": 957
+        "amount": 1500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": -135
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": 115
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341296,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341297,
-        "name": "San Francisco Giants By 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341298,
-        "name": "San Francisco Giants By 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341299,
-        "name": "San Francisco Giants By 3+",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341300,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341301,
-        "name": "Chicago Cubs By 1",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341302,
-        "name": "Chicago Cubs By 2",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341303,
-        "name": "Chicago Cubs By 3+",
-        "order": 0,
-        "rotation": 959
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -128
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 116
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341304,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341305,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341306,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341307,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341308,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341309,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341310,
-        "name": "5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341311,
-        "name": "6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341312,
-        "name": "7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341313,
-        "name": "8",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341314,
-        "name": "9",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341315,
-        "name": "10",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341316,
-        "name": "11+",
-        "order": 0,
-        "rotation": 964
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 3.0,
+        "price": -273
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 220
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341317,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341318,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341319,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341320,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341321,
-        "name": "7+",
-        "order": 0,
-        "rotation": 956
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.5,
+        "price": -201
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 171
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341322,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341323,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341324,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341325,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341326,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341327,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341328,
-        "name": "5+",
-        "order": 0,
-        "rotation": 958
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.0,
+        "price": -167
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 147
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Francisco Giants Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341329,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341330,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341331,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341332,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341333,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341334,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341335,
-        "name": "5+",
-        "order": 0,
-        "rotation": 958
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -102
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": -110
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago Cubs Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609341336,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609341337,
-        "name": "San Francisco Giants 0, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341338,
-        "name": "San Francisco Giants 0, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341339,
-        "name": "San Francisco Giants 0, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341340,
-        "name": "San Francisco Giants 0, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341341,
-        "name": "San Francisco Giants 0, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341342,
-        "name": "San Francisco Giants 0, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341343,
-        "name": "San Francisco Giants 0, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341344,
-        "name": "San Francisco Giants 1, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341345,
-        "name": "San Francisco Giants 1, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341346,
-        "name": "San Francisco Giants 1, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341347,
-        "name": "San Francisco Giants 1, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341348,
-        "name": "San Francisco Giants 1, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341349,
-        "name": "San Francisco Giants 1, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341350,
-        "name": "San Francisco Giants 1, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341351,
-        "name": "San Francisco Giants 1, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341352,
-        "name": "San Francisco Giants 2, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341353,
-        "name": "San Francisco Giants 2, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341354,
-        "name": "San Francisco Giants 2, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341355,
-        "name": "San Francisco Giants 2, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341356,
-        "name": "San Francisco Giants 2, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341357,
-        "name": "San Francisco Giants 2, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341358,
-        "name": "San Francisco Giants 2, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341359,
-        "name": "San Francisco Giants 2, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341360,
-        "name": "San Francisco Giants 3, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341361,
-        "name": "San Francisco Giants 3, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341362,
-        "name": "San Francisco Giants 3, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341363,
-        "name": "San Francisco Giants 3, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341364,
-        "name": "San Francisco Giants 3, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341365,
-        "name": "San Francisco Giants 3, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341366,
-        "name": "San Francisco Giants 3, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341367,
-        "name": "San Francisco Giants 3, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341368,
-        "name": "San Francisco Giants 4, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341369,
-        "name": "San Francisco Giants 4, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341370,
-        "name": "San Francisco Giants 4, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341371,
-        "name": "San Francisco Giants 4, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341372,
-        "name": "San Francisco Giants 4, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341373,
-        "name": "San Francisco Giants 4, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341374,
-        "name": "San Francisco Giants 4, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341375,
-        "name": "San Francisco Giants 4, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341376,
-        "name": "San Francisco Giants 5, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341377,
-        "name": "San Francisco Giants 5, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341378,
-        "name": "San Francisco Giants 5, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341379,
-        "name": "San Francisco Giants 5, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341380,
-        "name": "San Francisco Giants 5, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341381,
-        "name": "San Francisco Giants 5, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341382,
-        "name": "San Francisco Giants 5, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341383,
-        "name": "San Francisco Giants 5, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341384,
-        "name": "San Francisco Giants 6, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341385,
-        "name": "San Francisco Giants 6, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341386,
-        "name": "San Francisco Giants 6, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341387,
-        "name": "San Francisco Giants 6, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341388,
-        "name": "San Francisco Giants 6, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341389,
-        "name": "San Francisco Giants 6, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341390,
-        "name": "San Francisco Giants 6, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341391,
-        "name": "San Francisco Giants 6, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341392,
-        "name": "San Francisco Giants 7, Chicago Cubs 0",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341393,
-        "name": "San Francisco Giants 7, Chicago Cubs 1",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341394,
-        "name": "San Francisco Giants 7, Chicago Cubs 2",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341395,
-        "name": "San Francisco Giants 7, Chicago Cubs 3",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341396,
-        "name": "San Francisco Giants 7, Chicago Cubs 4",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341397,
-        "name": "San Francisco Giants 7, Chicago Cubs 5",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341398,
-        "name": "San Francisco Giants 7, Chicago Cubs 6",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609341399,
-        "name": "San Francisco Giants 7, Chicago Cubs 7",
-        "order": 0,
-        "rotation": 1015
+        "amount": 7500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 189
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -225
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344563,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344564,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 235
       },
       {
-        "alignment": "neutral",
-        "id": 1609344565,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "away",
+        "points": 1.5,
+        "price": -296
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Jon Berti (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "spread",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344566,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344567,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": -101
       },
       {
-        "alignment": "neutral",
-        "id": 1609344568,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 9.5,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Carson Kelly (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344569,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344570,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.5,
+        "price": -350
       },
       {
-        "alignment": "neutral",
-        "id": 1609344571,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 6.5,
+        "price": 270
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Dansby Swanson (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344572,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344573,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -186
       },
       {
-        "alignment": "neutral",
-        "id": 1609344574,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 8.0,
+        "price": 162
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Nico Hoerner (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344575,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344576,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -154
       },
       {
-        "alignment": "neutral",
-        "id": 1609344577,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 8.5,
+        "price": 136
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Kyle Tucker (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344578,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344579,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": -127
       },
       {
-        "alignment": "neutral",
-        "id": 1609344580,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 9.0,
+        "price": 113
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Ian Happ (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344581,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344582,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": 118
       },
       {
-        "alignment": "neutral",
-        "id": 1609344583,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 10.0,
+        "price": -133
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Seiya Suzuki (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344584,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344585,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.5,
+        "price": 136
       },
       {
-        "alignment": "neutral",
-        "id": 1609344586,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 10.5,
+        "price": -154
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Ben Brown (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344587,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344588,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.0,
+        "price": 177
       },
       {
-        "alignment": "neutral",
-        "id": 1609344589,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 11.0,
+        "price": -204
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Ben Brown (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344590,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;13.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344591,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 7500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608945338,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 13.5,
+        "price": 376
       },
       {
-        "alignment": "neutral",
-        "id": 1609344592,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 13.5,
+        "price": -527
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Ben Brown (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100498087
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344593,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344594,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608982384,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608982385,
+        "price": -170
       },
       {
-        "alignment": "neutral",
-        "id": 1609344595,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1608982386,
+        "price": 143
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Ben Brown (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 421115391
+    "type": "moneyline",
+    "version": 4970200668
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344596,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;27.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344597,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341908,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 27.0,
+        "price": -128
       },
       {
-        "alignment": "neutral",
-        "id": 1609344598,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 27.0,
+        "price": 106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Busch (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "status": "open",
+    "type": "total",
+    "version": 3100492160
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344599,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344600,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341909,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609341910,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609344601,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609341911,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Pete Crow-Armstrong (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421115391
+    "type": "moneyline",
+    "version": 4969637934
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348592,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348593,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341912,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609341920,
+        "price": 864
       },
       {
-        "alignment": "neutral",
-        "id": 1609348594,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609341921,
+        "price": 512
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609341913,
+        "price": 1073
+      },
+      {
+        "participantId": 1609341914,
+        "price": 638
+      },
+      {
+        "participantId": 1609341915,
+        "price": 506
+      },
+      {
+        "participantId": 1609341916,
+        "price": 469
+      },
+      {
+        "participantId": 1609341917,
+        "price": 490
+      },
+      {
+        "participantId": 1609341918,
+        "price": 562
+      },
+      {
+        "participantId": 1609341919,
+        "price": 678
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Wilmer Flores (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120807
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348598,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348599,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341922,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609341923,
+        "price": 111
       },
       {
-        "alignment": "neutral",
-        "id": 1609348600,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609341924,
+        "price": -130
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Mike Yastrzemski (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120807
+    "type": "moneyline",
+    "version": 4970145892
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348604,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348606,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341925,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609341926,
+        "price": 1384
       },
       {
-        "alignment": "neutral",
-        "id": 1609348607,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609341927,
+        "price": 856
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609341928,
+        "price": 649
+      },
+      {
+        "participantId": 1609341929,
+        "price": 566
+      },
+      {
+        "participantId": 1609341930,
+        "price": 538
+      },
+      {
+        "participantId": 1609341931,
+        "price": 566
+      },
+      {
+        "participantId": 1609341932,
+        "price": 626
+      },
+      {
+        "participantId": 1609341933,
+        "price": 730
+      },
+      {
+        "participantId": 1609341934,
+        "price": 295
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Robbie Ray (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421120807
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348610,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348612,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341935,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609341936,
+        "price": 225
       },
       {
-        "alignment": "neutral",
-        "id": 1609348613,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609341937,
+        "price": 318
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609341938,
+        "price": 1382
+      },
+      {
+        "participantId": 1609341939,
+        "price": 342
+      },
+      {
+        "participantId": 1609341940,
+        "price": 418
+      },
+      {
+        "participantId": 1609341941,
+        "price": 629
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Robbie Ray (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421120808
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348616,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348618,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341942,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609341943,
+        "price": 6811
       },
       {
-        "alignment": "neutral",
-        "id": 1609348619,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609341944,
+        "price": 5728
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609341945,
+        "price": 5288
+      },
+      {
+        "participantId": 1609341946,
+        "price": 5401
+      },
+      {
+        "participantId": 1609341947,
+        "price": 5739
+      },
+      {
+        "participantId": 1609341948,
+        "price": 6394
+      },
+      {
+        "participantId": 1609341949,
+        "price": 7276
+      },
+      {
+        "participantId": 1609341950,
+        "price": 5368
+      },
+      {
+        "participantId": 1609341951,
+        "price": 3610
+      },
+      {
+        "participantId": 1609341952,
+        "price": 3426
+      },
+      {
+        "participantId": 1609341953,
+        "price": 3441
+      },
+      {
+        "participantId": 1609341954,
+        "price": 3745
+      },
+      {
+        "participantId": 1609341955,
+        "price": 4213
+      },
+      {
+        "participantId": 1609341956,
+        "price": 4903
+      },
+      {
+        "participantId": 1609341957,
+        "price": 5621
+      },
+      {
+        "participantId": 1609341958,
+        "price": 2878
+      },
+      {
+        "participantId": 1609341959,
+        "price": 2774
+      },
+      {
+        "participantId": 1609341960,
+        "price": 2884
+      },
+      {
+        "participantId": 1609341961,
+        "price": 3103
+      },
+      {
+        "participantId": 1609341962,
+        "price": 3559
+      },
+      {
+        "participantId": 1609341963,
+        "price": 3891
+      },
+      {
+        "participantId": 1609341964,
+        "price": 5910
+      },
+      {
+        "participantId": 1609341965,
+        "price": 3700
+      },
+      {
+        "participantId": 1609341966,
+        "price": 2157
+      },
+      {
+        "participantId": 1609341967,
+        "price": 2650
+      },
+      {
+        "participantId": 1609341968,
+        "price": 2943
+      },
+      {
+        "participantId": 1609341969,
+        "price": 3110
+      },
+      {
+        "participantId": 1609341970,
+        "price": 3564
+      },
+      {
+        "participantId": 1609341971,
+        "price": 6620
+      },
+      {
+        "participantId": 1609341972,
+        "price": 4219
+      },
+      {
+        "participantId": 1609341973,
+        "price": 3243
+      },
+      {
+        "participantId": 1609341974,
+        "price": 2042
+      },
+      {
+        "participantId": 1609341975,
+        "price": 2736
+      },
+      {
+        "participantId": 1609341976,
+        "price": 3060
+      },
+      {
+        "participantId": 1609341977,
+        "price": 3641
+      },
+      {
+        "participantId": 1609341978,
+        "price": 7695
+      },
+      {
+        "participantId": 1609341979,
+        "price": 4982
+      },
+      {
+        "participantId": 1609341980,
+        "price": 3872
+      },
+      {
+        "participantId": 1609341981,
+        "price": 3404
+      },
+      {
+        "participantId": 1609341982,
+        "price": 2081
+      },
+      {
+        "participantId": 1609341983,
+        "price": 3237
+      },
+      {
+        "participantId": 1609341984,
+        "price": 3912
+      },
+      {
+        "participantId": 1609341985,
+        "price": 9187
+      },
+      {
+        "participantId": 1609341986,
+        "price": 6083
+      },
+      {
+        "participantId": 1609341987,
+        "price": 4776
+      },
+      {
+        "participantId": 1609341988,
+        "price": 3928
+      },
+      {
+        "participantId": 1609341989,
+        "price": 3615
+      },
+      {
+        "participantId": 1609341990,
+        "price": 2458
+      },
+      {
+        "participantId": 1609341991,
+        "price": 4318
+      },
+      {
+        "participantId": 1609341993,
+        "price": 7521
+      },
+      {
+        "participantId": 1609341994,
+        "price": 5649
+      },
+      {
+        "participantId": 1609341995,
+        "price": 4810
+      },
+      {
+        "participantId": 1609341996,
+        "price": 4606
+      },
+      {
+        "participantId": 1609341997,
+        "price": 4690
+      },
+      {
+        "participantId": 1609341998,
+        "price": 3293
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Robbie Ray (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348622,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348624,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609341999,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342000,
+        "price": -157
       },
       {
-        "alignment": "neutral",
-        "id": 1609348625,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609342001,
+        "price": 133
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Robbie Ray (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348628,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348630,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342002,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342003,
+        "price": 108
       },
       {
-        "alignment": "neutral",
-        "id": 1609348631,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609342004,
+        "price": -127
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Willy Adames (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970145892
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348634,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348636,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342005,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342006,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1609348637,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609342007,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt Chapman (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120808
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348640,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348641,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342008,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342009,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609348642,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609342010,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "LaMonte Wade Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970110138
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348646,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348647,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342011,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342012,
+        "price": 180
       },
       {
-        "alignment": "neutral",
-        "id": 1609348648,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609342013,
+        "price": 277
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342014,
+        "price": 298
+      },
+      {
+        "participantId": 1609342015,
+        "price": 334
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Sam Huff (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348652,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348653,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342016,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342017,
+        "price": 584
       },
       {
-        "alignment": "neutral",
-        "id": 1609348654,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609342018,
+        "price": 658
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342019,
+        "price": 750
+      },
+      {
+        "participantId": 1609342020,
+        "price": 904
+      },
+      {
+        "participantId": 1609342021,
+        "price": 360
+      },
+      {
+        "participantId": 1609342022,
+        "price": 413
+      },
+      {
+        "participantId": 1609342023,
+        "price": 779
+      },
+      {
+        "participantId": 1609342024,
+        "price": 978
+      },
+      {
+        "participantId": 1609342025,
+        "price": 1266
+      },
+      {
+        "participantId": 1609342026,
+        "price": 750
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Heliot Ramos (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348656,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348659,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342027,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342028,
+        "price": 311
       },
       {
-        "alignment": "neutral",
-        "id": 1609348660,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609342029,
+        "price": 439
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342030,
+        "price": 693
+      },
+      {
+        "participantId": 1609342031,
+        "price": 698
+      },
+      {
+        "participantId": 1609342032,
+        "price": 265
+      },
+      {
+        "participantId": 1609342033,
+        "price": 623
+      },
+      {
+        "participantId": 1609342034,
+        "price": 1139
+      },
+      {
+        "participantId": 1609342035,
+        "price": 1501
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Christian Koss (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120807
+    "type": "moneyline",
+    "version": 4970200319
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348661,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608927835,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Chicago Cubs",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "San Francisco Giants",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T18:20:00+00:00"
-    },
-    "parentId": 1608927835,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348662,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342036,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342048,
+        "price": 1029
       },
       {
-        "alignment": "neutral",
-        "id": 1609348663,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609342049,
+        "price": 950
+      },
       {
-        "cutoffAt": "2025-05-07T18:20:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609342050,
+        "price": 1388
+      },
+      {
+        "participantId": 1609342051,
+        "price": 512
+      },
+      {
+        "participantId": 1609342037,
+        "price": 2955
+      },
+      {
+        "participantId": 1609342038,
+        "price": 2799
+      },
+      {
+        "participantId": 1609342039,
+        "price": 1254
+      },
+      {
+        "participantId": 1609342040,
+        "price": 1375
+      },
+      {
+        "participantId": 1609342041,
+        "price": 789
+      },
+      {
+        "participantId": 1609342042,
+        "price": 965
+      },
+      {
+        "participantId": 1609342043,
+        "price": 654
+      },
+      {
+        "participantId": 1609342044,
+        "price": 867
+      },
+      {
+        "participantId": 1609342045,
+        "price": 618
+      },
+      {
+        "participantId": 1609342046,
+        "price": 833
+      },
+      {
+        "participantId": 1609342047,
+        "price": 710
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Jung Hoo Lee (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T18:20:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120808
+    "type": "moneyline",
+    "version": 4970110138
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342052,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609342053,
+        "price": 915
+      },
+      {
+        "participantId": 1609342054,
+        "price": 387
+      },
+      {
+        "participantId": 1609342055,
+        "price": 240
+      },
+      {
+        "participantId": 1609342056,
+        "price": 276
+      },
+      {
+        "participantId": 1609342057,
+        "price": 263
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970220202
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342058,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342059,
+        "price": 522
+      },
+      {
+        "participantId": 1609342060,
+        "price": 618
+      },
+      {
+        "participantId": 1609342061,
+        "price": 270
+      },
+      {
+        "participantId": 1609342062,
+        "price": 473
+      },
+      {
+        "participantId": 1609342063,
+        "price": 567
+      },
+      {
+        "participantId": 1609342064,
+        "price": 731
+      },
+      {
+        "participantId": 1609342065,
+        "price": 408
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970145892
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342066,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342067,
+        "price": 1526
+      },
+      {
+        "participantId": 1609342068,
+        "price": 864
+      },
+      {
+        "participantId": 1609342069,
+        "price": 635
+      },
+      {
+        "participantId": 1609342070,
+        "price": 546
+      },
+      {
+        "participantId": 1609342071,
+        "price": 526
+      },
+      {
+        "participantId": 1609342072,
+        "price": 566
+      },
+      {
+        "participantId": 1609342073,
+        "price": 650
+      },
+      {
+        "participantId": 1609342074,
+        "price": 758
+      },
+      {
+        "participantId": 1609342075,
+        "price": 916
+      },
+      {
+        "participantId": 1609342076,
+        "price": 1138
+      },
+      {
+        "participantId": 1609342077,
+        "price": 1439
+      },
+      {
+        "participantId": 1609342078,
+        "price": 858
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970145892
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342079,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342080,
+        "price": 317
+      },
+      {
+        "participantId": 1609342081,
+        "price": 259
+      },
+      {
+        "participantId": 1609342082,
+        "price": 303
+      },
+      {
+        "participantId": 1609342083,
+        "price": 196
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970145892
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342084,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342085,
+        "price": 408
+      },
+      {
+        "participantId": 1609342086,
+        "price": 379
+      },
+      {
+        "participantId": 1609342087,
+        "price": 392
+      },
+      {
+        "participantId": 1609342088,
+        "price": 468
+      },
+      {
+        "participantId": 1609342089,
+        "price": 598
+      },
+      {
+        "participantId": 1609342090,
+        "price": 300
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970145892
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342091,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342092,
+        "price": 324
+      },
+      {
+        "participantId": 1609342093,
+        "price": 313
+      },
+      {
+        "participantId": 1609342094,
+        "price": 380
+      },
+      {
+        "participantId": 1609342095,
+        "price": 499
+      },
+      {
+        "participantId": 1609342096,
+        "price": 680
+      },
+      {
+        "participantId": 1609342097,
+        "price": 411
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970145892
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609342098,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609342099,
+        "price": 1777
+      },
+      {
+        "participantId": 1609342100,
+        "price": 2015
+      },
+      {
+        "participantId": 1609342101,
+        "price": 2436
+      },
+      {
+        "participantId": 1609342102,
+        "price": 3074
+      },
+      {
+        "participantId": 1609342103,
+        "price": 4074
+      },
+      {
+        "participantId": 1609342106,
+        "price": 1690
+      },
+      {
+        "participantId": 1609342107,
+        "price": 1642
+      },
+      {
+        "participantId": 1609342108,
+        "price": 1892
+      },
+      {
+        "participantId": 1609342109,
+        "price": 2292
+      },
+      {
+        "participantId": 1609342110,
+        "price": 2979
+      },
+      {
+        "participantId": 1609342111,
+        "price": 3962
+      },
+      {
+        "participantId": 1609342114,
+        "price": 1720
+      },
+      {
+        "participantId": 1609342115,
+        "price": 1653
+      },
+      {
+        "participantId": 1609342116,
+        "price": 1898
+      },
+      {
+        "participantId": 1609342117,
+        "price": 2398
+      },
+      {
+        "participantId": 1609342118,
+        "price": 3117
+      },
+      {
+        "participantId": 1609342119,
+        "price": 4024
+      },
+      {
+        "participantId": 1609342122,
+        "price": 1957
+      },
+      {
+        "participantId": 1609342123,
+        "price": 1882
+      },
+      {
+        "participantId": 1609342124,
+        "price": 2193
+      },
+      {
+        "participantId": 1609342125,
+        "price": 2754
+      },
+      {
+        "participantId": 1609342126,
+        "price": 3503
+      },
+      {
+        "participantId": 1609342127,
+        "price": 4499
+      },
+      {
+        "participantId": 1609342130,
+        "price": 2362
+      },
+      {
+        "participantId": 1609342131,
+        "price": 2340
+      },
+      {
+        "participantId": 1609342132,
+        "price": 2719
+      },
+      {
+        "participantId": 1609342133,
+        "price": 3258
+      },
+      {
+        "participantId": 1609342134,
+        "price": 4105
+      },
+      {
+        "participantId": 1609342138,
+        "price": 3037
+      },
+      {
+        "participantId": 1609342139,
+        "price": 3017
+      },
+      {
+        "participantId": 1609342140,
+        "price": 3385
+      },
+      {
+        "participantId": 1609342141,
+        "price": 4030
+      },
+      {
+        "participantId": 1609342142,
+        "price": 4989
+      },
+      {
+        "participantId": 1609342146,
+        "price": 4057
+      },
+      {
+        "participantId": 1609342147,
+        "price": 3917
+      },
+      {
+        "participantId": 1609342148,
+        "price": 4372
+      }
+    ],
+    "type": "moneyline",
+    "version": 4970220202
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348773,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348774,
+        "points": 0.5,
+        "price": 450
+      },
+      {
+        "participantId": 1609348775,
+        "points": 0.5,
+        "price": -793
+      }
+    ],
+    "type": "total",
+    "version": 4969793937
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348776,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348777,
+        "points": 1.5,
+        "price": 124
+      },
+      {
+        "participantId": 1609348778,
+        "points": 1.5,
+        "price": -166
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348779,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348780,
+        "points": 0.5,
+        "price": -226
+      },
+      {
+        "participantId": 1609348781,
+        "points": 0.5,
+        "price": 166
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348782,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348783,
+        "points": 1.5,
+        "price": 135
+      },
+      {
+        "participantId": 1609348784,
+        "points": 1.5,
+        "price": -181
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348785,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348786,
+        "points": 0.5,
+        "price": -171
+      },
+      {
+        "participantId": 1609348787,
+        "points": 0.5,
+        "price": 126
+      }
+    ],
+    "type": "total",
+    "version": 4970044445
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348788,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348789,
+        "points": 0.5,
+        "price": -121
+      },
+      {
+        "participantId": 1609348790,
+        "points": 0.5,
+        "price": -109
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348791,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348792,
+        "points": 0.5,
+        "price": 295
+      },
+      {
+        "participantId": 1609348793,
+        "points": 0.5,
+        "price": -446
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348794,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348795,
+        "points": 1.5,
+        "price": 105
+      },
+      {
+        "participantId": 1609348796,
+        "points": 1.5,
+        "price": -140
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348797,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348798,
+        "points": 1.5,
+        "price": 150
+      },
+      {
+        "participantId": 1609348799,
+        "points": 1.5,
+        "price": -202
+      }
+    ],
+    "type": "total",
+    "version": 4969794007
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348800,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348801,
+        "points": 0.5,
+        "price": -175
+      },
+      {
+        "participantId": 1609348802,
+        "points": 0.5,
+        "price": 131
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348803,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348804,
+        "points": 0.5,
+        "price": -179
+      },
+      {
+        "participantId": 1609348805,
+        "points": 0.5,
+        "price": 133
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348806,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348807,
+        "points": 0.5,
+        "price": -199
+      },
+      {
+        "participantId": 1609348808,
+        "points": 0.5,
+        "price": 148
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348809,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348810,
+        "points": 0.5,
+        "price": -184
+      },
+      {
+        "participantId": 1609348811,
+        "points": 0.5,
+        "price": 137
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348812,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348813,
+        "points": 0.5,
+        "price": 434
+      },
+      {
+        "participantId": 1609348814,
+        "points": 0.5,
+        "price": -751
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348815,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348816,
+        "points": 1.5,
+        "price": 120
+      },
+      {
+        "participantId": 1609348817,
+        "points": 1.5,
+        "price": -160
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348821,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348822,
+        "points": 1.5,
+        "price": -101
+      },
+      {
+        "participantId": 1609348823,
+        "points": 1.5,
+        "price": -131
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348824,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348825,
+        "points": 3.5,
+        "price": -145
+      },
+      {
+        "participantId": 1609348826,
+        "points": 3.5,
+        "price": 109
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348827,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348828,
+        "points": 4.5,
+        "price": -157
+      },
+      {
+        "participantId": 1609348829,
+        "points": 4.5,
+        "price": 118
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348830,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348832,
+        "points": 2.5,
+        "price": -137
+      },
+      {
+        "participantId": 1609348831,
+        "points": 2.5,
+        "price": 103
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348833,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348834,
+        "points": 1.5,
+        "price": 132
+      },
+      {
+        "participantId": 1609348835,
+        "points": 1.5,
+        "price": -176
+      }
+    ],
+    "type": "total",
+    "version": 4969974997
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348836,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348837,
+        "points": 5.5,
+        "price": -110
+      },
+      {
+        "participantId": 1609348838,
+        "points": 5.5,
+        "price": -120
+      }
+    ],
+    "type": "total",
+    "version": 4969974997
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348839,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348840,
+        "points": 5.5,
+        "price": -100
+      },
+      {
+        "participantId": 1609348841,
+        "points": 5.5,
+        "price": -132
+      }
+    ],
+    "type": "total",
+    "version": 4969974997
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348842,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348843,
+        "points": 2.5,
+        "price": 122
+      },
+      {
+        "participantId": 1609348844,
+        "points": 2.5,
+        "price": -164
+      }
+    ],
+    "type": "total",
+    "version": 4970000658
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348845,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348846,
+        "points": 18.5,
+        "price": 159
+      },
+      {
+        "participantId": 1609348847,
+        "points": 18.5,
+        "price": -216
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348848,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348849,
+        "points": 0.5,
+        "price": -138
+      },
+      {
+        "participantId": 1609348850,
+        "points": 0.5,
+        "price": 104
+      }
+    ],
+    "type": "total",
+    "version": 4969974997
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348851,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348852,
+        "points": 0.5,
+        "price": -212
+      },
+      {
+        "participantId": 1609348853,
+        "points": 0.5,
+        "price": 156
+      }
+    ],
+    "type": "total",
+    "version": 4969794007
+  },
+  {
+    "cutoffAt": "2025-05-07T19:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609348854,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609348855,
+        "points": 0.5,
+        "price": -227
+      },
+      {
+        "participantId": 1609348856,
+        "points": 0.5,
+        "price": 166
+      }
+    ],
+    "type": "total",
+    "version": 4969992750
   }
 ]
