@@ -222,8 +222,8 @@ def writeCircaMain(date):
 	#pages = [pages[0]]
 
 	for pageIdx, page in enumerate(pages):
-		page.save("out.png", "PNG")
-		img = Image.open("out.png")
+		page.save(f"out-main-{pageIdx}.png", "PNG")
+		img = Image.open(f"out-main-{pageIdx}.png")
 		bottom, top = 1515, 480
 		#bottom, top = 1550, 500
 		if pageIdx:
