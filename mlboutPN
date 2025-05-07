@@ -1,6113 +1,2880 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 2,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608956459,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Milwaukee Brewers",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Houston Astros",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 216
       },
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
+        "designation": "away",
+        "price": 302
       },
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "draw",
+        "price": -103
       }
     ],
-    "rotation": 973,
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 51,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 597835995
+    "status": "open",
+    "type": "moneyline",
+    "version": 3100352104
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608968307,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1608968308,
-        "name": "Houston Astros",
-        "order": 0,
-        "rotation": 1041
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -143
       },
       {
-        "alignment": "neutral",
-        "id": 1608968309,
-        "name": "Milwaukee Brewers",
-        "order": 0,
-        "rotation": 1042
+        "designation": "away",
+        "points": -0.0,
+        "price": 122
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1041,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 421107836
+    "status": "open",
+    "type": "spread",
+    "version": 3100352104
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 3,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343034,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Milwaukee Brewers  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -131
       },
       {
-        "alignment": "away",
-        "name": "Houston Astros  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 0.5,
+        "price": 112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9973,
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 597796026
+    "status": "open",
+    "type": "total",
+    "version": 3100352104
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343035,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343036,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 973
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "price": -131
       },
       {
-        "alignment": "neutral",
-        "id": 1609343037,
-        "name": "Even",
-        "order": 0,
-        "rotation": 974
+        "designation": "away",
+        "price": 118
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Milwaukee Brewers Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "moneyline",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343038,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343039,
-        "name": "0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343040,
-        "name": "1",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343041,
-        "name": "2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343042,
-        "name": "3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343043,
-        "name": "4",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343044,
-        "name": "5",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343045,
-        "name": "6",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343046,
-        "name": "7",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343047,
-        "name": "8+",
-        "order": 0,
-        "rotation": 981
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": -112
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -104
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Milwaukee Brewers Exact Total Runs"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343048,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343049,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 973
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": 103
       },
       {
-        "alignment": "neutral",
-        "id": 1609343050,
-        "name": "Even",
-        "order": 0,
-        "rotation": 974
+        "designation": "under",
+        "points": 4.5,
+        "price": -121
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Milwaukee Brewers Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113413
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343051,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343052,
-        "name": "0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343053,
-        "name": "1",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343054,
-        "name": "2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343055,
-        "name": "3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343056,
-        "name": "4",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343057,
-        "name": "5",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343058,
-        "name": "6",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343059,
-        "name": "7",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343060,
-        "name": "8+",
-        "order": 0,
-        "rotation": 981
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 149
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -169
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Houston Astros Exact Total Runs"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343061,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343062,
-        "name": "Houston Astros & Over 4.5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343063,
-        "name": "Milwaukee Brewers & Over 4.5",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343064,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343065,
-        "name": "Houston Astros & Under 4.5",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343066,
-        "name": "Milwaukee Brewers & Under 4.5",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343067,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 978
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -221
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 178
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343068,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343069,
-        "name": "Houston Astros 1, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343070,
-        "name": "Houston Astros 2, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343071,
-        "name": "Houston Astros 3, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343072,
-        "name": "Houston Astros 4, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343073,
-        "name": "Houston Astros 5, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343074,
-        "name": "Houston Astros 6, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343075,
-        "name": "Houston Astros 7, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343076,
-        "name": "Houston Astros 0, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343077,
-        "name": "Houston Astros 2, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343078,
-        "name": "Houston Astros 3, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343079,
-        "name": "Houston Astros 4, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343080,
-        "name": "Houston Astros 5, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343081,
-        "name": "Houston Astros 6, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343082,
-        "name": "Houston Astros 7, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343083,
-        "name": "Houston Astros 0, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343084,
-        "name": "Houston Astros 1, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343085,
-        "name": "Houston Astros 3, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343086,
-        "name": "Houston Astros 4, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343087,
-        "name": "Houston Astros 5, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343088,
-        "name": "Houston Astros 6, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343089,
-        "name": "Houston Astros 7, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343090,
-        "name": "Houston Astros 0, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343091,
-        "name": "Houston Astros 1, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343092,
-        "name": "Houston Astros 2, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343093,
-        "name": "Houston Astros 4, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343094,
-        "name": "Houston Astros 5, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343095,
-        "name": "Houston Astros 6, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343096,
-        "name": "Houston Astros 7, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343097,
-        "name": "Houston Astros 0, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343098,
-        "name": "Houston Astros 1, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343099,
-        "name": "Houston Astros 2, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343100,
-        "name": "Houston Astros 3, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343101,
-        "name": "Houston Astros 5, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343102,
-        "name": "Houston Astros 6, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343103,
-        "name": "Houston Astros 7, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343104,
-        "name": "Houston Astros 0, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343105,
-        "name": "Houston Astros 1, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343106,
-        "name": "Houston Astros 2, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343107,
-        "name": "Houston Astros 3, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343108,
-        "name": "Houston Astros 4, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343109,
-        "name": "Houston Astros 6, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343110,
-        "name": "Houston Astros 7, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343111,
-        "name": "Houston Astros 0, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343112,
-        "name": "Houston Astros 1, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343113,
-        "name": "Houston Astros 2, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343114,
-        "name": "Houston Astros 3, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343115,
-        "name": "Houston Astros 4, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343116,
-        "name": "Houston Astros 5, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343117,
-        "name": "Houston Astros 7, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343118,
-        "name": "Houston Astros 0, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343119,
-        "name": "Houston Astros 1, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343120,
-        "name": "Houston Astros 2, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343121,
-        "name": "Houston Astros 3, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343122,
-        "name": "Houston Astros 4, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343123,
-        "name": "Houston Astros 5, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343124,
-        "name": "Houston Astros 6, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1028
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -181
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 152
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343125,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343126,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 973
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 108
       },
       {
-        "alignment": "neutral",
-        "id": 1609343127,
-        "name": "Even",
-        "order": 0,
-        "rotation": 974
+        "designation": "away",
+        "points": 1.0,
+        "price": -124
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343128,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343129,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 973
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -2.0,
+        "price": 192
       },
       {
-        "alignment": "neutral",
-        "id": 1609343130,
-        "name": "Even",
-        "order": 0,
-        "rotation": 974
+        "designation": "away",
+        "points": 2.0,
+        "price": -229
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Houston Astros Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343131,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343132,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 973
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -2.5,
+        "price": 213
       },
       {
-        "alignment": "neutral",
-        "id": 1609343133,
-        "name": "Even",
-        "order": 0,
-        "rotation": 974
+        "designation": "away",
+        "points": 2.5,
+        "price": -264
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343134,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343135,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 973
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -3.0,
+        "price": 282
       },
       {
-        "alignment": "neutral",
-        "id": 1609343136,
-        "name": "Even",
-        "order": 0,
-        "rotation": 974
+        "designation": "away",
+        "points": 3.0,
+        "price": -382
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Houston Astros Runs Odd/Even"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343137,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343138,
-        "name": "Houston Astros & Over 8.5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343139,
-        "name": "Milwaukee Brewers & Over 8.5",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343140,
-        "name": "Houston Astros & Under 8.5",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343141,
-        "name": "Milwaukee Brewers & Under 8.5",
-        "order": 0,
-        "rotation": 976
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.5,
+        "price": 104
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -117
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343142,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343143,
-        "name": "Houston Astros By 1",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343144,
-        "name": "Houston Astros By 2",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343145,
-        "name": "Houston Astros By 3",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343146,
-        "name": "Houston Astros By 4",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343147,
-        "name": "Houston Astros By 5+",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343148,
-        "name": "Milwaukee Brewers By 1",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343149,
-        "name": "Milwaukee Brewers By 2",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343150,
-        "name": "Milwaukee Brewers By 3",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343151,
-        "name": "Milwaukee Brewers By 4",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343152,
-        "name": "Milwaukee Brewers By 5+",
-        "order": 0,
-        "rotation": 982
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.5,
+        "price": -364
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": 280
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343153,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343154,
-        "name": "Houston Astros By 1 - 2",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343155,
-        "name": "Houston Astros By 3 - 4",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343156,
-        "name": "Houston Astros By 5 - 6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343157,
-        "name": "Houston Astros By 7+",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343158,
-        "name": "Milwaukee Brewers By 1 - 2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343159,
-        "name": "Milwaukee Brewers By 3 - 4",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343160,
-        "name": "Milwaukee Brewers By 5 - 6",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343161,
-        "name": "Milwaukee Brewers By 7+",
-        "order": 0,
-        "rotation": 980
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.0,
+        "price": -183
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 160
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343162,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343163,
-        "name": "1",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343164,
-        "name": "2",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343165,
-        "name": "3",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343166,
-        "name": "4",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343167,
-        "name": "5",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343168,
-        "name": "6",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343169,
-        "name": "7",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343170,
-        "name": "8",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343171,
-        "name": "9",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343172,
-        "name": "10",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343173,
-        "name": "11",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343174,
-        "name": "12",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343175,
-        "name": "13",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343176,
-        "name": "14",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343177,
-        "name": "15+",
-        "order": 0,
-        "rotation": 987
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.5,
+        "price": -149
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": 131
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343178,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343179,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343180,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343181,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343182,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343183,
-        "name": "13+",
-        "order": 0,
-        "rotation": 977
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.0,
+        "price": -121
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": 107
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343184,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343185,
-        "name": "Houston Astros By 1",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343186,
-        "name": "Houston Astros By 2",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343187,
-        "name": "Houston Astros By 3+",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343188,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343189,
-        "name": "Milwaukee Brewers By 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343190,
-        "name": "Milwaukee Brewers By 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343191,
-        "name": "Milwaukee Brewers By 3+",
-        "order": 0,
-        "rotation": 979
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 10.0,
+        "price": 123
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -138
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113413
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343192,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343193,
-        "name": "0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343194,
-        "name": "1",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343195,
-        "name": "2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343196,
-        "name": "3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343197,
-        "name": "4",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343198,
-        "name": "5",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343199,
-        "name": "6",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343200,
-        "name": "7",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343201,
-        "name": "8",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343202,
-        "name": "9",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343203,
-        "name": "10",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343204,
-        "name": "11+",
-        "order": 0,
-        "rotation": 984
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 10.5,
+        "price": 139
+      },
+      {
+        "designation": "under",
+        "points": 10.5,
+        "price": -157
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113392
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343205,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343206,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343207,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343208,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343209,
-        "name": "7+",
-        "order": 0,
-        "rotation": 976
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 11.0,
+        "price": 176
+      },
+      {
+        "designation": "under",
+        "points": 11.0,
+        "price": -203
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113413
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343210,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;13.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343211,
-        "name": "0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343212,
-        "name": "1",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343213,
-        "name": "2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343214,
-        "name": "3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343215,
-        "name": "4",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343216,
-        "name": "5+",
-        "order": 0,
-        "rotation": 978
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 13.5,
+        "price": 354
+      },
+      {
+        "designation": "under",
+        "points": 13.5,
+        "price": -488
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Houston Astros Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113413
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343217,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343218,
-        "name": "0",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343219,
-        "name": "1",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343220,
-        "name": "2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343221,
-        "name": "3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343222,
-        "name": "4",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343223,
-        "name": "5+",
-        "order": 0,
-        "rotation": 978
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -122
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": 100
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Milwaukee Brewers Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113413
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609343224,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609343225,
-        "name": "Houston Astros 0, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343226,
-        "name": "Houston Astros 0, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343227,
-        "name": "Houston Astros 0, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343228,
-        "name": "Houston Astros 0, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343229,
-        "name": "Houston Astros 0, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343230,
-        "name": "Houston Astros 0, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343231,
-        "name": "Houston Astros 0, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343232,
-        "name": "Houston Astros 1, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343233,
-        "name": "Houston Astros 1, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343234,
-        "name": "Houston Astros 1, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343235,
-        "name": "Houston Astros 1, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343236,
-        "name": "Houston Astros 1, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343237,
-        "name": "Houston Astros 1, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343238,
-        "name": "Houston Astros 1, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343239,
-        "name": "Houston Astros 1, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343240,
-        "name": "Houston Astros 2, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343241,
-        "name": "Houston Astros 2, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343242,
-        "name": "Houston Astros 2, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343243,
-        "name": "Houston Astros 2, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343244,
-        "name": "Houston Astros 2, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343245,
-        "name": "Houston Astros 2, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343246,
-        "name": "Houston Astros 2, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343247,
-        "name": "Houston Astros 2, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343248,
-        "name": "Houston Astros 3, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343249,
-        "name": "Houston Astros 3, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343250,
-        "name": "Houston Astros 3, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343251,
-        "name": "Houston Astros 3, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343252,
-        "name": "Houston Astros 3, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343253,
-        "name": "Houston Astros 3, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343254,
-        "name": "Houston Astros 3, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343255,
-        "name": "Houston Astros 3, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343256,
-        "name": "Houston Astros 4, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343257,
-        "name": "Houston Astros 4, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343258,
-        "name": "Houston Astros 4, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343259,
-        "name": "Houston Astros 4, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343260,
-        "name": "Houston Astros 4, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343261,
-        "name": "Houston Astros 4, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343262,
-        "name": "Houston Astros 4, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343263,
-        "name": "Houston Astros 4, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343264,
-        "name": "Houston Astros 5, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343265,
-        "name": "Houston Astros 5, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343266,
-        "name": "Houston Astros 5, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343267,
-        "name": "Houston Astros 5, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343268,
-        "name": "Houston Astros 5, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343269,
-        "name": "Houston Astros 5, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343270,
-        "name": "Houston Astros 5, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343271,
-        "name": "Houston Astros 5, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343272,
-        "name": "Houston Astros 6, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343273,
-        "name": "Houston Astros 6, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343274,
-        "name": "Houston Astros 6, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343275,
-        "name": "Houston Astros 6, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343276,
-        "name": "Houston Astros 6, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343277,
-        "name": "Houston Astros 6, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343278,
-        "name": "Houston Astros 6, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343279,
-        "name": "Houston Astros 6, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343280,
-        "name": "Houston Astros 7, Milwaukee Brewers 0",
-        "order": 0,
-        "rotation": 1028
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343281,
-        "name": "Houston Astros 7, Milwaukee Brewers 1",
-        "order": 0,
-        "rotation": 1029
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343282,
-        "name": "Houston Astros 7, Milwaukee Brewers 2",
-        "order": 0,
-        "rotation": 1030
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343283,
-        "name": "Houston Astros 7, Milwaukee Brewers 3",
-        "order": 0,
-        "rotation": 1031
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343284,
-        "name": "Houston Astros 7, Milwaukee Brewers 4",
-        "order": 0,
-        "rotation": 1032
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343285,
-        "name": "Houston Astros 7, Milwaukee Brewers 5",
-        "order": 0,
-        "rotation": 1033
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343286,
-        "name": "Houston Astros 7, Milwaukee Brewers 6",
-        "order": 0,
-        "rotation": 1034
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609343287,
-        "name": "Houston Astros 7, Milwaukee Brewers 7",
-        "order": 0,
-        "rotation": 1035
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": 117
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": -142
       }
     ],
-    "rotation": 973,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421113413
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344527,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344528,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -134
       },
       {
-        "alignment": "neutral",
-        "id": 1609344529,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "away",
+        "points": -0.0,
+        "price": 117
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Christian Yelich (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344530,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344531,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -256
       },
       {
-        "alignment": "neutral",
-        "id": 1609344532,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "away",
+        "points": -1.0,
+        "price": 203
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Rhys Hoskins (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344533,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344534,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -175
       },
       {
-        "alignment": "neutral",
-        "id": 1609344535,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "away",
+        "points": -0.5,
+        "price": 147
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "William Contreras (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344536,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344537,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 100
       },
       {
-        "alignment": "neutral",
-        "id": 1609344538,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "away",
+        "points": 0.5,
+        "price": -117
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Daz Cameron (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344539,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344540,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 133
       },
       {
-        "alignment": "neutral",
-        "id": 1609344541,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "away",
+        "points": 1.0,
+        "price": -161
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Brice Turang (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "spread",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344542,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344543,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": -119
       },
       {
-        "alignment": "neutral",
-        "id": 1609344544,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "under",
+        "points": 5.0,
+        "price": 104
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Quinn Priester (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421112504
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344545,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344546,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -213
       },
       {
-        "alignment": "neutral",
-        "id": 1609344547,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "under",
+        "points": 4.0,
+        "price": 181
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Quinn Priester (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421112504
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344548,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344549,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -150
       },
       {
-        "alignment": "neutral",
-        "id": 1609344550,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "under",
+        "points": 4.5,
+        "price": 130
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Quinn Priester (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421112504
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344551,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344552,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 108
       },
       {
-        "alignment": "neutral",
-        "id": 1609344553,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "under",
+        "points": 5.5,
+        "price": -124
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Isaac Collins (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344554,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344555,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608956545,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.0,
+        "price": 140
       },
       {
-        "alignment": "neutral",
-        "id": 1609344556,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "designation": "under",
+        "points": 6.0,
+        "price": -162
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Joey Ortiz (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "status": "open",
+    "type": "total",
+    "version": 3100380300
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344557,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344558,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1608990919,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1608990920,
+        "price": -133
       },
       {
-        "alignment": "neutral",
-        "id": 1609344559,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1608990921,
+        "price": 113
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Jackson Chourio (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "type": "moneyline",
+    "version": 4970044899
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609344560,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609344561,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344741,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344742,
+        "points": 4.5,
+        "price": 119
       },
       {
-        "alignment": "neutral",
-        "id": 1609344562,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344743,
+        "points": 4.5,
+        "price": -159
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Caleb Durbin (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421112504
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348538,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348539,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344744,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344745,
+        "points": 4.5,
+        "price": 109
       },
       {
-        "alignment": "neutral",
-        "id": 1609348540,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344746,
+        "points": 4.5,
+        "price": -145
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Jose Altuve (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348541,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348542,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344747,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344748,
+        "points": 2.5,
+        "price": 129
       },
       {
-        "alignment": "neutral",
-        "id": 1609348543,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344749,
+        "points": 2.5,
+        "price": -173
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Christian Walker (Home Runs)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 421120569
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348544,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348545,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344750,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344751,
+        "points": 1.5,
+        "price": 143
       },
       {
-        "alignment": "neutral",
-        "id": 1609348546,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344752,
+        "points": 1.5,
+        "price": -192
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Christian Walker (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4969943355
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348547,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348548,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344753,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344754,
+        "points": 1.5,
+        "price": 144
       },
       {
-        "alignment": "neutral",
-        "id": 1609348549,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344755,
+        "points": 1.5,
+        "price": -194
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Brendan Rodgers (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4969981001
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348550,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348551,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344756,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344757,
+        "points": 0.5,
+        "price": -121
       },
       {
-        "alignment": "neutral",
-        "id": 1609348552,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344758,
+        "points": 0.5,
+        "price": -109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421120569
+    "type": "total",
+    "version": 4969981001
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348553,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348554,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344759,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344760,
+        "points": 1.5,
+        "price": 137
       },
       {
-        "alignment": "neutral",
-        "id": 1609348555,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344761,
+        "points": 1.5,
+        "price": -184
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421120569
+    "type": "total",
+    "version": 4969974906
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348556,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348557,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344762,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344763,
+        "points": 1.5,
+        "price": 135
       },
       {
-        "alignment": "neutral",
-        "id": 1609348558,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344764,
+        "points": 1.5,
+        "price": -181
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421120569
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348559,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348560,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344765,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344766,
+        "points": 1.5,
+        "price": 142
       },
       {
-        "alignment": "neutral",
-        "id": 1609348561,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344767,
+        "points": 1.5,
+        "price": -191
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Framber Valdez (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 421120569
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348562,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348563,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344768,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344769,
+        "points": 0.5,
+        "price": 419
       },
       {
-        "alignment": "neutral",
-        "id": 1609348564,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344770,
+        "points": 0.5,
+        "price": -950
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Jeremy Peña (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4970079317
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348565,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348566,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344771,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344772,
+        "points": 1.5,
+        "price": -101
       },
       {
-        "alignment": "neutral",
-        "id": 1609348567,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344773,
+        "points": 1.5,
+        "price": -131
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Isaac Paredes (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4969974906
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348568,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348569,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344774,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344775,
+        "points": 0.5,
+        "price": -108
       },
       {
-        "alignment": "neutral",
-        "id": 1609348570,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344776,
+        "points": 0.5,
+        "price": -123
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Yainer Diaz (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348571,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348572,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344777,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344778,
+        "points": 0.5,
+        "price": -200
       },
       {
-        "alignment": "neutral",
-        "id": 1609348573,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344779,
+        "points": 0.5,
+        "price": 148
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Jake Meyers (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4969974906
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348574,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348575,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344782,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344783,
+        "points": 1.5,
+        "price": 131
       },
       {
-        "alignment": "neutral",
-        "id": 1609348576,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344784,
+        "points": 1.5,
+        "price": -175
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Zach Dezenzo (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "type": "total",
+    "version": 4970055799
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609348577,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 24,
-        "matchupCountSE": 24,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608956459,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Milwaukee Brewers",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Houston Astros",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-07T17:10:00+00:00"
-    },
-    "parentId": 1608956459,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609348578,
-        "name": "Over",
-        "order": 0,
-        "rotation": 974
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344785,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344786,
+        "points": 0.5,
+        "price": 428
       },
       {
-        "alignment": "neutral",
-        "id": 1609348579,
-        "name": "Under",
-        "order": 0,
-        "rotation": 975
+        "participantId": 1609344787,
+        "points": 0.5,
+        "price": -736
       }
     ],
-    "periods": [
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
       {
-        "cutoffAt": "2025-05-07T17:10:00Z",
-        "period": 0,
-        "status": "open"
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "rotation": 974,
-    "special": {
-      "category": "Player Props",
-      "description": "Cam Smith (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-07T17:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421120569
+    "matchupId": 1609344788,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344789,
+        "points": 1.5,
+        "price": 126
+      },
+      {
+        "participantId": 1609344790,
+        "points": 1.5,
+        "price": -168
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344791,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344792,
+        "points": 0.5,
+        "price": -145
+      },
+      {
+        "participantId": 1609344793,
+        "points": 0.5,
+        "price": 109
+      }
+    ],
+    "type": "total",
+    "version": 4969974873
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344794,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344795,
+        "points": 1.5,
+        "price": 147
+      },
+      {
+        "participantId": 1609344796,
+        "points": 1.5,
+        "price": -199
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344797,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344798,
+        "points": 0.5,
+        "price": -219
+      },
+      {
+        "participantId": 1609344799,
+        "points": 0.5,
+        "price": 161
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344800,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344801,
+        "points": 0.5,
+        "price": -133
+      },
+      {
+        "participantId": 1609344802,
+        "points": 0.5,
+        "price": 101
+      }
+    ],
+    "type": "total",
+    "version": 4969974906
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344803,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344804,
+        "points": 0.5,
+        "price": -191
+      },
+      {
+        "participantId": 1609344805,
+        "points": 0.5,
+        "price": 142
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344806,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344807,
+        "points": 5.5,
+        "price": 141
+      },
+      {
+        "participantId": 1609344808,
+        "points": 5.5,
+        "price": -190
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344809,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344810,
+        "points": 4.5,
+        "price": -154
+      },
+      {
+        "participantId": 1609344811,
+        "points": 4.5,
+        "price": 116
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344812,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344813,
+        "points": 2.5,
+        "price": -104
+      },
+      {
+        "participantId": 1609344814,
+        "points": 2.5,
+        "price": -127
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344815,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344816,
+        "points": 15.5,
+        "price": 119
+      },
+      {
+        "participantId": 1609344817,
+        "points": 15.5,
+        "price": -159
+      }
+    ],
+    "type": "total",
+    "version": 4969974906
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344818,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344819,
+        "points": 0.5,
+        "price": -183
+      },
+      {
+        "participantId": 1609344820,
+        "points": 0.5,
+        "price": 137
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609344821,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609344822,
+        "points": 0.5,
+        "price": -163
+      },
+      {
+        "participantId": 1609344823,
+        "points": 0.5,
+        "price": 123
+      }
+    ],
+    "type": "total",
+    "version": 4970055799
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;28.0",
+    "limits": [
+      {
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345699,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 28.0,
+        "price": 101
+      },
+      {
+        "designation": "under",
+        "points": 28.0,
+        "price": -122
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3100383458
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345700,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345701,
+        "price": -106
+      },
+      {
+        "participantId": 1609345702,
+        "price": -110
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345703,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345704,
+        "price": 1469
+      },
+      {
+        "participantId": 1609345705,
+        "price": 882
+      },
+      {
+        "participantId": 1609345706,
+        "price": 631
+      },
+      {
+        "participantId": 1609345707,
+        "price": 529
+      },
+      {
+        "participantId": 1609345708,
+        "price": 502
+      },
+      {
+        "participantId": 1609345709,
+        "price": 531
+      },
+      {
+        "participantId": 1609345710,
+        "price": 609
+      },
+      {
+        "participantId": 1609345711,
+        "price": 735
+      },
+      {
+        "participantId": 1609345712,
+        "price": 340
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969804785
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345713,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345714,
+        "price": 108
+      },
+      {
+        "participantId": 1609345715,
+        "price": -126
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969917048
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345716,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345717,
+        "price": 1187
+      },
+      {
+        "participantId": 1609345718,
+        "price": 719
+      },
+      {
+        "participantId": 1609345719,
+        "price": 566
+      },
+      {
+        "participantId": 1609345720,
+        "price": 516
+      },
+      {
+        "participantId": 1609345721,
+        "price": 523
+      },
+      {
+        "participantId": 1609345722,
+        "price": 569
+      },
+      {
+        "participantId": 1609345723,
+        "price": 660
+      },
+      {
+        "participantId": 1609345724,
+        "price": 800
+      },
+      {
+        "participantId": 1609345725,
+        "price": 372
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969804785
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345726,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345728,
+        "price": 208
+      },
+      {
+        "participantId": 1609345729,
+        "price": 1262
+      },
+      {
+        "participantId": 1609345730,
+        "price": 459
+      },
+      {
+        "participantId": 1609345731,
+        "price": 388
+      },
+      {
+        "participantId": 1609345732,
+        "price": 713
+      },
+      {
+        "participantId": 1609345727,
+        "price": 277
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969917048
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345733,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345762,
+        "price": 5762
+      },
+      {
+        "participantId": 1609345763,
+        "price": 3691
+      },
+      {
+        "participantId": 1609345764,
+        "price": 2942
+      },
+      {
+        "participantId": 1609345765,
+        "price": 1978
+      },
+      {
+        "participantId": 1609345766,
+        "price": 2698
+      },
+      {
+        "participantId": 1609345767,
+        "price": 3345
+      },
+      {
+        "participantId": 1609345768,
+        "price": 4053
+      },
+      {
+        "participantId": 1609345769,
+        "price": 6226
+      },
+      {
+        "participantId": 1609345770,
+        "price": 4030
+      },
+      {
+        "participantId": 1609345771,
+        "price": 3245
+      },
+      {
+        "participantId": 1609345772,
+        "price": 2949
+      },
+      {
+        "participantId": 1609345773,
+        "price": 2067
+      },
+      {
+        "participantId": 1609345774,
+        "price": 3243
+      },
+      {
+        "participantId": 1609345775,
+        "price": 4044
+      },
+      {
+        "participantId": 1609345776,
+        "price": 6958
+      },
+      {
+        "participantId": 1609345777,
+        "price": 4570
+      },
+      {
+        "participantId": 1609345778,
+        "price": 3708
+      },
+      {
+        "participantId": 1609345779,
+        "price": 3390
+      },
+      {
+        "participantId": 1609345780,
+        "price": 3447
+      },
+      {
+        "participantId": 1609345781,
+        "price": 2484
+      },
+      {
+        "participantId": 1609345782,
+        "price": 4102
+      },
+      {
+        "participantId": 1609345783,
+        "price": 7942
+      },
+      {
+        "participantId": 1609345784,
+        "price": 5319
+      },
+      {
+        "participantId": 1609345785,
+        "price": 4388
+      },
+      {
+        "participantId": 1609345786,
+        "price": 4137
+      },
+      {
+        "participantId": 1609345787,
+        "price": 4101
+      },
+      {
+        "participantId": 1609345788,
+        "price": 4299
+      },
+      {
+        "participantId": 1609345789,
+        "price": 3166
+      },
+      {
+        "participantId": 1609345734,
+        "price": 7701
+      },
+      {
+        "participantId": 1609345735,
+        "price": 6722
+      },
+      {
+        "participantId": 1609345736,
+        "price": 6430
+      },
+      {
+        "participantId": 1609345737,
+        "price": 6812
+      },
+      {
+        "participantId": 1609345738,
+        "price": 7449
+      },
+      {
+        "participantId": 1609345739,
+        "price": 8491
+      },
+      {
+        "participantId": 1609345740,
+        "price": 9841
+      },
+      {
+        "participantId": 1609345741,
+        "price": 6433
+      },
+      {
+        "participantId": 1609345742,
+        "price": 4130
+      },
+      {
+        "participantId": 1609345743,
+        "price": 4060
+      },
+      {
+        "participantId": 1609345744,
+        "price": 4208
+      },
+      {
+        "participantId": 1609345745,
+        "price": 4739
+      },
+      {
+        "participantId": 1609345746,
+        "price": 5471
+      },
+      {
+        "participantId": 1609345747,
+        "price": 6504
+      },
+      {
+        "participantId": 1609345748,
+        "price": 5948
+      },
+      {
+        "participantId": 1609345749,
+        "price": 3193
+      },
+      {
+        "participantId": 1609345750,
+        "price": 2939
+      },
+      {
+        "participantId": 1609345751,
+        "price": 3160
+      },
+      {
+        "participantId": 1609345752,
+        "price": 3494
+      },
+      {
+        "participantId": 1609345753,
+        "price": 4139
+      },
+      {
+        "participantId": 1609345754,
+        "price": 4983
+      },
+      {
+        "participantId": 1609345755,
+        "price": 5653
+      },
+      {
+        "participantId": 1609345756,
+        "price": 3579
+      },
+      {
+        "participantId": 1609345757,
+        "price": 2244
+      },
+      {
+        "participantId": 1609345758,
+        "price": 2605
+      },
+      {
+        "participantId": 1609345759,
+        "price": 2992
+      },
+      {
+        "participantId": 1609345760,
+        "price": 3489
+      },
+      {
+        "participantId": 1609345761,
+        "price": 4403
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969804785
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345790,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345792,
+        "price": 133
+      },
+      {
+        "participantId": 1609345791,
+        "price": -156
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969804785
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345793,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345794,
+        "price": 110
+      },
+      {
+        "participantId": 1609345795,
+        "price": -128
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969917048
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345796,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345797,
+        "price": -107
+      },
+      {
+        "participantId": 1609345798,
+        "price": -109
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345799,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345800,
+        "price": -105
+      },
+      {
+        "participantId": 1609345801,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345802,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345803,
+        "price": 236
+      },
+      {
+        "participantId": 1609345804,
+        "price": 196
+      },
+      {
+        "participantId": 1609345805,
+        "price": 376
+      },
+      {
+        "participantId": 1609345806,
+        "price": 286
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969943355
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345807,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345808,
+        "price": 585
+      },
+      {
+        "participantId": 1609345809,
+        "price": 707
+      },
+      {
+        "participantId": 1609345810,
+        "price": 852
+      },
+      {
+        "participantId": 1609345811,
+        "price": 1084
+      },
+      {
+        "participantId": 1609345812,
+        "price": 557
+      },
+      {
+        "participantId": 1609345813,
+        "price": 413
+      },
+      {
+        "participantId": 1609345814,
+        "price": 703
+      },
+      {
+        "participantId": 1609345815,
+        "price": 824
+      },
+      {
+        "participantId": 1609345816,
+        "price": 1004
+      },
+      {
+        "participantId": 1609345817,
+        "price": 463
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969804785
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345818,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345824,
+        "price": 494
+      },
+      {
+        "participantId": 1609345825,
+        "price": 811
+      },
+      {
+        "participantId": 1609345826,
+        "price": 908
+      },
+      {
+        "participantId": 1609345819,
+        "price": 325
+      },
+      {
+        "participantId": 1609345820,
+        "price": 526
+      },
+      {
+        "participantId": 1609345821,
+        "price": 920
+      },
+      {
+        "participantId": 1609345822,
+        "price": 1102
+      },
+      {
+        "participantId": 1609345823,
+        "price": 252
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969804785
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345827,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345828,
+        "price": 3393
+      },
+      {
+        "participantId": 1609345829,
+        "price": 3092
+      },
+      {
+        "participantId": 1609345830,
+        "price": 1396
+      },
+      {
+        "participantId": 1609345831,
+        "price": 1476
+      },
+      {
+        "participantId": 1609345832,
+        "price": 829
+      },
+      {
+        "participantId": 1609345833,
+        "price": 984
+      },
+      {
+        "participantId": 1609345834,
+        "price": 643
+      },
+      {
+        "participantId": 1609345835,
+        "price": 835
+      },
+      {
+        "participantId": 1609345836,
+        "price": 617
+      },
+      {
+        "participantId": 1609345837,
+        "price": 886
+      },
+      {
+        "participantId": 1609345838,
+        "price": 725
+      },
+      {
+        "participantId": 1609345839,
+        "price": 1041
+      },
+      {
+        "participantId": 1609345840,
+        "price": 923
+      },
+      {
+        "participantId": 1609345841,
+        "price": 1350
+      },
+      {
+        "participantId": 1609345842,
+        "price": 447
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345843,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609345844,
+        "price": 1010
+      },
+      {
+        "participantId": 1609345845,
+        "price": 390
+      },
+      {
+        "participantId": 1609345846,
+        "price": 221
+      },
+      {
+        "participantId": 1609345847,
+        "price": 307
+      },
+      {
+        "participantId": 1609345848,
+        "price": 250
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345849,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345856,
+        "price": 266
+      },
+      {
+        "participantId": 1609345850,
+        "price": 582
+      },
+      {
+        "participantId": 1609345851,
+        "price": 725
+      },
+      {
+        "participantId": 1609345852,
+        "price": 374
+      },
+      {
+        "participantId": 1609345853,
+        "price": 498
+      },
+      {
+        "participantId": 1609345854,
+        "price": 543
+      },
+      {
+        "participantId": 1609345855,
+        "price": 631
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969917048
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345857,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345858,
+        "price": 1725
+      },
+      {
+        "participantId": 1609345859,
+        "price": 990
+      },
+      {
+        "participantId": 1609345860,
+        "price": 711
+      },
+      {
+        "participantId": 1609345861,
+        "price": 595
+      },
+      {
+        "participantId": 1609345862,
+        "price": 557
+      },
+      {
+        "participantId": 1609345863,
+        "price": 567
+      },
+      {
+        "participantId": 1609345864,
+        "price": 617
+      },
+      {
+        "participantId": 1609345865,
+        "price": 706
+      },
+      {
+        "participantId": 1609345866,
+        "price": 842
+      },
+      {
+        "participantId": 1609345867,
+        "price": 1033
+      },
+      {
+        "participantId": 1609345868,
+        "price": 1296
+      },
+      {
+        "participantId": 1609345869,
+        "price": 734
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345870,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345871,
+        "price": 373
+      },
+      {
+        "participantId": 1609345872,
+        "price": 284
+      },
+      {
+        "participantId": 1609345873,
+        "price": 294
+      },
+      {
+        "participantId": 1609345874,
+        "price": 164
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969678863
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345875,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345876,
+        "price": 363
+      },
+      {
+        "participantId": 1609345877,
+        "price": 344
+      },
+      {
+        "participantId": 1609345878,
+        "price": 386
+      },
+      {
+        "participantId": 1609345879,
+        "price": 481
+      },
+      {
+        "participantId": 1609345880,
+        "price": 632
+      },
+      {
+        "participantId": 1609345881,
+        "price": 350
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969917048
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345882,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345888,
+        "price": 271
+      },
+      {
+        "participantId": 1609345883,
+        "price": 443
+      },
+      {
+        "participantId": 1609345884,
+        "price": 409
+      },
+      {
+        "participantId": 1609345885,
+        "price": 398
+      },
+      {
+        "participantId": 1609345886,
+        "price": 460
+      },
+      {
+        "participantId": 1609345887,
+        "price": 572
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969917048
+  },
+  {
+    "cutoffAt": "2025-05-07T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609345889,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609345897,
+        "price": 1965
+      },
+      {
+        "participantId": 1609345898,
+        "price": 1844
+      },
+      {
+        "participantId": 1609345899,
+        "price": 1806
+      },
+      {
+        "participantId": 1609345900,
+        "price": 2018
+      },
+      {
+        "participantId": 1609345901,
+        "price": 2406
+      },
+      {
+        "participantId": 1609345902,
+        "price": 2989
+      },
+      {
+        "participantId": 1609345903,
+        "price": 3864
+      },
+      {
+        "participantId": 1609345905,
+        "price": 2135
+      },
+      {
+        "participantId": 1609345906,
+        "price": 2006
+      },
+      {
+        "participantId": 1609345907,
+        "price": 1965
+      },
+      {
+        "participantId": 1609345908,
+        "price": 2192
+      },
+      {
+        "participantId": 1609345909,
+        "price": 2607
+      },
+      {
+        "participantId": 1609345910,
+        "price": 3230
+      },
+      {
+        "participantId": 1609345911,
+        "price": 4162
+      },
+      {
+        "participantId": 1609345913,
+        "price": 2523
+      },
+      {
+        "participantId": 1609345914,
+        "price": 2374
+      },
+      {
+        "participantId": 1609345915,
+        "price": 2327
+      },
+      {
+        "participantId": 1609345916,
+        "price": 2588
+      },
+      {
+        "participantId": 1609345917,
+        "price": 3064
+      },
+      {
+        "participantId": 1609345918,
+        "price": 3773
+      },
+      {
+        "participantId": 1609345919,
+        "price": 4830
+      },
+      {
+        "participantId": 1609345921,
+        "price": 3134
+      },
+      {
+        "participantId": 1609345922,
+        "price": 2955
+      },
+      {
+        "participantId": 1609345923,
+        "price": 2899
+      },
+      {
+        "participantId": 1609345924,
+        "price": 3212
+      },
+      {
+        "participantId": 1609345925,
+        "price": 3779
+      },
+      {
+        "participantId": 1609345926,
+        "price": 4621
+      },
+      {
+        "participantId": 1609345929,
+        "price": 4004
+      },
+      {
+        "participantId": 1609345930,
+        "price": 3785
+      },
+      {
+        "participantId": 1609345931,
+        "price": 3716
+      },
+      {
+        "participantId": 1609345932,
+        "price": 4100
+      },
+      {
+        "participantId": 1609345933,
+        "price": 4792
+      },
+      {
+        "participantId": 1609345939,
+        "price": 4915
+      },
+      {
+        "participantId": 1609345890,
+        "price": 1916
+      },
+      {
+        "participantId": 1609345891,
+        "price": 1877
+      },
+      {
+        "participantId": 1609345892,
+        "price": 2096
+      },
+      {
+        "participantId": 1609345893,
+        "price": 2496
+      },
+      {
+        "participantId": 1609345894,
+        "price": 3097
+      },
+      {
+        "participantId": 1609345895,
+        "price": 4000
+      }
+    ],
+    "type": "moneyline",
+    "version": 4969943808
   }
 ]
