@@ -1081,6 +1081,7 @@ def writeMGMSel(date):
 			div.find_element(By.CSS_SELECTOR, "a").click()
 		except:
 			print("can't click game")
+			return
 		break
 
 	try:
