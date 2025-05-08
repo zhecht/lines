@@ -1108,10 +1108,10 @@ def writeMGMSel(date):
 
 		seen[game] = True
 
-		print(game)
-
 		if driver.find_element(By.CSS_SELECTOR, ".live-event-info"):
 			continue
+
+		print(game)
 
 		event.find_element(By.CSS_SELECTOR, "ms-tree-event").click()
 
