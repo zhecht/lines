@@ -1099,6 +1099,7 @@ def writeMGMSel(date):
 	home = convertMGMMLBTeam(teams[1].text.strip())
 	game = f"{away} @ {home}"
 
+	data = nested_dict()
 	propDivs = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
 	for propDiv in propDivs:
 		if not propDiv.text.startswith("Batter home runs"):
@@ -1118,10 +1119,24 @@ def writeMGMSel(date):
 
 		propDiv.find_element(By.CSS_SELECTOR, ".show-more-less-button").click()
 		rows = propDiv.text.split("\n")
-		print(rows)
+		underIdx = rows.index("Under")
+		rows = rows[underIdx+1:]
+
+		for i in range(0, len(rows)):
+			if rows[i].startswith("O ") and not rows[i+1].startswith("U "):
+				player = parsePlayer(rows[i-1])
+				ou = rows[i+1]
+				try:
+					int(ou)
+				except:
+					continue
+				if rows[i+2].startswith("U ") and rows[i+3][0] in ["+", "-"]:
+					ou += "/"+rows[i+3]
+				data[game][player]["mgm"] = ou
 	#time.sleep(5)
 	driver.quit()
-
+	with open("static/dingers/mgm.json", "w") as fh:
+		json.dump(old, fh, indent=4)
 
 def writeMGMSel2(game, url, driverArg=None):
 	if not driverArg:
