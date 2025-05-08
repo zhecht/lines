@@ -1496,7 +1496,8 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 			continue
 
 		if player in dingerData[game]:
-			game = f"{game}-gm2"
+			a,h = map(str, game.split(" @ "))
+			game = f"{a}-gm2 @ {h}-gm2"
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
 
