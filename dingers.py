@@ -1108,7 +1108,7 @@ def writeMGMSel(date):
 
 		seen[game] = True
 
-		if event.find_element(By.CSS_SELECTOR, ".live-event-info"):
+		if event.find_elements(By.CSS_SELECTOR, ".live-event-info"):
 			continue
 
 		print(game)
