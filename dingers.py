@@ -1071,8 +1071,11 @@ def writeMGMSel(date):
 
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
 	for div in divs:
-		t = div.find_element(By.CSS_SELECTOR, ".starting-time")
-		if not t:
+		try:
+			t = div.find_element(By.CSS_SELECTOR, ".starting-time")
+			if not t:
+				continue
+		except:
 			continue
 		div.find_element(By.CSS_SELECTOR, "a").click()
 		break
