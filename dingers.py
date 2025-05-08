@@ -1093,6 +1093,7 @@ def writeMGMSel(date):
 		return
 
 
+	data = nested_dict()
 	events = driver.find_elements(By.CSS_SELECTOR, ".event-item")
 	for event in events:
 		teams = event.find_elements(By.CSS_SELECTOR, ".participant")
@@ -1109,7 +1110,6 @@ def writeMGMSel(date):
 
 		event.find_element(By.CSS_SELECTOR, "ms-tree-event").click()
 
-		data = nested_dict()
 		propDivs = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
 		for propDiv in propDivs:
 			if not propDiv.text.startswith("Batter home runs"):
