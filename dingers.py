@@ -2581,8 +2581,8 @@ if __name__ == '__main__':
 		uc.loop().run_until_complete(writeFDFromBuilder(date, args.loop, args.night, args.skip))
 		#writeFDFromBuilder(date, args.loop, args.night)
 	elif args.mgm:
-		#writeMGMSel(date)
-		#exit()
+		writeMGMSel(date)
+		exit()
 
 		if True:
 			if args.game and args.url:
