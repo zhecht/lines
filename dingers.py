@@ -1101,7 +1101,7 @@ def writeMGMSel(date):
 		if not propDiv.text.startswith("Batter home runs"):
 			continue
 
-		driver.find_element(By.CSS_SELECTOR, ".clickable").click()
+		propDiv.find_element(By.CSS_SELECTOR, ".clickable").click()
 		break
 
 	time.sleep(5)
