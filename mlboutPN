@@ -1,6113 +1,2908 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 11,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1608999492,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Kansas City Royals",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Chicago White Sox",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 281
       },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
+        "designation": "away",
+        "price": 259
       },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "draw",
+        "price": -113
       }
     ],
-    "rotation": 909,
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 45,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 598010916
+    "status": "open",
+    "type": "moneyline",
+    "version": 3101913219
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609043491,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609043492,
-        "name": "Chicago White Sox",
-        "order": 0,
-        "rotation": 1075
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -101
       },
       {
-        "alignment": "neutral",
-        "id": 1609043493,
-        "name": "Kansas City Royals",
-        "order": 0,
-        "rotation": 1076
+        "designation": "away",
+        "points": -0.0,
+        "price": -116
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1075,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 421225028
+    "status": "open",
+    "type": "spread",
+    "version": 3101913219
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 10,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411263,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Kansas City Royals  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -117
       },
       {
-        "alignment": "away",
-        "name": "Chicago White Sox  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 0.5,
+        "price": 100
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9909,
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 597955144
+    "status": "open",
+    "type": "total",
+    "version": 3101913219
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411264,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411265,
-        "name": "Chicago White Sox 1, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411266,
-        "name": "Chicago White Sox 2, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411267,
-        "name": "Chicago White Sox 3, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411268,
-        "name": "Chicago White Sox 4, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411269,
-        "name": "Chicago White Sox 5, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411270,
-        "name": "Chicago White Sox 6, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411271,
-        "name": "Chicago White Sox 7, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411272,
-        "name": "Chicago White Sox 0, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411273,
-        "name": "Chicago White Sox 2, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411274,
-        "name": "Chicago White Sox 3, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411275,
-        "name": "Chicago White Sox 4, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411276,
-        "name": "Chicago White Sox 5, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411277,
-        "name": "Chicago White Sox 6, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411278,
-        "name": "Chicago White Sox 7, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411279,
-        "name": "Chicago White Sox 0, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411280,
-        "name": "Chicago White Sox 1, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411281,
-        "name": "Chicago White Sox 3, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411282,
-        "name": "Chicago White Sox 4, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411283,
-        "name": "Chicago White Sox 5, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411284,
-        "name": "Chicago White Sox 6, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411285,
-        "name": "Chicago White Sox 7, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411286,
-        "name": "Chicago White Sox 0, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411287,
-        "name": "Chicago White Sox 1, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411288,
-        "name": "Chicago White Sox 2, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411289,
-        "name": "Chicago White Sox 4, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411290,
-        "name": "Chicago White Sox 5, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411291,
-        "name": "Chicago White Sox 6, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411292,
-        "name": "Chicago White Sox 7, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411293,
-        "name": "Chicago White Sox 0, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411294,
-        "name": "Chicago White Sox 1, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411295,
-        "name": "Chicago White Sox 2, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411296,
-        "name": "Chicago White Sox 3, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411297,
-        "name": "Chicago White Sox 5, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411298,
-        "name": "Chicago White Sox 6, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411299,
-        "name": "Chicago White Sox 7, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411300,
-        "name": "Chicago White Sox 0, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411301,
-        "name": "Chicago White Sox 1, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411302,
-        "name": "Chicago White Sox 2, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411303,
-        "name": "Chicago White Sox 3, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411304,
-        "name": "Chicago White Sox 4, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411305,
-        "name": "Chicago White Sox 6, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411306,
-        "name": "Chicago White Sox 7, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411307,
-        "name": "Chicago White Sox 0, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411308,
-        "name": "Chicago White Sox 1, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411309,
-        "name": "Chicago White Sox 2, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411310,
-        "name": "Chicago White Sox 3, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411311,
-        "name": "Chicago White Sox 4, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411312,
-        "name": "Chicago White Sox 5, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411313,
-        "name": "Chicago White Sox 7, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411314,
-        "name": "Chicago White Sox 0, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411315,
-        "name": "Chicago White Sox 1, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411316,
-        "name": "Chicago White Sox 2, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411317,
-        "name": "Chicago White Sox 3, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411318,
-        "name": "Chicago White Sox 4, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411319,
-        "name": "Chicago White Sox 5, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411320,
-        "name": "Chicago White Sox 6, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 964
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 130
+      },
+      {
+        "designation": "away",
+        "price": -142
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "moneyline",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411321,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411322,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -129
       },
       {
-        "alignment": "neutral",
-        "id": 1609411323,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "under",
+        "points": 3.5,
+        "price": 110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago White Sox Runs Odd/Even"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411324,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;5.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411325,
-        "name": "Chicago White Sox & Over 4.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411326,
-        "name": "Kansas City Royals & Over 4.5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411327,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411328,
-        "name": "Chicago White Sox & Under 4.5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411329,
-        "name": "Kansas City Royals & Under 4.5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411330,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 914
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": 117
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -137
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411331,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411332,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.5,
+        "price": -123
       },
       {
-        "alignment": "neutral",
-        "id": 1609411333,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": -1.5,
+        "price": 112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Kansas City Royals Runs Odd/Even"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411334,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411335,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 3.0,
+        "price": -268
       },
       {
-        "alignment": "neutral",
-        "id": 1609411336,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": -3.0,
+        "price": 216
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Kansas City Royals Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411337,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411338,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.5,
+        "price": -195
       },
       {
-        "alignment": "neutral",
-        "id": 1609411339,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": -2.5,
+        "price": 166
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411340,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411341,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.0,
+        "price": -161
       },
       {
-        "alignment": "neutral",
-        "id": 1609411342,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": -2.0,
+        "price": 142
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago White Sox Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411343,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411344,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411345,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411346,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411347,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411348,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411349,
-        "name": "5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411350,
-        "name": "6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411351,
-        "name": "7",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411352,
-        "name": "8+",
-        "order": 0,
-        "rotation": 917
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": 101
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": -114
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Kansas City Royals Exact Total Runs"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411353,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411354,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 909
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 195
       },
       {
-        "alignment": "neutral",
-        "id": 1609411355,
-        "name": "Even",
-        "order": 0,
-        "rotation": 910
+        "designation": "away",
+        "points": 1.0,
+        "price": -233
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411356,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411357,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411358,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411359,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411360,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411361,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411362,
-        "name": "5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411363,
-        "name": "6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411364,
-        "name": "7",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411365,
-        "name": "8+",
-        "order": 0,
-        "rotation": 917
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 242
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -306
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago White Sox Exact Total Runs"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411366,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411367,
-        "name": "Chicago White Sox & Over 8.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411368,
-        "name": "Kansas City Royals & Over 8.5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411369,
-        "name": "Chicago White Sox & Under 8.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411370,
-        "name": "Kansas City Royals & Under 8.5",
-        "order": 0,
-        "rotation": 912
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.5,
+        "price": 105
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -118
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411371,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411372,
-        "name": "Chicago White Sox By 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411373,
-        "name": "Chicago White Sox By 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411374,
-        "name": "Chicago White Sox By 3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411375,
-        "name": "Chicago White Sox By 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411376,
-        "name": "Chicago White Sox By 5+",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411377,
-        "name": "Kansas City Royals By 1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411378,
-        "name": "Kansas City Royals By 2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411379,
-        "name": "Kansas City Royals By 3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411380,
-        "name": "Kansas City Royals By 4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411381,
-        "name": "Kansas City Royals By 5+",
-        "order": 0,
-        "rotation": 918
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.5,
+        "price": -326
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": 255
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411382,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411383,
-        "name": "Chicago White Sox By 1 - 2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411384,
-        "name": "Chicago White Sox By 3 - 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411385,
-        "name": "Chicago White Sox By 5 - 6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411386,
-        "name": "Chicago White Sox By 7+",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411387,
-        "name": "Kansas City Royals By 1 - 2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411388,
-        "name": "Kansas City Royals By 3 - 4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411389,
-        "name": "Kansas City Royals By 5 - 6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411390,
-        "name": "Kansas City Royals By 7+",
-        "order": 0,
-        "rotation": 916
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.0,
+        "price": -181
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 158
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411391,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411392,
-        "name": "1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411393,
-        "name": "2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411394,
-        "name": "3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411395,
-        "name": "4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411396,
-        "name": "5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411397,
-        "name": "6",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411398,
-        "name": "7",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411399,
-        "name": "8",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411400,
-        "name": "9",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411401,
-        "name": "10",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411402,
-        "name": "11",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411403,
-        "name": "12",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411404,
-        "name": "13",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411405,
-        "name": "14",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411406,
-        "name": "15+",
-        "order": 0,
-        "rotation": 923
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.5,
+        "price": -152
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": 134
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411407,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411408,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411409,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411410,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411411,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411412,
-        "name": "13+",
-        "order": 0,
-        "rotation": 913
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 9.0,
+        "price": -122
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": 108
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411413,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411414,
-        "name": "Chicago White Sox By 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411415,
-        "name": "Chicago White Sox By 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411416,
-        "name": "Chicago White Sox By 3+",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411417,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411418,
-        "name": "Kansas City Royals By 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411419,
-        "name": "Kansas City Royals By 2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411420,
-        "name": "Kansas City Royals By 3+",
-        "order": 0,
-        "rotation": 915
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 10.0,
+        "price": 128
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -145
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411421,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411422,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411423,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411424,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411425,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411426,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411427,
-        "name": "5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411428,
-        "name": "6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411429,
-        "name": "7",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411430,
-        "name": "8",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411431,
-        "name": "9",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411432,
-        "name": "10",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411433,
-        "name": "11+",
-        "order": 0,
-        "rotation": 920
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 10.5,
+        "price": 149
+      },
+      {
+        "designation": "under",
+        "points": 10.5,
+        "price": -169
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411434,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411435,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411436,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411437,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411438,
-        "name": "7+",
-        "order": 0,
-        "rotation": 912
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 11.0,
+        "price": 198
+      },
+      {
+        "designation": "under",
+        "points": 11.0,
+        "price": -230
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411439,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;13.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411440,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411441,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411442,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411443,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411444,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411445,
-        "name": "5+",
-        "order": 0,
-        "rotation": 914
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 13.5,
+        "price": 429
+      },
+      {
+        "designation": "under",
+        "points": 13.5,
+        "price": -625
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Chicago White Sox Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411446,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411447,
-        "name": "0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411448,
-        "name": "1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411449,
-        "name": "2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411450,
-        "name": "3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411451,
-        "name": "4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411452,
-        "name": "5+",
-        "order": 0,
-        "rotation": 914
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -147
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 120
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Kansas City Royals Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609411453,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609411454,
-        "name": "Chicago White Sox 0, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411455,
-        "name": "Chicago White Sox 0, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411456,
-        "name": "Chicago White Sox 0, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411457,
-        "name": "Chicago White Sox 0, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411458,
-        "name": "Chicago White Sox 0, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411459,
-        "name": "Chicago White Sox 0, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411460,
-        "name": "Chicago White Sox 0, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411461,
-        "name": "Chicago White Sox 1, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411462,
-        "name": "Chicago White Sox 1, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411463,
-        "name": "Chicago White Sox 1, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411464,
-        "name": "Chicago White Sox 1, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411465,
-        "name": "Chicago White Sox 1, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411466,
-        "name": "Chicago White Sox 1, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411467,
-        "name": "Chicago White Sox 1, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411468,
-        "name": "Chicago White Sox 1, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411469,
-        "name": "Chicago White Sox 2, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411470,
-        "name": "Chicago White Sox 2, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411471,
-        "name": "Chicago White Sox 2, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411472,
-        "name": "Chicago White Sox 2, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411473,
-        "name": "Chicago White Sox 2, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411474,
-        "name": "Chicago White Sox 2, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411475,
-        "name": "Chicago White Sox 2, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411476,
-        "name": "Chicago White Sox 2, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411477,
-        "name": "Chicago White Sox 3, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411478,
-        "name": "Chicago White Sox 3, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411479,
-        "name": "Chicago White Sox 3, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411480,
-        "name": "Chicago White Sox 3, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411481,
-        "name": "Chicago White Sox 3, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411482,
-        "name": "Chicago White Sox 3, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411483,
-        "name": "Chicago White Sox 3, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411484,
-        "name": "Chicago White Sox 3, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411485,
-        "name": "Chicago White Sox 4, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411486,
-        "name": "Chicago White Sox 4, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411487,
-        "name": "Chicago White Sox 4, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411488,
-        "name": "Chicago White Sox 4, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411489,
-        "name": "Chicago White Sox 4, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411490,
-        "name": "Chicago White Sox 4, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411491,
-        "name": "Chicago White Sox 4, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411492,
-        "name": "Chicago White Sox 4, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411493,
-        "name": "Chicago White Sox 5, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411494,
-        "name": "Chicago White Sox 5, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411495,
-        "name": "Chicago White Sox 5, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411496,
-        "name": "Chicago White Sox 5, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411497,
-        "name": "Chicago White Sox 5, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411498,
-        "name": "Chicago White Sox 5, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411499,
-        "name": "Chicago White Sox 5, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411500,
-        "name": "Chicago White Sox 5, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411501,
-        "name": "Chicago White Sox 6, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411502,
-        "name": "Chicago White Sox 6, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411503,
-        "name": "Chicago White Sox 6, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411504,
-        "name": "Chicago White Sox 6, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411505,
-        "name": "Chicago White Sox 6, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411506,
-        "name": "Chicago White Sox 6, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411507,
-        "name": "Chicago White Sox 6, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411508,
-        "name": "Chicago White Sox 6, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411509,
-        "name": "Chicago White Sox 7, Kansas City Royals 0",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411510,
-        "name": "Chicago White Sox 7, Kansas City Royals 1",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411511,
-        "name": "Chicago White Sox 7, Kansas City Royals 2",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411512,
-        "name": "Chicago White Sox 7, Kansas City Royals 3",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411513,
-        "name": "Chicago White Sox 7, Kansas City Royals 4",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411514,
-        "name": "Chicago White Sox 7, Kansas City Royals 5",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411515,
-        "name": "Chicago White Sox 7, Kansas City Royals 6",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609411516,
-        "name": "Chicago White Sox 7, Kansas City Royals 7",
-        "order": 0,
-        "rotation": 971
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -101
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": -120
       }
     ],
-    "rotation": 909,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421225783
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413505,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413506,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 120
       },
       {
-        "alignment": "neutral",
-        "id": 1609413507,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "away",
+        "points": -0.0,
+        "price": -139
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Salvador Perez (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231290
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413508,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413509,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -161
       },
       {
-        "alignment": "neutral",
-        "id": 1609413510,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "away",
+        "points": -1.0,
+        "price": 134
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael A. Taylor (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299361
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413511,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413512,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -116
       },
       {
-        "alignment": "neutral",
-        "id": 1609413513,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "away",
+        "points": -0.5,
+        "price": -101
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Davis Martin (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421231290
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413514,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413515,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 153
       },
       {
-        "alignment": "neutral",
-        "id": 1609413516,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "away",
+        "points": 0.5,
+        "price": -183
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Davis Martin (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421231290
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413517,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413518,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 216
       },
       {
-        "alignment": "neutral",
-        "id": 1609413519,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "away",
+        "points": 1.0,
+        "price": -276
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Davis Martin (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421231290
+    "status": "open",
+    "type": "spread",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413520,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413521,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 103
       },
       {
-        "alignment": "neutral",
-        "id": 1609413522,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "under",
+        "points": 5.0,
+        "price": -118
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Davis Martin (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 421231311
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413523,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413524,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -171
       },
       {
-        "alignment": "neutral",
-        "id": 1609413525,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "under",
+        "points": 4.0,
+        "price": 148
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Kris Bubic (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421231311
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413526,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413527,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -124
       },
       {
-        "alignment": "neutral",
-        "id": 1609413528,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "under",
+        "points": 4.5,
+        "price": 109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Kris Bubic (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421231311
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413529,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413530,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 129
       },
       {
-        "alignment": "neutral",
-        "id": 1609413531,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "under",
+        "points": 5.5,
+        "price": -149
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Kris Bubic (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421231311
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413532,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413533,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609017243,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.0,
+        "price": 169
       },
       {
-        "alignment": "neutral",
-        "id": 1609413534,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "under",
+        "points": 6.0,
+        "price": -199
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Kris Bubic (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 421231311
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413535,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413536,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609065558,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609065559,
+        "price": -170
       },
       {
-        "alignment": "neutral",
-        "id": 1609413537,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609065560,
+        "price": 144
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Jonathan India (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline",
+    "version": 4971685842
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413541,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;25.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413542,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410501,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 25.5,
+        "price": -168
       },
       {
-        "alignment": "neutral",
-        "id": 1609413543,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "designation": "under",
+        "points": 25.5,
+        "price": 137
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Freddy Fermin (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421298548
+    "status": "open",
+    "type": "total",
+    "version": 3101996400
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413544,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413545,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410502,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410503,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609413546,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609410504,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Drew Waters (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413547,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413548,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410505,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410506,
+        "price": 1014
       },
       {
-        "alignment": "neutral",
-        "id": 1609413549,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410507,
+        "price": 601
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410508,
+        "price": 488
+      },
+      {
+        "participantId": 1609410509,
+        "price": 463
+      },
+      {
+        "participantId": 1609410510,
+        "price": 489
+      },
+      {
+        "participantId": 1609410511,
+        "price": 572
+      },
+      {
+        "participantId": 1609410512,
+        "price": 690
+      },
+      {
+        "participantId": 1609410513,
+        "price": 889
+      },
+      {
+        "participantId": 1609410514,
+        "price": 557
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Maikel Garcia (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413550,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413551,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410515,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410516,
+        "price": 113
       },
       {
-        "alignment": "neutral",
-        "id": 1609413552,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609410517,
+        "price": -133
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Lenyn Sosa (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299361
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413553,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413554,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410518,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410519,
+        "price": 1346
       },
       {
-        "alignment": "neutral",
-        "id": 1609413555,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410520,
+        "price": 842
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410521,
+        "price": 654
+      },
+      {
+        "participantId": 1609410522,
+        "price": 575
+      },
+      {
+        "participantId": 1609410523,
+        "price": 537
+      },
+      {
+        "participantId": 1609410524,
+        "price": 572
+      },
+      {
+        "participantId": 1609410525,
+        "price": 621
+      },
+      {
+        "participantId": 1609410526,
+        "price": 718
+      },
+      {
+        "participantId": 1609410527,
+        "price": 298
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Luis Robert Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299361
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413559,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413560,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410528,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410529,
+        "price": 220
       },
       {
-        "alignment": "neutral",
-        "id": 1609413561,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410530,
+        "price": 327
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410531,
+        "price": 1412
+      },
+      {
+        "participantId": 1609410532,
+        "price": 336
+      },
+      {
+        "participantId": 1609410533,
+        "price": 425
+      },
+      {
+        "participantId": 1609410534,
+        "price": 625
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Bobby Witt Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline",
+    "version": 4971551587
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413562,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413563,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410535,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410551,
+        "price": 2690
       },
       {
-        "alignment": "neutral",
-        "id": 1609413564,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410552,
+        "price": 2833
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410553,
+        "price": 2893
+      },
+      {
+        "participantId": 1609410554,
+        "price": 3186
+      },
+      {
+        "participantId": 1609410555,
+        "price": 3682
+      },
+      {
+        "participantId": 1609410556,
+        "price": 3588
+      },
+      {
+        "participantId": 1609410557,
+        "price": 5749
+      },
+      {
+        "participantId": 1609410558,
+        "price": 3646
+      },
+      {
+        "participantId": 1609410559,
+        "price": 2159
+      },
+      {
+        "participantId": 1609410560,
+        "price": 2887
+      },
+      {
+        "participantId": 1609410561,
+        "price": 3090
+      },
+      {
+        "participantId": 1609410562,
+        "price": 2907
+      },
+      {
+        "participantId": 1609410563,
+        "price": 3281
+      },
+      {
+        "participantId": 1609410564,
+        "price": 6608
+      },
+      {
+        "participantId": 1609410565,
+        "price": 4264
+      },
+      {
+        "participantId": 1609410566,
+        "price": 3395
+      },
+      {
+        "participantId": 1609410567,
+        "price": 2170
+      },
+      {
+        "participantId": 1609410568,
+        "price": 2680
+      },
+      {
+        "participantId": 1609410569,
+        "price": 2829
+      },
+      {
+        "participantId": 1609410570,
+        "price": 3462
+      },
+      {
+        "participantId": 1609410571,
+        "price": 7877
+      },
+      {
+        "participantId": 1609410572,
+        "price": 5171
+      },
+      {
+        "participantId": 1609410573,
+        "price": 4151
+      },
+      {
+        "participantId": 1609410574,
+        "price": 3726
+      },
+      {
+        "participantId": 1609410575,
+        "price": 1991
+      },
+      {
+        "participantId": 1609410576,
+        "price": 3227
+      },
+      {
+        "participantId": 1609410577,
+        "price": 3804
+      },
+      {
+        "participantId": 1609410578,
+        "price": 9597
+      },
+      {
+        "participantId": 1609410579,
+        "price": 6458
+      },
+      {
+        "participantId": 1609410580,
+        "price": 5178
+      },
+      {
+        "participantId": 1609410581,
+        "price": 3833
+      },
+      {
+        "participantId": 1609410582,
+        "price": 3505
+      },
+      {
+        "participantId": 1609410583,
+        "price": 2387
+      },
+      {
+        "participantId": 1609410584,
+        "price": 4500
+      },
+      {
+        "participantId": 1609410586,
+        "price": 8050
+      },
+      {
+        "participantId": 1609410587,
+        "price": 5506
+      },
+      {
+        "participantId": 1609410588,
+        "price": 4654
+      },
+      {
+        "participantId": 1609410589,
+        "price": 4565
+      },
+      {
+        "participantId": 1609410590,
+        "price": 4747
+      },
+      {
+        "participantId": 1609410591,
+        "price": 3353
+      },
+      {
+        "participantId": 1609410536,
+        "price": 6316
+      },
+      {
+        "participantId": 1609410537,
+        "price": 5232
+      },
+      {
+        "participantId": 1609410538,
+        "price": 4956
+      },
+      {
+        "participantId": 1609410539,
+        "price": 5181
+      },
+      {
+        "participantId": 1609410540,
+        "price": 5616
+      },
+      {
+        "participantId": 1609410541,
+        "price": 6384
+      },
+      {
+        "participantId": 1609410542,
+        "price": 7394
+      },
+      {
+        "participantId": 1609410543,
+        "price": 4840
+      },
+      {
+        "participantId": 1609410544,
+        "price": 3456
+      },
+      {
+        "participantId": 1609410545,
+        "price": 3229
+      },
+      {
+        "participantId": 1609410546,
+        "price": 3334
+      },
+      {
+        "participantId": 1609410547,
+        "price": 3700
+      },
+      {
+        "participantId": 1609410548,
+        "price": 4257
+      },
+      {
+        "participantId": 1609410549,
+        "price": 4997
+      },
+      {
+        "participantId": 1609410550,
+        "price": 5285
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Miguel Vargas (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299361
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413565,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413566,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410592,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410593,
+        "price": -157
       },
       {
-        "alignment": "neutral",
-        "id": 1609413567,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609410594,
+        "price": 133
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Brooks Baldwin (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299361
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413568,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413569,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410595,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410596,
+        "price": 110
       },
       {
-        "alignment": "neutral",
-        "id": 1609413570,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609410597,
+        "price": -128
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Andrew Vaughn (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413571,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413572,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410598,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410599,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1609413573,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609410600,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Vinnie Pasquantino (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413574,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413575,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410601,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410602,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609413576,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
+        "participantId": 1609410603,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Massey (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413577,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413578,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410604,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410605,
+        "price": 173
       },
       {
-        "alignment": "neutral",
-        "id": 1609413579,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410606,
+        "price": 283
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410607,
+        "price": 297
+      },
+      {
+        "participantId": 1609410608,
+        "price": 343
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Edgar Quero (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299361
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609413580,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609413581,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410609,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410610,
+        "price": 599
       },
       {
-        "alignment": "neutral",
-        "id": 1609413582,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410611,
+        "price": 645
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410612,
+        "price": 734
+      },
+      {
+        "participantId": 1609410613,
+        "price": 889
+      },
+      {
+        "participantId": 1609410614,
+        "price": 346
+      },
+      {
+        "participantId": 1609410615,
+        "price": 411
+      },
+      {
+        "participantId": 1609410616,
+        "price": 801
+      },
+      {
+        "participantId": 1609410617,
+        "price": 1000
+      },
+      {
+        "participantId": 1609410618,
+        "price": 1311
+      },
+      {
+        "participantId": 1609410619,
+        "price": 779
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Chase Meidroth (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421231311
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609436409,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609436410,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410620,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410624,
+        "price": 672
       },
       {
-        "alignment": "neutral",
-        "id": 1609436411,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410625,
+        "price": 268
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410626,
+        "price": 644
+      },
+      {
+        "participantId": 1609410627,
+        "price": 1178
+      },
+      {
+        "participantId": 1609410628,
+        "price": 1550
+      },
+      {
+        "participantId": 1609410621,
+        "price": 313
+      },
+      {
+        "participantId": 1609410622,
+        "price": 429
+      },
+      {
+        "participantId": 1609410623,
+        "price": 676
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Hunter Renfroe (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421298558
+    "type": "moneyline",
+    "version": 4971627208
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609437346,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 13,
-      "matchupCountSE": 13,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 41,
-        "matchupCountSE": 41,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1608999492,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Kansas City Royals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Chicago White Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-08T18:10:00+00:00"
-    },
-    "parentId": 1608999492,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609437347,
-        "name": "Over",
-        "order": 0,
-        "rotation": 910
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410629,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410630,
+        "price": 2734
       },
       {
-        "alignment": "neutral",
-        "id": 1609437348,
-        "name": "Under",
-        "order": 0,
-        "rotation": 911
-      }
-    ],
-    "periods": [
+        "participantId": 1609410631,
+        "price": 2611
+      },
       {
-        "cutoffAt": "2025-05-08T18:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609410632,
+        "price": 1189
+      },
+      {
+        "participantId": 1609410633,
+        "price": 1324
+      },
+      {
+        "participantId": 1609410634,
+        "price": 791
+      },
+      {
+        "participantId": 1609410635,
+        "price": 980
+      },
+      {
+        "participantId": 1609410636,
+        "price": 700
+      },
+      {
+        "participantId": 1609410637,
+        "price": 921
+      },
+      {
+        "participantId": 1609410638,
+        "price": 580
+      },
+      {
+        "participantId": 1609410639,
+        "price": 766
+      },
+      {
+        "participantId": 1609410640,
+        "price": 683
+      },
+      {
+        "participantId": 1609410641,
+        "price": 999
+      },
+      {
+        "participantId": 1609410642,
+        "price": 962
+      },
+      {
+        "participantId": 1609410643,
+        "price": 1410
+      },
+      {
+        "participantId": 1609410644,
+        "price": 574
       }
     ],
-    "rotation": 910,
-    "special": {
-      "category": "Player Props",
-      "description": "Joshua Palacios (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-08T18:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421299369
+    "type": "moneyline",
+    "version": 4971527733
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410645,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609410646,
+        "price": 827
+      },
+      {
+        "participantId": 1609410647,
+        "price": 368
+      },
+      {
+        "participantId": 1609410648,
+        "price": 232
+      },
+      {
+        "participantId": 1609410649,
+        "price": 272
+      },
+      {
+        "participantId": 1609410650,
+        "price": 304
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971512033
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410651,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410656,
+        "price": 565
+      },
+      {
+        "participantId": 1609410657,
+        "price": 737
+      },
+      {
+        "participantId": 1609410658,
+        "price": 404
+      },
+      {
+        "participantId": 1609410652,
+        "price": 519
+      },
+      {
+        "participantId": 1609410653,
+        "price": 623
+      },
+      {
+        "participantId": 1609410654,
+        "price": 273
+      },
+      {
+        "participantId": 1609410655,
+        "price": 469
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971627862
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410659,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410660,
+        "price": 1485
+      },
+      {
+        "participantId": 1609410661,
+        "price": 835
+      },
+      {
+        "participantId": 1609410662,
+        "price": 624
+      },
+      {
+        "participantId": 1609410663,
+        "price": 549
+      },
+      {
+        "participantId": 1609410664,
+        "price": 538
+      },
+      {
+        "participantId": 1609410665,
+        "price": 568
+      },
+      {
+        "participantId": 1609410666,
+        "price": 640
+      },
+      {
+        "participantId": 1609410667,
+        "price": 754
+      },
+      {
+        "participantId": 1609410668,
+        "price": 920
+      },
+      {
+        "participantId": 1609410669,
+        "price": 1150
+      },
+      {
+        "participantId": 1609410670,
+        "price": 1462
+      },
+      {
+        "participantId": 1609410671,
+        "price": 884
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971512033
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410672,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410673,
+        "price": 307
+      },
+      {
+        "participantId": 1609410674,
+        "price": 264
+      },
+      {
+        "participantId": 1609410675,
+        "price": 301
+      },
+      {
+        "participantId": 1609410676,
+        "price": 199
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971512033
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410677,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410678,
+        "price": 406
+      },
+      {
+        "participantId": 1609410679,
+        "price": 372
+      },
+      {
+        "participantId": 1609410680,
+        "price": 396
+      },
+      {
+        "participantId": 1609410681,
+        "price": 474
+      },
+      {
+        "participantId": 1609410682,
+        "price": 603
+      },
+      {
+        "participantId": 1609410683,
+        "price": 299
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971500224
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410684,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410688,
+        "price": 510
+      },
+      {
+        "participantId": 1609410689,
+        "price": 693
+      },
+      {
+        "participantId": 1609410690,
+        "price": 415
+      },
+      {
+        "participantId": 1609410685,
+        "price": 320
+      },
+      {
+        "participantId": 1609410686,
+        "price": 303
+      },
+      {
+        "participantId": 1609410687,
+        "price": 384
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971626366
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609410691,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609410692,
+        "price": 1674
+      },
+      {
+        "participantId": 1609410693,
+        "price": 1989
+      },
+      {
+        "participantId": 1609410694,
+        "price": 2475
+      },
+      {
+        "participantId": 1609410695,
+        "price": 3175
+      },
+      {
+        "participantId": 1609410696,
+        "price": 4123
+      },
+      {
+        "participantId": 1609410699,
+        "price": 1615
+      },
+      {
+        "participantId": 1609410700,
+        "price": 1561
+      },
+      {
+        "participantId": 1609410701,
+        "price": 1867
+      },
+      {
+        "participantId": 1609410702,
+        "price": 2328
+      },
+      {
+        "participantId": 1609410703,
+        "price": 2976
+      },
+      {
+        "participantId": 1609410704,
+        "price": 3898
+      },
+      {
+        "participantId": 1609410707,
+        "price": 1700
+      },
+      {
+        "participantId": 1609410708,
+        "price": 1637
+      },
+      {
+        "participantId": 1609410709,
+        "price": 1953
+      },
+      {
+        "participantId": 1609410710,
+        "price": 2426
+      },
+      {
+        "participantId": 1609410711,
+        "price": 3116
+      },
+      {
+        "participantId": 1609410712,
+        "price": 4073
+      },
+      {
+        "participantId": 1609410715,
+        "price": 1962
+      },
+      {
+        "participantId": 1609410716,
+        "price": 1892
+      },
+      {
+        "participantId": 1609410717,
+        "price": 2226
+      },
+      {
+        "participantId": 1609410718,
+        "price": 2766
+      },
+      {
+        "participantId": 1609410719,
+        "price": 3548
+      },
+      {
+        "participantId": 1609410720,
+        "price": 4611
+      },
+      {
+        "participantId": 1609410723,
+        "price": 2393
+      },
+      {
+        "participantId": 1609410724,
+        "price": 2295
+      },
+      {
+        "participantId": 1609410725,
+        "price": 2703
+      },
+      {
+        "participantId": 1609410726,
+        "price": 3328
+      },
+      {
+        "participantId": 1609410727,
+        "price": 4231
+      },
+      {
+        "participantId": 1609410731,
+        "price": 2995
+      },
+      {
+        "participantId": 1609410732,
+        "price": 2895
+      },
+      {
+        "participantId": 1609410733,
+        "price": 3390
+      },
+      {
+        "participantId": 1609410734,
+        "price": 4141
+      },
+      {
+        "participantId": 1609410739,
+        "price": 3911
+      },
+      {
+        "participantId": 1609410740,
+        "price": 3784
+      },
+      {
+        "participantId": 1609410741,
+        "price": 4398
+      }
+    ],
+    "type": "moneyline",
+    "version": 4971625496
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415645,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415646,
+        "points": 1.5,
+        "price": -117
+      },
+      {
+        "participantId": 1609415647,
+        "points": 1.5,
+        "price": -113
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415648,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415649,
+        "points": 0.5,
+        "price": 413
+      },
+      {
+        "participantId": 1609415650,
+        "points": 0.5,
+        "price": -699
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415651,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415652,
+        "points": 1.5,
+        "price": 127
+      },
+      {
+        "participantId": 1609415653,
+        "points": 1.5,
+        "price": -170
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415654,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415655,
+        "points": 0.5,
+        "price": 349
+      },
+      {
+        "participantId": 1609415656,
+        "points": 0.5,
+        "price": -555
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415657,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415658,
+        "points": 1.5,
+        "price": 124
+      },
+      {
+        "participantId": 1609415659,
+        "points": 1.5,
+        "price": -165
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415660,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415661,
+        "points": 1.5,
+        "price": 119
+      },
+      {
+        "participantId": 1609415662,
+        "points": 1.5,
+        "price": -158
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415663,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415664,
+        "points": 1.5,
+        "price": 134
+      },
+      {
+        "participantId": 1609415665,
+        "points": 1.5,
+        "price": -180
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415666,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415667,
+        "points": 0.5,
+        "price": -175
+      },
+      {
+        "participantId": 1609415668,
+        "points": 0.5,
+        "price": 131
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415669,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415670,
+        "points": 0.5,
+        "price": 113
+      },
+      {
+        "participantId": 1609415671,
+        "points": 0.5,
+        "price": -150
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415672,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415673,
+        "points": 1.5,
+        "price": 156
+      },
+      {
+        "participantId": 1609415674,
+        "points": 1.5,
+        "price": -211
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415675,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415676,
+        "points": 0.5,
+        "price": -135
+      },
+      {
+        "participantId": 1609415677,
+        "points": 0.5,
+        "price": 102
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415678,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415680,
+        "points": 0.5,
+        "price": -283
+      },
+      {
+        "participantId": 1609415679,
+        "points": 0.5,
+        "price": 202
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415681,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415682,
+        "points": 1.5,
+        "price": -162
+      },
+      {
+        "participantId": 1609415683,
+        "points": 1.5,
+        "price": 120
+      }
+    ],
+    "type": "total",
+    "version": 4971761838
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415684,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415685,
+        "points": 1.5,
+        "price": 136
+      },
+      {
+        "participantId": 1609415686,
+        "points": 1.5,
+        "price": -182
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415687,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415688,
+        "points": 1.5,
+        "price": 113
+      },
+      {
+        "participantId": 1609415689,
+        "points": 1.5,
+        "price": -151
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415690,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415691,
+        "points": 0.5,
+        "price": -156
+      },
+      {
+        "participantId": 1609415692,
+        "points": 0.5,
+        "price": 117
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415693,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415694,
+        "points": 0.5,
+        "price": -119
+      },
+      {
+        "participantId": 1609415695,
+        "points": 0.5,
+        "price": -111
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415696,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415697,
+        "points": 1.5,
+        "price": 127
+      },
+      {
+        "participantId": 1609415698,
+        "points": 1.5,
+        "price": -170
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415699,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415700,
+        "points": 1.5,
+        "price": 119
+      },
+      {
+        "participantId": 1609415701,
+        "points": 1.5,
+        "price": -159
+      }
+    ],
+    "type": "total",
+    "version": 4971506052
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415702,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415703,
+        "points": 5.5,
+        "price": 138
+      },
+      {
+        "participantId": 1609415704,
+        "points": 5.5,
+        "price": -185
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415705,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415706,
+        "points": 5.5,
+        "price": 108
+      },
+      {
+        "participantId": 1609415707,
+        "points": 5.5,
+        "price": -143
+      }
+    ],
+    "type": "total",
+    "version": 4971724528
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415708,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415709,
+        "points": 2.5,
+        "price": -148
+      },
+      {
+        "participantId": 1609415710,
+        "points": 2.5,
+        "price": 111
+      }
+    ],
+    "type": "total",
+    "version": 4971597550
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415711,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415712,
+        "points": 16.5,
+        "price": -126
+      },
+      {
+        "participantId": 1609415713,
+        "points": 16.5,
+        "price": -105
+      }
+    ],
+    "type": "total",
+    "version": 4971724528
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415714,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415716,
+        "points": 5.5,
+        "price": -117
+      },
+      {
+        "participantId": 1609415715,
+        "points": 5.5,
+        "price": -113
+      }
+    ],
+    "type": "total",
+    "version": 4971770973
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415717,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415718,
+        "points": 4.5,
+        "price": -134
+      },
+      {
+        "participantId": 1609415719,
+        "points": 4.5,
+        "price": 101
+      }
+    ],
+    "type": "total",
+    "version": 4971724528
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415720,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415721,
+        "points": 1.5,
+        "price": -169
+      },
+      {
+        "participantId": 1609415722,
+        "points": 1.5,
+        "price": 127
+      }
+    ],
+    "type": "total",
+    "version": 4971506337
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415723,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415724,
+        "points": 17.5,
+        "price": -122
+      },
+      {
+        "participantId": 1609415725,
+        "points": 17.5,
+        "price": -109
+      }
+    ],
+    "type": "total",
+    "version": 4971724528
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415726,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415727,
+        "points": 1.5,
+        "price": 151
+      },
+      {
+        "participantId": 1609415728,
+        "points": 1.5,
+        "price": -204
+      }
+    ],
+    "type": "total",
+    "version": 4971506337
+  },
+  {
+    "cutoffAt": "2025-05-09T01:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609415873,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609415874,
+        "points": 0.5,
+        "price": 378
+      },
+      {
+        "participantId": 1609415875,
+        "points": 0.5,
+        "price": -616
+      }
+    ],
+    "type": "total",
+    "version": 4971724520
   }
 ]
