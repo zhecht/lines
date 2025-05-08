@@ -1092,7 +1092,7 @@ def writeMGMSel(date):
 		print("Event not found")
 		return
 
-
+	seen = {}
 	data = nested_dict()
 	events = driver.find_elements(By.CSS_SELECTOR, ".event-item")
 	for event in events:
@@ -1103,7 +1103,10 @@ def writeMGMSel(date):
 		home = convertMGMMLBTeam(teams[1].text.strip())
 		game = f"{away} @ {home}"
 
-		print(game)
+		if game in seen:
+			game = f"{away}-gm2 @ {home}-gm2"
+
+		seen[game] = True
 
 		if driver.find_element(By.CSS_SELECTOR, ".live-event-info"):
 			continue
