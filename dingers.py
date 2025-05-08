@@ -1095,7 +1095,16 @@ def writeMGMSel(date):
 	away = convertMGMMLBTeam(teams[0].text.strip())
 	home = convertMGMMLBTeam(teams[1].text.strip())
 	game = f"{away} @ {home}"
-	print(game)
+
+	propDivs = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
+	for propDiv in propDivs:
+		if not propDiv.text.startswith("Batter home runs"):
+			continue
+
+		driver.find_element(By.CSS_SELECTOR, ".clickable").click()
+		break
+
+	time.sleep(5)
 	driver.quit()
 
 
