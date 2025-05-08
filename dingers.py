@@ -1113,6 +1113,9 @@ def writeMGMSel(date):
 
 		event.find_element(By.CSS_SELECTOR, "ms-tree-event").click()
 
+		print(game)
+		time.sleep(1)
+
 		propDivs = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
 		for propDiv in propDivs:
 			if not propDiv.text.startswith("Batter home runs"):
