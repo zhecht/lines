@@ -1081,7 +1081,21 @@ def writeMGMSel(date):
 		break
 
 
-	time.sleep(5)
+	try:
+		WebDriverWait(driver, 10).until(
+			lambda d: d.find_element(By.CSS_SELECTOR, ".event-item.selected").is_displayed()
+		)
+		pass
+	except:
+		print("Event not found")
+		return
+
+
+	teams = driver.find_elements(By.CSS_SELECTOR, ".participant")
+	away = convertMGMMLBTeam(teams[0].text.strip())
+	home = convertMGMMLBTeam(teams[1].text.strip())
+	game = f"{away} @ {home}"
+	print(game)
 	driver.quit()
 
 
