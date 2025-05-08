@@ -1105,9 +1105,21 @@ def writeMGMSel(date):
 			continue
 
 		propDiv.find_element(By.CSS_SELECTOR, ".clickable").click()
-		break
 
-	time.sleep(5)
+		# wait for Show More
+		try:
+			WebDriverWait(propDiv, 10).until(
+				lambda d: d.find_element(By.CSS_SELECTOR, ".show-more-less-button").is_displayed()
+			)
+			pass
+		except:
+			print("Show More not found")
+			return
+
+		propDiv.find_element(By.CSS_SELECTOR, ".show-more-less-button").click()
+		rows = propDiv.text.split("\n")
+		print(rows)
+	#time.sleep(5)
 	driver.quit()
 
 
