@@ -224,7 +224,8 @@ def writeCircaMain(date):
 	for pageIdx, page in enumerate(pages):
 		page.save(f"out-main-{pageIdx}.png", "PNG")
 		img = Image.open(f"out-main-{pageIdx}.png")
-		bottom, top = 1930, 480
+		bottom, top = 1490, 500
+		left,right = 290, 500
 		#bottom, top = 1550, 500
 		if pageIdx:
 			bottom, top = 2010, 500
@@ -251,7 +252,7 @@ def writeCircaMain(date):
 				data[date][game]["rfi"] = f"{rfi_text[i]}/{rfi_text[i+1]}".replace("=", "-")
 			continue
 
-		playersImg = img.crop((320,top,525,bottom))
+		playersImg = img.crop((left,top,right,bottom))
 		text = pytesseract.image_to_string(playersImg).split("\n")
 		text = [x for x in text if x]
 		playersImg.save("out-player.png", "PNG")
