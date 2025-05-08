@@ -2074,6 +2074,10 @@ def writeEV(date, dinger, parx=False, silent=False):
 			else:
 				continue
 
+			playerFinal = player
+			if doubleHeader:
+				playerFinal += "-gm2"
+
 			oppRankings = rankings[opp].get(f"opp_hr")
 			if oppRankings:
 				oppRank = oppRankings["rankSuffix"]
@@ -2147,44 +2151,44 @@ def writeEV(date, dinger, parx=False, silent=False):
 			if ou.endswith("/-") or ou.endswith("/0"):
 				ou = ou.split("/")[0]
 
-			devig(evData, player, ou, highest)
+			devig(evData, playerFinal, ou, highest)
 			if "dk" in books and "++" not in data[game][player]["dk"]:
 				#if evBook == "dk" and player in evData:
 				#	evData[player]["dk_ev"] = evData[player]["ev"]
 				#else:
-				devig(evData, player, ou, int(data[game][player]["dk"]), book="dk-sweat", promo="dk-sweat")
-				devig(evData, player, ou, int(data[game][player]["dk"]), book="dk")
+				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk-sweat", promo="dk-sweat")
+				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk")
 				pass
 			if "espn" in books:
 				o = int(data[game][player]["espn"].split("/")[0])
-				devig(evData, player, ou, o, book="espn")
-				devig(evData, player, ou, o, book="espn-hr", promo="espn-hr")
+				devig(evData, playerFinal, ou, o, book="espn")
+				devig(evData, playerFinal, ou, o, book="espn-hr", promo="espn-hr")
 
 				o = int(data[game][player]["espn"].split("/")[0])
 				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.50)
-				devig(evData, player, ou, o, book="espn-50")
+				devig(evData, playerFinal, ou, o, book="espn-50")
 
 				if "circa" in books:
-					devig(evData, player, data[game][player]["circa"], o, book="espn-50-vs-circa")
+					devig(evData, playerFinal, data[game][player]["circa"], o, book="espn-50-vs-circa")
 
 			if "mgm" in books:
-				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm")
-				devig(evData, player, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm-sweat", promo="mgm-sweat")
+				devig(evData, playerFinal, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm")
+				devig(evData, playerFinal, ou, int(data[game][player]["mgm"].split("/")[0]), book="mgm-sweat", promo="mgm-sweat")
 				o = int(data[game][player]["mgm"].split("/")[0])
 				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.20)
-				devig(evData, player, ou, o, book="mgm-20")
+				devig(evData, playerFinal, ou, o, book="mgm-20")
 
 				if "circa" in books:
-					devig(evData, player, data[game][player]["circa"], o, book="mgm-20-vs-circa")
+					devig(evData, playerFinal, data[game][player]["circa"], o, book="mgm-20-vs-circa")
 			if "fd" in books:
-				devig(evData, player, ou, int(data[game][player]["fd"]), book="fd")
+				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd")
 				fd = int(data[game][player]["fd"])
 				fd = convertAmericanOdds(1 + (convertDecOdds(fd) - 1) * 1.50)
-				devig(evData, player, ou, fd, book="fd-50")
+				devig(evData, playerFinal, ou, fd, book="fd-50")
 			if "circa" in books:
-				devig(evData, player, data[game][player]["circa"], highest, book="vs-circa")
+				devig(evData, playerFinal, data[game][player]["circa"], highest, book="vs-circa")
 			if "pn" in books:
-				devig(evData, player, data[game][player]["pn"], highest, book="vs-pn")
+				devig(evData, playerFinal, data[game][player]["pn"], highest, book="vs-pn")
 			if "pn" in books and "circa" in books:
 				pn = data[game][player]["pn"]
 				circa = data[game][player]["circa"]
@@ -2195,14 +2199,14 @@ def writeEV(date, dinger, parx=False, silent=False):
 				sharpUnder = [convertImpOdds(int(pn.split("/")[1])), convertImpOdds(int(circa.split("/")[1]))]
 				sharpUnder = float(sum(sharpUnder) / len(sharpUnder))
 				sharpUnder = convertAmericanFromImplied(sharpUnder)
-				devig(evData, player, f"{sharpOver}/{sharpUnder}", highest, book="vs-sharp")
+				devig(evData, playerFinal, f"{sharpOver}/{sharpUnder}", highest, book="vs-sharp")
 			if "365" in books:
-				devig(evData, player, data[game][player]["365"], highest, book="vs-365")
+				devig(evData, playerFinal, data[game][player]["365"], highest, book="vs-365")
 
-			if player not in evData:
+			if playerFinal not in evData:
 				continue
-			elif evData[player]["ev"] > 0 and not silent:
-				print(f"{player} {evBook} +{highest}, FV={evData[player]['fairVal']}")
+			elif evData[playerFinal]["ev"] > 0 and not silent:
+				print(f"{playerFinal} {evBook} +{highest}, FV={evData[playerFinal]['fairVal']}")
 
 			try:
 				j = ph[team][player]["2024"]
@@ -2216,10 +2220,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 				playerFactor = bpp["players"][player]["hr"]
 				playerFactorColor = bpp["players"][player]["hr-color"]
 				roof = bpp["roof"]
-			
-			if doubleHeader:
-				player += "-gm2"
 
+			player = playerFinal
 			evData[player]["id"] = f"{game}-{player}"
 			evData[player]["player"] = player
 			evData[player]["bpp"] = bpp.get("hr", "")
