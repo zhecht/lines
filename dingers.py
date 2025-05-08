@@ -2035,6 +2035,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 		if not game:
 			continue
 		away, home = map(str, game.split(" @ "))
+		doubleHeader = "gm2" in game
 		away = away.replace("-gm2", "")
 		home = home.replace("-gm2", "")
 		if game not in gameTimes:
@@ -2216,6 +2217,9 @@ def writeEV(date, dinger, parx=False, silent=False):
 				playerFactorColor = bpp["players"][player]["hr-color"]
 				roof = bpp["roof"]
 			
+			if doubleHeader:
+				player += "-gm2"
+
 			evData[player]["id"] = f"{game}-{player}"
 			evData[player]["player"] = player
 			evData[player]["bpp"] = bpp.get("hr", "")
