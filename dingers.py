@@ -1136,7 +1136,7 @@ def writeMGMSel(date):
 	#time.sleep(5)
 	driver.quit()
 	with open("static/dingers/mgm.json", "w") as fh:
-		json.dump(old, fh, indent=4)
+		json.dump(data, fh, indent=4)
 
 def writeMGMSel2(game, url, driverArg=None):
 	if not driverArg:
