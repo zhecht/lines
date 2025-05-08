@@ -1095,13 +1095,15 @@ def writeMGMSel(date):
 
 	events = driver.find_elements(By.CSS_SELECTOR, ".event-item")
 	for event in events:
-		if driver.find_element(By.CSS_SELECTOR, ".live-event-info"):
-			continue
-
-		teams = driver.find_elements(By.CSS_SELECTOR, ".event-item.selected .participant")
+		teams = event.find_elements(By.CSS_SELECTOR, ".participant")
 		away = convertMGMMLBTeam(teams[0].text.strip())
 		home = convertMGMMLBTeam(teams[1].text.strip())
 		game = f"{away} @ {home}"
+		
+		if driver.find_element(By.CSS_SELECTOR, ".live-event-info"):
+			continue
+
+		event.find_element(By.CSS_SELECTOR, "ms-tree-event").click()
 
 		data = nested_dict()
 		propDivs = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
