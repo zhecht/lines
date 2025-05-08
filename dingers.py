@@ -1113,7 +1113,7 @@ def writeMGMSel(date):
 		if event.find_elements(By.CSS_SELECTOR, ".live-event-info"):
 			continue
 
-		print(game)
+		#print(game)
 
 		event.find_element(By.CSS_SELECTOR, "ms-tree-event").click()
 
