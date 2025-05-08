@@ -1091,7 +1091,7 @@ def writeMGMSel(date):
 		return
 
 
-	teams = driver.find_elements(By.CSS_SELECTOR, ".participant")
+	teams = driver.find_elements(By.CSS_SELECTOR, ".event-item.selected .participant")
 	away = convertMGMMLBTeam(teams[0].text.strip())
 	home = convertMGMMLBTeam(teams[1].text.strip())
 	game = f"{away} @ {home}"
