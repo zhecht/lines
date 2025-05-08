@@ -1477,7 +1477,6 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 			team = btn.parent.parent.parent.find_all("img")[1]
 
 			if "/team/" not in team.get("src"):
-				print("1")
 				continue
 			team = convertMLBTeam(team.get("src").split("/")[-1].replace(".png", "").replace("_", " "))
 			game = teamMap.get(team, currGame)
@@ -1495,6 +1494,9 @@ def writeFDFromBuilderHTML(html, teamMap, date, gameStarted, skip):
 			pass
 		if skip and currGame == skip:
 			continue
+
+		if player in dingerData[game]:
+			game = f"{game}-gm2"
 		dingerData[game][player]["fd"] = odds
 		data[game]["hr"][player] = odds
 
