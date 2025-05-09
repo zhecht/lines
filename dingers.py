@@ -2102,8 +2102,6 @@ def writeEV(date, dinger, parx=False, silent=False):
 			gameTimes[gameData["game"]] = gameData["start"]
 			gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 
-	print(gameStarted)
-
 	evData = {}
 
 	for game in data:
@@ -2125,7 +2123,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 		if home in parkFactors:
 			stadiumRank = parkFactors[home]["hrRank"]
 
-		if date == str(datetime.now())[:10] and gameStarted[game]:
+		#if date == str(datetime.now())[:10] and gameStarted[game]:
+		if gameStarted[game]:
 			continue
 			pass
 
