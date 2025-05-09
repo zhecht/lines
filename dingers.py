@@ -1121,11 +1121,11 @@ def writeMGMSel(date):
 		for propDiv in propDivs:
 			try:
 				t = propDiv.text
+				if not t.startswith("Batter home runs"):
+					continue
 			except:
 				continue
-				
-			if not propDiv.text.startswith("Batter home runs"):
-				continue
+
 
 			propDiv.find_element(By.CSS_SELECTOR, ".clickable").click()
 
