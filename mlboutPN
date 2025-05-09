@@ -1,5875 +1,2811 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 5,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609086757,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Washington Nationals",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "St. Louis Cardinals",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": 118
       },
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "under",
+        "points": 2.5,
+        "price": -143
       }
     ],
-    "rotation": 953,
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 47,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 598187961
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609130842,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609130844,
-        "name": "St. Louis Cardinals",
-        "order": 0,
-        "rotation": 1109
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 1.5,
+        "price": -148
       },
       {
-        "alignment": "neutral",
-        "id": 1609130845,
-        "name": "Washington Nationals",
-        "order": 0,
-        "rotation": 1110
+        "designation": "under",
+        "points": 1.5,
+        "price": 121
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 1109,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 421459943
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 6,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469262,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Washington Nationals  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -124
       },
       {
-        "alignment": "away",
-        "name": "St. Louis Cardinals  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "away",
+        "points": -0.0,
+        "price": 108
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9953,
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 598181379
+    "status": "open",
+    "type": "spread",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469263,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469264,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -251
       },
       {
-        "alignment": "neutral",
-        "id": 1609469265,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "away",
+        "points": -1.0,
+        "price": 199
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469266,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469267,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469268,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469269,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469270,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469271,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469272,
-        "name": "5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469273,
-        "name": "6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469274,
-        "name": "7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469275,
-        "name": "8+",
-        "order": 0,
-        "rotation": 961
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -168
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 142
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469276,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469277,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 111
       },
       {
-        "alignment": "neutral",
-        "id": 1609469278,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "away",
+        "points": 0.5,
+        "price": -129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469279,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469280,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469281,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469282,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469283,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469284,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469285,
-        "name": "5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469286,
-        "name": "6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469287,
-        "name": "7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469288,
-        "name": "8+",
-        "order": 0,
-        "rotation": 961
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 154
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -187
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "St. Louis Cardinals Exact Total Runs"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469289,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469290,
-        "name": "St. Louis Cardinals & Over 4.5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469291,
-        "name": "Washington Nationals & Over 4.5",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469292,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469293,
-        "name": "St. Louis Cardinals & Under 4.5",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469294,
-        "name": "Washington Nationals & Under 4.5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469295,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 958
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": -106
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -108
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469296,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469297,
-        "name": "St. Louis Cardinals 1, Washington Nationals 0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469298,
-        "name": "St. Louis Cardinals 2, Washington Nationals 0",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469299,
-        "name": "St. Louis Cardinals 3, Washington Nationals 0",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469300,
-        "name": "St. Louis Cardinals 4, Washington Nationals 0",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469301,
-        "name": "St. Louis Cardinals 5, Washington Nationals 0",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469302,
-        "name": "St. Louis Cardinals 6, Washington Nationals 0",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469303,
-        "name": "St. Louis Cardinals 7, Washington Nationals 0",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469304,
-        "name": "St. Louis Cardinals 0, Washington Nationals 1",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469305,
-        "name": "St. Louis Cardinals 2, Washington Nationals 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469306,
-        "name": "St. Louis Cardinals 3, Washington Nationals 1",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469307,
-        "name": "St. Louis Cardinals 4, Washington Nationals 1",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469308,
-        "name": "St. Louis Cardinals 5, Washington Nationals 1",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469309,
-        "name": "St. Louis Cardinals 6, Washington Nationals 1",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469310,
-        "name": "St. Louis Cardinals 7, Washington Nationals 1",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469311,
-        "name": "St. Louis Cardinals 0, Washington Nationals 2",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469312,
-        "name": "St. Louis Cardinals 1, Washington Nationals 2",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469313,
-        "name": "St. Louis Cardinals 3, Washington Nationals 2",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469314,
-        "name": "St. Louis Cardinals 4, Washington Nationals 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469315,
-        "name": "St. Louis Cardinals 5, Washington Nationals 2",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469316,
-        "name": "St. Louis Cardinals 6, Washington Nationals 2",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469317,
-        "name": "St. Louis Cardinals 7, Washington Nationals 2",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469318,
-        "name": "St. Louis Cardinals 0, Washington Nationals 3",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469319,
-        "name": "St. Louis Cardinals 1, Washington Nationals 3",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469320,
-        "name": "St. Louis Cardinals 2, Washington Nationals 3",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469321,
-        "name": "St. Louis Cardinals 4, Washington Nationals 3",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469322,
-        "name": "St. Louis Cardinals 5, Washington Nationals 3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469323,
-        "name": "St. Louis Cardinals 6, Washington Nationals 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469324,
-        "name": "St. Louis Cardinals 7, Washington Nationals 3",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469325,
-        "name": "St. Louis Cardinals 0, Washington Nationals 4",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469326,
-        "name": "St. Louis Cardinals 1, Washington Nationals 4",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469327,
-        "name": "St. Louis Cardinals 2, Washington Nationals 4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469328,
-        "name": "St. Louis Cardinals 3, Washington Nationals 4",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469329,
-        "name": "St. Louis Cardinals 5, Washington Nationals 4",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469330,
-        "name": "St. Louis Cardinals 6, Washington Nationals 4",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469331,
-        "name": "St. Louis Cardinals 7, Washington Nationals 4",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469332,
-        "name": "St. Louis Cardinals 0, Washington Nationals 5",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469333,
-        "name": "St. Louis Cardinals 1, Washington Nationals 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469334,
-        "name": "St. Louis Cardinals 2, Washington Nationals 5",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469335,
-        "name": "St. Louis Cardinals 3, Washington Nationals 5",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469336,
-        "name": "St. Louis Cardinals 4, Washington Nationals 5",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469337,
-        "name": "St. Louis Cardinals 6, Washington Nationals 5",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469338,
-        "name": "St. Louis Cardinals 7, Washington Nationals 5",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469339,
-        "name": "St. Louis Cardinals 0, Washington Nationals 6",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469340,
-        "name": "St. Louis Cardinals 1, Washington Nationals 6",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469341,
-        "name": "St. Louis Cardinals 2, Washington Nationals 6",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469342,
-        "name": "St. Louis Cardinals 3, Washington Nationals 6",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469343,
-        "name": "St. Louis Cardinals 4, Washington Nationals 6",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469344,
-        "name": "St. Louis Cardinals 5, Washington Nationals 6",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469345,
-        "name": "St. Louis Cardinals 7, Washington Nationals 6",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469346,
-        "name": "St. Louis Cardinals 0, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469347,
-        "name": "St. Louis Cardinals 1, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469348,
-        "name": "St. Louis Cardinals 2, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469349,
-        "name": "St. Louis Cardinals 3, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469350,
-        "name": "St. Louis Cardinals 4, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469351,
-        "name": "St. Louis Cardinals 5, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469352,
-        "name": "St. Louis Cardinals 6, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1008
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -185
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 158
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469353,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469354,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -145
       },
       {
-        "alignment": "neutral",
-        "id": 1609469355,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 4.0,
+        "price": 126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469356,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469357,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 122
       },
       {
-        "alignment": "neutral",
-        "id": 1609469358,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 5.0,
+        "price": -141
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "St. Louis Cardinals Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469359,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469360,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 149
       },
       {
-        "alignment": "neutral",
-        "id": 1609469361,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
+        "designation": "under",
+        "points": 5.5,
+        "price": -173
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469362,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469363,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 953
+        "amount": 1000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 267
       },
       {
-        "alignment": "neutral",
-        "id": 1609469364,
-        "name": "Even",
-        "order": 0,
-        "rotation": 954
-      }
-    ],
-    "periods": [
+        "designation": "away",
+        "price": 294
+      },
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "draw",
+        "price": -121
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "St. Louis Cardinals Runs Odd/Even"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "moneyline",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469365,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469366,
-        "name": "St. Louis Cardinals & Over 8.5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469367,
-        "name": "Washington Nationals & Over 8.5",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469368,
-        "name": "St. Louis Cardinals & Under 8.5",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469369,
-        "name": "Washington Nationals & Under 8.5",
-        "order": 0,
-        "rotation": 956
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -118
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 101
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469370,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469371,
-        "name": "St. Louis Cardinals By 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469372,
-        "name": "St. Louis Cardinals By 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469373,
-        "name": "St. Louis Cardinals By 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469374,
-        "name": "St. Louis Cardinals By 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469375,
-        "name": "St. Louis Cardinals By 5+",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469376,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469377,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469378,
-        "name": "Washington Nationals By 3",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469379,
-        "name": "Washington Nationals By 4",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469380,
-        "name": "Washington Nationals By 5+",
-        "order": 0,
-        "rotation": 962
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 0.5,
+        "price": -110
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -107
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103407130
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469381,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469382,
-        "name": "St. Louis Cardinals By 1 - 2",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469383,
-        "name": "St. Louis Cardinals By 3 - 4",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469384,
-        "name": "St. Louis Cardinals By 5 - 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469385,
-        "name": "St. Louis Cardinals By 7+",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469386,
-        "name": "Washington Nationals By 1 - 2",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469387,
-        "name": "Washington Nationals By 3 - 4",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469388,
-        "name": "Washington Nationals By 5 - 6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469389,
-        "name": "Washington Nationals By 7+",
-        "order": 0,
-        "rotation": 960
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -108
+      },
+      {
+        "designation": "away",
+        "price": 100
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "moneyline",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469390,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469391,
-        "name": "1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469392,
-        "name": "2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469393,
-        "name": "3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469394,
-        "name": "4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469395,
-        "name": "5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469396,
-        "name": "6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469397,
-        "name": "7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469398,
-        "name": "8",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469399,
-        "name": "9",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469400,
-        "name": "10",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469401,
-        "name": "11",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469402,
-        "name": "12",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469403,
-        "name": "13",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469404,
-        "name": "14",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469405,
-        "name": "15+",
-        "order": 0,
-        "rotation": 967
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 117
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -137
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469406,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469407,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469408,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469409,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469410,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469411,
-        "name": "13+",
-        "order": 0,
-        "rotation": 957
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 110
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -128
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469412,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469413,
-        "name": "St. Louis Cardinals By 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469414,
-        "name": "St. Louis Cardinals By 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469415,
-        "name": "St. Louis Cardinals By 3+",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469416,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469417,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469418,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469419,
-        "name": "Washington Nationals By 3+",
-        "order": 0,
-        "rotation": 959
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 185
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -209
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469420,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469421,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469422,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469423,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469424,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469425,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469426,
-        "name": "5",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469427,
-        "name": "6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469428,
-        "name": "7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469429,
-        "name": "8",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469430,
-        "name": "9",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469431,
-        "name": "10",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469432,
-        "name": "11+",
-        "order": 0,
-        "rotation": 964
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -188
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 158
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469433,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469434,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469435,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469436,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469437,
-        "name": "7+",
-        "order": 0,
-        "rotation": 956
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -149
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 130
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469438,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469439,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469440,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469441,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469442,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469443,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469444,
-        "name": "5+",
-        "order": 0,
-        "rotation": 958
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 136
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -155
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "St. Louis Cardinals Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469445,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469446,
-        "name": "0",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469447,
-        "name": "1",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469448,
-        "name": "2",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469449,
-        "name": "3",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469450,
-        "name": "4",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469451,
-        "name": "5+",
-        "order": 0,
-        "rotation": 958
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -2.0,
+        "price": 247
+      },
+      {
+        "designation": "away",
+        "points": 2.0,
+        "price": -295
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609469452,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609469453,
-        "name": "St. Louis Cardinals 0, Washington Nationals 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469454,
-        "name": "St. Louis Cardinals 0, Washington Nationals 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469455,
-        "name": "St. Louis Cardinals 0, Washington Nationals 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469456,
-        "name": "St. Louis Cardinals 0, Washington Nationals 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469457,
-        "name": "St. Louis Cardinals 0, Washington Nationals 5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469458,
-        "name": "St. Louis Cardinals 0, Washington Nationals 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469459,
-        "name": "St. Louis Cardinals 0, Washington Nationals 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469460,
-        "name": "St. Louis Cardinals 1, Washington Nationals 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469461,
-        "name": "St. Louis Cardinals 1, Washington Nationals 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469462,
-        "name": "St. Louis Cardinals 1, Washington Nationals 2",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469463,
-        "name": "St. Louis Cardinals 1, Washington Nationals 3",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469464,
-        "name": "St. Louis Cardinals 1, Washington Nationals 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469465,
-        "name": "St. Louis Cardinals 1, Washington Nationals 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469466,
-        "name": "St. Louis Cardinals 1, Washington Nationals 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469467,
-        "name": "St. Louis Cardinals 1, Washington Nationals 7",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469468,
-        "name": "St. Louis Cardinals 2, Washington Nationals 0",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469469,
-        "name": "St. Louis Cardinals 2, Washington Nationals 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469470,
-        "name": "St. Louis Cardinals 2, Washington Nationals 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469471,
-        "name": "St. Louis Cardinals 2, Washington Nationals 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469472,
-        "name": "St. Louis Cardinals 2, Washington Nationals 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469473,
-        "name": "St. Louis Cardinals 2, Washington Nationals 5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469474,
-        "name": "St. Louis Cardinals 2, Washington Nationals 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469475,
-        "name": "St. Louis Cardinals 2, Washington Nationals 7",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469476,
-        "name": "St. Louis Cardinals 3, Washington Nationals 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469477,
-        "name": "St. Louis Cardinals 3, Washington Nationals 1",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469478,
-        "name": "St. Louis Cardinals 3, Washington Nationals 2",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469479,
-        "name": "St. Louis Cardinals 3, Washington Nationals 3",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469480,
-        "name": "St. Louis Cardinals 3, Washington Nationals 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469481,
-        "name": "St. Louis Cardinals 3, Washington Nationals 5",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469482,
-        "name": "St. Louis Cardinals 3, Washington Nationals 6",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469483,
-        "name": "St. Louis Cardinals 3, Washington Nationals 7",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469484,
-        "name": "St. Louis Cardinals 4, Washington Nationals 0",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469485,
-        "name": "St. Louis Cardinals 4, Washington Nationals 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469486,
-        "name": "St. Louis Cardinals 4, Washington Nationals 2",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469487,
-        "name": "St. Louis Cardinals 4, Washington Nationals 3",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469488,
-        "name": "St. Louis Cardinals 4, Washington Nationals 4",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469489,
-        "name": "St. Louis Cardinals 4, Washington Nationals 5",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469490,
-        "name": "St. Louis Cardinals 4, Washington Nationals 6",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469491,
-        "name": "St. Louis Cardinals 4, Washington Nationals 7",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469492,
-        "name": "St. Louis Cardinals 5, Washington Nationals 0",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469493,
-        "name": "St. Louis Cardinals 5, Washington Nationals 1",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469494,
-        "name": "St. Louis Cardinals 5, Washington Nationals 2",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469495,
-        "name": "St. Louis Cardinals 5, Washington Nationals 3",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469496,
-        "name": "St. Louis Cardinals 5, Washington Nationals 4",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469497,
-        "name": "St. Louis Cardinals 5, Washington Nationals 5",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469498,
-        "name": "St. Louis Cardinals 5, Washington Nationals 6",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469499,
-        "name": "St. Louis Cardinals 5, Washington Nationals 7",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469500,
-        "name": "St. Louis Cardinals 6, Washington Nationals 0",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469501,
-        "name": "St. Louis Cardinals 6, Washington Nationals 1",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469502,
-        "name": "St. Louis Cardinals 6, Washington Nationals 2",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469503,
-        "name": "St. Louis Cardinals 6, Washington Nationals 3",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469504,
-        "name": "St. Louis Cardinals 6, Washington Nationals 4",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469505,
-        "name": "St. Louis Cardinals 6, Washington Nationals 5",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469506,
-        "name": "St. Louis Cardinals 6, Washington Nationals 6",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469507,
-        "name": "St. Louis Cardinals 6, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469508,
-        "name": "St. Louis Cardinals 7, Washington Nationals 0",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469509,
-        "name": "St. Louis Cardinals 7, Washington Nationals 1",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469510,
-        "name": "St. Louis Cardinals 7, Washington Nationals 2",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469511,
-        "name": "St. Louis Cardinals 7, Washington Nationals 3",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469512,
-        "name": "St. Louis Cardinals 7, Washington Nationals 4",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469513,
-        "name": "St. Louis Cardinals 7, Washington Nationals 5",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469514,
-        "name": "St. Louis Cardinals 7, Washington Nationals 6",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1609469515,
-        "name": "St. Louis Cardinals 7, Washington Nationals 7",
-        "order": 0,
-        "rotation": 1015
+        "amount": 10000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -2.5,
+        "price": 274
+      },
+      {
+        "designation": "away",
+        "points": 2.5,
+        "price": -343
       }
     ],
-    "rotation": 953,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477121,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477122,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -3.0,
+        "price": 369
       },
       {
-        "alignment": "neutral",
-        "id": 1609477123,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "away",
+        "points": 3.0,
+        "price": -513
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Josh Bell (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "spread",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477124,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477125,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -113
       },
       {
-        "alignment": "neutral",
-        "id": 1609477126,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 8.5,
+        "price": 100
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Keibert Ruiz (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477127,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477128,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -389
       },
       {
-        "alignment": "neutral",
-        "id": 1609477129,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 5.5,
+        "price": 295
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Nathaniel Lowe (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477130,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477131,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -213
       },
       {
-        "alignment": "neutral",
-        "id": 1609477132,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 7.0,
+        "price": 185
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Luis García Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477133,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477134,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -154
       },
       {
-        "alignment": "neutral",
-        "id": 1609477135,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 7.5,
+        "price": 136
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "José Tena (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477136,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477137,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -134
       },
       {
-        "alignment": "neutral",
-        "id": 1609477138,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 8.0,
+        "price": 119
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "CJ Abrams (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477139,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477140,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": 112
       },
       {
-        "alignment": "neutral",
-        "id": 1609477141,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 9.0,
+        "price": -126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Dylan Crews (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477142,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477143,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": 140
       },
       {
-        "alignment": "neutral",
-        "id": 1609477144,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 9.5,
+        "price": -158
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "James Wood (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609477145,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609477146,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": 164
       },
       {
-        "alignment": "neutral",
-        "id": 1609477147,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 10.0,
+        "price": -188
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Jacob Young (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478551,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609478552,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 10000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609086757,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.5,
+        "price": 336
       },
       {
-        "alignment": "neutral",
-        "id": 1609478553,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 12.5,
+        "price": -456
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Nolan Arenado (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103429905
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478554,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609478555,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609130842,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609130844,
+        "price": -140
       },
       {
-        "alignment": "neutral",
-        "id": 1609478556,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609130845,
+        "price": 119
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Willson Contreras (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478557,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;26.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609478558,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469262,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 26.0,
+        "price": -113
       },
       {
-        "alignment": "neutral",
-        "id": 1609478559,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "designation": "under",
+        "points": 26.0,
+        "price": -107
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Lars Nootbaar (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "status": "open",
+    "type": "total",
+    "version": 3103408525
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478560,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609478561,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469263,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469264,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1609478562,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609469265,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Iván Herrera (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478563,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609478564,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469266,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469267,
+        "price": 1128
       },
       {
-        "alignment": "neutral",
-        "id": 1609478565,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Brendan Donovan (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478566,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609478567,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469268,
+        "price": 676
       },
       {
-        "alignment": "neutral",
-        "id": 1609478568,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Pedro Pagés (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478569,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609478570,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469269,
+        "price": 519
       },
       {
-        "alignment": "neutral",
-        "id": 1609478571,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Victor Scott II (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478572,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609478573,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469270,
+        "price": 470
       },
       {
-        "alignment": "neutral",
-        "id": 1609478574,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Jordan Walker (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609478575,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609478576,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469271,
+        "price": 484
       },
       {
-        "alignment": "neutral",
-        "id": 1609478577,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Masyn Winn (Total Bases)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609479972,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609479973,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469272,
+        "price": 550
       },
       {
-        "alignment": "neutral",
-        "id": 1609479974,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Erick Fedde (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609483779,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609483780,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469273,
+        "price": 671
       },
       {
-        "alignment": "neutral",
-        "id": 1609483781,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Mitchell Parker (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 421459943
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609484923,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1609484924,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "participantId": 1609469274,
+        "price": 855
       },
       {
-        "alignment": "neutral",
-        "id": 1609484925,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609469275,
+        "price": 485
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Mitchell Parker (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421459943
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609484926,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609484927,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469276,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469277,
+        "price": 110
       },
       {
-        "alignment": "neutral",
-        "id": 1609484928,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
+        "participantId": 1609469278,
+        "price": -129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Mitchell Parker (Earned Runs)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 421459943
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609484929,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "St. Louis Cardinals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-05-09T22:45:00+00:00"
-    },
-    "parentId": 1609086757,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1609484930,
-        "name": "Over",
-        "order": 0,
-        "rotation": 954
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469279,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469280,
+        "price": 1067
       },
       {
-        "alignment": "neutral",
-        "id": 1609484931,
-        "name": "Under",
-        "order": 0,
-        "rotation": 955
-      }
-    ],
-    "periods": [
+        "participantId": 1609469281,
+        "price": 652
+      },
       {
-        "cutoffAt": "2025-05-09T22:45:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1609469282,
+        "price": 527
+      },
+      {
+        "participantId": 1609469283,
+        "price": 495
+      },
+      {
+        "participantId": 1609469284,
+        "price": 513
+      },
+      {
+        "participantId": 1609469285,
+        "price": 576
+      },
+      {
+        "participantId": 1609469286,
+        "price": 686
+      },
+      {
+        "participantId": 1609469287,
+        "price": 850
+      },
+      {
+        "participantId": 1609469288,
+        "price": 431
       }
     ],
-    "rotation": 954,
-    "special": {
-      "category": "Player Props",
-      "description": "Erick Fedde (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-05-09T22:45:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 421459943
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1609484932,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 19,
-      "matchupCountSE": 19,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 50,
-        "matchupCountSE": 50,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
       }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1609086757,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-     
+    ],
+    "matchupId": 1609469289,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469290,
+        "price": 319
+      },
+      {
+        "participantId": 1609469291,
+        "price": 266
+      },
+      {
+        "participantId": 1609469292,
+        "price": 1456
+      },
+      {
+        "participantId": 1609469293,
+        "price": 374
+      },
+      {
+        "participantId": 1609469294,
+        "price": 325
+      },
+      {
+        "participantId": 1609469295,
+        "price": 578
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469296,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469310,
+        "price": 5634
+      },
+      {
+        "participantId": 1609469311,
+        "price": 4739
+      },
+      {
+        "participantId": 1609469312,
+        "price": 2449
+      },
+      {
+        "participantId": 1609469313,
+        "price": 2483
+      },
+      {
+        "participantId": 1609469314,
+        "price": 2763
+      },
+      {
+        "participantId": 1609469315,
+        "price": 3130
+      },
+      {
+        "participantId": 1609469316,
+        "price": 3774
+      },
+      {
+        "participantId": 1609469317,
+        "price": 4626
+      },
+      {
+        "participantId": 1609469318,
+        "price": 4798
+      },
+      {
+        "participantId": 1609469319,
+        "price": 3031
+      },
+      {
+        "participantId": 1609469320,
+        "price": 1875
+      },
+      {
+        "participantId": 1609469321,
+        "price": 2410
+      },
+      {
+        "participantId": 1609469322,
+        "price": 2858
+      },
+      {
+        "participantId": 1609469323,
+        "price": 3406
+      },
+      {
+        "participantId": 1609469324,
+        "price": 4282
+      },
+      {
+        "participantId": 1609469325,
+        "price": 5203
+      },
+      {
+        "participantId": 1609469326,
+        "price": 3333
+      },
+      {
+        "participantId": 1609469327,
+        "price": 2721
+      },
+      {
+        "participantId": 1609469328,
+        "price": 1812
+      },
+      {
+        "participantId": 1609469329,
+        "price": 2720
+      },
+      {
+        "participantId": 1609469330,
+        "price": 3399
+      },
+      {
+        "participantId": 1609469331,
+        "price": 4196
+      },
+      {
+        "participantId": 1609469332,
+        "price": 5913
+      },
+      {
+        "participantId": 1609469333,
+        "price": 3842
+      },
+      {
+        "participantId": 1609469334,
+        "price": 3161
+      },
+      {
+        "participantId": 1609469335,
+        "price": 2947
+      },
+      {
+        "participantId": 1609469336,
+        "price": 2050
+      },
+      {
+        "participantId": 1609469337,
+        "price": 3436
+      },
+      {
+        "participantId": 1609469338,
+        "price": 4385
+      },
+      {
+        "participantId": 1609469339,
+        "price": 6943
+      },
+      {
+        "participantId": 1609469340,
+        "price": 4602
+      },
+      {
+        "participantId": 1609469341,
+        "price": 3817
+      },
+      {
+        "participantId": 1609469342,
+        "price": 3565
+      },
+      {
+        "participantId": 1609469343,
+        "price": 3641
+      },
+      {
+        "participantId": 1609469344,
+        "price": 2608
+      },
+      {
+        "participantId": 1609469345,
+        "price": 4622
+      },
+      {
+        "participantId": 1609469346,
+        "price": 8275
+      },
+      {
+        "participantId": 1609469347,
+        "price": 5611
+      },
+      {
+        "participantId": 1609469348,
+        "price": 4744
+      },
+      {
+        "participantId": 1609469349,
+        "price": 4479
+      },
+      {
+        "participantId": 1609469350,
+        "price": 4520
+      },
+      {
+        "participantId": 1609469351,
+        "price": 4832
+      },
+      {
+        "participantId": 1609469352,
+        "price": 3549
+      },
+      {
+        "participantId": 1609469297,
+        "price": 5839
+      },
+      {
+        "participantId": 1609469298,
+        "price": 5211
+      },
+      {
+        "participantId": 1609469299,
+        "price": 5083
+      },
+      {
+        "participantId": 1609469300,
+        "price": 5483
+      },
+      {
+        "participantId": 1609469301,
+        "price": 6115
+      },
+      {
+        "participantId": 1609469302,
+        "price": 7106
+      },
+      {
+        "participantId": 1609469303,
+        "price": 8387
+      },
+      {
+        "participantId": 1609469304,
+        "price": 4712
+      },
+      {
+        "participantId": 1609469305,
+        "price": 3186
+      },
+      {
+        "participantId": 1609469306,
+        "price": 3236
+      },
+      {
+        "participantId": 1609469307,
+        "price": 3436
+      },
+      {
+        "participantId": 1609469308,
+        "price": 3945
+      },
+      {
+        "participantId": 1609469309,
+        "price": 4650
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469353,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469354,
+        "price": -161
+      },
+      {
+        "participantId": 1609469355,
+        "price": 136
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469356,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469357,
+        "price": 113
+      },
+      {
+        "participantId": 1609469358,
+        "price": -132
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469359,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469360,
+        "price": -105
+      },
+      {
+        "participantId": 1609469361,
+        "price": -111
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469362,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469363,
+        "price": -105
+      },
+      {
+        "participantId": 1609469364,
+        "price": -111
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469365,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469366,
+        "price": 256
+      },
+      {
+        "participantId": 1609469367,
+        "price": 265
+      },
+      {
+        "participantId": 1609469368,
+        "price": 283
+      },
+      {
+        "participantId": 1609469369,
+        "price": 247
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469370,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469376,
+        "price": 391
+      },
+      {
+        "participantId": 1609469377,
+        "price": 703
+      },
+      {
+        "participantId": 1609469378,
+        "price": 854
+      },
+      {
+        "participantId": 1609469379,
+        "price": 1086
+      },
+      {
+        "participantId": 1609469380,
+        "price": 585
+      },
+      {
+        "participantId": 1609469371,
+        "price": 547
+      },
+      {
+        "participantId": 1609469372,
+        "price": 668
+      },
+      {
+        "participantId": 1609469373,
+        "price": 803
+      },
+      {
+        "participantId": 1609469374,
+        "price": 1026
+      },
+      {
+        "participantId": 1609469375,
+        "price": 524
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469381,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469382,
+        "price": 301
+      },
+      {
+        "participantId": 1609469383,
+        "price": 491
+      },
+      {
+        "participantId": 1609469384,
+        "price": 868
+      },
+      {
+        "participantId": 1609469385,
+        "price": 1054
+      },
+      {
+        "participantId": 1609469386,
+        "price": 242
+      },
+      {
+        "participantId": 1609469387,
+        "price": 527
+      },
+      {
+        "participantId": 1609469388,
+        "price": 936
+      },
+      {
+        "participantId": 1609469389,
+        "price": 1183
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469390,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469391,
+        "price": 2571
+      },
+      {
+        "participantId": 1609469392,
+        "price": 2456
+      },
+      {
+        "participantId": 1609469393,
+        "price": 1071
+      },
+      {
+        "participantId": 1609469394,
+        "price": 1204
+      },
+      {
+        "participantId": 1609469395,
+        "price": 682
+      },
+      {
+        "participantId": 1609469396,
+        "price": 863
+      },
+      {
+        "participantId": 1609469397,
+        "price": 581
+      },
+      {
+        "participantId": 1609469398,
+        "price": 828
+      },
+      {
+        "participantId": 1609469399,
+        "price": 626
+      },
+      {
+        "participantId": 1609469400,
+        "price": 913
+      },
+      {
+        "participantId": 1609469401,
+        "price": 780
+      },
+      {
+        "participantId": 1609469402,
+        "price": 1152
+      },
+      {
+        "participantId": 1609469403,
+        "price": 1061
+      },
+      {
+        "participantId": 1609469404,
+        "price": 1579
+      },
+      {
+        "participantId": 1609469405,
+        "price": 623
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469406,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469408,
+        "price": 309
+      },
+      {
+        "participantId": 1609469409,
+        "price": 210
+      },
+      {
+        "participantId": 1609469410,
+        "price": 336
+      },
+      {
+        "participantId": 1609469411,
+        "price": 346
+      },
+      {
+        "participantId": 1609469407,
+        "price": 740
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469412,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469413,
+        "price": 551
+      },
+      {
+        "participantId": 1609469414,
+        "price": 699
+      },
+      {
+        "participantId": 1609469415,
+        "price": 386
+      },
+      {
+        "participantId": 1609469416,
+        "price": 445
+      },
+      {
+        "participantId": 1609469417,
+        "price": 502
+      },
+      {
+        "participantId": 1609469418,
+        "price": 623
+      },
+      {
+        "participantId": 1609469419,
+        "price": 316
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469420,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469421,
+        "price": 1363
+      },
+      {
+        "participantId": 1609469422,
+        "price": 773
+      },
+      {
+        "participantId": 1609469423,
+        "price": 579
+      },
+      {
+        "participantId": 1609469424,
+        "price": 512
+      },
+      {
+        "participantId": 1609469425,
+        "price": 508
+      },
+      {
+        "participantId": 1609469426,
+        "price": 585
+      },
+      {
+        "participantId": 1609469427,
+        "price": 668
+      },
+      {
+        "participantId": 1609469428,
+        "price": 796
+      },
+      {
+        "participantId": 1609469429,
+        "price": 981
+      },
+      {
+        "participantId": 1609469430,
+        "price": 1237
+      },
+      {
+        "participantId": 1609469431,
+        "price": 1585
+      },
+      {
+        "participantId": 1609469432,
+        "price": 1008
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469433,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469434,
+        "price": 276
+      },
+      {
+        "participantId": 1609469435,
+        "price": 243
+      },
+      {
+        "participantId": 1609469436,
+        "price": 314
+      },
+      {
+        "participantId": 1609469437,
+        "price": 227
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469438,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469440,
+        "price": 311
+      },
+      {
+        "participantId": 1609469441,
+        "price": 379
+      },
+      {
+        "participantId": 1609469442,
+        "price": 502
+      },
+      {
+        "participantId": 1609469443,
+        "price": 691
+      },
+      {
+        "participantId": 1609469444,
+        "price": 424
+      },
+      {
+        "participantId": 1609469439,
+        "price": 314
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469445,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469446,
+        "price": 358
+      },
+      {
+        "participantId": 1609469447,
+        "price": 339
+      },
+      {
+        "participantId": 1609469448,
+        "price": 380
+      },
+      {
+        "participantId": 1609469449,
+        "price": 479
+      },
+      {
+        "participantId": 1609469450,
+        "price": 639
+      },
+      {
+        "participantId": 1609469451,
+        "price": 364
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469452,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469453,
+        "price": 1474
+      },
+      {
+        "participantId": 1609469454,
+        "price": 1615
+      },
+      {
+        "participantId": 1609469455,
+        "price": 1933
+      },
+      {
+        "participantId": 1609469456,
+        "price": 2438
+      },
+      {
+        "participantId": 1609469457,
+        "price": 3336
+      },
+      {
+        "participantId": 1609469458,
+        "price": 4462
+      },
+      {
+        "participantId": 1609469460,
+        "price": 1577
+      },
+      {
+        "participantId": 1609469461,
+        "price": 1478
+      },
+      {
+        "participantId": 1609469462,
+        "price": 1576
+      },
+      {
+        "participantId": 1609469463,
+        "price": 1888
+      },
+      {
+        "participantId": 1609469464,
+        "price": 2518
+      },
+      {
+        "participantId": 1609469465,
+        "price": 3265
+      },
+      {
+        "participantId": 1609469466,
+        "price": 4369
+      },
+      {
+        "participantId": 1609469468,
+        "price": 1792
+      },
+      {
+        "participantId": 1609469469,
+        "price": 1733
+      },
+      {
+        "participantId": 1609469470,
+        "price": 1839
+      },
+      {
+        "participantId": 1609469471,
+        "price": 2259
+      },
+      {
+        "participantId": 1609469472,
+        "price": 2833
+      },
+      {
+        "participantId": 1609469473,
+        "price": 3655
+      },
+      {
+        "participantId": 1609469474,
+        "price": 4864
+      },
+      {
+        "participantId": 1609469476,
+        "price": 2187
+      },
+      {
+        "participantId": 1609469477,
+        "price": 2118
+      },
+      {
+        "participantId": 1609469478,
+        "price": 2439
+      },
+      {
+        "participantId": 1609469479,
+        "price": 2806
+      },
+      {
+        "participantId": 1609469480,
+        "price": 3409
+      },
+      {
+        "participantId": 1609469481,
+        "price": 4363
+      },
+      {
+        "participantId": 1609469484,
+        "price": 2794
+      },
+      {
+        "participantId": 1609469485,
+        "price": 2858
+      },
+      {
+        "participantId": 1609469486,
+        "price": 3101
+      },
+      {
+        "participantId": 1609469487,
+        "price": 3644
+      },
+      {
+        "participantId": 1609469488,
+        "price": 4377
+      },
+      {
+        "participantId": 1609469492,
+        "price": 3847
+      },
+      {
+        "participantId": 1609469493,
+        "price": 3736
+      },
+      {
+        "participantId": 1609469494,
+        "price": 4040
+      },
+      {
+        "participantId": 1609469495,
+        "price": 4713
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477121,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477122,
+        "points": 0.5,
+        "price": -191
+      },
+      {
+        "participantId": 1609477123,
+        "points": 0.5,
+        "price": 142
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477124,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477125,
+        "points": 1.5,
+        "price": 148
+      },
+      {
+        "participantId": 1609477126,
+        "points": 1.5,
+        "price": -200
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477127,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477128,
+        "points": 0.5,
+        "price": -211
+      },
+      {
+        "participantId": 1609477129,
+        "points": 0.5,
+        "price": 156
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477130,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477131,
+        "points": 1.5,
+        "price": 147
+      },
+      {
+        "participantId": 1609477132,
+        "points": 1.5,
+        "price": -199
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477133,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477134,
+        "points": 0.5,
+        "price": -175
+      },
+      {
+        "participantId": 1609477135,
+        "points": 0.5,
+        "price": 131
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477136,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477137,
+        "points": 1.5,
+        "price": 123
+      },
+      {
+        "participantId": 1609477138,
+        "points": 1.5,
+        "price": -164
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477139,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477140,
+        "points": 0.5,
+        "price": -180
+      },
+      {
+        "participantId": 1609477141,
+        "points": 0.5,
+        "price": 134
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477142,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477143,
+        "points": 0.5,
+        "price": -192
+      },
+      {
+        "participantId": 1609477144,
+        "points": 0.5,
+        "price": 143
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609477145,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609477146,
+        "points": 0.5,
+        "price": -156
+      },
+      {
+        "participantId": 1609477147,
+        "points": 0.5,
+        "price": 117
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478551,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478553,
+        "points": 1.5,
+        "price": -172
+      },
+      {
+        "participantId": 1609478552,
+        "points": 1.5,
+        "price": 129
+      }
+    ],
+    "type": "total",
+    "version": 4974591437
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478554,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478555,
+        "points": 1.5,
+        "price": 137
+      },
+      {
+        "participantId": 1609478556,
+        "points": 1.5,
+        "price": -185
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478557,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478558,
+        "points": 0.5,
+        "price": -211
+      },
+      {
+        "participantId": 1609478559,
+        "points": 0.5,
+        "price": 155
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478560,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478561,
+        "points": 0.5,
+        "price": -175
+      },
+      {
+        "participantId": 1609478562,
+        "points": 0.5,
+        "price": 129
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478563,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478564,
+        "points": 1.5,
+        "price": 151
+      },
+      {
+        "participantId": 1609478565,
+        "points": 1.5,
+        "price": -204
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478566,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478567,
+        "points": 0.5,
+        "price": -166
+      },
+      {
+        "participantId": 1609478568,
+        "points": 0.5,
+        "price": 125
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478569,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478570,
+        "points": 0.5,
+        "price": -115
+      },
+      {
+        "participantId": 1609478571,
+        "points": 0.5,
+        "price": -115
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478572,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478573,
+        "points": 0.5,
+        "price": -202
+      },
+      {
+        "participantId": 1609478574,
+        "points": 0.5,
+        "price": 149
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609478575,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609478576,
+        "points": 1.5,
+        "price": 127
+      },
+      {
+        "participantId": 1609478577,
+        "points": 1.5,
+        "price": -169
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609479972,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609479973,
+        "points": 4.5,
+        "price": 124
+      },
+      {
+        "participantId": 1609479974,
+        "points": 4.5,
+        "price": -166
+      }
+    ],
+    "type": "total",
+    "version": 4974591437
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609483779,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609483780,
+        "points": 3.5,
+        "price": -156
+      },
+      {
+        "participantId": 1609483781,
+        "points": 3.5,
+        "price": 117
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609484923,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609484924,
+        "points": 4.5,
+        "price": -167
+      },
+      {
+        "participantId": 1609484925,
+        "points": 4.5,
+        "price": 125
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609484926,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609484928,
+        "points": 2.5,
+        "price": -145
+      },
+      {
+        "participantId": 1609484927,
+        "points": 2.5,
+        "price": 109
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609484929,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609484930,
+        "points": 5.5,
+        "price": 103
+      },
+      {
+        "participantId": 1609484931,
+        "points": 5.5,
+        "price": -136
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609484932,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609484933,
+        "points": 2.5,
+        "price": -116
+      },
+      {
+        "participantId": 1609484934,
+        "points": 2.5,
+        "price": -114
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609490416,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609490417,
+        "points": 16.5,
+        "price": -112
+      },
+      {
+        "participantId": 1609490418,
+        "points": 16.5,
+        "price": -118
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  },
+  {
+    "cutoffAt": "2025-05-09T22:45:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609490419,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609490420,
+        "points": 16.5,
+        "price": -120
+      },
+      {
+        "participantId": 1609490421,
+        "points": 16.5,
+        "price": -110
+      }
+    ],
+    "type": "total",
+    "version": 4974591480
+  }
+]
