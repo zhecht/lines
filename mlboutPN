@@ -1,962 +1,962 @@
 [
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": false,
-    "key": "s;0;m",
+    "key": "s;3;m",
     "limits": [
       {
-        "amount": 5000,
+        "amount": 325,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 3,
     "prices": [
       {
         "designation": "home",
-        "price": 169
+        "price": 275
       },
       {
         "designation": "away",
-        "price": -190
+        "price": 233
+      },
+      {
+        "designation": "draw",
+        "price": -101
       }
     ],
     "status": "open",
     "type": "moneyline",
-    "version": 3102287314
+    "version": 3102424408
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 106
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": -124
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102424408
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -133
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": 113
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102424408
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 158
+      },
+      {
+        "designation": "away",
+        "price": -177
+      }
+    ],
+    "status": "open",
+    "type": "moneyline",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": false,
     "key": "s;0;tt;4.5;home",
     "limits": [
       {
-        "amount": 500,
+        "amount": 650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
+    "matchupId": 1609106971,
     "period": 0,
     "prices": [
       {
         "designation": "over",
         "points": 4.5,
-        "price": -100
+        "price": -113
       },
       {
         "designation": "under",
         "points": 4.5,
+        "price": -103
+      }
+    ],
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;6.5;away",
+    "limits": [
+      {
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.5,
+        "price": -100
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": -117
+      }
+    ],
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.5,
+        "price": 104
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": -117
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 3.0,
+        "price": -187
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 154
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.5,
+        "price": -146
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 124
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.0,
+        "price": -119
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 104
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": 131
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": -151
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 232
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -291
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 271
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -364
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;11.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.5,
+        "price": 103
+      },
+      {
+        "designation": "under",
+        "points": 11.5,
+        "price": -116
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -296
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": 235
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": -168
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": 148
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.5,
+        "price": -141
+      },
+      {
+        "designation": "under",
+        "points": 10.5,
+        "price": 125
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.0,
+        "price": -118
+      },
+      {
+        "designation": "under",
+        "points": 11.0,
+        "price": 105
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.0,
+        "price": 120
+      },
+      {
+        "designation": "under",
+        "points": 12.0,
+        "price": -136
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.5,
+        "price": 136
+      },
+      {
+        "designation": "under",
+        "points": 12.5,
+        "price": -154
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;13.0",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 13.0,
+        "price": 169
+      },
+      {
+        "designation": "under",
+        "points": 13.0,
+        "price": -194
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;15.5",
+    "limits": [
+      {
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 15.5,
+        "price": 329
+      },
+      {
+        "designation": "under",
+        "points": 15.5,
+        "price": -445
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3102427686
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": -104
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
         "price": -116
       }
     ],
     "side": "home",
     "status": "open",
     "type": "team_total",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": false,
-    "key": "s;0;tt;6.5;away",
+    "key": "s;1;tt;3.5;away",
     "limits": [
       {
-        "amount": 500,
+        "amount": 325,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "over",
-        "points": 6.5,
-        "price": 104
+        "points": 3.5,
+        "price": 102
       },
       {
         "designation": "under",
-        "points": 6.5,
-        "price": -121
+        "points": 3.5,
+        "price": -123
       }
     ],
     "side": "away",
     "status": "open",
     "type": "team_total",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": false,
-    "key": "s;0;s;1.5",
+    "key": "s;1;s;0.0",
     "limits": [
       {
-        "amount": 3500,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "home",
-        "points": 1.5,
-        "price": 111
+        "points": 0.0,
+        "price": 139
       },
       {
         "designation": "away",
-        "points": -1.5,
+        "points": -0.0,
+        "price": -161
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102435469
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
         "price": -125
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;3.0",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 3.0,
-        "price": -179
-      },
-      {
-        "designation": "away",
-        "points": -3.0,
-        "price": 147
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;2.5",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 2.5,
-        "price": -138
-      },
-      {
-        "designation": "away",
-        "points": -2.5,
-        "price": 118
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;2.0",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 2.0,
-        "price": -112
-      },
-      {
-        "designation": "away",
-        "points": -2.0,
-        "price": -102
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.0",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 1.0,
-        "price": 140
       },
       {
         "designation": "away",
         "points": -1.0,
-        "price": -163
+        "price": 105
       }
     ],
     "status": "open",
     "type": "spread",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": true,
-    "key": "s;0;s;-1.0",
+    "key": "s;1;s;0.5",
     "limits": [
       {
-        "amount": 3500,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": 103
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": -121
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102435469
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 167
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -200
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3102435469
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "home",
         "points": -1.0,
-        "price": 248
+        "price": 223
       },
       {
         "designation": "away",
         "points": 1.0,
-        "price": -316
+        "price": -287
       }
     ],
     "status": "open",
     "type": "spread",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.5",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "home",
-        "points": -1.5,
-        "price": 288
-      },
-      {
-        "designation": "away",
-        "points": 1.5,
-        "price": -391
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": false,
-    "key": "s;0;ou;11.0",
+    "key": "s;1;ou;6.5",
     "limits": [
       {
-        "amount": 3500,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "over",
-        "points": 11.0,
-        "price": -103
+        "points": 6.5,
+        "price": 102
       },
       {
         "designation": "under",
-        "points": 11.0,
-        "price": -109
+        "points": 6.5,
+        "price": -117
       }
     ],
     "status": "open",
     "type": "total",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": true,
-    "key": "s;0;ou;7.5",
+    "key": "s;1;ou;5.5",
     "limits": [
       {
-        "amount": 3500,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "over",
-        "points": 7.5,
-        "price": -379
+        "points": 5.5,
+        "price": -157
       },
       {
         "designation": "under",
-        "points": 7.5,
-        "price": 289
+        "points": 5.5,
+        "price": 136
       }
     ],
     "status": "open",
     "type": "total",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": true,
-    "key": "s;0;ou;9.5",
+    "key": "s;1;ou;6.0",
     "limits": [
       {
-        "amount": 3500,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 0,
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "over",
-        "points": 9.5,
-        "price": -167
+        "points": 6.0,
+        "price": -126
       },
       {
         "designation": "under",
-        "points": 9.5,
-        "price": 147
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;10.0",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 10.0,
-        "price": -147
-      },
-      {
-        "designation": "under",
-        "points": 10.0,
-        "price": 130
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;10.5",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 10.5,
-        "price": -124
-      },
-      {
-        "designation": "under",
-        "points": 10.5,
+        "points": 6.0,
         "price": 110
       }
     ],
     "status": "open",
     "type": "total",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;11.5",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 11.5,
-        "price": 116
-      },
-      {
-        "designation": "under",
-        "points": 11.5,
-        "price": -131
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;12.0",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 12.0,
-        "price": 136
-      },
-      {
-        "designation": "under",
-        "points": 12.0,
-        "price": -154
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;12.5",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 12.5,
-        "price": 152
-      },
-      {
-        "designation": "under",
-        "points": 12.5,
-        "price": -173
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;14.5",
-    "limits": [
-      {
-        "amount": 3500,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 14.5,
-        "price": 263
-      },
-      {
-        "designation": "under",
-        "points": 14.5,
-        "price": -337
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;2.5;home",
-    "limits": [
-      {
-        "amount": 100,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 2.5,
-        "price": 108
-      },
-      {
-        "designation": "under",
-        "points": 2.5,
-        "price": -131
-      }
-    ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;3.5;away",
-    "limits": [
-      {
-        "amount": 100,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 3.5,
-        "price": 109
-      },
-      {
-        "designation": "under",
-        "points": 3.5,
-        "price": -132
-      }
-    ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;s;0.0",
-    "limits": [
-      {
-        "amount": 300,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 0.0,
-        "price": 145
-      },
-      {
-        "designation": "away",
-        "points": -0.0,
-        "price": -168
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;1.0",
-    "limits": [
-      {
-        "amount": 300,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 1.0,
-        "price": -122
-      },
-      {
-        "designation": "away",
-        "points": -1.0,
-        "price": 102
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;0.5",
-    "limits": [
-      {
-        "amount": 300,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 0.5,
-        "price": 106
-      },
-      {
-        "designation": "away",
-        "points": -0.5,
-        "price": -124
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-0.5",
-    "limits": [
-      {
-        "amount": 300,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": -0.5,
-        "price": 174
-      },
-      {
-        "designation": "away",
-        "points": 0.5,
-        "price": -210
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-1.0",
-    "limits": [
-      {
-        "amount": 300,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": -1.0,
-        "price": 237
-      },
-      {
-        "designation": "away",
-        "points": 1.0,
-        "price": -308
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;ou;6.0",
-    "limits": [
-      {
-        "amount": 200,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 6.0,
-        "price": -108
-      },
-      {
-        "designation": "under",
-        "points": 6.0,
-        "price": -106
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.0",
-    "limits": [
-      {
-        "amount": 200,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 5.0,
-        "price": -178
-      },
-      {
-        "designation": "under",
-        "points": 5.0,
-        "price": 153
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.5",
-    "limits": [
-      {
-        "amount": 200,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 5.5,
-        "price": -136
-      },
-      {
-        "designation": "under",
-        "points": 5.5,
-        "price": 118
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;6.5",
-    "limits": [
-      {
-        "amount": 200,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 6.5,
-        "price": 116
-      },
-      {
-        "designation": "under",
-        "points": 6.5,
-        "price": -133
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3102287314
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": true,
     "key": "s;1;ou;7.0",
     "limits": [
       {
-        "amount": 200,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
+    "matchupId": 1609106971,
     "period": 1,
     "prices": [
       {
         "designation": "over",
         "points": 7.0,
-        "price": 151
+        "price": 132
       },
       {
         "designation": "under",
         "points": 7.0,
-        "price": -176
+        "price": -152
       }
     ],
     "status": "open",
     "type": "total",
-    "version": 3102287314
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;m",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;7.5",
     "limits": [
       {
-        "amount": 400,
+        "amount": 1650,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609344635,
-    "period": 3,
-    "prices": [
-      {
-        "designation": "home",
-        "price": 274
-      },
-      {
-        "designation": "away",
-        "price": 228
-      },
-      {
-        "designation": "draw",
-        "price": 101
-      }
-    ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3102287664
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;s;0.0",
-    "limits": [
-      {
-        "amount": 200,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 3,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 0.0,
-        "price": 108
-      },
-      {
-        "designation": "away",
-        "points": -0.0,
-        "price": -126
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3102287664
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;ou;0.5",
-    "limits": [
-      {
-        "amount": 200,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609344635,
-    "period": 3,
+    "matchupId": 1609106971,
+    "period": 1,
     "prices": [
       {
         "designation": "over",
-        "points": 0.5,
-        "price": -136
+        "points": 7.5,
+        "price": 159
       },
       {
         "designation": "under",
-        "points": 0.5,
-        "price": 116
+        "points": 7.5,
+        "price": -186
       }
     ],
     "status": "open",
     "type": "total",
-    "version": 3102287664
+    "version": 3102435469
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -964,51 +964,51 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609352865,
+    "matchupId": 1609135821,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609352866,
-        "price": -196
+        "participantId": 1609135827,
+        "price": -192
       },
       {
-        "participantId": 1609352867,
-        "price": 163
+        "participantId": 1609135828,
+        "price": 160
       }
     ],
     "type": "moneyline",
-    "version": 4972181027
+    "version": 4972566397
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "isAlternate": false,
     "key": "s;0;ou;30.5",
     "limits": [
       {
-        "amount": 500,
+        "amount": 250,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435277,
+    "matchupId": 1609469770,
     "period": 0,
     "prices": [
       {
         "designation": "over",
         "points": 30.5,
-        "price": -127
+        "price": -132
       },
       {
         "designation": "under",
         "points": 30.5,
-        "price": 105
+        "price": 109
       }
     ],
     "status": "open",
     "type": "total",
-    "version": 3102287314
+    "version": 3102424408
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1016,219 +1016,215 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435278,
+    "matchupId": 1609469771,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435280,
-        "price": 8412
+        "participantId": 1609469773,
+        "price": 9060
       },
       {
-        "participantId": 1609435281,
-        "price": 7169
+        "participantId": 1609469774,
+        "price": 7739
       },
       {
-        "participantId": 1609435282,
-        "price": 6779
+        "participantId": 1609469775,
+        "price": 7320
       },
       {
-        "participantId": 1609435283,
-        "price": 6655
+        "participantId": 1609469776,
+        "price": 7184
       },
       {
-        "participantId": 1609435284,
-        "price": 6880
+        "participantId": 1609469777,
+        "price": 7418
       },
       {
-        "participantId": 1609435285,
-        "price": 7273
+        "participantId": 1609469778,
+        "price": 7831
       },
       {
-        "participantId": 1609435286,
-        "price": 9706
+        "participantId": 1609469780,
+        "price": 6088
       },
       {
-        "participantId": 1609435287,
-        "price": 5769
+        "participantId": 1609469781,
+        "price": 5106
       },
       {
-        "participantId": 1609435288,
-        "price": 4714
+        "participantId": 1609469782,
+        "price": 4664
       },
       {
-        "participantId": 1609435289,
-        "price": 4301
+        "participantId": 1609469783,
+        "price": 4668
       },
       {
-        "participantId": 1609435290,
-        "price": 4307
+        "participantId": 1609469784,
+        "price": 4829
       },
       {
-        "participantId": 1609435291,
-        "price": 4461
+        "participantId": 1609469785,
+        "price": 5200
       },
       {
-        "participantId": 1609435292,
-        "price": 4814
+        "participantId": 1609469786,
+        "price": 9719
       },
       {
-        "participantId": 1609435293,
-        "price": 9457
+        "participantId": 1609469787,
+        "price": 5242
       },
       {
-        "participantId": 1609435294,
-        "price": 5077
+        "participantId": 1609469788,
+        "price": 4095
       },
       {
-        "participantId": 1609435295,
-        "price": 3892
+        "participantId": 1609469789,
+        "price": 3701
       },
       {
-        "participantId": 1609435296,
-        "price": 3425
+        "participantId": 1609469790,
+        "price": 3607
       },
       {
-        "participantId": 1609435297,
-        "price": 3338
+        "participantId": 1609469791,
+        "price": 3804
       },
       {
-        "participantId": 1609435298,
-        "price": 3527
+        "participantId": 1609469792,
+        "price": 4119
       },
       {
-        "participantId": 1609435299,
-        "price": 3825
+        "participantId": 1609469793,
+        "price": 9695
       },
       {
-        "participantId": 1609435300,
-        "price": 9475
+        "participantId": 1609469794,
+        "price": 6029
       },
       {
-        "participantId": 1609435301,
-        "price": 5883
+        "participantId": 1609469795,
+        "price": 3406
       },
       {
-        "participantId": 1609435302,
-        "price": 3313
+        "participantId": 1609469796,
+        "price": 3342
       },
       {
-        "participantId": 1609435303,
-        "price": 3191
+        "participantId": 1609469797,
+        "price": 3222
       },
       {
-        "participantId": 1609435304,
-        "price": 2998
+        "participantId": 1609469798,
+        "price": 3329
       },
       {
-        "participantId": 1609435305,
-        "price": 3098
+        "participantId": 1609469799,
+        "price": 3670
       },
       {
-        "participantId": 1609435306,
-        "price": 3426
+        "participantId": 1609469801,
+        "price": 6458
       },
       {
-        "participantId": 1609435308,
-        "price": 6332
+        "participantId": 1609469802,
+        "price": 4513
       },
       {
-        "participantId": 1609435309,
-        "price": 4425
+        "participantId": 1609469803,
+        "price": 2747
       },
       {
-        "participantId": 1609435310,
-        "price": 2686
+        "participantId": 1609469804,
+        "price": 3161
       },
       {
-        "participantId": 1609435311,
-        "price": 3037
-      },
-      {
-        "participantId": 1609435312,
-        "price": 3016
-      },
-      {
-        "participantId": 1609435313,
-        "price": 3345
-      },
-      {
-        "participantId": 1609435315,
-        "price": 7055
-      },
-      {
-        "participantId": 1609435316,
-        "price": 5017
-      },
-      {
-        "participantId": 1609435317,
-        "price": 4014
-      },
-      {
-        "participantId": 1609435318,
-        "price": 2533
-      },
-      {
-        "participantId": 1609435319,
-        "price": 3316
-      },
-      {
-        "participantId": 1609435320,
-        "price": 3452
-      },
-      {
-        "participantId": 1609435322,
-        "price": 8135
-      },
-      {
-        "participantId": 1609435323,
-        "price": 5856
-      },
-      {
-        "participantId": 1609435324,
-        "price": 4744
-      },
-      {
-        "participantId": 1609435325,
-        "price": 4134
-      },
-      {
-        "participantId": 1609435326,
-        "price": 2753
-      },
-      {
-        "participantId": 1609435327,
-        "price": 3887
-      },
-      {
-        "participantId": 1609435329,
-        "price": 9523
-      },
-      {
-        "participantId": 1609435330,
-        "price": 7018
-      },
-      {
-        "participantId": 1609435331,
-        "price": 5741
-      },
-      {
-        "participantId": 1609435332,
-        "price": 5138
-      },
-      {
-        "participantId": 1609435333,
-        "price": 4797
-      },
-      {
-        "participantId": 1609435334,
+        "participantId": 1609469805,
         "price": 3219
+      },
+      {
+        "participantId": 1609469806,
+        "price": 3394
+      },
+      {
+        "participantId": 1609469808,
+        "price": 7161
+      },
+      {
+        "participantId": 1609469809,
+        "price": 5093
+      },
+      {
+        "participantId": 1609469810,
+        "price": 4070
+      },
+      {
+        "participantId": 1609469811,
+        "price": 2574
+      },
+      {
+        "participantId": 1609469812,
+        "price": 3261
+      },
+      {
+        "participantId": 1609469813,
+        "price": 3377
+      },
+      {
+        "participantId": 1609469815,
+        "price": 8222
+      },
+      {
+        "participantId": 1609469816,
+        "price": 5915
+      },
+      {
+        "participantId": 1609469817,
+        "price": 4789
+      },
+      {
+        "participantId": 1609469818,
+        "price": 4166
+      },
+      {
+        "participantId": 1609469819,
+        "price": 2639
+      },
+      {
+        "participantId": 1609469820,
+        "price": 3690
+      },
+      {
+        "participantId": 1609469822,
+        "price": 9585
+      },
+      {
+        "participantId": 1609469823,
+        "price": 7060
+      },
+      {
+        "participantId": 1609469824,
+        "price": 5767
+      },
+      {
+        "participantId": 1609469825,
+        "price": 4925
+      },
+      {
+        "participantId": 1609469826,
+        "price": 4457
+      },
+      {
+        "participantId": 1609469827,
+        "price": 2979
       }
     ],
     "type": "moneyline",
-    "version": 4972195781
+    "version": 4972573053
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1236,23 +1232,23 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435335,
+    "matchupId": 1609469828,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435336,
+        "participantId": 1609469829,
         "price": -107
       },
       {
-        "participantId": 1609435337,
-        "price": -110
+        "participantId": 1609469830,
+        "price": -109
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972561829
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1260,39 +1256,39 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435338,
+    "matchupId": 1609469831,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435339,
-        "price": 152
+        "participantId": 1609469832,
+        "price": 144
       },
       {
-        "participantId": 1609435340,
-        "price": 279
+        "participantId": 1609469833,
+        "price": 262
       },
       {
-        "participantId": 1609435341,
-        "price": 1147
+        "participantId": 1609469834,
+        "price": 1101
       },
       {
-        "participantId": 1609435342,
-        "price": 446
+        "participantId": 1609469835,
+        "price": 489
       },
       {
-        "participantId": 1609435343,
-        "price": 601
+        "participantId": 1609469836,
+        "price": 646
       },
       {
-        "participantId": 1609435344,
-        "price": 870
+        "participantId": 1609469837,
+        "price": 939
       }
     ],
     "type": "moneyline",
-    "version": 4972051698
+    "version": 4972580567
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1300,222 +1296,47 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435345,
+    "matchupId": 1609469838,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435346,
-        "price": -105
-      },
-      {
-        "participantId": 1609435347,
-        "price": -111
-      }
-    ],
-    "type": "moneyline",
-    "version": 4972137101
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609435348,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1609435349,
-        "price": 109
-      },
-      {
-        "participantId": 1609435350,
-        "price": -127
-      }
-    ],
-    "type": "moneyline"
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609435351,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1609435352,
-        "price": -144
-      },
-      {
-        "participantId": 1609435353,
-        "price": 123
-      }
-    ],
-    "type": "moneyline",
-    "version": 4972191580
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609435354,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1609435355,
-        "price": 104
-      },
-      {
-        "participantId": 1609435356,
-        "price": -122
-      }
-    ],
-    "type": "moneyline",
-    "version": 4972046593
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609435357,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1609435360,
-        "price": 566
-      },
-      {
-        "participantId": 1609435361,
-        "price": 505
-      },
-      {
-        "participantId": 1609435362,
-        "price": 507
-      },
-      {
-        "participantId": 1609435363,
-        "price": 555
-      },
-      {
-        "participantId": 1609435364,
-        "price": 648
-      },
-      {
-        "participantId": 1609435365,
-        "price": 796
-      },
-      {
-        "participantId": 1609435366,
-        "price": 389
-      },
-      {
-        "participantId": 1609435358,
-        "price": 1231
-      },
-      {
-        "participantId": 1609435359,
-        "price": 742
-      }
-    ],
-    "type": "moneyline",
-    "version": 4972191580
-  },
-  {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1609435367,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1609435368,
+        "participantId": 1609469839,
         "price": -106
       },
       {
-        "participantId": 1609435369,
+        "participantId": 1609469840,
         "price": -110
       }
     ],
     "type": "moneyline",
-    "version": 4972046593
+    "version": 4972561829
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
-    "key": "s;0;m",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "key": "s;1;m",
     "limits": [
       {
         "amount": 250,
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435370,
-    "period": 0,
+    "matchupId": 1609469841,
+    "period": 1,
     "prices": [
       {
-        "participantId": 1609435371,
-        "price": 2195
+        "participantId": 1609469842,
+        "price": 108
       },
       {
-        "participantId": 1609435372,
-        "price": 1363
-      },
-      {
-        "participantId": 1609435373,
-        "price": 947
-      },
-      {
-        "participantId": 1609435374,
-        "price": 751
-      },
-      {
-        "participantId": 1609435375,
-        "price": 649
-      },
-      {
-        "participantId": 1609435376,
-        "price": 608
-      },
-      {
-        "participantId": 1609435377,
-        "price": 607
-      },
-      {
-        "participantId": 1609435378,
-        "price": 649
-      },
-      {
-        "participantId": 1609435379,
-        "price": 159
+        "participantId": 1609469843,
+        "price": -126
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972566862
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1523,31 +1344,47 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435380,
+    "matchupId": 1609469844,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435381,
-        "price": 107
+        "participantId": 1609469845,
+        "price": -146
       },
       {
-        "participantId": 1609435382,
-        "price": 279
-      },
-      {
-        "participantId": 1609435383,
-        "price": 383
-      },
-      {
-        "participantId": 1609435384,
-        "price": 556
+        "participantId": 1609469846,
+        "price": 124
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972573053
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469847,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469848,
+        "price": 103
+      },
+      {
+        "participantId": 1609469849,
+        "price": -121
+      }
+    ],
+    "type": "moneyline",
+    "version": 4972580567
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1555,55 +1392,75 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435385,
+    "matchupId": 1609469850,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435392,
-        "price": 935
+        "participantId": 1609469851,
+        "price": 1340
       },
       {
-        "participantId": 1609435393,
-        "price": 1164
-      },
-      {
-        "participantId": 1609435394,
-        "price": 1469
-      },
-      {
-        "participantId": 1609435395,
-        "price": 840
-      },
-      {
-        "participantId": 1609435386,
-        "price": 653
-      },
-      {
-        "participantId": 1609435387,
-        "price": 643
-      },
-      {
-        "participantId": 1609435388,
-        "price": 702
-      },
-      {
-        "participantId": 1609435389,
+        "participantId": 1609469852,
         "price": 808
       },
       {
-        "participantId": 1609435390,
-        "price": 244
+        "participantId": 1609469853,
+        "price": 608
       },
       {
-        "participantId": 1609435391,
-        "price": 519
+        "participantId": 1609469854,
+        "price": 530
+      },
+      {
+        "participantId": 1609469855,
+        "price": 517
+      },
+      {
+        "participantId": 1609469856,
+        "price": 549
+      },
+      {
+        "participantId": 1609469857,
+        "price": 629
+      },
+      {
+        "participantId": 1609469858,
+        "price": 751
+      },
+      {
+        "participantId": 1609469859,
+        "price": 344
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972573053
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469860,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1609469861,
+        "price": -106
+      },
+      {
+        "participantId": 1609469862,
+        "price": -110
+      }
+    ],
+    "type": "moneyline",
+    "version": 4972566862
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1611,47 +1468,187 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435396,
+    "matchupId": 1609469863,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435397,
-        "price": 330
+        "participantId": 1609469864,
+        "price": 2250
       },
       {
-        "participantId": 1609435398,
-        "price": 395
+        "participantId": 1609469865,
+        "price": 1398
       },
       {
-        "participantId": 1609435399,
-        "price": 571
+        "participantId": 1609469866,
+        "price": 972
       },
       {
-        "participantId": 1609435400,
+        "participantId": 1609469867,
+        "price": 772
+      },
+      {
+        "participantId": 1609469868,
+        "price": 667
+      },
+      {
+        "participantId": 1609469869,
+        "price": 618
+      },
+      {
+        "participantId": 1609469870,
+        "price": 617
+      },
+      {
+        "participantId": 1609469871,
+        "price": 648
+      },
+      {
+        "participantId": 1609469872,
+        "price": 150
+      }
+    ],
+    "type": "moneyline",
+    "version": 4972573053
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469873,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469874,
+        "price": 105
+      },
+      {
+        "participantId": 1609469875,
+        "price": 252
+      },
+      {
+        "participantId": 1609469876,
+        "price": 432
+      },
+      {
+        "participantId": 1609469877,
+        "price": 579
+      }
+    ],
+    "type": "moneyline",
+    "version": 4972573053
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469878,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469879,
+        "price": 656
+      },
+      {
+        "participantId": 1609469880,
+        "price": 669
+      },
+      {
+        "participantId": 1609469881,
+        "price": 728
+      },
+      {
+        "participantId": 1609469882,
+        "price": 837
+      },
+      {
+        "participantId": 1609469883,
+        "price": 248
+      },
+      {
+        "participantId": 1609469884,
+        "price": 504
+      },
+      {
+        "participantId": 1609469885,
+        "price": 914
+      },
+      {
+        "participantId": 1609469886,
+        "price": 1130
+      },
+      {
+        "participantId": 1609469887,
+        "price": 1423
+      },
+      {
+        "participantId": 1609469888,
+        "price": 785
+      }
+    ],
+    "type": "moneyline",
+    "version": 4972573053
+  },
+  {
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1609469889,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1609469890,
+        "price": 339
+      },
+      {
+        "participantId": 1609469891,
+        "price": 413
+      },
+      {
+        "participantId": 1609469892,
+        "price": 589
+      },
+      {
+        "participantId": 1609469893,
         "price": 462
       },
       {
-        "participantId": 1609435401,
-        "price": 344
+        "participantId": 1609469894,
+        "price": 333
       },
       {
-        "participantId": 1609435402,
-        "price": 752
+        "participantId": 1609469895,
+        "price": 727
       },
       {
-        "participantId": 1609435403,
-        "price": 1304
+        "participantId": 1609469896,
+        "price": 1246
       },
       {
-        "participantId": 1609435404,
-        "price": 1580
+        "participantId": 1609469897,
+        "price": 1467
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972573053
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1659,75 +1656,71 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435405,
+    "matchupId": 1609469898,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435406,
-        "price": 4820
+        "participantId": 1609469913,
+        "price": 241
       },
       {
-        "participantId": 1609435407,
-        "price": 4187
+        "participantId": 1609469900,
+        "price": 4408
       },
       {
-        "participantId": 1609435408,
-        "price": 2043
+        "participantId": 1609469901,
+        "price": 2159
       },
       {
-        "participantId": 1609435409,
-        "price": 1989
+        "participantId": 1609469902,
+        "price": 2122
       },
       {
-        "participantId": 1609435410,
-        "price": 1149
+        "participantId": 1609469903,
+        "price": 1222
       },
       {
-        "participantId": 1609435411,
-        "price": 1230
+        "participantId": 1609469904,
+        "price": 1319
       },
       {
-        "participantId": 1609435412,
-        "price": 810
+        "participantId": 1609469905,
+        "price": 864
       },
       {
-        "participantId": 1609435413,
-        "price": 925
+        "participantId": 1609469906,
+        "price": 1009
       },
       {
-        "participantId": 1609435414,
-        "price": 691
+        "participantId": 1609469907,
+        "price": 735
       },
       {
-        "participantId": 1609435415,
-        "price": 857
+        "participantId": 1609469908,
+        "price": 916
       },
       {
-        "participantId": 1609435416,
-        "price": 718
+        "participantId": 1609469909,
+        "price": 708
       },
       {
-        "participantId": 1609435417,
-        "price": 946
+        "participantId": 1609469910,
+        "price": 898
       },
       {
-        "participantId": 1609435418,
-        "price": 829
+        "participantId": 1609469911,
+        "price": 775
       },
       {
-        "participantId": 1609435419,
-        "price": 1106
-      },
-      {
-        "participantId": 1609435420,
-        "price": 267
+        "participantId": 1609469912,
+        "price": 1048
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972573053
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;0;m",
     "limits": [
       {
@@ -1735,35 +1728,35 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435421,
+    "matchupId": 1609469914,
     "period": 0,
     "prices": [
       {
-        "participantId": 1609435424,
-        "price": 275
+        "participantId": 1609469915,
+        "price": 1640
       },
       {
-        "participantId": 1609435425,
-        "price": 289
+        "participantId": 1609469916,
+        "price": 609
       },
       {
-        "participantId": 1609435426,
-        "price": 152
+        "participantId": 1609469917,
+        "price": 302
       },
       {
-        "participantId": 1609435422,
-        "price": 1540
+        "participantId": 1609469918,
+        "price": 290
       },
       {
-        "participantId": 1609435423,
-        "price": 560
+        "participantId": 1609469919,
+        "price": 133
       }
     ],
     "type": "moneyline",
-    "version": 4972191580
+    "version": 4972573053
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1771,43 +1764,43 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435427,
+    "matchupId": 1609469920,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435432,
-        "price": 650
+        "participantId": 1609469921,
+        "price": 586
       },
       {
-        "participantId": 1609435433,
+        "participantId": 1609469922,
+        "price": 631
+      },
+      {
+        "participantId": 1609469923,
+        "price": 202
+      },
+      {
+        "participantId": 1609469924,
+        "price": 561
+      },
+      {
+        "participantId": 1609469925,
+        "price": 659
+      },
+      {
+        "participantId": 1609469926,
         "price": 797
       },
       {
-        "participantId": 1609435434,
-        "price": 410
-      },
-      {
-        "participantId": 1609435428,
-        "price": 570
-      },
-      {
-        "participantId": 1609435429,
-        "price": 620
-      },
-      {
-        "participantId": 1609435430,
-        "price": 206
-      },
-      {
-        "participantId": 1609435431,
-        "price": 546
+        "participantId": 1609469927,
+        "price": 395
       }
     ],
     "type": "moneyline",
-    "version": 4972046593
+    "version": 4972576441
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1815,63 +1808,63 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435435,
+    "matchupId": 1609469928,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435436,
-        "price": 2096
+        "participantId": 1609469929,
+        "price": 2279
       },
       {
-        "participantId": 1609435437,
-        "price": 1220
+        "participantId": 1609469930,
+        "price": 1334
       },
       {
-        "participantId": 1609435438,
-        "price": 859
+        "participantId": 1609469931,
+        "price": 938
       },
       {
-        "participantId": 1609435439,
-        "price": 700
+        "participantId": 1609469932,
+        "price": 760
       },
       {
-        "participantId": 1609435440,
-        "price": 634
+        "participantId": 1609469933,
+        "price": 684
       },
       {
-        "participantId": 1609435441,
-        "price": 636
+        "participantId": 1609469934,
+        "price": 666
       },
       {
-        "participantId": 1609435442,
-        "price": 595
+        "participantId": 1609469935,
+        "price": 583
       },
       {
-        "participantId": 1609435443,
-        "price": 630
+        "participantId": 1609469936,
+        "price": 602
       },
       {
-        "participantId": 1609435444,
-        "price": 733
+        "participantId": 1609469937,
+        "price": 696
       },
       {
-        "participantId": 1609435445,
-        "price": 882
+        "participantId": 1609469938,
+        "price": 832
       },
       {
-        "participantId": 1609435446,
-        "price": 1088
+        "participantId": 1609469939,
+        "price": 1021
       },
       {
-        "participantId": 1609435447,
-        "price": 547
+        "participantId": 1609469940,
+        "price": 492
       }
     ],
     "type": "moneyline",
-    "version": 4972046593
+    "version": 4972580567
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1879,31 +1872,31 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435448,
+    "matchupId": 1609469941,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435449,
-        "price": 486
+        "participantId": 1609469942,
+        "price": 536
       },
       {
-        "participantId": 1609435450,
-        "price": 345
+        "participantId": 1609469943,
+        "price": 375
       },
       {
-        "participantId": 1609435451,
-        "price": 310
+        "participantId": 1609469944,
+        "price": 313
       },
       {
-        "participantId": 1609435452,
-        "price": 114
+        "participantId": 1609469945,
+        "price": 101
       }
     ],
     "type": "moneyline",
-    "version": 4972051698
+    "version": 4972580567
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1911,39 +1904,39 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435453,
+    "matchupId": 1609469946,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435456,
-        "price": 443
+        "participantId": 1609469952,
+        "price": 174
       },
       {
-        "participantId": 1609435457,
-        "price": 468
+        "participantId": 1609469947,
+        "price": 614
       },
       {
-        "participantId": 1609435458,
-        "price": 534
+        "participantId": 1609469948,
+        "price": 533
       },
       {
-        "participantId": 1609435459,
-        "price": 188
+        "participantId": 1609469949,
+        "price": 456
       },
       {
-        "participantId": 1609435454,
-        "price": 579
+        "participantId": 1609469950,
+        "price": 473
       },
       {
-        "participantId": 1609435455,
-        "price": 509
+        "participantId": 1609469951,
+        "price": 528
       }
     ],
     "type": "moneyline",
-    "version": 4972051698
+    "version": 4972580567
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1951,39 +1944,39 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435460,
+    "matchupId": 1609469953,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435461,
-        "price": 387
+        "participantId": 1609469954,
+        "price": 414
       },
       {
-        "participantId": 1609435462,
-        "price": 362
+        "participantId": 1609469955,
+        "price": 381
       },
       {
-        "participantId": 1609435463,
-        "price": 393
+        "participantId": 1609469956,
+        "price": 399
       },
       {
-        "participantId": 1609435464,
-        "price": 476
+        "participantId": 1609469957,
+        "price": 472
       },
       {
-        "participantId": 1609435465,
-        "price": 612
+        "participantId": 1609469958,
+        "price": 592
       },
       {
-        "participantId": 1609435466,
-        "price": 318
+        "participantId": 1609469959,
+        "price": 291
       }
     ],
     "type": "moneyline",
-    "version": 4972051698
+    "version": 4972580567
   },
   {
-    "cutoffAt": "2025-05-08T22:40:00+00:00",
+    "cutoffAt": "2025-05-10T00:40:00+00:00",
     "key": "s;1;m",
     "limits": [
       {
@@ -1991,179 +1984,191 @@
         "type": "maxRiskStake"
       }
     ],
-    "matchupId": 1609435467,
+    "matchupId": 1609469960,
     "period": 1,
     "prices": [
       {
-        "participantId": 1609435468,
-        "price": 2494
+        "participantId": 1609469980,
+        "price": 2895
       },
       {
-        "participantId": 1609435469,
-        "price": 2687
+        "participantId": 1609469981,
+        "price": 3500
       },
       {
-        "participantId": 1609435470,
-        "price": 3154
+        "participantId": 1609469982,
+        "price": 4601
       },
       {
-        "participantId": 1609435471,
-        "price": 3892
+        "participantId": 1609469984,
+        "price": 2424
       },
       {
-        "participantId": 1609435475,
-        "price": 2326
+        "participantId": 1609469985,
+        "price": 2324
       },
       {
-        "participantId": 1609435476,
-        "price": 2258
+        "participantId": 1609469986,
+        "price": 2466
       },
       {
-        "participantId": 1609435477,
-        "price": 2444
+        "participantId": 1609469987,
+        "price": 2480
       },
       {
-        "participantId": 1609435478,
-        "price": 2877
+        "participantId": 1609469988,
+        "price": 2899
       },
       {
-        "participantId": 1609435479,
-        "price": 3615
+        "participantId": 1609469989,
+        "price": 3684
       },
       {
-        "participantId": 1609435480,
-        "price": 4172
+        "participantId": 1609469990,
+        "price": 4833
       },
       {
-        "participantId": 1609435483,
-        "price": 2114
+        "participantId": 1609469992,
+        "price": 2727
       },
       {
-        "participantId": 1609435484,
-        "price": 2045
+        "participantId": 1609469993,
+        "price": 2617
       },
       {
-        "participantId": 1609435485,
-        "price": 2214
+        "participantId": 1609469994,
+        "price": 2398
       },
       {
-        "participantId": 1609435486,
-        "price": 2664
+        "participantId": 1609469995,
+        "price": 2647
       },
       {
-        "participantId": 1609435487,
-        "price": 2983
+        "participantId": 1609469996,
+        "price": 3250
       },
       {
-        "participantId": 1609435488,
-        "price": 3655
+        "participantId": 1609469997,
+        "price": 4112
       },
       {
-        "participantId": 1609435489,
-        "price": 4842
+        "participantId": 1609470000,
+        "price": 3219
       },
       {
-        "participantId": 1609435491,
-        "price": 2247
+        "participantId": 1609470001,
+        "price": 2681
       },
       {
-        "participantId": 1609435492,
-        "price": 2175
+        "participantId": 1609470002,
+        "price": 2697
       },
       {
-        "participantId": 1609435493,
-        "price": 2385
+        "participantId": 1609470003,
+        "price": 3127
       },
       {
-        "participantId": 1609435494,
-        "price": 2533
+        "participantId": 1609470004,
+        "price": 3819
       },
       {
-        "participantId": 1609435495,
-        "price": 3015
+        "participantId": 1609470005,
+        "price": 4801
       },
       {
-        "participantId": 1609435496,
-        "price": 3865
+        "participantId": 1609470008,
+        "price": 3464
       },
       {
-        "participantId": 1609435499,
-        "price": 2546
+        "participantId": 1609470009,
+        "price": 3163
       },
       {
-        "participantId": 1609435500,
-        "price": 2505
+        "participantId": 1609470010,
+        "price": 3347
       },
       {
-        "participantId": 1609435501,
-        "price": 2425
+        "participantId": 1609470011,
+        "price": 3861
       },
       {
-        "participantId": 1609435502,
-        "price": 2721
+        "participantId": 1609470012,
+        "price": 4682
       },
       {
-        "participantId": 1609435503,
-        "price": 3384
+        "participantId": 1609470016,
+        "price": 4200
       },
       {
-        "participantId": 1609435504,
-        "price": 4333
+        "participantId": 1609470017,
+        "price": 4043
       },
       {
-        "participantId": 1609435507,
-        "price": 3073
+        "participantId": 1609470018,
+        "price": 4266
       },
       {
-        "participantId": 1609435508,
-        "price": 2682
+        "participantId": 1609470019,
+        "price": 4893
       },
       {
-        "participantId": 1609435509,
-        "price": 2752
+        "participantId": 1609469961,
+        "price": 2689
       },
       {
-        "participantId": 1609435510,
-        "price": 3229
+        "participantId": 1609469962,
+        "price": 2850
       },
       {
-        "participantId": 1609435511,
-        "price": 3981
+        "participantId": 1609469963,
+        "price": 3300
       },
       {
-        "participantId": 1609435515,
-        "price": 3452
+        "participantId": 1609469964,
+        "price": 4022
       },
       {
-        "participantId": 1609435516,
-        "price": 3193
+        "participantId": 1609469968,
+        "price": 2537
       },
       {
-        "participantId": 1609435517,
-        "price": 3430
+        "participantId": 1609469969,
+        "price": 2434
       },
       {
-        "participantId": 1609435518,
-        "price": 4001
+        "participantId": 1609469970,
+        "price": 2581
       },
       {
-        "participantId": 1609435519,
-        "price": 4897
+        "participantId": 1609469971,
+        "price": 2997
       },
       {
-        "participantId": 1609435523,
-        "price": 4221
+        "participantId": 1609469972,
+        "price": 3664
       },
       {
-        "participantId": 1609435524,
-        "price": 4100
+        "participantId": 1609469973,
+        "price": 4037
       },
       {
-        "participantId": 1609435525,
-        "price": 4388
+        "participantId": 1609469976,
+        "price": 2294
+      },
+      {
+        "participantId": 1609469977,
+        "price": 2199
+      },
+      {
+        "participantId": 1609469978,
+        "price": 2335
+      },
+      {
+        "participantId": 1609469979,
+        "price": 2717
       }
     ],
     "type": "moneyline",
-    "version": 4972137101
+    "version": 4972580567
   }
 ]
