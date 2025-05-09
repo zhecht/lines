@@ -2096,6 +2096,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 	for gameData in schedule[date]:
 		if gameData["start"] == "LIVE":
 			gameStarted[gameData["game"]] = True
+		elif date != str(datetime.now())[:10]:
+			gameStarted[gameData["game"]] = False
 		else:
 			dt = datetime.strptime(gameData["start"], "%I:%M %p")
 			dt = int(dt.strftime("%H%M"))
