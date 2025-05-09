@@ -2102,6 +2102,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 			gameTimes[gameData["game"]] = gameData["start"]
 			gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 
+	print(gameStarted)
+
 	evData = {}
 
 	for game in data:
