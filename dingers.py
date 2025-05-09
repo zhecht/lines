@@ -1119,6 +1119,11 @@ def writeMGMSel(date):
 
 		propDivs = driver.find_elements(By.CSS_SELECTOR, "ms-option-panel")
 		for propDiv in propDivs:
+			try:
+				t = propDiv.text
+			except:
+				continue
+				
 			if not propDiv.text.startswith("Batter home runs"):
 				continue
 
