@@ -305,7 +305,7 @@ def writeCircaMain(date):
 		for r in spread_ou_text:
 			if not r:
 				spreads.append("")
-			spreads.append(r)
+			spreads.append(r.replace("\u201c", "-"))
 
 		f5_ml_img = img.crop((1215,top,1310,bottom))
 		f5_ml_text = pytesseract.image_to_string(f5_ml_img).split("\n")
