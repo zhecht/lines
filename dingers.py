@@ -2106,6 +2106,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 
 	evData = {}
 
+	print(gameStarted)
+
 	for game in data:
 		if not game:
 			continue
