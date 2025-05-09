@@ -2096,8 +2096,6 @@ def writeEV(date, dinger, parx=False, silent=False):
 	for gameData in schedule[date]:
 		if gameData["start"] == "LIVE":
 			gameStarted[gameData["game"]] = True
-		elif date != str(datetime.now())[:10]:
-			gameStarted[gameData["game"]] = False
 		else:
 			dt = datetime.strptime(gameData["start"], "%I:%M %p")
 			dt = int(dt.strftime("%H%M"))
@@ -2105,8 +2103,6 @@ def writeEV(date, dinger, parx=False, silent=False):
 			gameStarted[gameData["game"]] = int(datetime.now().strftime("%H%M")) > dt
 
 	evData = {}
-
-	print(gameStarted)
 
 	for game in data:
 		if not game:
@@ -2127,8 +2123,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 		if home in parkFactors:
 			stadiumRank = parkFactors[home]["hrRank"]
 
-		#if date == str(datetime.now())[:10] and gameStarted[game]:
-		if gameStarted[game]:
+		if date == str(datetime.now())[:10] and gameStarted[game]:
+		#if gameStarted[game]:
 			continue
 			pass
 
