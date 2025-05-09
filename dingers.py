@@ -1866,6 +1866,7 @@ def writePinnacle(date, debug=False):
 			#team = convertFDTeam(game)
 			if team in seenGames:
 				#continue
+				team = f"{convertMLBTeam(a)}-gm2 @ {convertMLBTeam(h)}-gm2"
 				pass
 			seenGames[team] = True
 			games[str(row["id"])] = team
