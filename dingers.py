@@ -1157,6 +1157,8 @@ def writeMGMSel(date):
 					data[game][player]["mgm"] = ou
 	#time.sleep(5)
 	driver.quit()
+	with open("static/dingers/updated_mgm", "w") as fh:
+		fh.write(str(datetime.now()))
 	with open("static/dingers/mgm.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
