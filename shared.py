@@ -249,7 +249,7 @@ def shortName(player):
 	return player.split(" ")[-1].title()
 
 def parsePlayer(player):
-	player = strip_accents(player).lower().replace(".", "").replace("'", "").replace("_", "").replace("-", " ").replace(" jr", "").replace(" sr", "").replace(" iv", "").replace(" iii", "").replace(" ii", "")
+	player = strip_accents(player).lower().replace(".", "").replace("'", "").replace("_", " ").replace("-", " ").replace(" jr", "").replace(" sr", "").replace(" iv", "").replace(" iii", "").replace(" ii", "")
 	player = player.split(" (")[0]
 	if player == "jadeney":
 		return "jaden ivey"
@@ -297,6 +297,12 @@ def parsePlayer(player):
 		return "jackson chourio"
 	elif player == "jt reailmuto":
 		return "jt realmuto"
+	elif player == "narcell ozuna":
+		return "marcell ozuna"
+	elif player == "natt olson":
+		return "matt olson"
+	elif player == "nookie betts":
+		return "mookie betts"
 	return player
 
 def convertMLBTeam(team):
