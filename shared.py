@@ -335,7 +335,7 @@ def convertMLBTeam(team):
 		return "mil"
 	elif t == "nia":
 		return "mia"
-	elif t == "nin":
+	elif t in ["nin", "win"]:
 		return "min"
 	elif t == "nyh":
 		return "nym"
