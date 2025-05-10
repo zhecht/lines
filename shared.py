@@ -305,6 +305,10 @@ def parsePlayer(player):
 		return "mookie betts"
 	elif player == "nax muncy":
 		return "max muncy"
+	elif player == "manny machado":
+		return "nanny machado"
+	elif player == "nike yastrzemski":
+		return "mike yastrzemski"
 	return player
 
 def convertMLBTeam(team):
