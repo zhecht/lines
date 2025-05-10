@@ -450,6 +450,17 @@ def writeCirca(date):
 			bottom
 		))
 
+
+		l,r = 610,665
+
+		oversImg = img.crop((l,top,r,bottom))
+		undersImg = img.crop((
+			725,
+			top,
+			780,
+			bottom
+		))
+
 		#oversImg = img.crop((600,top,660,bottom))
 		#undersImg = img.crop((725,top,780,bottom))
 
