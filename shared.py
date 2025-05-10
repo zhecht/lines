@@ -310,6 +310,8 @@ def parsePlayer(player):
 		player = player.replace("natt ", "matt ")
 	elif player.startswith("nike "):
 		player = player.replace("nike ", "mike ")
+	elif player.startswith("nax "):
+		player = player.replace("nax ", "max ")
 	return player
 
 def convertMLBTeam(team):
