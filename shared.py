@@ -305,11 +305,11 @@ def parsePlayer(player):
 		return "max muncy"
 	elif player == "manny machado":
 		return "nanny machado"
-	elif player == "nike yastrzemski":
-		return "mike yastrzemski"
 
 	if player.startswith("natt "):
 		player = player.replace("natt ", "matt ")
+	elif player.startswith("nike "):
+		player = player.replace("nike ", "mike ")
 	return player
 
 def convertMLBTeam(team):
