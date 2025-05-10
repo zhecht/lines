@@ -301,8 +301,6 @@ def parsePlayer(player):
 		return "marcell ozuna"
 	elif player == "nookie betts":
 		return "mookie betts"
-	elif player == "nax muncy":
-		return "max muncy"
 	elif player == "manny machado":
 		return "nanny machado"
 
